@@ -1,0 +1,60 @@
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {height: 100%}
+.btn-group-wrap {
+	text-align: center;
+margin-top: 45px;
+margin-bottom: 45px;
+}
+@media (min-width: 767px) {
+     .blueimp-gallery > .slides > .slide > .slide-content {height: 70%;}
+}
+.clir {margin: 20px 0px;}
+.sequence {
+margin-top:0px;}
+.caption-box{
+text-align: center;
+position: absolute;
+bottom: -36px;
+left: 0px;
+border-radius: 3px;
+transform: translateY(-25%);
+opacity: 0;
+color: #fff;
+display: block;
+background: rgba(81,45,109,.8);
+text-align: center;
+width: 100%;
+height: 100%;;
+transition: all .35s;
+}
+.caption-box a {
+font-weight: 600;
+height: 140px;
+display: table-cell;
+vertical-align: middle; 
+color: #fff;
+padding-left: 13px;
+padding-right: 13px;
+font-size: 13pt;
+}
+.sequence {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin: 0px;
+}
+.teams>li {
+list-style: none;
+margin: 10px 20px 0px 20px;
+font-weight: bold;
+}
+.teams>li>ul {
+padding-left: 15px;
+}
+.teams li ul li {
+list-style: none;
+font-weight: normal;
+}
+.caption-box a:active {text-decoration:none;}
+.caption-box a:focus{text-decoration:none;}
+.thumbnail {position: relative; width: 200px; margin: auto;}
+.thumbnail:hover .caption-box {opacity: 1;}

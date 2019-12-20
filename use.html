@@ -1,0 +1,117 @@
+---
+title: Downloading, Linking, and Embedding from the Archives
+layout: spe_base_1
+---
+
+<link rel="stylesheet" href="oldDrupal/css/ua/oneColumn.css" type="text/css"></link>
+<script type="text/javascript" src="oldDrupal/js/headerAffix.js"></script>
+<style>
+#contentColumn img {width: 70%; margin: 0px auto;display: block;}
+#contentColumn p {margin: 50px 10px;}
+</style>
+
+<div class="row">
+<div class="container">
+<div id="contentColumn" class="col-md-12 col-lg-10 col-lg-offset-1">
+
+<div class="jumbotron">
+  <h2>Downloading, Linking, and Embedding from the Archives</h2>
+</div>
+
+<p>The archives exists for you to use it, so feel free to download, link, or embed directly from over 26,000 online items in our <a href="https://archives.albany.edu/catalog">Digital Selections</a>.</p>
+
+<div class="page-header">
+  <h2>Downloading and Linking</h2>
+</div>
+
+<h3>Images</h3>
+
+<p>The easiest way to download images is through the download icon on the bottom left of the image viewer.</p>
+<img src="https://archives.albany.edu/static/web/images/use/use1.png" />
+
+<p>If you need a persistent URL directly to the image, you can also use the Download link from the individual images listed below the viewer.</p>
+<img src="https://archives.albany.edu/static/web/images/use/use2.png" />
+
+<h3>Documents, Audio, and Video</h3>
+
+<p>For documents, audio, and video, you can simply use the download buttons below where the file is displayed. If the original document was a PDF, there will only be one download link. If the original document was a Word Document, Spreadsheet, or PowerPoint file, a link to the original will also be available.</p>
+<img src="https://archives.albany.edu/static/web/images/use/use3.png" />
+
+
+<p>Audio files are available in as .ogg or .mp3 files, while video can be downloaded as .webm files. <a href="{{ site.url }}/reference">Contact Us</a> if you are looking for additional file formats.</p>
+<img src="https://archives.albany.edu/static/web/images/use/use4.png" />
+
+
+<div class="page-header">
+  <h2>Embedding Content</h2>
+</div>
+
+<h3>Images</h3>
+
+<p>While you can use the persistent links above to embed images directly, you can also use the image viewer, which allows users to pan and zoom. Select the share icon in the bottom left of the image view and copy the code in the Embed tag.</p>
+<img src="https://archives.albany.edu/static/web/images/use/use7.png" />
+<p>The embedded viewer should look like this: </p>
+<div class="uv" data-locale="en-GB:English (GB),cy-GB:Cymraeg" data-config="" data-uri="/concern/images/th83m599w/manifest" data-collectionindex="0" data-manifestindex="0" data-sequenceindex="0" data-canvasindex="0" data-xywh="-1809,210,6669,3363" data-rotation="0" style="width:640px; height:480px; background-color: #000"></div><script type="text/javascript" id="embedUV" src="https://archives.albany.edu/universalviewer/dist/uv-2.0.1/lib/embed.js"></script><script type="text/javascript">/* wordpress fix */</script>
+
+
+<h3>Audio</h3>
+
+<p>For embedding audio use the "Download ogg" and  "Download mp3" buttons to get persistent links and paste them into the "src" attributes in the code below.</p>
+
+<pre>
+&lt;audio controls&gt;
+    &lt;source src="https://archives.albany.edu/downloads/mp48sm28w?locale=en&file=ogg" type="audio/ogg"&gt;
+    &lt;source src="https://archives.albany.edu/downloads/mp48sm28w?locale=en&file=mp3" type="audio/mpeg"&gt;
+    Your browser does not support the audio element.
+&lt;/audio&gt;
+</pre>
+
+<audio controls>
+    <source src="https://archives.albany.edu/downloads/mp48sm28w?locale=en&file=ogg" type="audio/ogg">
+    <source src="https://archives.albany.edu/downloads/mp48sm28w?locale=en&file=mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio> 
+
+<h3>Video</h3>
+
+<p>For embedding audio use the "Download WebM" button to get a persistent link and paste it into the "src" attributes in the code below.</p>
+
+<pre>
+&ltvideo controls&gt
+    &ltsource src="https://archives.albany.edu/downloads/c534fw074?file=webm" type="video/webm"&gt
+    Your browser does not support the video tag.
+&lt/video&gt
+</pre>
+
+<video controls>
+    <source src="https://archives.albany.edu/downloads/c534fw074?file=webm" type="video/webm">
+    Your browser does not support the video tag.
+</video> 
+
+<div class="page-header">
+  <h2>Embedding Searches</h2>
+</div>
+
+<p>First, go to an <a href="https://archives.albany.edu/catalog">empty search page</a> and select the facets on the right side to limit the search you want to embed. You can embed searches for specific collections, like the University Senate, collecting areas, like the National Death Penalty Archives, types of material, like Images, and more! If you are looking for a specific type of search, <a href="https://archives.albany.edu/catalog">Contact Us</a> and we can find it for you.</p>
+<img src="https://archives.albany.edu/static/web/images/use/use5.png" />
+
+<p>Once you found the search you would like to embed, copy the "?f" params into hidden &lt;input&gt; tags in the code below. You should ignore the "locale" param, and don't forget the URL encoding.</p>
+<img src="https://archives.albany.edu/static/web/images/use/use6.png" />
+
+<p>"https://archives.albany.edu/catalog?f[record_parent_sim][]=d2c8b71621925e217ad002c36f27822a&locale=en" would become this:</p>
+<pre>
+&lt;form action="https://archives.albany.edu/catalog"&gt;
+      &lt;input type="text" placeholder="Search the Senate Bills.." name="q"&gt;
+      &lt;input type="hidden" name="f[record_parent_sim][]" value="d2c8b71621925e217ad002c36f27822a" /&gt;
+      &lt;input type="hidden" name="search_field" value="all_fields" /&gt;
+      &lt;button type="submit"&gt;Search&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+
+<form action="https://archives.albany.edu/catalog">
+      <input type="text" placeholder="Search the Senate Bills.." name="q">
+      <input type="hidden" name="f[record_parent_sim][]" value="d2c8b71621925e217ad002c36f27822a" />
+      <input type="hidden" name="search_field" value="all_fields" />
+      <button type="submit">Search</button>
+</form>
+

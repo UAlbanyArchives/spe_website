@@ -1,0 +1,65 @@
+body {
+	background-image: none;
+}
+
+@media only screen and (min-width: 991px) {
+	body {
+		background-image: url("https://library.albany.edu/speccoll/findaids/eresources/static/img/bg.jpg");
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-attachment: fixed;
+		background-position: center top;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#browseNav {
+		display: none;
+	}
+}
+
+#menu-toggle {
+	display: none;
+}
+
+#page-content-wrapper {
+	padding: 0px;
+}
+
+@media only screen and (min-width: 1100px) {
+	body {
+		background-size: 100% auto;
+	}
+}
+
+body > .container .panel {
+	/*box-shadow: 0 0 20px #FFFFFF;*/
+}	
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.alphaContent {
+	background-color: #FFFFFF;
+	padding: 20px 25px 5px 25px;
+	box-shadow: 0 0 10px #FFFFFF;
+}
+
+@media only screen and (min-width: 1500px) {
+	.container {
+		width: 1250px;
+	}
+}
+
+#browseNav .panel a {
+	color: #555555;
+}
+#browseNav .active a {
+	background-color: #46166B;
+	color: #ffffff;
+}
+#browseNav .active a:hover {
+	background-color: #eaaa00;
+	color: #ffffff;
+}

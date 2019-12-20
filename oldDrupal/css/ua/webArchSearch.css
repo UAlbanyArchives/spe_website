@@ -1,0 +1,123 @@
+
+/* Web Archives Search Results */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.alphaContent {
+	min-height: 450px;
+	padding: 10px !important;
+}
+
+#contentColumn .row h2 {
+	margin: 40px 40px 20px 40px !important;
+	text-align: center;
+}
+
+#webArchivesBox {
+	margin-top: 20px;
+}
+
+#webArchivesSearch .form-group  {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#searchHelp {
+	margin:10px;
+}
+
+#searchInput {
+	width: 100%;
+}
+
+#webArchivesSearch .form-group .form-control {
+	display: inline;
+}
+
+#webArchivesSearch .btn {
+	font-size: 18px;
+	padding: 6px 16px;
+}
+
+#loadingArea {
+	text-align: center;
+	padding: 20px;
+}
+
+#searchRow, #resultsRow {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#results {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#results #pagination * {
+	font-size: 16px;
+	text-align: left;
+}
+
+#results .panel * {
+	text-align: left;
+}
+
+#results img {
+	margin: 0 auto;
+	width: 20%;
+}
+
+#results h4 {
+	text-align: left;
+}
+
+#results h5 {
+	padding-left:15px;
+}
+
+#results p {
+	font-size: 14px;
+}
+
+#results img {
+	margin: 0 auto;
+}
+
+.liveLink {
+	font-size: 11px;
+}
+
+#results #pagination a {
+	cursor: pointer;
+}
+
+#results #pagination .pageLink {
+	margin: 8px 6px;
+	font-size: 18px;
+}
+
+#results #pagination * {
+	float: left;
+}
+
+#results #pagination2 a {
+	cursor: pointer;
+}
+
+#results #pagination2 .pageLink {
+	margin: 8px 6px;
+	font-size: 18px;
+}
+
+#results #pagination2 * {
+	float: left;
+}
+
+#search-options .page-header {
+	font: 12pt "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#search-options form * {
+	font-size: 12px;
+}
