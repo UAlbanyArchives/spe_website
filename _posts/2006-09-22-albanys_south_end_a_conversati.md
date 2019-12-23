@@ -1,8 +1,7 @@
 ---
 author: ''
 layout: blog_basic
-title: "Albany\xC3\xA2\xE2\u201A\xAC\xE2\u201E\xA2s South End: A Conversation with\
-  \ William Kennedy and State Assemblyman John McEneny"
+title: "Albany's South End: A Conversation with William Kennedy and State Assemblyman John McEneny"
 ---
 <div class="entry-body">
 <p>On Sunday, October 1st, Albany's bard, novelist William Kennedy, and local historian and State Assemblyman John McEneny will discuss the historic districts, people, and events that figure so prominently in Kennedy's work. I have heard Kennedy and McEneny speak on several occassions and both usually offer interesting as well as personal accounts of the city of Albany. The event begins at 1p.m. at the Albany Institute of History and Art and will continue with a self-guided walking tour of Albany's South End. </p>

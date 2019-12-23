@@ -1,12 +1,11 @@
 ---
 author: ''
 layout: blog_basic
-title: "New Collections in the German and Jewish Intellectual \xC3\u0192\xE2\u20AC\
-  \xB0migr\xC3\u0192\xC2\xA9 Collection"
+title: "New Collections in the German and Jewish Intellectual Émigré Collection"
 ---
 <div class="entry-body">
-<p><img align="center" alt="German and Jewish Intellectual Ã‰migrÃ© Collection" height="90" src="{{ site.url }}/posts-img/emigrea.jpg" width="124"> </img></p>
-<p>Below are abstracts for collections recently added to the German and Jewish Intellectual Ã‰migrÃ© Collection. The complete list of Ã‰migrÃ© collections is available <a href="https://archives.albany.edu/browse/ger.html">here.</a></p>
+<p><img align="center" alt="German and Jewish Intellectual Émigré Collection" height="90" src="{{ site.url }}/posts-img/emigrea.jpg" width="124" /></p>
+<p>Below are abstracts for collections recently added to the German and Jewish Intellectual Émigré Collection. The complete list of Émigré collections is available <a href="https://archives.albany.edu/browse/ger.html">here.</a></p>
 <p><strong>AUFBAU</strong> (NY) (1939-2005), German-Jewish newspaper<br/>
 Collection, 1957-1998, 6 cubic ft.<br/>
 Bound copies of "Wiedergutmachung" section of the newspaper, 1957-1977; unbound issues, 1980s-1990s; articles, theses, and other publications written about the Aufbau.</p>
