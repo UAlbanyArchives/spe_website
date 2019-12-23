@@ -1,0 +1,11 @@
+---
+author: ''
+layout: blog_basic
+title: October is GLBT History Month
+---
+<div class="entry-body">
+<p>In addition to <a href="{{ site.url }}/2006/10/celebrate_american_archives_mo.html">American Archives Month</a>, October is also designated as GLBT History Month, which provides an ideal opportunity to highlight collections in the Grenander Department of Special Collections and Archives. </p>
+<p>The Department's subject guide for <a href="https://archives.albany.edu/browse/122.html">Human Sexuality and Gender Identity</a> collections has expanded a great deal in recent months as new inventories and finding aids have been added for a number of collections including the <a href="https://archives.albany.edu/description/catalog/apap193">Capital District Gay and Lesbian Community Council</a>, <a href="https://archives.albany.edu/description/catalog/apap289">Steven F. Dansky</a>, <a href="https://archives.albany.edu/description/catalog/apap164">Campus Action</a>, and others. </p>
+<p>Another collection researchers should be aware of is the papers of <strong><a href="https://archives.albany.edu/browse/122.html">Joseph Norton</a></strong>. In addition to material related to Joseph Norton's career as a professor in the School of Education at the University at Albany, the papers also include two cubic feet of correspondence, minutes of meetings, and printed materials relating to Norton's involvement in the gay liberation movement. Norton was an advisor to the Gay Liberation Front in New York State (1971â€“1972); a member of the Board of Directors of the National Gay Task Force (1976â€“1978); a founder and director of the National Caucus of Gay and Lesbian Counselors of the American Association of Sex Educators, Counselors and Therapists; and a founder and director of the Caucus of Gay Counselors of the American Personnel and Guidance Association (1977â€“1978).</p>
+<p>The Grenander Department of Special Collections and Archives continues its efforts to add to the historical record of LGBT history in New York State with a particular emphasis on the Capital Region. If you or someone you know has material that should be transferred to an archival repository to ensure that the records are made available and accessible to all interested researchers and preserved for generations, <a href="{{ site.url }}/reference">contact me</a>.</p>
+</div>

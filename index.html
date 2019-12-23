@@ -396,29 +396,21 @@ if(window.location.hash ===  "#submitModal") {
 			<div class="container">
 					<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2" id="newsBlock">
 						<h2 class="page-header">News</h2>
-<div class="newsEntry">
-							<h3><a href="https://liblogs.albany.edu/grenander/2019/05/disparities_in_documentation.html">Espy Project: Disparities in Documentation</a></h3>
-							<p>Sheri Sarnoff talks about her experiences with the Espy Project and how some executions have better documentation than others.</p>
+
+						{% for post in site.posts limit: 4 %}
+						<div class="newsEntry">
+							<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+							<p class="author">
+							  	{% if post.author %}
+							  		<span class="author">{{ post.author }}</span> - 
+							  	{% endif %}
+							    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+							  </p>
+							<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 						</div>
+						{% endfor %}
 
-<div class="newsEntry">	<h3><a href="https://liblogs.albany.edu/grenander/2019/04/2019_patricia_stocking_brown_r.html">2019 Patricia Stocking Brown Research Award Recipients Named</a></h3>
-							<p>University at Albany graduate student Elizabeth Horning and undergraduate student Joshua Levine pictured with professor mentors.</p>
-						</div>
-
-<div class="newsEntry">
-							<h3><a href="http://liblogs.albany.edu/grenander/2017/10/espy_project_fall_update.html">Espy Project Fall Update</a></h3>
-							<p>Working to make the stories of the over 15,000 people executed by the state accessible to the public.</p>
-						</div>
-
-<div class="newsEntry">
-							<h3><a href="http://liblogs.albany.edu/grenander/2017/05/mark_wolfe_wins_excellence_awa.html">Mark Wolfe Honored with Excellence Award</a></h3>
-							<p>Mark Wolfe, along with fourteen UAlbany faculty and staff, was named a winner of this year's President's Excellence Award.</p>
-						</div>	
-
-
-						
-						
-						
+						<a class="btn btn-primary" href="{{ site.url }}/blog">All Posts</a>
 					</div>
 
 				</div>

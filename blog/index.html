@@ -1,0 +1,64 @@
+---
+layout: spe_base_1
+title: Blog
+---
+
+<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/headerAffix.js"></script>
+<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/oneColumn.css" type="text/css"></link>
+
+<div class="row">
+<div class="container">
+<div id="contentColumn" class="col-md-12 col-lg-10 col-lg-offset-1">
+<h1 style="text-align:center;">Latest Posts</h1>
+<p>&nbsp;</p>
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="author">
+  	{% if post.author %}
+  		<span class="author">{{ post.author }}</span> - 
+  	{% endif %}
+    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+  </p>
+  <div class="content">
+    {{ post.content | strip_html | truncatewords: 150 }}
+  </div>
+{% endfor %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+	<div class="pagination row col-sm-12 col-sm-offset-3 text-center">
+	  
+
+	  <ul class="pagination">
+	  	  <li class="page-item">
+		  	  {% if paginator.previous_page %}
+			    <a class="btn btn-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ paginator.previous_page }}">&laquo; Previous</a>
+			  {% else %}
+			    <a class="btn btn-outline-info disabled" href="#">&laquo; Previous</a>
+			  {% endif %}
+		  </li>
+		  {% for page in (1..paginator.total_pages) %}
+		  	<li class="page-item">
+			    {% if page == paginator.page %}
+			      	<a class="btn btn-outline-info active disabled" href="#">{{ page }}</a>
+			    {% elsif page == 1 %}
+			      	<a class="btn btn-primary" href="/blog">{{ page }}</a>
+			    {% else %}
+			      	<a class="btn btn-primary" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			    {% endif %}
+		    </li>
+		  {% endfor %}
+			  <li class="page-item">
+				  {% if paginator.next_page %}
+				    <a class="btn btn-primary" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ paginator.next_page }}">Next &raquo;</a>
+				  {% else %}
+				    <a class="btn btn-outline-info disabled" href="#">Next &raquo;</a>
+				  {% endif %}
+			  </li>
+		</div>
+	  </ul>
+
+	  
+{% endif %}

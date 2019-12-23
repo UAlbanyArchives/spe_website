@@ -1,0 +1,14 @@
+---
+author: Mark Wolfe
+layout: blog_basic
+title: University Archivist, Geoffrey Williams Retires
+---
+<div class="entry-body">
+<p>Geoffrey Williams retired after 27 years at the University at Albany on September 2, 2014. To recognize his outstanding accomplishments and his commitment to the University community, a reception was hosted on Thursday, August 21, in the M.E. Grenander Department of Special Collections and Archives. </p>
+<div style="text-align: center;"><small>(Below Geoff is pictured with Philip Eppard, Chair of the Department of Information Studies)</small>. </div>
+<p><img alt="geoff_phil.jpg" class="mt-image-left" height="250" src="{{ site.url }}/posts-img/geoff_phil.jpg" style="float: left; margin: 0 20px 20px 0;" width="250"><img alt="geoff_solo.jpg" class="mt-image-right" height="250" src="{{ site.url }}/posts-img/geoff_solo.jpg" style="float: right; margin: 0 0 20px 20px;" width="250"/></img></p>
+<p>Geoffrey Williams' accomplishments reflect a long career of outreach to the University at Albany students, faculty, and alumni, as well as helping community organizations in the Capital District preserve their history. Since coming to the University in 1987, Geoff consistently dazzles students and alumni with his factual knowledge of 170 years of University history and traditions.</p>
+<p>As the institutional memory, he serves as a major source of historical information for administrative and academic offices throughout campus, including the President's Office and Office of Communications &amp; Marketing, as well as students and faculty. He shares his knowledge by writing a regular column, "Ask Geoff," for the UAlbany Magazine, and conducts bus tours, walking tours, and programs for alumni, student, and community groups.</p>
+<p>Geoff has worked with community members to collect and preserve the historical records of African Americans in the six-county greater Capital District of New York. As co-chair of the Capital District Black History Project, he was responsible for the preservation of records of area African-American organizations at the archives of UAlbany. Among his hundreds of talks and presentations to the community are lectures to the Washington Park Neighborhood Association and many others. Geoff works to improve his profession by serving on the New York State Historical Records Advisory Board, New York State Local Government Records Advisory Board, and Documentary Heritage Program Advisory Committee.</p>
+<p>We are sorry to lose such a great historian and friend, but thank him for his years of service and wish him well in his future endeavors.</p>
+</div>

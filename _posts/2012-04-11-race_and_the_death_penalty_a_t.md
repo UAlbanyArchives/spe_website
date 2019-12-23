@@ -1,0 +1,19 @@
+---
+author: Mark Wolfe
+layout: blog_basic
+title: 'Race and the Death Penalty: A Tribute to the Life and Work of David C. Baldus'
+---
+<div class="entry-body">
+<p><img alt="baldus.jpg" class="mt-image-center" height="267" src="{{ site.url }}/posts-img/baldus.jpg" style="text-align: center; display: block; margin: 0 auto 20px;" width="400"/></p>
+<p><br/>The School of Criminal Justice and the University Libraries are pleased to invite the public and the University community to an event to be held on <strong>Friday, April 20 at 3:30 in the Standish Room</strong>, on the third floor of the Science Library, to announce the addition of the personal papers of the late David C. Baldus, Joseph B. Tye Professor at the University of Iowa College of Law, to the National Death Penalty Archive.  David Baldus's research and scholarship on the influence of race in the administration of the death penalty are unparalleled.  His study of racial disparities in the application of Georgia's death penalty served as the foundation of the landmark Supreme Court case, McCleskey v. Kemp (1987).  In that decision, by vote of 5-4, the justices upheld Georgia's death penalty law against constitutional challenge despite dramatic race-of-victim differences in capital charging and sentencing decisions that were revealed by "the Baldus study."  The McCleskey decision was issued a quarter century ago, on April 22, 1987.  Speakers at the April 20 event will reflect on the legacy of McCleskey v. Kemp and issues involving race and capital punishment as they recognize David Baldus's enduring commitment to equal justice under law and comment on the significance of including his papers within the National Death Penalty Archive.  Speakers will include:</p>
+<p>Professor Catherine Grosso, Michigan State College of Law<br/>
+Dr. Alice Green, Center for Law and Justice<br/>
+Mr. David Kaczynski, New Yorkers for Alternatives to the Death Penalty<br/>
+Mr. Brian Keough, M.E. Grenander Department of Special Collections and Archives, University at Albany<br/>
+Professor James Acker, School of Criminal Justice, University at Albany</p>
+<p>Discussion and a question-and-answer session will follow.  Refreshments will be available.  The event is free and open to the public.  For additional information, contact: Brian Keough at <a href="mailto:bkeough@albany.edu">bkeough@albany.edu</a></p>
+<p>----------------------------------------------------------------------------</p>
+<p><br/>
+<strong>CSPAN Coverage of Senate Judiciary Committee hearings on the Death Penalty, with footage to David Baldus testomony</strong><br/>
+<object align="middle" classid="clsid:d27cdb6eae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" height="500" id="cspan-video-player" width="410"><param name="allowScriptAccess" value="true"/><param name="movie" value="http://www.c-spanvideo.org/videoLibrary/assets/swf/CSPANPlayer.swf?pid=9444-1&amp;start=1276&amp;end=1807"/><param name="quality" value="high"/><param name="bgcolor" value="#ffffff"/><param name="allowFullScreen" value="true"/><param name="flashvars" value="system=http://www.c-spanvideo.org/common/services/flashXml.php?programid=6083&amp;style=full&amp;start=1300&amp;end=1807"/><embed align="middle" allowfullscreen="true" allowscriptaccess="always" bgcolor="#ffffff" flashvars="system=http://www.c-spanvideo.org/common/services/flashXml.php?programid=6083&amp;style=full&amp;start=1276&amp;end=1807" height="500" name="cspan-video-player" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://www.c-spanvideo.org/videoLibrary/assets/swf/CSPANPlayer.swf?pid=9444-1&amp;start=1276&amp;end=1807" type="application/x-shockwave-flash" width="410"/></object></p>
+</div>

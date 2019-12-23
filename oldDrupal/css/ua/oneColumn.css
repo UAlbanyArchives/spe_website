@@ -18,6 +18,15 @@ body {
 	margin-right: 0px;
 }
 
+
+.pagination a.active {
+	color: #fff !important;
+}
+
+.pagination a {
+	color: #46166B !important;
+}
+
 /*@media only screen and (max-width: 991px) {
 	body:before {
 		  content: "";

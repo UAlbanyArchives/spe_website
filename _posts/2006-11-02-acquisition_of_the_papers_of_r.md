@@ -1,0 +1,9 @@
+---
+author: ''
+layout: blog_basic
+title: Acquisition of the Papers of Ronald B. Stafford
+---
+<div class="entry-body">
+<p>The M.E. Grenander Department of Special Collections and Archives is pleased to announce the acquisition of the papers of <strong>Ronald B. Stafford</strong>.  Stafford represented the North Country for a 37-year State Senate career which included membership on several committees. He ended his career as chairman of the powerful Finance Committee. Stafford, a Republican, was the first chairman of the Senateâ€™s Higher Education Committee. During his Senate career, he chaired the Senate Finance Committee, Higher Education Committee, Codes Committee, and the Judiciary Committee. In 1974, as Chairman of the Senateâ€™s Higher Education Committee he helped shape and create the Tuition Assistance Program (TAP), a landmark program that opened access to college for New Yorkers who would otherwise have been unable to afford opportunities in higher education. He was a protector of the environment through his involvement in Adirondack Park affairs. Stafford was instrumental in bringing the 1980 Olympic Winter Games to Lake Placid, and in 1974 was appointed chairman of the New York State 1980 Olympic Winter Games Commission. He remained a leading figure in the Senate and in New York State politics throughout his career and until his death in 2005.</p>
+<p>Stafford's papers are part of the Department's New York State Modern Political Archive. The complete press release is available at the <a href="http://liblogs.albany.edu/librarynews/2006/11/acquisition_ronald_b_stafford.html">University Libraries' News and Events blog</a>.</p>
+</div>

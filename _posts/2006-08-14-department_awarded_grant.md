@@ -1,0 +1,10 @@
+---
+author: ''
+layout: blog_basic
+title: Department Awarded Grant
+---
+<div class="entry-body">
+<p>The M.E. Grenander Department of Special Collections and Archives is one of nine institutions in New York State to receive a grant from the New York State Archives' Documentary Heritage Program for 2006-2007. The award of over $12,000 will be used to arrange and describe records related to environmental affairs including the collections of New York Coalition for Alternatives to Pesticides and Lou Ismay.</p>
+<p>Louis Ismay was a member of the Department of Fine Arts at the State University of New York at Albany (as the University at Albany, SUNY was then known). However, this collection documents his work with the Environmental Studies Program in general and the Environmental Forum class in particular. The collection also documents organizations such as the Protect Your Environment Club. New York Coalition for Alternatives to Pesticides (NYCAP) was formed as a non-profit citizens' organization committed to reducing hazardous chemical pesticide use through education and advocacy. The issues that NYCAP championed included: safe pest control for schools, hospitals, and public places; reducing work exposure to chemicals; farm worker protection; prevention of groundwater pollution; environmentally sound farming; and strict regulation of pesticides. NYCAP also sought to provide leadership on these issues to other organizations such as parent teacher associations, labor unions, and general environmental groups. </p>
+<p>The Department of Special Collections and Archives has been building its collections in the area of conservation and environmental affairs since 2001 and now holds the records of over 50 organiations and individuals. A complete list of collections held by the Department in this subject area is available at <a href="https://archives.albany.edu/browse/40.html">http://library.albany.edu/speccoll/conservation.htm</a>. The records of the New York Coalition for Alternatives to Pesticides and Lous Ismay will be available to the public in Spring 2007.</p>
+</div>
