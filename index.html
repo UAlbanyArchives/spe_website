@@ -399,7 +399,7 @@ if(window.location.hash ===  "#submitModal") {
 
 						{% for post in site.posts limit: 4 %}
 						<div class="newsEntry">
-							<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+							<h3><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a></h3>
 							<p class="author">
 							  	{% if post.author %}
 							  		<span class="author">{{ post.author }}</span> - 
