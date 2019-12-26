@@ -17,7 +17,7 @@ title: "Digital Selections"
 					{% assign page_file = "desc_" | append: page.col_id | replace: ".", "-" %}
 				{% endif %}
 
-				<a id="" class="itemLink" href="{{ page.url }}">
+				<a id="" class="itemLink" href="{{ site.url }}/{{ page.url }}">
 					<div class="galleryItem img-thumbnail">
 						<div class="galleryThumb">
 							<img id="{{ page.url }}" class="galleryImage" src="{{ page.img }}" alt="{{ page.title }}" />
