@@ -1,0 +1,145 @@
+{
+    "document": {
+        "title_ssm": [
+            "The State College Echo Collection"
+        ],
+        "extent_ssm": [
+            "2.97 cubic ft.",
+            "81 Digital Files"
+        ],
+        "unitdate_ssm": [
+            "1892 June-1939 April"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1892 June-1939 April"
+        ],
+        "language_ssm": [
+            "\n      English\n    ",
+            "English"
+        ],
+        "abstract_ssm": [
+            "Collection is made up of the student publications The Echo, the State College Quarterly, and the State College Echo."
+        ],
+        "corpname_ssm": [
+            "M.E. Grenander Department of Special Collections & Archives",
+            "State University of New York at Albany--Students",
+            "State University of New York at Albany"
+        ],
+        "genreform_ssm": [
+            "Digital Files"
+        ],
+        "subject_ssm": [
+            "College newspapers and periodicals",
+            "College Publications",
+            "Serial publications",
+            "UAlbany Student Groups"
+        ],
+        "collection_ssm": [
+            "The State College Echo Collection, 1892 June-1939 April"
+        ],
+        "accessrestrict_ssm": [
+            "Access to this record group is unrestricted."
+        ],
+        "accessrestrict_heading_ssm": [
+            "Access"
+        ],
+        "acqinfo_ssm": [
+            "All items in this manuscript group were donated to the University Libraries, M.E. Grenander Department of Special Collections and Archives."
+        ],
+        "acqinfo_heading_ssm": [
+            "Acquisition Information"
+        ],
+        "arrangement_ssm": [
+            "The collection is organized into a single series and arranged chronologically within that series."
+        ],
+        "arrangement_heading_ssm": [
+            "Arrangement of the Collection"
+        ],
+        "bioghist_ssm": [
+            "The Echo was first published by the students of the State Normal College in June of 1892. It original purpose was as a monthly newsletter or newspaper for the student s of the school. By the time of the second volume of publication in 1893, it had become half school news, and half a literary periodical, publishing prose and poetry written by students. This format was continued until 1918 when publication of the Echo ceased. Two years earlier the State College News, a general school newspaper, was first published. It is likely that the school newsletter aspect of the publication no longer seemed necessary. ",
+            " That is why the following Fall of 1918, the State College Quarterly began as a publication solely dedicated to prose and poetry written by students. People who worked on the literary section of The Echo transferred to the new publication, and the Quarterly remained a student owned and run periodical. This version of the publication was published until the spring of 1928. There is no explanation but the following Fall, the publication changed its name to the State College Echo.",
+            " This version of the Publication maintained its literary roots, publishing poetry and prose written by the students of the State College for Teachers. Those who had worked for the Quarterly continued under the new name, and the overall organization of the periodical was maintained. The State College Echo was published until April 1939."
+        ],
+        "bioghist_heading_ssm": [
+            "Administrative History"
+        ],
+        "processinfo_ssm": [
+            "Processed in 2016 by Erik Stolarski."
+        ],
+        "processinfo_heading_ssm": [
+            "Processing Information"
+        ],
+        "scopecontent_ssm": [
+            "This collection consists of the twenty-seven volumes of The Echo dating from 1892 to 1918. Some are bound by volume while others are foldered on their own. Volumes 8-13, encompassing 1900-1905, have many numbers missing from the collection. The State College Quarterly is made up of ten bound volumes dating from 1918-1928. The State College Echo section of the collection is made up of eleven volumes dating from 1928-1939, with a single duplicate edition of the November 1932 publication."
+        ],
+        "scopecontent_heading_ssm": [
+            "Scope and Contents"
+        ],
+        "userestrict_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites.",
+            " Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            " The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks.",
+            " The University Archives are eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "userestrict_heading_ssm": [
+            "Copyright"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "creator_ssm": [
+            "State University of New York at Albany--Students"
+        ],
+        "creator_ssim": [
+            "State University of New York at Albany--Students"
+        ],
+        "creator_corpname_ssm": [
+            "State University of New York at Albany--Students"
+        ],
+        "creator_corpname_ssim": [
+            "State University of New York at Albany--Students"
+        ],
+        "unitid_ssm": [
+            "ua950.012"
+        ],
+        "prefercite_ssm": [
+            "Preferred citation for this material is as follows:",
+            " Identification of specific item, series, box, folder, The State College Echo, 1892-1939. M.E. Grenander Department of Special Collections and Archives, University Libraries, University at Albany, State University of New York (hereafter referred to as the State College Echo Collection)."
+        ],
+        "physloc_ssm": [
+            "The materials are located onsite in the department."
+        ],
+        "id": "ua950-012",
+        "ead_ssi": "ua950.012",
+        "level_ssm": [
+            "collection"
+        ],
+        "names_ssim": [
+            "State University of New York at Albany--Students",
+            "State University of New York at Albany"
+        ],
+        "access_subjects_ssim": [
+            "College newspapers and periodicals",
+            "College Publications",
+            "Serial publications",
+            "UAlbany Student Groups",
+            "Digital Files"
+        ],
+        "creators_ssim": [
+            "State University of New York at Albany--Students"
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "names_coll_ssim": [
+            "State University of New York at Albany"
+        ],
+        "normalized_title_ssm": [
+            "The State College Echo Collection, 1892 June-1939 April"
+        ],
+        "normalized_date_ssm": [
+            "1892 June-1939 April"
+        ],
+        "timestamp": "2019-06-20T08:17:14.246Z"
+    }
+}

@@ -1,0 +1,62 @@
+
+.galleryThumb img {
+	max-width: 100px;
+	max-height: 120px;
+}
+
+.galleryItem {
+	display: flex;
+	align-items: baseline;
+	margin: 10px;
+}
+
+.galleryLabel {
+	flex-grow: 4;
+	padding: 20px;
+}
+
+/*.galleryLabel p.abstract {
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}*/
+
+@media only screen and (min-width: 550px) {
+	.form-control {
+		min-width: 500px;
+	}
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.desc .collapse[aria-expanded="false"] {
+    display: block;
+    height: 42px !important;
+    overflow: hidden;
+}
+.desc .collapsing[aria-expanded="false"] {
+    height: 42px !important;
+}
+
+.desc a { cursor: pointer; }
+
+
+.sequence {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.sequence .itemLink {
+	max-width: 300px;
+}
+
+@media only screen and (min-width: 1500px) {
+	.sequence .itemLink {
+		max-width: 430px;
+	}
+}

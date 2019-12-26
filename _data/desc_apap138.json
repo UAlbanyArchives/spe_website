@@ -1,0 +1,128 @@
+{
+    "document": {
+        "title_ssm": [
+            "WAMC Northeast Public Radio Records"
+        ],
+        "extent_ssm": [
+            "6795 Audio Recordings"
+        ],
+        "unitdate_ssm": [
+            "1980-2000"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1980-2000"
+        ],
+        "language_ssm": [
+            "\n      English\n    ",
+            "English"
+        ],
+        "abstract_ssm": [
+            "This collection contains recordings of a number of locally-produced WAMC/Northeast Public Radio programs."
+        ],
+        "corpname_ssm": [
+            "M.E. Grenander Department of Special Collections & Archives",
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "subject_ssm": [
+            "Radio stations",
+            "Radio and Television Broadcasting"
+        ],
+        "collection_ssm": [
+            "WAMC Northeast Public Radio Records, 1980-2000"
+        ],
+        "accessrestrict_ssm": [
+            "Access to this collection is unrestricted.  Preservation concerns may prevent immediate acces to segments of the collection at the present time. All requests to listen to audio recordings must be made to M.E. Grenander Department of Special Collections and Archives Reference staff in advance of a researcher's visit to the Department."
+        ],
+        "accessrestrict_heading_ssm": [
+            "Access"
+        ],
+        "acqinfo_ssm": [
+            "All items in this manuscript group were donated to the University Libraries, M.E. Grenander Department of Special Collections and Archives by WAMC begining in June 2002."
+        ],
+        "acqinfo_heading_ssm": [
+            "Immediate Source of Acquisition"
+        ],
+        "arrangement_ssm": [
+            "This collection is arranged into series by program."
+        ],
+        "arrangement_heading_ssm": [
+            "Arrangement"
+        ],
+        "bioghist_ssm": [
+            "WAMC/Northeast Public Radio is a regional public radio network serving parts of seven northeastern states.  WAMC was founded in 1958 as an affiliate of Albany Medical College. While affilated with Albany Medical College, WAMC's primary purpose was instructional, but a set number of hours each week were alloted to non-medical programming such as musical performances and talkshows. WAMC/Northeast Public Radio is a regional public radio network serving parts of seven northeastern US states including New York, Massachusetts, Connecticut, Vermont, New Jersey, New Hampshire, and Pennsylvania. Stations and translators are in ten locations throughout the region. WAMC's studios and offices are located in Albany, NY. WAMC/Northeast Public Radio is a member of National Public Radio and an affiliate of Public Radio International. Financial support comes from listeners who contribute annually in fund drives and other appeals as well as from underwriting by businesses, grant support for WAMC's National Productions, and governmental sources such as the Corporation for Public Broadcasting and the New York State Education Department."
+        ],
+        "bioghist_heading_ssm": [
+            "Administrative History"
+        ],
+        "processinfo_ssm": [
+            "Finding Aid Compiled by Rachel Donaldson in September 2002 and Amy C. Schindler in May 2005."
+        ],
+        "processinfo_heading_ssm": [
+            "Processing Information"
+        ],
+        "scopecontent_ssm": [
+            "The collection is primarily composed of reel-to-reel audiotapes, audiocassette, DAT recordings, and born-digital audio of programs which aired on WAMC/Northeast Public Radio. The recordings include programs produced by WAMC as well as some produced by other stations. Note that the rights to reproduce or use recordings not produced by WAMC's National Productions remain with the creator of those programs. WAMC's National Productions produces several programs aired by its stations as well as hundreds of other radio stations around the world. WAMC's programs documented in the collection include 51%, The Best of Our Knowledge, The Book Show, Capitol Connection, The Environment Show, The Health Show, The Law Show, Legislative Gazette, Media Project, and many others. The collection also includes selected recordings produced primarily by other public radio stations. Much of this is music programs."
+        ],
+        "scopecontent_heading_ssm": [
+            "Scope and Contents"
+        ],
+        "userestrict_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites.",
+            "Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            "The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks.",
+            "The M.E. Grenander Department of Special Collection and Archives is eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "userestrict_heading_ssm": [
+            "Copyright"
+        ],
+        "repository_ssm": [
+            "New York State Modern Political Archive"
+        ],
+        "creator_ssm": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "creator_ssim": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "creator_corpname_ssm": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "creator_corpname_ssim": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "unitid_ssm": [
+            "apap138"
+        ],
+        "prefercite_ssm": [
+            "Preferred citation for this material is as follows: Identification of specific item, series, box, folder, WAMC Northeast Public Radio Records, 1980-2000. M.E. Grenander Department of Special Collections and Archives, University Libraries, University at Albany, State University of New York (hereafter referred to as the WAMC Records)."
+        ],
+        "physloc_ssm": [
+            "The materials are located onsite in the department."
+        ],
+        "id": "apap138",
+        "ead_ssi": "apap138",
+        "level_ssm": [
+            "collection"
+        ],
+        "names_ssim": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "access_subjects_ssim": [
+            "Radio stations",
+            "Radio and Television Broadcasting"
+        ],
+        "creators_ssim": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "normalized_title_ssm": [
+            "WAMC Northeast Public Radio Records, 1980-2000"
+        ],
+        "normalized_date_ssm": [
+            "1980-2000"
+        ],
+        "timestamp": "2019-06-13T12:02:51.946Z"
+    }
+}

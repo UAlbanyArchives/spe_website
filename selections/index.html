@@ -1,0 +1,40 @@
+---
+layout: one_column
+title: "Digital Selections"
+---
+
+<link rel="stylesheet" href="{{ site.url }}/css/ua/hyraxGallery.css" type="text/css"></link>
+<script type="text/javascript" src="{{ site.url }}/js/hyraxGallery.js"></script>
+
+<div class="col-xs-12 sequence">
+
+		{% for page in site.selections %}
+
+			{% if page.top_level %}
+				{% if page.ref_id %}
+					{% assign page_file = "desc_" | append: page.ref_id %}
+				{% else %}
+					{% assign page_file = "desc_" | append: page.col_id | replace: ".", "-" %}
+				{% endif %}
+
+				<a id="" class="itemLink" href="{{ page.url }}">
+					<div class="galleryItem img-thumbnail">
+						<div class="galleryThumb">
+							<img id="{{ page.url }}" class="galleryImage" src="{{ page.img }}" alt="{{ page.title }}" />
+						</div>
+						<div class="galleryLabel">
+							<h4>
+								<p>{{ page.title }}</p>
+							</h4>
+							{% if site.data[page_file]["document"]["scopecontent_ssm"] %}
+								<p class="abstract">{{ site.data[page_file]["document"]["scopecontent_ssm"][0] | truncate: 100 }}</p>
+							{% endif %}
+						</div>
+					</div>
+				</a>
+			{% endif %}
+
+
+		{% endfor %}
+	</div>
+	<div class="clearfix"></div>

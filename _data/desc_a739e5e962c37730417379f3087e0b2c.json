@@ -1,0 +1,67 @@
+{
+    "document": {
+        "id": "apap138aspace_a739e5e962c37730417379f3087e0b2c",
+        "ead_ssi": "apap138",
+        "parent_ssm": [
+            "apap138"
+        ],
+        "parent_unittitles_ssm": [
+            "WAMC Northeast Public Radio Records, 1980-2000"
+        ],
+        "component_level_isim": [
+            1
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "WAMC Northeast Public Radio Records, 1980-2000"
+        ],
+        "repository_ssm": [
+            "New York State Modern Political Archive"
+        ],
+        "child_component_count_isim": [
+            54
+        ],
+        "parent_ssi": "apap138",
+        "collection_creator_ssm": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "parent_access_restrict_ssm": [
+            "Access to this collection is unrestricted.  Preservation concerns may prevent immediate acces to segments of the collection at the present time. All requests to listen to audio recordings must be made to M.E. Grenander Department of Special Collections and Archives Reference staff in advance of a researcher's visit to the Department."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites.",
+            "Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            "The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks.",
+            "The M.E. Grenander Department of Special Collection and Archives is eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "ref_ssm": [
+            "aspace_a739e5e962c37730417379f3087e0b2c"
+        ],
+        "level_ssm": [
+            "series"
+        ],
+        "title_ssm": [
+            "The Book Show"
+        ],
+        "unitdate_ssm": [
+            "2012-2014"
+        ],
+        "scopecontent_ssm": [
+            "Contains recorded broadcasts of The Book Show, a WAMC-produced weekly radio show hosted by Joe Donahue thet interviews authors about their books, their lives and their craft. Notable authors interviewed include: Kurt Vonnegut, John Irving, John Updike, Alice Walker, Toni Morrison, Arthur Miller, Stephen King, Amy Tan, Anne Rice, Philip Roth, E.L Doctorow, Richard Russo, David Sedaris and Maya Angelou."
+        ],
+        "unitdate_inclusive_ssm": [
+            "2012-2014"
+        ],
+        "ref_ssi": "aspace_a739e5e962c37730417379f3087e0b2c",
+        "normalized_title_ssm": [
+            "The Book Show, 2012-2014"
+        ],
+        "normalized_date_ssm": [
+            "2012-2014"
+        ],
+        "timestamp": "2019-06-13T12:03:34.935Z"
+    }
+}

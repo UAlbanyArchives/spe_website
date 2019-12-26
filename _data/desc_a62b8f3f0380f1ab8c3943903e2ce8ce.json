@@ -1,0 +1,67 @@
+{
+    "document": {
+        "id": "apap138aspace_a62b8f3f0380f1ab8c3943903e2ce8ce",
+        "ead_ssi": "apap138",
+        "parent_ssm": [
+            "apap138"
+        ],
+        "parent_unittitles_ssm": [
+            "WAMC Northeast Public Radio Records, 1980-2000"
+        ],
+        "component_level_isim": [
+            1
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "WAMC Northeast Public Radio Records, 1980-2000"
+        ],
+        "repository_ssm": [
+            "New York State Modern Political Archive"
+        ],
+        "child_component_count_isim": [
+            150
+        ],
+        "parent_ssi": "apap138",
+        "collection_creator_ssm": [
+            "WAMC (Radio station : Albany, N.Y.)"
+        ],
+        "parent_access_restrict_ssm": [
+            "Access to this collection is unrestricted.  Preservation concerns may prevent immediate acces to segments of the collection at the present time. All requests to listen to audio recordings must be made to M.E. Grenander Department of Special Collections and Archives Reference staff in advance of a researcher's visit to the Department."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites.",
+            "Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            "The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks.",
+            "The M.E. Grenander Department of Special Collection and Archives is eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "ref_ssm": [
+            "aspace_a62b8f3f0380f1ab8c3943903e2ce8ce"
+        ],
+        "level_ssm": [
+            "series"
+        ],
+        "title_ssm": [
+            "The Legislative Gazette"
+        ],
+        "unitdate_ssm": [
+            "1985-2013"
+        ],
+        "scopecontent_ssm": [
+            "Contains recorded broadcasts of The Legislative Gazette, a WAMC-produced weekly radio show hosted by David Guistina and regularly featuring Alan Chartock. The program features an in-depth look at New York State politics and government."
+        ],
+        "unitdate_inclusive_ssm": [
+            "1985-2013"
+        ],
+        "ref_ssi": "aspace_a62b8f3f0380f1ab8c3943903e2ce8ce",
+        "normalized_title_ssm": [
+            "The Legislative Gazette, 1985-2013"
+        ],
+        "normalized_date_ssm": [
+            "1985-2013"
+        ],
+        "timestamp": "2019-06-13T12:02:52.008Z"
+    }
+}

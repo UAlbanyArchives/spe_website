@@ -171,7 +171,7 @@ body {
 /* for small displays */
 @media only screen and (max-width: 765px) {
 	.searchSubnav {
-        top: 102px;
+        /*top: 102px;*/
     }
     .searchSubnav .container .aboutSearch {
 		display:none;
@@ -195,6 +195,10 @@ body {
 }
 @media only screen and (max-width: 400px) {
 	.searchSubnav {
-		top: 50px;
+		/* top: 50px;*/ 
 	}
+}
+
+#searchSub .btn {
+	padding: 9px 12px;
 }

@@ -1,0 +1,157 @@
+{
+    "document": {
+        "title_ssm": [
+            "Student Newspapers Collection"
+        ],
+        "extent_ssm": [
+            "2282 Digital Files",
+            "326 captures",
+            "17.47 GB"
+        ],
+        "unitdate_ssm": [
+            "1916-2018"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1916-2018"
+        ],
+        "language_ssm": [
+            "\n      English\n    ",
+            "English"
+        ],
+        "abstract_ssm": [
+            "The University at Albany, SUNY student newspapers (State College News,, State University News, Albany Student Press), from 1916-present. Issues from the years 1916-1985 and 2015 are available online. Additional issues are only available in-person."
+        ],
+        "corpname_ssm": [
+            "M.E. Grenander Department of Special Collections & Archives",
+            "Albany Student Press Corporation",
+            "New York State Normal College",
+            "New York State College for Teachers",
+            "State University of New York at Albany",
+            "State College News,",
+            "Albany Student Press"
+        ],
+        "genreform_ssm": [
+            "Newspapers",
+            "Digital Files",
+            "Web Collection"
+        ],
+        "subject_ssm": [
+            "UAlbany Student Groups",
+            "College student newspapers and periodicals",
+            "Wages -- New York (State)",
+            "College student newspapers and periodicals--New York (State)--Albany"
+        ],
+        "collection_ssm": [
+            "Student Newspapers Collection, 1916-2018"
+        ],
+        "accessrestrict_ssm": [
+            "Access to this record group is unrestricted."
+        ],
+        "accessrestrict_heading_ssm": [
+            "Access"
+        ],
+        "acqinfo_ssm": [
+            "All items in this manuscript group were donated to the University Libraries, M.E. Grenander Department of Special Collections and Archives."
+        ],
+        "acqinfo_heading_ssm": [
+            "Acquisition Information"
+        ],
+        "arrangement_ssm": [
+            "The Student Newspaper Collection is divided into series by decade, and then suberies by publication year."
+        ],
+        "arrangement_heading_ssm": [
+            "Arrangement of the Collection"
+        ],
+        "bioghist_ssm": [
+            "The Albany Student Press (ASP) has been the name of the weekly student newspaper of the State University of New York at Albany (University at Albany, SUNY) since February 14, 1964 (Vol. L, no. 1). The ASP and its predecessors since 1916 have carried news of student events, opinion, organizations, and since the 1960s reviews of movies, recordings, and more recently, short literary pieces. The ASP is currently a weekly (while school is in session) publication, though for much of its existence (Fall, 1964 – Spring, 1996) it was published twice a week, on Tuesday and Friday. By the fall of 1996 the ASP was published only on Friday, and after the spring of 2003 the publication date shifted to Monday. The ASP is the successor to the briefly titled weekly student newspaper, the State University News, February 8, 1963 -- January 10, 1964, (Vol. XLIX, no. 2 – XLIX, no. 27). ",
+            " The State University News and the Albany Student Press are the direct successors of the weekly State College News,, October 4, 1916 -- January 11, 1963 (Vol. 1, no. 1 – sic XXXIX, correctly [LXIX], no. 1). The State College News, was the first true (during the school year) student newspaper published at the then New York State College for Teachers. News of student life and events, faculty life and projects, and alumni news prior to 1916 was carried in the monthly The Normal College Echo, subsequently The Echo, from June 1892 – May-June, 1916 (Vol. 1, no. 1 — Vol. XXV, no. 9). The Normal College Echo and its successor, The Echo, were a combination literary magazine, student and alumni newspaper. After the creation of the State College News, in fall of 1916, The Echo remained the school’s student literary magazine, and continued to carry faculty and alumni news until the creation of the Alumni Quarterly in 1919. The Echo also continued to carry some student news, particularly items of interest to alumni/ae, until 1919 when it became a strictly literary magazine."
+        ],
+        "bioghist_heading_ssm": [
+            "Biographical History"
+        ],
+        "processinfo_ssm": [
+            "Processed in 2015 by Melissa McMullen, Cedric Walton."
+        ],
+        "processinfo_heading_ssm": [
+            "Processing Information"
+        ],
+        "scopecontent_ssm": [
+            "Contains a run of the student newspapers published at the State Normal School, the State College for Teachers, SUNY Albany, and the University at Albany, SUNY."
+        ],
+        "scopecontent_heading_ssm": [
+            "Scope and Contents"
+        ],
+        "userestrict_ssm": [
+            "The researcher assumes full responsibility for conforming with the laws of copyright. Whenever possible, the M.E. Grenander Department of Special Collections and Archives will provide information about copyright owners and other restrictions, but the legal determination ultimately rests with the researcher. Requests for permission to publish material from this collection should be discussed with the Head of Special Collections and Archives."
+        ],
+        "userestrict_heading_ssm": [
+            "Copyright"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "creator_ssm": [
+            "Albany Student Press Corporation"
+        ],
+        "creator_ssim": [
+            "Albany Student Press Corporation"
+        ],
+        "creator_corpname_ssm": [
+            "Albany Student Press Corporation"
+        ],
+        "creator_corpname_ssim": [
+            "Albany Student Press Corporation"
+        ],
+        "unitid_ssm": [
+            "ua809"
+        ],
+        "prefercite_ssm": [
+            "Preferred citation for this material is as follows:",
+            " Identification of specific item, series, box, folder, Student Newspaper Collection, 1916-2015. M.E. Grenander Department of Special Collections and Archives, University Libraries, University at Albany, State University of New York (hereafter referred to as the Student Newspaper Collection)."
+        ],
+        "physloc_ssm": [
+            "Issues of the Albany Student Press after 1985 are available in the University Libraries microfilm newspaper collection (1985-1992, 1993-1995) or in hard copy in the Special Collections and Archives Reading Room."
+        ],
+        "id": "ua809",
+        "ead_ssi": "ua809",
+        "level_ssm": [
+            "collection"
+        ],
+        "names_ssim": [
+            "Albany Student Press Corporation",
+            "New York State Normal College",
+            "New York State College for Teachers",
+            "State University of New York at Albany",
+            "State College News,",
+            "Albany Student Press"
+        ],
+        "access_subjects_ssim": [
+            "Newspapers",
+            "Digital Files",
+            "UAlbany Student Groups",
+            "College student newspapers and periodicals",
+            "Wages -- New York (State)",
+            "College student newspapers and periodicals--New York (State)--Albany"
+        ],
+        "creators_ssim": [
+            "Albany Student Press Corporation"
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "names_coll_ssim": [
+            "New York State Normal College",
+            "New York State College for Teachers",
+            "State University of New York at Albany",
+            "State College News,",
+            "Albany Student Press"
+        ],
+        "normalized_title_ssm": [
+            "Student Newspapers Collection, 1916-2018"
+        ],
+        "normalized_date_ssm": [
+            "1916-2018"
+        ],
+        "timestamp": "2019-07-03T08:15:35.001Z"
+    }
+}

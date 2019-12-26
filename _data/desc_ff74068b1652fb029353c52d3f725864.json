@@ -1,0 +1,80 @@
+{
+    "document": {
+        "id": "ua659aspace_ff74068b1652fb029353c52d3f725864",
+        "ead_ssi": "ua659",
+        "parent_ssm": [
+            "ua659"
+        ],
+        "parent_unittitles_ssm": [
+            "The Milne School Records, 1890-2004"
+        ],
+        "component_level_isim": [
+            1
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "The Milne School Records, 1890-2004"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "child_component_count_isim": [
+            260
+        ],
+        "parent_ssi": "ua659",
+        "collection_creator_ssm": [
+            "Milne School (Albany, N.Y.)"
+        ],
+        "parent_access_restrict_ssm": [
+            "Access to this record group is unrestricted, with the exception of series 6 which is restricted due to the presence of student grades."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites.",
+            " Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            " The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks.",
+            " The University Archives are eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "ref_ssm": [
+            "aspace_ff74068b1652fb029353c52d3f725864"
+        ],
+        "level_ssm": [
+            "series"
+        ],
+        "title_ssm": [
+            "Crimson and White Senior News"
+        ],
+        "unitdate_ssm": [
+            "1931 October 16-1941 May 24"
+        ],
+        "physdesc_ssm": [
+            "\n      0.4 cubic ft.\n      198 Digital Files\n    "
+        ],
+        "arrangement_ssm": [
+            "Materials are arranged in chronological order."
+        ],
+        "scopecontent_ssm": [
+            "Series is made up of copies of the Crimson and White senior Newspaper dating fro 1931-1941."
+        ],
+        "unitid_ssm": [
+            "13"
+        ],
+        "extent_ssm": [
+            "0.4 cubic ft.",
+            "198 Digital Files"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1931 October 16-1941 May 24"
+        ],
+        "ref_ssi": "aspace_ff74068b1652fb029353c52d3f725864",
+        "normalized_title_ssm": [
+            "Crimson and White Senior News, 1931 October 16-1941 May 24"
+        ],
+        "normalized_date_ssm": [
+            "1931 October 16-1941 May 24"
+        ],
+        "timestamp": "2019-10-08T08:17:59.648Z"
+    }
+}

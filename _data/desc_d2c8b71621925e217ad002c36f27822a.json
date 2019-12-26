@@ -1,0 +1,79 @@
+{
+    "document": {
+        "id": "ua200aspace_d2c8b71621925e217ad002c36f27822a",
+        "ead_ssi": "ua200",
+        "parent_ssm": [
+            "ua200"
+        ],
+        "parent_unittitles_ssm": [
+            "University Senate Records, 1915 - 2017 May 17"
+        ],
+        "component_level_isim": [
+            1
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "University Senate Records, 1915 - 2017 May 17"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "child_component_count_isim": [
+            55
+        ],
+        "parent_ssi": "ua200",
+        "collection_creator_ssm": [
+            "State University of New York at Albany. University Senate"
+        ],
+        "parent_access_restrict_ssm": [
+            "Access to this record group is unrestricted."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "Records in this collection were created by the University at Albany, SUNY, and are public records."
+        ],
+        "ref_ssm": [
+            "aspace_d2c8b71621925e217ad002c36f27822a"
+        ],
+        "level_ssm": [
+            "series"
+        ],
+        "title_ssm": [
+            "Legislation"
+        ],
+        "unitdate_ssm": [
+            "1966-2018"
+        ],
+        "physdesc_ssm": [
+            "\n      3.5 cubic ft.\n    ",
+            "\n      505 Digital Files\n    "
+        ],
+        "arrangement_ssm": [
+            "Arranged chronologically by academic year. When specific dates are listed in the title the latest action date is used (Legislation logs starting at 8485).",
+            "Collection of digital records begins with the 2002-2003 academic year, and collection of paper records ends after 2007-2008. For post-2008 digital records, a specific date listed is the last modified date of the file prior to transfer.\n"
+        ],
+        "scopecontent_ssm": [
+            "Contains record copies of legislation approved by the Faculty Senate (1966-69) and the University Senate (1969-present). Each year's legislation is preceded by a summary list of the legislation for that year. The listing indicates whether the legislation was approved, sent back to committee, or rejected."
+        ],
+        "unitid_ssm": [
+            "3"
+        ],
+        "extent_ssm": [
+            "3.5 cubic ft.",
+            "505 Digital Files"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1966-2018"
+        ],
+        "ref_ssi": "aspace_d2c8b71621925e217ad002c36f27822a",
+        "normalized_title_ssm": [
+            "Legislation, 1966-2018"
+        ],
+        "normalized_date_ssm": [
+            "1966-2018"
+        ],
+        "timestamp": "2019-09-11T08:15:26.536Z"
+    }
+}
