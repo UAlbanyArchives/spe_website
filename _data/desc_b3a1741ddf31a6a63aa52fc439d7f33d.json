@@ -1,0 +1,76 @@
+{
+    "document": {
+        "id": "ua950-008aspace_b3a1741ddf31a6a63aa52fc439d7f33d",
+        "ead_ssi": "ua950.008",
+        "parent_ssm": [
+            "ua950-008"
+        ],
+        "parent_unittitles_ssm": [
+            "University Historical Reference Collection, 1871-1995"
+        ],
+        "component_level_isim": [
+            1
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "University Historical Reference Collection, 1871-1995"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "child_component_count_isim": [
+            10
+        ],
+        "parent_ssi": "ua950-008",
+        "collection_creator_ssm": [
+            "State University of New York at Albany"
+        ],
+        "parent_access_restrict_ssm": [
+            "Access to this record group is unrestricted."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites.",
+            " Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            " The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks.",
+            " The University Archives are eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "ref_ssm": [
+            "aspace_b3a1741ddf31a6a63aa52fc439d7f33d"
+        ],
+        "level_ssm": [
+            "file"
+        ],
+        "title_ssm": [
+            "Tradition of Excellence: The Sesquicentennial History of the University at Albany, State University of New York, 1844 to 1994"
+        ],
+        "unitdate_ssm": [
+            "1994"
+        ],
+        "material_ssm": [
+            "Mixed Materials"
+        ],
+        "scopecontent_ssm": [
+            "Contains all chapters of the published book as well as most of the photographs that it featured."
+        ],
+        "unitdate_inclusive_ssm": [
+            "1994"
+        ],
+        "bioghist_ssm": [
+            "The university commissioned a history to celebrate its 150th anniversary in 1994. A Tradition of Excellence was researched and written by history professor Kendall Birr and edited by Vincent Reda."
+        ],
+        "ref_ssi": "aspace_b3a1741ddf31a6a63aa52fc439d7f33d",
+        "containers_ssim": [
+            "Volume 27"
+        ],
+        "normalized_title_ssm": [
+            "Tradition of Excellence: The Sesquicentennial History of the University at Albany, State University of New York, 1844 to 1994, 1994"
+        ],
+        "normalized_date_ssm": [
+            "1994"
+        ],
+        "timestamp": "2019-12-27T14:49:46.050Z"
+    }
+}

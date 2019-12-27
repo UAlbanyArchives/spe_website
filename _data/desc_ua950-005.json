@@ -1,0 +1,148 @@
+{
+    "document": {
+        "title_ssm": [
+            "Campus Construction Collection"
+        ],
+        "extent_ssm": [
+            "1.37 cubic ft."
+        ],
+        "unitdate_ssm": [
+            "1951-1987"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1951-1987"
+        ],
+        "language_ssm": [
+            "\n      English\n    ",
+            "English"
+        ],
+        "abstract_ssm": [
+            "This collection contains planning documents used in the development and construction of the University at Albany, SUNY's Uptown campus."
+        ],
+        "corpname_ssm": [
+            "M.E. Grenander Department of Special Collections & Archives",
+            "State University of New York at Albany",
+            "State University of New York at Albany",
+            "New York State University Construction Fund"
+        ],
+        "genreform_ssm": [
+            "Correspondence",
+            "Clippings"
+        ],
+        "subject_ssm": [
+            "Architecture",
+            "Campus planning -- New York (State)",
+            "College facilities -- New York (State) -- Planning",
+            "UAlbany Reference Collections"
+        ],
+        "collection_ssm": [
+            "Campus Construction Collection, 1951-1987"
+        ],
+        "accessrestrict_ssm": [
+            "Access to this record group is unrestricted."
+        ],
+        "accessrestrict_heading_ssm": [
+            "Access"
+        ],
+        "acqinfo_ssm": [
+            "All items in this manuscript group were transferred to the University Libraries, M.E. Grenander Department of Special Collections and Archives."
+        ],
+        "acqinfo_heading_ssm": [
+            "Acquisition Information"
+        ],
+        "arrangement_ssm": [
+            "The collection has two series: Planning Documents and Subject Files. Both are arranged alphabetically."
+        ],
+        "arrangement_heading_ssm": [
+            "Arrangement of the Collection"
+        ],
+        "bioghist_ssm": [
+            "The University's main campus, the Uptown Campus, has been described as a distinctive work of modern art. Designed in 1961-1962 by renowned American architect Edward Durell Stone (1902-1978), the campus bears Stone's signature style of bold unified design, evident in buildings from the U.S. Embassy in New Delhi to the Kennedy Center for the Performing Arts in Washington, D.C. Construction on the initial set of buildings began in 1962 and finished in 1971. The next building to be built on campus, Freedom Quad, opened in 1988.",
+            " The Uptown Campus is defined by a central Academic Podium complex, main fountain complex with carillon tower, and four quadrangle residence halls that dominate much of the campus."
+        ],
+        "bioghist_heading_ssm": [
+            "Administrative History"
+        ],
+        "processinfo_ssm": [
+            "Processed in 2015 by M. E. Grenander Department of Special Collections and Archives, University at Albany, SUNY."
+        ],
+        "processinfo_heading_ssm": [
+            "Processing Information"
+        ],
+        "scopecontent_ssm": [
+            "This collection contains planning documents used in the development and construction of the University at Albany, SUNY's Uptown campus. Of particular interest are the regular progress memos providing indepth information about challenges and development with construction.",
+            " The majority of plans included in this collection (such as the 1974 plans, 30,000-40,000 student scenario) were never realized and the buildings were not constructed in the 1970s as anticipated in the previous decade."
+        ],
+        "scopecontent_heading_ssm": [
+            "Scope and Contents"
+        ],
+        "userestrict_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites. ",
+            " Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            " The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks. ",
+            " The Department of Special Collections and Archives is eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "userestrict_heading_ssm": [
+            "Copyright"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "creator_ssm": [
+            "State University of New York at Albany"
+        ],
+        "creator_ssim": [
+            "State University of New York at Albany"
+        ],
+        "creator_corpname_ssm": [
+            "State University of New York at Albany"
+        ],
+        "creator_corpname_ssim": [
+            "State University of New York at Albany"
+        ],
+        "unitid_ssm": [
+            "ua950.005"
+        ],
+        "prefercite_ssm": [
+            "Preferred citation for this material is as follows:",
+            " Identification of specific item, series, box, folder, Campus Construction Collection, 1951-1987. M.E. Grenander Department of Special Collections and Archives, University Libraries, University at Albany, State University of New York (hereafter referred to as the Campus Construction Collection)."
+        ],
+        "physloc_ssm": [
+            "The materials are located onsite in the department."
+        ],
+        "id": "ua950-005",
+        "ead_ssi": "ua950.005",
+        "level_ssm": [
+            "collection"
+        ],
+        "names_ssim": [
+            "State University of New York at Albany",
+            "New York State University Construction Fund"
+        ],
+        "access_subjects_ssim": [
+            "Architecture",
+            "Campus planning -- New York (State)",
+            "College facilities -- New York (State) -- Planning",
+            "Correspondence",
+            "Clippings",
+            "UAlbany Reference Collections"
+        ],
+        "creators_ssim": [
+            "State University of New York at Albany"
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "names_coll_ssim": [
+            "State University of New York at Albany",
+            "New York State University Construction Fund"
+        ],
+        "normalized_title_ssm": [
+            "Campus Construction Collection, 1951-1987"
+        ],
+        "normalized_date_ssm": [
+            "1951-1987"
+        ],
+        "timestamp": "2019-06-13T08:41:46.098Z"
+    }
+}
