@@ -23,7 +23,7 @@ layout: selections_gallery
 							</div>
 							<div class="galleryLabel">
 								<h4>
-									<p>{{ series.title }}</p>
+									<p>{{ series.title }}, {{ site.data[series_file]["document"]["unitdate_ssm"][0] }}</p>
 								</h4>
 								{% if site.data[series_file]["document"]["scopecontent_ssm"] %}
 									<p class="abstract">{{ site.data[series_file]["document"]["scopecontent_ssm"][0] | truncate: 100 }}</p>

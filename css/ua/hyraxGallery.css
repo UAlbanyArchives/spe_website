@@ -61,3 +61,8 @@
 		max-width: 430px;
 	}
 }
+
+.page-header .label {
+	font-size: 50%;
+	vertical-align: top;
+}
