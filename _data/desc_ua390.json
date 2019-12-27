@@ -1,0 +1,132 @@
+{
+    "document": {
+        "title_ssm": [
+            "University Photograph Collection"
+        ],
+        "extent_ssm": [
+            "4,347 items",
+            "31.66 cubic ft."
+        ],
+        "unitdate_ssm": [
+            "1847-2005"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1847-2005"
+        ],
+        "language_ssm": [
+            "\n      English\n    ",
+            "English"
+        ],
+        "abstract_ssm": [
+            "This artificial collection documents the history of the University at Albany, SUNY and its predecessors through photographs and moving images. Images often depict the school's campus, university events, students, or faculty and staff."
+        ],
+        "corpname_ssm": [
+            "M.E. Grenander Department of Special Collections & Archives",
+            "State University of New York at Albany."
+        ],
+        "genreform_ssm": [
+            "Photographs"
+        ],
+        "geogname_ssm": [
+            "Higher Education--New York (State)"
+        ],
+        "subject_ssm": [
+            "UAlbany Reference Collections"
+        ],
+        "collection_ssm": [
+            "University Photograph Collection, 1847-2005"
+        ],
+        "accessrestrict_ssm": [
+            "This collection is unrestricted."
+        ],
+        "accessrestrict_heading_ssm": [
+            "Access"
+        ],
+        "acqinfo_ssm": [
+            "These records were transferred to the M.E. Grenander Department of Special Collections & Archives, University Libraries, University at Albany."
+        ],
+        "acqinfo_heading_ssm": [
+            "Immediate Source of Acquisition"
+        ],
+        "arrangement_ssm": [
+            "Items within this collection have been organized into three series.  Items within the first series, which has been digitized, have been ordered alphabetically by subject.  The second series is made up of additional photographs in the collection that have not been digitized. The third series is made up of audiovisual materials produced to document events held on campus."
+        ],
+        "arrangement_heading_ssm": [
+            "Arrangement"
+        ],
+        "processinfo_ssm": [
+            "Items within the digitized photographs series were transferred to an outside vendor for digitization."
+        ],
+        "processinfo_heading_ssm": [
+            "Processing Information"
+        ],
+        "scopecontent_ssm": [
+            "This collection is made up of photographic prints, slides, contact sheets, and other pre-digital photographic materials as well as digitized photographs. The materials in this collection were artifically assembled by the University Archives to provide a visual documentation of the University's history."
+        ],
+        "scopecontent_heading_ssm": [
+            "Scope and Contents"
+        ],
+        "userestrict_ssm": [
+            "The researcher assumes full responsibility for conforming with the laws of copyright. Whenever possible, the M.E. Grenander Department of Special Collections and Archives will provide information about copyright owners and other restrictions, but the legal determination ultimately rests with the researcher. Requests for permission to publish material from this collection should be discussed with the Head of Special Collections and Archives."
+        ],
+        "userestrict_heading_ssm": [
+            "Copyright"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "creator_ssm": [
+            "State University of New York at Albany."
+        ],
+        "creator_ssim": [
+            "State University of New York at Albany."
+        ],
+        "creator_corpname_ssm": [
+            "State University of New York at Albany."
+        ],
+        "creator_corpname_ssim": [
+            "State University of New York at Albany."
+        ],
+        "places_ssm": [
+            "Higher Education--New York (State)"
+        ],
+        "places_ssim": [
+            "Higher Education--New York (State)"
+        ],
+        "unitid_ssm": [
+            "ua390"
+        ],
+        "prefercite_ssm": [
+            "Preferred citation for this material is as follows:",
+            "Identification of specific item, series, box, folder, University Photograph Collection, 1847-2005. M.E. Grenander Department of Special Collections and Archives, University Libraries, University at Albany, State University of New York."
+        ],
+        "physloc_ssm": [
+            "The materials are located onsite in the department."
+        ],
+        "id": "ua390",
+        "ead_ssi": "ua390",
+        "level_ssm": [
+            "collection"
+        ],
+        "names_ssim": [
+            "State University of New York at Albany."
+        ],
+        "access_subjects_ssim": [
+            "Photographs",
+            "UAlbany Reference Collections"
+        ],
+        "creators_ssim": [
+            "State University of New York at Albany."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "normalized_title_ssm": [
+            "University Photograph Collection, 1847-2005"
+        ],
+        "normalized_date_ssm": [
+            "1847-2005"
+        ],
+        "timestamp": "2019-12-05T09:15:11.528Z"
+    }
+}

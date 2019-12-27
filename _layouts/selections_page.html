@@ -15,7 +15,7 @@ layout: selections_gallery
 
 					{% assign series_file = "desc_" | append: series.ref_id | replace: ".", "-" %}
 
-					<a id="" class="itemLink" href="{{ site.url }}/{{ series.url }}">
+					<a id="" class="itemLink" href="{{ site.url }}{{ series.url }}">
 						<div class="galleryItem img-thumbnail">
 							<div class="galleryThumb">
 								<img id="{{ series.url }}" class="galleryImage" src="{{ series.img }}" alt="{{ series.title }}" />
