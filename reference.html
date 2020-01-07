@@ -1,0 +1,22 @@
+---
+title: Contact Us
+layout: one_column
+permalink: /reference/
+---
+
+
+<iframe src="http://lib-web-d101.lib.albany.edu/forms/schedule_visit_modal.php"></iframe>
+
+
+<script>
+	$(function(){
+		var width = $(window).width();
+		console.log(width);
+		var diff = 992 - width;
+		var height = diff / 1.78;
+		if (width < 992) {
+			console.log(1545 + height);
+			$("iframe").css("height", 1545 + height);
+		}
+	});
+</script>
