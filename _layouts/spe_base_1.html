@@ -15,19 +15,7 @@
 		<link rel="stylesheet" href="{{ site.url }}/css/simple-sidebar.css" type="text/css"></link>
 		<link rel="stylesheet" href="{{ site.url }}/css/ua/twoColumnSideMobile.css" type="text/css"></link>
 		<script type="text/javascript" src="https://archives.albany.edu/browse/js/searchHandler.js"></script>
-		<script type="text/javascript" src="{{ site.url }}/js/bgRandom.js"></script>
-		<script>
-			$(document).ready(function(){
-				$('#requestBrowse').on('shown.bs.modal', function (e) {
-					var id = $(e.relatedTarget).attr('id');
-					var scheduleHref = $("#scheduleVisit").attr("href");
-					var requestHref = $("#remoteRequest").attr("href");
-					var pageTitle = document.getElementsByTagName("title")[0].innerHTML;
-					$("#scheduleVisit").attr("href", scheduleHref + '?col=Browse page for ' + pageTitle + '&amp;id=' + id);
-					$("#remoteRequest").attr("href", requestHref + '?col=Browse page for ' + pageTitle + '&amp;id=' + id);
-				 });
-			});
-		</script>	
+		<script type="text/javascript" src="{{ site.url }}/js/bgRandom.js"></script>	
 	</head>
 	<body data-spy="scroll" data-target="#browseNav">
 		
@@ -191,7 +179,7 @@
 								</ul>
 							</li>
 							<li>
-								<a href="{{ site.url }}/reference">Contact</a>
+								<a href="https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives">Contact</a>
 							</li>
 							    <div id="stickysearchBox">
 							<a role="button" id="toggleSearch" class="btn"><i class="fa fa-search"></i></a>
@@ -260,29 +248,8 @@
 			</div>
 		</div>
 		
-		<div class="modal fade" tabindex="-1" role="dialog" id="requestBrowse">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-				<h4 class="modal-title">Request the materials you selected:</h4>
-			  </div>
-			  <div class="modal-body">
-				<p>Archival materials can be view in-person in our reading room, located on the top floor of the Science Library on the Uptown Campus. Making an appointment is not neccessary, but it may help us ensure the items are available when you arrive.</p>
-				<p>We can also deliver digital scans for remote research for a fee.</p>
-				<div class="alert alert-warning">
-				  <strong>Unprocessed Collection</strong> The collection is unprocessed and is likely disorganized. Individual items may be difficult to find. Often we are unable to fulfill remote requests for unprocessed material.
-				</div>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				<a type="button" class="btn btn-primary" id="scheduleVisit" href="{{ site.url }}/scheduleVisit">Schedule a Visit</a>
-				<a type="button" class="btn btn-primary" id="remoteRequest" href="{{ site.url }}/remoteRequest">Make Remote Request</a>
-			  </div>
-			</div>
-		  </div>
 		</div>
-		</div>
-		
+		<!-- loads Contact modal -->
+		<script src="https://apps.library.albany.edu/host/archives/contact-archives.js"></script>
 	</body>
 </html>
