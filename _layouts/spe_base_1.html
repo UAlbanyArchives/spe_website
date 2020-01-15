@@ -28,9 +28,9 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"/>
-							<span class="icon-bar"/>
-							<span class="icon-bar"/>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 						</button>
 						<!--<a class="navbar-brand" href="{{ site.url }}/"><img src="{{ site.url }}/icons/ua/mainLogo.png" height="75px" /></a>-->
 						<div class="navbar-brand">
@@ -221,32 +221,63 @@
 
         </div>
 
-		<div id="mainContent">
-			{{ content }}
-		</div>
-		
-		<div class="container">
-			<div class="row">
-				<div class="footer col-md-12 text-center text-muted">
-					<div class="spc-footer">
-				<div class="footLeft">
-					<p>Open to the public Monday-Friday, 9am-5pm</p>
-					<p>Closed for some state holidays and winter intersession</p>
-					<p>Located on the top floor of the Science Library on the Uptown Campus</p>
-					<p><a href="{{ site.url }}/directions">Hours and Directions</a></p>
+        {% if page.title == "M.E. Grenander Department of Special Collections & Archives" %}
+
+			<div id="mainContent">
+				{{ content }}		
+				<div class="container">
+					<div class="row">
+						<div class="footer col-md-12 text-center text-muted">
+							<div class="spc-footer">
+						<div class="footLeft">
+							<p>Open to the public Monday-Friday, 9am-5pm</p>
+							<p>Closed for some state holidays and winter intersession</p>
+							<p>Located on the top floor of the Science Library on the Uptown Campus</p>
+							<p><a href="{{ site.url }}/directions">Hours and Directions</a></p>
+						</div>
+						<div class="footRight">
+							<p>M. E. Grenander Department of Special Collections &amp; Archives</p>
+							<p>Science Library 350</p>
+							<p>1400 Washington Avenue</p>
+							<p>Albany, NY 12222</p>
+							<p>(518) 437-3935</p>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+						</div>
+					</div>
 				</div>
-				<div class="footRight">
-					<p>M. E. Grenander Department of Special Collections &amp; Archives</p>
-					<p>Science Library 350</p>
-					<p>1400 Washington Avenue</p>
-					<p>Albany, NY 12222</p>
-					<p>(518) 437-3935</p>
-				</div>
-				<div style="clear: both;"></div>
 			</div>
+
+		{% else %}
+
+			<div id="mainContent">
+				{{ content }}
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="footer col-md-12 text-center text-muted">
+						<div class="spc-footer">
+					<div class="footLeft">
+						<p>Open to the public Monday-Friday, 9am-5pm</p>
+						<p>Closed for some state holidays and winter intersession</p>
+						<p>Located on the top floor of the Science Library on the Uptown Campus</p>
+						<p><a href="{{ site.url }}/directions">Hours and Directions</a></p>
+					</div>
+					<div class="footRight">
+						<p>M. E. Grenander Department of Special Collections &amp; Archives</p>
+						<p>Science Library 350</p>
+						<p>1400 Washington Avenue</p>
+						<p>Albany, NY 12222</p>
+						<p>(518) 437-3935</p>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+					</div>
 				</div>
 			</div>
-		</div>
+
+		{% endif %}
 		
 		</div>
 		<!-- loads Contact modal -->

@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 
 
+.spc-footer {
+	clear: both;
+}
+
 #page-content-wrapper {
 	padding: 0px;
 }
