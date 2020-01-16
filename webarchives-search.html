@@ -1,0 +1,134 @@
+---
+title: Search | UAlbany Web Archiving Program
+layout: spe_base_1
+permalink: /webarchives/search/
+---
+
+<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/webArchivesSearch.js"></script>
+<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/headerAffix.js"></script>
+<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/leftNav.js"></script>
+<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/webArchSearch.css" type="text/css"></link>
+<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/oneColumn.css" type="text/css"></link>
+<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/font-awesome.min.css" type="text/css"></link>
+<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/awesome-bootstrap-checkbox.css" type="text/css"></link>
+
+<div class="row">
+<div class="container">
+<div id="contentColumn" class="col-md-12">
+<div class="col-md-10 col-md-offset-1">
+<div class="jumbotron">
+				<h2>UAlbany Web Archiving Program</h2>
+                                <h4>preserving albany.edu and more since 2012</h4>
+			</div>
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-12">
+<hr/>
+</div>
+
+                            
+
+<div class="row">
+
+
+
+<div class="col-md-4" id="search-options">
+
+<div class="page-header">Narrow by Collection</div>
+
+<form role="form">
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox1" value="3308" checked>
+        <label for="checkbox1">Website of the University at Albany, SUNY (<a href="https://archives.albany.edu/description/catalog/ua940">more</a>)</label>
+    </div>
+   <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox2" value="5967" checked>
+        <label for="checkbox2">UAlbany News &amp; Events</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox3" value="6372" checked>
+        <label for="checkbox3">Albany Student Press (<a href="https://archives.albany.edu/description/catalog/ua809aspace_e4a66f9cad6f5c3dce8c51a91eed676d">more</a>)</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox4" value="6916" checked>
+        <label for="checkbox4">Business Council of New York State (<a href="https://archives.albany.edu/description/catalog/apap043aspace_c5982b776cca73d2d2c086bb587b4f17">more</a>)</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox5" value="6915" checked>
+        <label for="checkbox5">CSEA</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox6" value="7802" checked>
+        <label for="checkbox6">Environmental Advocates of New York (<a href="https://archives.albany.edu/description/catalog/apap104aspace_fd970763eb173cb0e231f3f565f1ca46">more</a>)</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox7" value="7081" checked>
+        <label for="checkbox7">New York Civil Liberties Union (<a href="https://archives.albany.edu/description/catalog/apap331aspace_11decb1396d802acfd57fcd871991bf6">more</a>)</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox8" value="7801" checked>
+        <label for="checkbox8">Parks & Trails New York (<a href="https://archives.albany.edu/description/catalog/apap362aspace_feb98853a3f9b30d1c7d65537417a1c8">more</a>)</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox9" value="7802" checked>
+        <label for="checkbox9">Pride Center of the Capital Region (<a href="https://archives.albany.edu/description/catalog/apap361aspace_580384ecf25c510ba1ec8a9650daeb31">more</a>)</label>
+    </div>
+   <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox10" value="6917" checked>
+        <label for="checkbox10">Senator Kristen Gillibrand</label>
+    </div>
+   <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox11" value="6918" checked>
+        <label for="checkbox11">Senator Chuck Schumer</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox12" value="6913" checked>
+        <label for="checkbox12">United University Professions (UUP)</label>
+    </div>
+    <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox13" value="6914" checked>
+        <label for="checkbox13">WAMC</label>
+    </div>
+   <div class="checkbox checkbox-primary">
+        <input type="checkbox" class="styled" id="checkbox14" value="8702" checked>
+        <label for="checkbox14">98 Acres in Albany</label>
+    </div>
+</form>
+<div class="col-xs-12" id="searchHelp">
+<a id="searchAll" href="#">Search All</a> | <a id="searchNone" href="#">Search None</a>
+</div>
+</div>
+
+<div class="col-md-8" id="webArchivesBox">
+
+<form class="form-inline" id="webArchivesSearch">
+<div class="form-group col-xs-12">
+<input class="form-control input-lg" id="searchInput" placeholder="Search Web Archives" type="text">
+<button class="btn btn-primary input-lg" disabled="" onclick="ga('send', 'event', 'search', 'click', 'button');" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+</input></div>
+</form>
+
+
+<div class="col-xs-12">
+  <div class="text-center">
+    <div class="btn-group">
+      <a href="{{ site.url }}/webarchives" class="btn btn-primary">About Web Archives</a>
+      <a href="{{ site.url }}/ua" class="btn btn-primary">About University Archives</a>
+    </div>  
+</div>
+</div>
+
+<div class="row" id="searchRow">
+<div class="text-center col-xs-12" id="search-error"></div>
+</div>
+
+<div class="row" id="resultsRow">
+<div id="loadingArea" class="col-xs-12"></div>
+<div id="results" class="col-xs-12"></div>
+</div>
+
+
+</div>
+
+</div>
+

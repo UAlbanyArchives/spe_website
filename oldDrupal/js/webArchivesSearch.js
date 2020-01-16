@@ -58,7 +58,7 @@ function getResults(query, page) {
 		});
 			
 	  $("#results").empty();
-	  $("#loadingArea").append('<img src="/sites/all/themes/New_UArchives/img/loading.gif" />');
+	  $("#loadingArea").append('<img src="/img/loading.gif" />');
 	  $("#results").fadeIn(100);
 	  
 	  objects = $.ajax({
