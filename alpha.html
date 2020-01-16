@@ -1,0 +1,55 @@
+---
+title: A-Z Complete List of Collections
+layout: spe_base_1
+permalink: /alpha/
+---
+
+{% assign sortedCollections = site.data.collections | sort: 'filing_title' %}
+{% assign menu = site.emptyArray %}
+{% assign letters = site.emptyArray %}
+
+<script type="text/javascript" src="{{ site.url }}/js/headerAffix.js"></script>
+
+<div class="container">
+	<div class="row no-gutter" id="wrapper" title="alphaList">
+		<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="glyphicon glyphicon-menu-hamburger"></i></a>
+		<div class="col-md-2" id="browseNav">
+			<div class="panel panel-default">
+				<div class="nav list-group">
+					<li class="list-group-item"><a id="link-about" href="#">Top</a></li>
+
+					{% for collection in sortedCollections %}
+						{% assign letter = collection.filing_title | slice: 0 %}
+						{% unless menu contains letter %}
+							<li class="list-group-item"><a id="link-{{ letter }}" href="#{{ letter }}">{{ letter }}</a></li>
+							{% assign menu = menu | push: letter %}
+						{% endunless %}
+					{% endfor %}
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-9 col-md-offset-3 alphaContent">
+			<a class="anchor" id="about"></a>
+			<div class="jumbotron">
+				<h2>{{ page.title }}</h2>
+				<h4>List of all manuscript and archival collections.</h4>
+			</div>
+			<hr/>
+			<div class="appendContent">
+				
+				{% for collection in sortedCollections %}
+					{% assign letter = collection.filing_title | slice: 0 %}
+					{% unless letters contains letter %}
+						<div id="{{ letter }}" class="anchor"></div>
+						{% assign letters = letters | push: letter %}
+					{% endunless %}
+					<a href="https://archives.albany.edu/description/catalog/{{ collection.id }}" class="alphaLink">
+						{{ collection.filing_title }}, {{ collection.date }}
+					</a><br/>
+				{% endfor %}
+
+			</div>
+		</div>	
+	</div>
+</div>

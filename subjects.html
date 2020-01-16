@@ -1,0 +1,53 @@
+---
+title: Subjects
+layout: spe_base_1
+permalink: /subjects/
+---
+
+{% assign sortedSubjects = site.data.subjects | sort %}
+{% assign menu = site.emptyArray %}
+{% assign letters = site.emptyArray %}
+
+<script type="text/javascript" src="{{ site.url }}/js/headerAffix.js"></script>
+
+<div class="container">
+	<div class="row no-gutter" id="wrapper" title="alphaList">
+		<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="glyphicon glyphicon-menu-hamburger"></i></a>
+		<div class="col-md-2" id="browseNav">
+			<div class="panel panel-default">
+				<div class="nav list-group">
+					<li class="list-group-item"><a id="link-about" href="#">Top</a></li>
+
+					{% for subject in sortedSubjects %}
+						{% assign letter = subject | slice: 0 %}
+						{% unless menu contains letter %}
+							<li class="list-group-item"><a id="link-{{ letter }}" href="#{{ letter }}">{{ letter }}</a></li>
+							{% assign menu = menu | push: letter %}
+						{% endunless %}
+					{% endfor %}
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-9 col-md-offset-3 alphaContent">
+			<a class="anchor" id="about"></a>
+			<div class="jumbotron">
+				<h2>{{ page.title }}</h2>
+				<h4>Collections listed by subject.</h4>
+			</div>
+			<hr/>
+			<div class="appendContent">
+				
+				{% for subject in sortedSubjects %}
+					{% assign letter = subject | slice: 0 %}
+					{% unless letters contains letter %}
+						<div id="{{ letter }}" class="anchor"></div>
+						{% assign letters = letters | push: letter %}
+					{% endunless %}
+					<p><a href="{{ site.url }}/subjects/{{ subject | uri_escape }}">{{ subject }}</a></p>
+				{% endfor %}
+
+			</div>
+		</div>	
+	</div>
+</div>
