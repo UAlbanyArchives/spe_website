@@ -1,10 +1,5 @@
 ---
-title: National Death Penalty Archive
 layout: spe_base_1
-permalink: /ndpa/
-subtitle: Researchers, writers, activists, and records on capital punishment in the United States
-filter: Death Penalty
-about_text: "The National Death Penalty Archive (NDPA) is a partnership between the University at Albany Libraries and the Capital Punishment Research Initiative (CPRI) at the University's School of Criminal Justice. In 1999, researchers at the School of Criminal Justice formally established the CPRI. Its overarching goals were research and education -- initiate capital punishment research activities, facilitate collaboration among researchers, and make findings and information available to legal and criminal justice policymakers, practitioners, and the public. One of the original goals of the CPRI was to establish and maintain a collection of archival materials documenting the important history of capital punishment, and to provide resources for historical scholarship. This growing collection of archival materials is housed in the M.E. Grenander Department of Special Collections and Archives, which is located in the University's state of the art Science Library. Open since 1999, the new archival repository includes climate-controlled storage for more than 25,000 cubic feet. The following collections have been acquired for the NDPA through the collaborative efforts of the CPRI and the University Libraries; work is continuing to build this important link to the history of capital punishment in the United States."
 ---
 
 {% assign sortedCollections = site.data.collections | sort: 'filing_title' %}
@@ -22,7 +17,7 @@ about_text: "The National Death Penalty Archive (NDPA) is a partnership between 
 					<li class="list-group-item"><a id="link-about" href="#">Top</a></li>
 
 					{% for collection in sortedCollections %}
-						{% if collection.subjects contains page.filter %}
+						{% if collection.id contains page.filter %}
 							{% assign letter = collection.filing_title | slice: 0 %}
 							{% unless menu contains letter %}
 								<li class="list-group-item"><a id="link-{{ letter }}" href="#{{ letter }}">{{ letter }}</a></li>
@@ -41,11 +36,12 @@ about_text: "The National Death Penalty Archive (NDPA) is a partnership between 
 				<h4>{{ page.subtitle }}</h4>
 			</div>
 			<p class="pAbout">{{ page.about_text}}</p>
+			{{ content }}
 			<hr/>
 			<div class="appendContent">
 				
 				{% for collection in sortedCollections %}
-					{% if collection.subjects contains page.filter %}
+					{% if collection.id contains page.filter %}
 						{% assign letter = collection.filing_title | slice: 0 %}
 						{% unless letters contains letter %}
 							<div id="{{ letter }}" class="anchor"></div>
@@ -56,12 +52,22 @@ about_text: "The National Death Penalty Archive (NDPA) is a partnership between 
 
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<a href="https://archives.albany.edu/description/catalog/{{ collection.id }}">
+								{% if collection.dacs %}
+									<a href="https://archives.albany.edu/description/catalog/{{ collection.id }}">
+										<div class="panel-title pull-left">
+											<h3>{{ title[0] }}</h3>
+											<h5> {{ title [1] }}, {{ collection.date }}</h5>
+										</div>
+									</a>
+								{% else %}
 									<div class="panel-title pull-left">
 										<h3>{{ title[0] }}</h3>
 										<h5> {{ title [1] }}, {{ collection.date }}</h5>
 									</div>
-								</a>
+									<button class="btn btn-primary requestModel pull-right" id="{{ collection.id }}: {{ collection.title }}" type="button" data-toggle="modal" data-target="#requestBrowse">
+										<i class="glyphicon glyphicon-folder-close"></i> Request
+									</button>
+								{% endif %}
 								<div style="clear:both;"></div>
 							</div>
 							<div class="panel-body">
@@ -77,4 +83,27 @@ about_text: "The National Death Penalty Archive (NDPA) is a partnership between 
 			</div>
 		</div>	
 	</div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="requestBrowse">
+  <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
+		<h4 class="modal-title">Request the materials you selected:</h4>
+	  </div>
+	  <div class="modal-body">
+		<p>Archival materials can be view in-person in our reading room, located on the top floor of the Science Library on the Uptown Campus. Making an appointment is not neccessary, but it may help us ensure the items are available when you arrive.</p>
+		<p>We can also deliver digital scans for remote research for a fee.</p>
+		<div class="alert alert-warning">
+		  <strong>Unprocessed Collection</strong> The collection is unprocessed and is likely disorganized. Individual items may be difficult to find. Often we are unable to fulfill remote requests for unprocessed material.
+		</div>
+	  </div>
+	  <div class="modal-footer">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		<a type="button" class="btn btn-primary" id="scheduleVisit" href="https://library.albany.edu/archive/scheduleVisit">Schedule a Visit</a>
+		<a type="button" class="btn btn-primary" id="remoteRequest" href="https://library.albany.edu/archive/remoteRequest">Make Remote Request</a>
+	  </div>
+	</div>
+  </div>
 </div>

@@ -213,9 +213,3 @@ body .row .whitebg #contentColumn {
 .form-required {
 	font-size: 15pt;
 } 
-
-
-#mainContent #contentColumn iframe {
-	border: none;
-	width: 100%;
-}

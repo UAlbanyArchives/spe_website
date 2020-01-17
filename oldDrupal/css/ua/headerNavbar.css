@@ -343,7 +343,9 @@ span.glyphicon-triangle-top {
 	font: 9pt "Roboto", Helvetica, Arial, sans-serif;
 }
 
-
+.btn {
+    padding: 9px 12px;
+}
 
 .resultsSort .btn i {
 	font-size: 15.5pt;
