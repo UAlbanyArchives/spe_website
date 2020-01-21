@@ -46,14 +46,14 @@ $(function(){
 		var $size = "1900"
 	}
 	
-	$("#news").css('background-image', "url('oldDrupal/img/" + $size + "/news" + $randomNews + ".jpg')");
-	$("#brown").css('background-image', "url('oldDrupal/img/" + $size + "/brown" + $randomBrown + ".jpg')");
-	$("#kennedy").css('background-image', "url('oldDrupal/img/" + $size + "/kennedy" + $randomKennedy + ".jpg')");
-	$("#mathes").css('background-image', "url('oldDrupal/img/" + $size + "/mathes" + $randomMathes + ".jpg')");
-	$("#mpa").css('background-image', "url('oldDrupal/img/" + $size + "/mpa" + $randomMpa + ".jpg')");
-	$("#ndpa").css('background-image', "url('oldDrupal/img/" + $size + "/ndpa" + $randomNdpa + ".jpg')");
-	$("#ger").css('background-image', "url('oldDrupal/img/" + $size + "/ger" + $randomGer + ".jpg')");
-	$("#ua").css('background-image', "url('oldDrupal/img/" + $size + "/ua" + $randomUa + ".jpg')");
-	$("#unrest").css('background-image', "url('oldDrupal/img/" + $size + "/unrest" + $randomUnrest + ".jpg')");
-	$("#visit").attr('src', "img/visit" + $randomVisit + ".jpg");
+	$("#news").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/news" + $randomNews + ".jpg')");
+	$("#brown").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/brown" + $randomBrown + ".jpg')");
+	$("#kennedy").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/kennedy" + $randomKennedy + ".jpg')");
+	$("#mathes").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/mathes" + $randomMathes + ".jpg')");
+	$("#mpa").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/mpa" + $randomMpa + ".jpg')");
+	$("#ndpa").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/ndpa" + $randomNdpa + ".jpg')");
+	$("#ger").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/ger" + $randomGer + ".jpg')");
+	$("#ua").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/ua" + $randomUa + ".jpg')");
+	$("#unrest").css('background-image', "url('{{ site.url }}oldDrupal/img/" + $size + "/unrest" + $randomUnrest + ".jpg')");
+	$("#visit").attr('src', "{{ site.url }}img/visit" + $randomVisit + ".jpg");
 });
