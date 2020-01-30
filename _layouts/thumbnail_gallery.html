@@ -20,6 +20,8 @@ layout: selections_gallery
 	</div>
 	<p>This lists only items that are available online. To see all materials, visit <a href="{{ uri }}">{{ page.title }} Collection Page</a>.</p>
 
+	{{ content }}
+
 	{% for obj in site.data[data_file] %}
 		{% assign year = obj.date | split: " " %}
 		{% unless yearList contains year[0] %}
