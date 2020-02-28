@@ -26,13 +26,13 @@ $(function(){
 	if ($("body").css("background-image") != 'none')  {
 		if ($('#espyBG').length > 0) {
 			if ($(window).width() <= 1200) {
-				$("body").css('background-image', "url('https://library.albany.edu/sites/all/themes/New_UArchives/img/1100/news1.jpg')");
+				$("body").css('background-image', "url('https://archives.albany.edu/web/oldDrupal/img/1000/ndpa1.jpg')");
 			} else if ($(window).width() <= 1500) {
-				$("body").css('background-image', "url('https://library.albany.edu/sites/all/themes/New_UArchives/img/1200/news1.jpg')");
+				$("body").css('background-image', "url('https://archives.albany.edu/web/oldDrupal/img/1200/ndpa1.jpg')");
 			} else if ($(window).width() <= 1800) {
-				$("body").css('background-image', "url('https://library.albany.edu/sites/all/themes/New_UArchives/img/1600/news1.jpg')");
+				$("body").css('background-image', "url('https://archives.albany.edu/web/oldDrupal/img/1600/ndpa1.jpg')");
 			} else {
-				$("body").css('background-image', "url('https://library.albany.edu/sites/all/themes/New_UArchives/img/1900/news1.jpg')");
+				$("body").css('background-image', "url('https://archives.albany.edu/web/oldDrupal/img/1900/ndpa1.jpg')");
 			}
 		} else {
 			var $randomBG = Math.floor(Math.random() * ((43-1)+1) + 1);
