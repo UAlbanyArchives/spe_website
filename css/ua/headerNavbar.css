@@ -50,7 +50,7 @@ span.glyphicon-triangle-top {
     font-size: 0.6em;
 }
 
-.navbar {
+.navbar-inverse {
 	min-height: 100px;
 	border-radius: 0px;
 	z-index: 1000;

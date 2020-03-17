@@ -438,7 +438,11 @@ span.glyphicon-triangle-top {
 	.results {
 		margin-top: 120px;
 	}
+	/* re-enable when alert is gone
 	#page-content-wrapper {
+		margin-top: 102px;
+	}*/
+	.spe-alert{
 		margin-top: 102px;
 	}
 	.anchor {
@@ -497,7 +501,11 @@ span.glyphicon-triangle-top {
 	body > .container-fluid > .container {
 		margin-top: 50px;
 	}
+	/* re-enable when alert is gone
 	#page-content-wrapper {
+		margin-top: 52px;
+	}*/
+	.spe-alert{
 		margin-top: 52px;
 	}
 	.results {
