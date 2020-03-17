@@ -1,12 +1,15 @@
 $(function(){
-	if ($(this).scrollTop() < 57){
+	/*if ($(this).scrollTop() < 57){*/
+	if ($(this).scrollTop() < 114){
 		 $('.navbar-top').removeClass("fixHalf");
 		 $('#page-content-wrapper').removeClass("content-spacer");
 		 $('.logo').removeClass("logoHide");
 		 $('.ualbany').removeClass("logoHide");
 		 $('.smallLogo').removeClass("logoShow");
-		 $('.side-nav').css({"top":132-$(this).scrollTop()});
-		 $('#browseNav').css({"top":132-$(this).scrollTop()});
+		 /*$('.side-nav').css({"top":132-$(this).scrollTop()});
+		 $('#browseNav').css({"top":132-$(this).scrollTop()});*/
+		 $('.side-nav').css({"top":264-$(this).scrollTop()});
+		 $('#browseNav').css({"top":264-$(this).scrollTop()});
 		 $(".mtypeSpacer").css("margin-top", "0px");
 	  } else {
 		 $('.navbar-top').addClass("fixHalf");
@@ -19,14 +22,17 @@ $(function(){
 		 $(".mtypeSpacer").css("margin-top", "107px");
 	  }
   $(window).scroll(function(){
-	  if ($(this).scrollTop() < 57){
+	  /*if ($(this).scrollTop() < 57){*/
+	  if ($(this).scrollTop() < 114){
 		 $('.navbar-top').removeClass("fixHalf");
 		 $('#page-content-wrapper').removeClass("content-spacer");
 		 $('.logo').removeClass("logoHide");
 		 $('.ualbany').removeClass("logoHide");
 		 $('.smallLogo').removeClass("logoShow");
-		 $('.side-nav').css({"top":132-$(this).scrollTop()});
-		 $('#browseNav').css({"top":132-$(this).scrollTop()});
+		 /*$('.side-nav').css({"top":132-$(this).scrollTop()});
+		 $('#browseNav').css({"top":132-$(this).scrollTop()});*/
+		 $('.side-nav').css({"top":264-$(this).scrollTop()});
+		 $('#browseNav').css({"top":264-$(this).scrollTop()});
 		 $(".mtypeSpacer").css("margin-top", "0px");
 	  } else {
 		 $('.navbar-top').addClass("fixHalf");
