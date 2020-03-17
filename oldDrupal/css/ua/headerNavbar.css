@@ -524,6 +524,9 @@ span.glyphicon-triangle-top {
 	.navbar-collapse {
 		padding-right: 0px;
 	}
+	.spe-alert {
+		font-size: 18px;
+	}
 }
 
 .resultsSort > .form-inline {
