@@ -1,45 +1,573 @@
 [
     {
-        "title": "Commencement Programs",
+        "title": "Commencement Program",
+        "date": "1857",
+        "thumb": "https://archives.albany.edu/downloads/5t34t332q?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/348501160"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1860",
+        "thumb": "https://archives.albany.edu/downloads/jq0863895?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/gt54m605x"
+    },
+    {
+        "title": "Semi-Annual Exercise of the Literary Societies",
+        "date": "1860 January 27",
+        "thumb": "https://archives.albany.edu/downloads/057428688?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/ht24x364r"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1861",
+        "thumb": "https://archives.albany.edu/downloads/7p88d147q?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/8s45qt839"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1863",
+        "thumb": "https://archives.albany.edu/downloads/np193v21t?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/pv63gj11p"
+    },
+    {
+        "title": "Semi-Annual Exercise of the Literary Societies",
+        "date": "1863 January 23",
+        "thumb": "https://archives.albany.edu/downloads/rx914792j?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/hh63td52z"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1865",
+        "thumb": "https://archives.albany.edu/downloads/dz011809s?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/3f462q91c"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1872",
+        "thumb": "https://archives.albany.edu/downloads/hq37w659n?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/1v53kf99z"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1873",
+        "thumb": "https://archives.albany.edu/downloads/pr76fn47t?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/v692tr10d"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1875",
+        "thumb": "https://archives.albany.edu/downloads/p2677d381?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/fq978c747"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1876",
+        "thumb": "https://archives.albany.edu/downloads/9s161q86x?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/3x817542p"
+    },
+    {
+        "title": "Commencement Program for the 66th Term",
+        "date": "1877",
+        "thumb": "https://archives.albany.edu/downloads/mg74r5095?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/cn69mn598"
+    },
+    {
+        "title": "Commencement Program for the 65th Term",
+        "date": "1877 January 30",
+        "thumb": "https://archives.albany.edu/downloads/rr172g13n?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/4m90fc92j"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1882",
+        "thumb": "https://archives.albany.edu/downloads/w9505j669?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/5712mq57m"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1885",
+        "thumb": "https://archives.albany.edu/downloads/js957102q?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/ms35tt98p"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1886",
+        "thumb": "https://archives.albany.edu/downloads/w0892w205?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/wh247955b"
+    },
+    {
+        "title": "Commencement Program",
         "date": "1887",
-        "thumb": "https://archives.albany.edu/downloads/0z709369r?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/6q182s70n"
+        "thumb": "https://archives.albany.edu/downloads/b2774d15z?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/x346dp23w"
     },
     {
-        "title": "Commencement Programs",
+        "title": "Closing Exercises of the 1st Term",
+        "date": "1890 June 26",
+        "thumb": "https://archives.albany.edu/downloads/rv043b88r?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/h989rm84r"
+    },
+    {
+        "title": "Closing Exercises of the 91st Term",
+        "date": "1890 January 24",
+        "thumb": "https://archives.albany.edu/downloads/xp68m111v?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/bg257z54h"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1891",
+        "thumb": "https://archives.albany.edu/downloads/sx61f498v?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/1g05fw629"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1892",
+        "thumb": "https://archives.albany.edu/downloads/rv043b891?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/pk02cv384"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1893",
+        "thumb": "https://archives.albany.edu/downloads/pk02cv39d?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/1r66jj99q"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1894",
+        "thumb": "https://archives.albany.edu/downloads/nv935m166?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/2801q1708"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1895",
+        "thumb": "https://archives.albany.edu/downloads/41688197m?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/vm40z9074"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1896",
+        "thumb": "https://archives.albany.edu/downloads/qj72pr64c?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/2227n774w"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1897",
+        "thumb": "https://archives.albany.edu/downloads/pn89ds16s?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/1257bb07c"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1898",
+        "thumb": "https://archives.albany.edu/downloads/hm50v963q?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/d791t067g"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1899",
+        "thumb": "https://archives.albany.edu/downloads/1831d291z?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/bn999r86h"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1901",
+        "thumb": "https://archives.albany.edu/downloads/sx61f4994?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/th83mh433"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1905",
+        "thumb": "https://archives.albany.edu/downloads/nz806h54v?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/7w62fs56s"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1906",
+        "thumb": "https://archives.albany.edu/downloads/2f75rs84z?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/t722ht67q"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1907",
+        "thumb": "https://archives.albany.edu/downloads/dj52wp91c?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/qj72pr65n"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1908",
+        "thumb": "https://archives.albany.edu/downloads/1831d2927?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/1544c6748"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1910",
+        "thumb": "https://archives.albany.edu/downloads/tb09jq880?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/5425kv07c"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1911",
+        "thumb": "https://archives.albany.edu/downloads/hd76sk257?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/dz011810j"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1912",
+        "thumb": "https://archives.albany.edu/downloads/v118rz40p?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/sj139k463"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1913",
+        "thumb": "https://archives.albany.edu/downloads/v405sv55j?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/8623jg751"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1914",
+        "thumb": "https://archives.albany.edu/downloads/8k71p193z?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/q524k724s"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1915",
+        "thumb": "https://archives.albany.edu/downloads/7s75dx813?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/wp989426t"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1916",
+        "thumb": "https://archives.albany.edu/downloads/ww72bw87n?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/zs25xt46p"
+    },
+    {
+        "title": "Commencement Program",
         "date": "1917",
-        "thumb": "https://archives.albany.edu/downloads/7s75df47w?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/pr76f534v"
+        "thumb": "https://archives.albany.edu/downloads/1831d293h?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/3n204g77t"
     },
     {
-        "title": "Commencement Programs",
+        "title": "Commencement Program",
+        "date": "1919",
+        "thumb": "https://archives.albany.edu/downloads/vd66wh584?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/7h14b702n"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1920",
+        "thumb": "https://archives.albany.edu/downloads/js9571030?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/cv43pf56x"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1921",
+        "thumb": "https://archives.albany.edu/downloads/3r075c249?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/5425kv08n"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1922",
+        "thumb": "https://archives.albany.edu/downloads/nk322z686?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/6969zj188"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1923",
+        "thumb": "https://archives.albany.edu/downloads/9593vc85w?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/1j92gs332"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1924",
+        "thumb": "https://archives.albany.edu/downloads/z603rg616?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/gq67k926f"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1925",
+        "thumb": "https://archives.albany.edu/downloads/h989rm851?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/cj82ks60q"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1926",
+        "thumb": "https://archives.albany.edu/downloads/tt44q594c?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/0k225v37b"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1927",
+        "thumb": "https://archives.albany.edu/downloads/ns064q74w?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/v405sv56t"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1928",
+        "thumb": "https://archives.albany.edu/downloads/5t34t3330?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/f7623z15r"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1929",
+        "thumb": "https://archives.albany.edu/downloads/w3763r41z?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/ws85b0983"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1930",
+        "thumb": "https://archives.albany.edu/downloads/p2677d399?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/b2774d167"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1931",
+        "thumb": "https://archives.albany.edu/downloads/5712mq58w?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/q237jb60d"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1932",
+        "thumb": "https://archives.albany.edu/downloads/2f75rs857?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/4b29bp95p"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1933",
+        "thumb": "https://archives.albany.edu/downloads/rx914793t?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/h702qr45s"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1934",
+        "thumb": "https://archives.albany.edu/downloads/kp78h171j?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/n8710841z"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1935",
+        "thumb": "https://archives.albany.edu/downloads/6h441b84g?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/sq87cc19x"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1936",
+        "thumb": "https://archives.albany.edu/downloads/qf85nv97p?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/7p88d1480"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1937",
+        "thumb": "https://archives.albany.edu/downloads/q237jb61p?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/2f75rs86h"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1938",
+        "thumb": "https://archives.albany.edu/downloads/6t054039f?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/6h441b85r"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1939",
+        "thumb": "https://archives.albany.edu/downloads/tb09jq898?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/2b88qx261"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1940",
+        "thumb": "https://archives.albany.edu/downloads/ns064q755?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/9593vc865"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1941",
+        "thumb": "https://archives.albany.edu/downloads/bc387292v?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/z316qm05t"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1942",
+        "thumb": "https://archives.albany.edu/downloads/k643bj37h?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/wp9894273"
+    },
+    {
+        "title": "Commencement Program",
         "date": "1943",
-        "thumb": "https://archives.albany.edu/downloads/cv43p4669?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/6t053p51p"
+        "thumb": "https://archives.albany.edu/downloads/pg15bz56t?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/47429v14c"
     },
     {
-        "title": "Commencement Programs",
+        "title": "Centennial of the New York State College for Teachers",
+        "date": "1944 May 6",
+        "thumb": "https://archives.albany.edu/downloads/f18824556?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/ng4522242"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1944",
+        "thumb": "https://archives.albany.edu/downloads/2b88qx279?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/m039kp76k"
+    },
+    {
+        "title": "Commencement Program",
         "date": "1945",
-        "thumb": "https://archives.albany.edu/downloads/ng451q937?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/pk02ch81b"
+        "thumb": "https://archives.albany.edu/downloads/zc77t8384?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/f47531723"
     },
     {
-        "title": "Commencement Programs",
+        "title": "Commencement Program",
+        "date": "1946",
+        "thumb": "https://archives.albany.edu/downloads/dz011811t?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/nk322z69g"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1947",
+        "thumb": "https://archives.albany.edu/downloads/hq37w660d?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/nv935m17g"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1948",
+        "thumb": "https://archives.albany.edu/downloads/7m01c415z?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/pr76fn483"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1949",
+        "thumb": "https://archives.albany.edu/downloads/8p58px72j?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/k930cg123"
+    },
+    {
+        "title": "Commencement Program",
         "date": "1950",
-        "thumb": "https://archives.albany.edu/downloads/vq27zn46v?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/2z10wq24h"
+        "thumb": "https://archives.albany.edu/downloads/wm1187120?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/s7526x74g"
     },
     {
-        "title": "Commencement Programs",
+        "title": "Commencement Program",
+        "date": "1951",
+        "thumb": "https://archives.albany.edu/downloads/z029pp73h?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/rx9147943"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1952",
+        "thumb": "https://archives.albany.edu/downloads/j6731n316?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/fn107h37t"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1953",
+        "thumb": "https://archives.albany.edu/downloads/bz60df35r?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/mg74r510x"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1954",
+        "thumb": "https://archives.albany.edu/downloads/s4656126r?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/xw42ns79m"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1955",
+        "thumb": "https://archives.albany.edu/downloads/f7623z161?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/x059cr68s"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1956",
+        "thumb": "https://archives.albany.edu/downloads/c247fb23h?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/9306th288"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1957",
+        "thumb": "https://archives.albany.edu/downloads/rn301k32b?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/g445cz219"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1958",
+        "thumb": "https://archives.albany.edu/downloads/mw22vq34c?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/bk128w08v"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1959",
+        "thumb": "https://archives.albany.edu/downloads/3197z530n?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/wm1187138"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1960",
+        "thumb": "https://archives.albany.edu/downloads/wh247956m?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/w6634n43r"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1961",
+        "thumb": "https://archives.albany.edu/downloads/ff365p16c?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/bc3872934"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1962",
+        "thumb": "https://archives.albany.edu/downloads/pv63gj12z?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/tb09jq901"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1963",
+        "thumb": "https://archives.albany.edu/downloads/ng452225b?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/7s75dx82c"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1964",
+        "thumb": "https://archives.albany.edu/downloads/gx41n239s?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/0p096r10f"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1965",
+        "thumb": "https://archives.albany.edu/downloads/fb494t259?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/cr56nj47q"
+    },
+    {
+        "title": "Commencement Program",
         "date": "1966",
-        "thumb": "https://archives.albany.edu/downloads/0v838243j?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/dj52w6532"
+        "thumb": "https://archives.albany.edu/downloads/f1882456g?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/6395ws23k"
     },
     {
-        "title": "Commencement Programs",
+        "title": "Commencement Program",
+        "date": "1967",
+        "thumb": "https://archives.albany.edu/downloads/2f75rs87s?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/h415pt51g"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1968",
+        "thumb": "https://archives.albany.edu/downloads/73666p25x?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/xs55mw979"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1969",
+        "thumb": "https://archives.albany.edu/downloads/t148g210g?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/td96km291"
+    },
+    {
+        "title": "Commencement Program",
         "date": "1970",
-        "thumb": "https://archives.albany.edu/downloads/2z10ws124?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/00000192x"
+        "thumb": "https://archives.albany.edu/downloads/6d570f50d?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/p8419597g"
+    },
+    {
+        "title": "Commencement Program",
+        "date": "1971",
+        "thumb": "https://archives.albany.edu/downloads/1831d294s?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/8s45qt84k"
     },
     {
         "title": "Commencement Programs",
@@ -102,16 +630,16 @@
         "url": "https://archives.albany.edu/concern/daos/9306t562h"
     },
     {
-        "title": "December Commencement Programs",
-        "date": "2014 December",
-        "thumb": "https://archives.albany.edu/downloads/gt54m391c?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/w3763p09s"
-    },
-    {
         "title": "Commencement Programs",
         "date": "2014 May",
         "thumb": "https://archives.albany.edu/downloads/pv63gf57p?file=thumbnail",
         "url": "https://archives.albany.edu/concern/daos/47429r58t"
+    },
+    {
+        "title": "December Commencement Programs",
+        "date": "2014 December",
+        "thumb": "https://archives.albany.edu/downloads/gt54m391c?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/w3763p09s"
     },
     {
         "title": "December Commencement Programs",
