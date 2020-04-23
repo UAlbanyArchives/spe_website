@@ -45,6 +45,8 @@ emptyArray: []
 collections:
   selections:
     output: true
+  slider:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

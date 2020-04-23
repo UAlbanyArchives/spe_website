@@ -26,110 +26,53 @@ if(window.location.hash ===  "#submitModal") {
 
 <!-- Carousel================================================== -->
 <!-- Full Page Image Background Carousel Header -->
+{% assign sortedSlider = site.slider | sort: 'sort_by' %}
 <header id="myCarousel" class="carousel slide">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0 active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-		<li data-target="#myCarousel" data-slide-to="3"></li>
-		<li data-target="#myCarousel" data-slide-to="4"></li>
-		<li data-target="#myCarousel" data-slide-to="5"></li>
-		<li data-target="#myCarousel" data-slide-to="6"></li>
-		<li data-target="#myCarousel" data-slide-to="7"></li>
-		<!--<li data-target="#myCarousel" data-slide-to="8"></li>-->
+		{% assign indicatorIndex = 0 %}
+		{% for slide in sortedSlider %}
+			{% if slide.active %}
+				{% if indicatorIndex == 0 %}
+					<li data-target="#myCarousel" data-slide-to="0 active"></li>
+				{% else %}
+					<li data-target="#myCarousel" data-slide-to="{{ forloop.index }}"></li>
+				{% endif %}
+				{% assign indicatorIndex = indicatorIndex | plus: 1 %}
+			{% endif %}
+		{% endfor %}
 	</ol>
 
 	<!-- Wrapper for Slides -->
 	<div class="carousel-inner topCarousel">
-		<!--<div class="item active">
-			<div class="fill" id="news" style="background-image:url('oldDrupal/img/1200/news1.jpg');"></div>
-			<div class="carousel-caption darker">
-				<h1>See You Next Year!</h1>
-				<p class="lead">The Special Collections reading room will be closed to the public on Wednesday, December 18, 2019 and reopen on Monday January 6, 2020.</p>
-                <a class="btn btn-large btn-primary" href="{{ site.url }}/scheduleVisit">Visit us in January!</a>
-			</div>
-		</div>-->
-		<div class="item active">
-			<!-- Set the first background image using inline CSS below. -->
-			<div class="fill" id="ua" style="background-image:url('{{ site.url }}/oldDrupal/img/1200/ua3.jpg');"></div>
-				<div class="carousel-caption box175">
-					<img  class="logo175" src="https://archives.albany.edu/browse/img/175logo.png"/>
-		      		<div class="text175">
-	                               <h1>Celebrate 175!</h1>
-					<p class="lead">Discover UAlbany's 175 years of history by exploring the University Archives online collections.</p>
-					<a class="btn btn-large btn-primary" href="{{ site.url }}/university175">Learn More</a>
+		{% assign slideIndex = 0 %}
+		{% for slide in sortedSlider %}
+			{% if slide.active %}
+				{% if slideIndex == 0 %}
+					<div class="item active">
+				{% else %}
+					<div class="item">
+				{% endif %}
+					<div class="fill sliderImage" id="{{ slideIndex }}" style="background-image:url('{{ site.url }}/sliderImages/default/{{ slide.background-image }}');"></div>
+		            <div class="carousel-caption {{ slide.carousel-caption-classes }}">
+		            	{% if slide.image %}
+		            		<img class="logo175" src="{{ slide.image }}"/>
+					    	<div class="text175">
+				             	<h1>{{ slide.heading }}</h1>
+								<p class="lead">{{ slide.lead }}</p>
+								<a class="btn btn-large btn-primary" href="{{ slide.link }}">{{ slide.button-text }}</a>
+							</div>
+		            	{% else %}
+		                	<h1>{{ slide.heading }}</h1>
+							<p class="lead">{{ slide.lead }}</p>
+							<a class="btn btn-large btn-primary" href="{{ slide.link }}">{{ slide.button-text }}</a>
+						{% endif %}
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="item">
-			<!-- Set the second background image using inline CSS below. -->
-			<div class="fill" id="ndpa" style="background-image:url('{{ site.url }}oldDrupal/img/1200/ndpa1.jpg');"></div>
-            <div class="carousel-caption leftSide darker">
-				<!--<h1>Assess the Death Penalty</h1>
-				<p class="lead">The National Death Penalty Archive documents researchers, writers, lawyers, and activists, on capital punishment in the United States</p>-->
-				<!--<h1>Stories of the Executed</h1>-->
-                                <h1>Missing Executions from 1860-1875 Mississippi</h1>
-				<p class="lead">The Espy Project is digitizing records of executions and making them available for research use. Learn about some of the challenges we are facing.</p>
-				<!--<a class="btn btn-large btn-primary" href="https://archives.albany.edu/browse/91.html">Death Penalty Collections</a>-->
-				<a class="btn btn-large btn-primary" href="{{ site.url }}/2019/05/20/missing_executions_from.html">Espy Project Update</a>
-			</div>
-		</div>
-		<div class="item">
-			<!-- Set the second background image using inline CSS below. -->
-			<div class="fill" id="mpa" style="background-image:url('{{ site.url }}oldDrupal/img/1200/mpa3.jpg');"></div>
-			<div class="carousel-caption">
-				<h1>Explore New York State Politics</h1>
-				<p class="lead">Research with over 350 collections that document New York State elected officials, interest groups, public policy, and activism.</p>
-				<a class="btn btn-large btn-primary" href="https://archives.albany.edu/browse/apap.html">Political Collections</a>
-			</div>
-		</div>
-		<div class="item">
-			<!-- Set the third background image using inline CSS below. -->
-			<div class="fill" id="brown" style="background-image:url('{{ site.url }}oldDrupal/img/1200/brown2.jpg');"></div>
-			<div class="carousel-caption">
-				<h1>Learn with Illustrations</h1>
-				<p class="lead">Alumna and three-time Caldecott Medal winner Marcia Brown was an internationally renowned illustrator and author of children's books.</p>
-				<a class="btn btn-large btn-primary" href="https://archives.albany.edu/description/catalog/mss005">Marcia Brown Papers</a>
-			</div>
-		</div>
-		
-		<div class="item">
-			<!-- Set the third background image using inline CSS below. -->
-			<div id="ger" class="fill" style="background-image:url('{{ site.url }}oldDrupal/img/1200/ger1.jpg');"></div>
-			<div class="carousel-caption darker">
-				<h1>Intellectuals in Exile</h1>
-				<p class="lead">Collections of German-speaking intellectuals who fled the Nazi regime in the 1930s.</p>
-				<a class="btn btn-large btn-primary" href="https://archives.albany.edu/browse/ger.html">German Intellectual Émigré</a>
-			</div>
-		</div>
-		<div class="item">
-			<!-- Set the third background image using inline CSS below. -->
-			<div class="fill" id="kennedy" style="background-image:url('{{ site.url }}oldDrupal/img/1200/kennedy2.jpg');"></div>
-			<div class="carousel-caption leftSide">
-				<h1>William Kennedy Papers</h1>
-				<p class="lead">Journalist, author, and Albany Icon, Kennedy documented corruption and won the Pulitzer Prize in Literature for <i>Ironweed</i>.</p>
-				<a class="btn btn-large btn-primary" href="https://archives.albany.edu/description/catalog/mss132">Kennedy Papers</a>
-			</div>
-		</div>
-		<div class="item">
-			<!-- Set the third background image using inline CSS below. -->
-			<div class="fill" id="unrest" style="background-image:url('{{ site.url }}oldDrupal/img/1200/unrest2.jpg');"></div>
-			<div class="carousel-caption">
-				<h1>Discover UAlbany's Radical Era</h1>
-				<p class="lead">Expansion of the University in the 1960s fueled student activism. Learn about protests on campus that suspended classes in 1970.</p>
-				<a class="btn btn-large btn-primary" href="{{ site.url }}/onthemake">University on the Make</a>
-			</div>
-		</div>
-		<div class="item">
-			<!-- Set the third background image using inline CSS below. -->
-			<div class="fill" id="mathes" style="background-image:url('{{ site.url }}oldDrupal/img/1200/mathes1.jpg');"></div>
-			<div class="carousel-caption leftSide darker">
-				<h1>Explore Children's Literature</h1>
-				<p class="lead">The Mathes collection includes over 12,000 children's books and periodicals published in the 19th century and up to 1960.</p>
-				<a class="btn btn-large btn-primary" href="{{ site.url }}/mathes">Mathes Collection</a>
-			</div>
-		</div>
+				{% assign slideIndex = slideIndex | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+
 	</div><!-- close topCarousel -->
 
 	<!-- Controls -->
@@ -316,7 +259,7 @@ if(window.location.hash ===  "#submitModal") {
 	<div class="row collectionRow">
 	    <div class="col-md-4 col-sm-6 collectionBox">
 	        <a href="https://archives.albany.edu/browse/apap.html">
-	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}oldDrupal/img/700/mpa700.jpg" alt="New York State Modern Political Archive">
+	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}/oldDrupal/img/700/mpa700.jpg" alt="New York State Modern Political Archive">
 				<div class="caption-box">
 					<div class="caption">
 						<div class="caption-name">New York State Modern Political Archive</div>
@@ -326,7 +269,7 @@ if(window.location.hash ===  "#submitModal") {
 	    </div>
 	    <div class="col-md-4 col-sm-6 collectionBox">
 	        <a href="https://archives.albany.edu/browse/91.html">
-	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}oldDrupal/img/700/ndpa700.jpg" alt="National Death Penalty Archive">
+	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}/oldDrupal/img/700/ndpa700.jpg" alt="National Death Penalty Archive">
 				<div class="caption-box">
 					<div class="caption">
 						<div class="caption-name">National Death Penalty Archive</div>
@@ -336,7 +279,7 @@ if(window.location.hash ===  "#submitModal") {
 	    </div>
 	    <div class="col-md-4 col-sm-6 collectionBox">
 	        <a href="https://archives.albany.edu/browse/ger.html">
-	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}oldDrupal/img/700/jewish_unity700.jpg" alt="German and Jewish Intellectual Émigré Collections">
+	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}/oldDrupal/img/700/jewish_unity700.jpg" alt="German and Jewish Intellectual Émigré Collections">
 				<div class="caption-box">
 					<div class="caption">
 						<div class="caption-name">German and Jewish Intellectual Émigré</div>
@@ -346,7 +289,7 @@ if(window.location.hash ===  "#submitModal") {
 	    </div>
 	    <div class="col-md-4 col-sm-6 collectionBox">
 	        <a href="https://archives.albany.edu/browse/ua.html">
-	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}oldDrupal/img/700/stateSt700.jpg" alt="University Archives">
+	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}/oldDrupal/img/700/stateSt700.jpg" alt="University Archives">
 				<div class="caption-box">
 					<div class="caption">
 						<div class="caption-name">University Archives</div>
@@ -356,7 +299,7 @@ if(window.location.hash ===  "#submitModal") {
 	    </div>
 		<div class="col-md-4 col-sm-6 collectionBox">
 	        <a href="{{ site.url }}/mathes">
-	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}oldDrupal/img/700/mathes700.jpg" alt="Miriam Snow Mathes Historical Children's Literature Collection">
+	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}/oldDrupal/img/700/mathes700.jpg" alt="Miriam Snow Mathes Historical Children's Literature Collection">
 				<div class="caption-box">
 					<div class="caption">
 						<div class="caption-name">Mathes Children's Literature Collection</div>
@@ -366,7 +309,7 @@ if(window.location.hash ===  "#submitModal") {
 	    </div>
 	    <div class="col-md-2 col-sm-3 col-xs-6 collectionBox">
 	        <a class="halfWidth" href="https://archives.albany.edu/browse/mss.html">
-	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}oldDrupal/img/700/mss700.jpg" alt="Business and Literary Manuscripts">
+	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}/oldDrupal/img/700/mss700.jpg" alt="Business and Literary Manuscripts">
 				<div class="caption-box">
 					<div class="caption">
 						<div class="caption-name">Business &amp; Literary Manuscripts</div>
@@ -376,7 +319,7 @@ if(window.location.hash ===  "#submitModal") {
 		</div>
 		<div class="col-md-2 col-sm-3 col-xs-6 collectionBox">
 			<a class="halfWidth" href="{{ site.url }}/books">
-	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}oldDrupal/img/700/codex.jpg" alt="Rare Books">
+	            <img class="img-responsive img-portfolio img-hover" src="{{ site.url }}/oldDrupal/img/700/codex.jpg" alt="Rare Books">
 				<div class="caption-box">
 					<div class="caption">
 						<div class="caption-name">Rare Books</div>
