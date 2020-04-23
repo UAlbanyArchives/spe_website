@@ -65,7 +65,14 @@ if(window.location.hash ===  "#submitModal") {
 		            	{% else %}
 		                	<h1>{{ slide.heading }}</h1>
 							<p class="lead">{{ slide.lead }}</p>
-							<a class="btn btn-large btn-primary" href="{{ slide.link }}">{{ slide.button-text }}</a>
+							{% if slide.link2 %}
+								<div class="btn-group">
+									<a class="btn btn-large btn-primary" href="{{ slide.link }}">{{ slide.button-text }}</a>
+									<a class="btn btn-large btn-primary" href="{{ slide.link2 }}">{{ slide.button-text2 }}</a>
+								</div>
+							{% else %}
+								<a class="btn btn-large btn-primary" href="{{ slide.link }}">{{ slide.button-text }}</a>
+							{% endif %}
 						{% endif %}
 					</div>
 				</div>
