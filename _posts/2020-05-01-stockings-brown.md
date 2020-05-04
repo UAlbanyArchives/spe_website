@@ -9,13 +9,13 @@ title: '2020 Patricia Stocking Brown Research Award Recipients Named'
  <div class="row">
   <div class="col-xs-6 col-md-3 col-md-offset-3">
     <div class="thumbnail">
-	    <img src="{{ site.url }}/posts-img/Pat_Brown_2020_Hafener_headshot.jpg" alt="Carissa Halston">
+      <img src="{{ site.url }}/posts-img/Pat_Brown_2020_Halston_headshot.jpg" alt="Shelby Hafener">
 	    <div class="caption text-center">Carissa Halston</div>
     </div>
   </div>
   <div class="col-xs-6 col-md-3">
     <div class="thumbnail">
-	    <img src="{{ site.url }}/posts-img/Pat_Brown_2020_Halston_headshot.jpg" alt="Shelby Hafener">
+	    <img src="{{ site.url }}/posts-img/Pat_Brown_2020_Hafener_headshot.jpg" alt="Carissa Halston">
 	    <div class="caption text-center">Shelby Hafener</div>
     </div>
   </div>
