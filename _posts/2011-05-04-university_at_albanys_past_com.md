@@ -1,7 +1,7 @@
 ---
 author: Mark Wolfe
 layout: blog_basic
-title: "New Exhibit - University at Albany\'s Past Commencements"
+title: "New Exhibit - University at Albany's Past Commencements"
 ---
 <div class="entry-body">
 <p>The two display cases near the entrance to the University Library contain items from Special Collections and Archives about the University at Albany's Past Commencements. <img align="right" alt="1960_Alumni copy.jpg" height="204" hspace="2" src="{{ site.url }}/posts-img/1960_Alumni%20copy.jpg" vspace="10" width="210"/></p>
