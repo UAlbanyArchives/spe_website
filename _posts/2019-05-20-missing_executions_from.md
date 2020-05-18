@@ -2,6 +2,7 @@
 author: Miles Lawlor
 layout: blog_basic
 title: 'Espy Project: Missing Executions from 1860-1875 Mississippi'
+tags: students
 ---
 <div class="entry-body">
 

@@ -213,3 +213,7 @@ body .row .whitebg #contentColumn {
 .form-required {
 	font-size: 15pt;
 } 
+
+span.author {
+	font-weight: bold;
+}

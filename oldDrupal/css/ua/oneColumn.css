@@ -213,3 +213,7 @@ iframe.blogVideo {
 	display: block;
 	margin: 20 auto;
 }
+
+span.author {
+	font-weight: bold;
+}

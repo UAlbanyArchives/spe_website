@@ -38,9 +38,13 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll/tagging
 
 # for creating new empty arrays
 emptyArray: []
+
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 collections:
   selections:

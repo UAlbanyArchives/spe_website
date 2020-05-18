@@ -1,0 +1,18 @@
+---
+author: Jasmine Ambrose
+layout: blog_basic
+title: 'Life as a Remote Student Worker'
+tags: students
+---
+
+When you think of your freshman year of college, what first comes to mind? Would it be the partying? Maybe even the clubs you joined, or special events your school held? In my case, the first thing that comes to mind is COVID-19. I think about how it shifted my way of learning, and even working. The experience was definitely something new to me, which surprisingly wasn’t as bad as I had anticipated, but I hope it never occurs again.
+
+One thing I was excited about, was being employed my freshman year. Not only was the transition into college hard mentally, but financially as well, so a job for myself was a major goal I wanted to accomplish. Thankfully, for my spring semester my professor had introduced me to a position with the Department of Special Collections & Archives at the University at Albany. (This is also a good tip for incoming freshman. Speak with your professors and build a relationship!). After applying and going through the necessary paperwork, I was set to begin.
+
+While I was physically at school, I was under the supervision of either University Archivist Greg Wiedeman or Miriam Snow Mathes Historical Children’s Literature Collection Curator David Mitchell to complete my daily tasks. On my days with Greg I would scan documents to be made available through our department’s web site for reference and research. With David, I worked with the historic children’s literature, organizing the books in the collection. Two of my main concerns, or questions, when remote classes were introduced was (1) if I would still be employed by the department and (2) how I would be remotely working for a library? However, through great communication from Supervisory Archivist Jodi Boyle, those questions were answered, and I found myself still being able to enjoy my student work life while at home.
+
+When talking about being a student worker, it’s important to be able to balance both things so you don’t fall behind in your education or your work tasks. As someone who had decided to take more credits this semester, I learned this the hard way. I would no longer have the same facilities I had at school, or the mindset. With remote learning and working, I had a lot of motivation issues, and found it hard to want to do any work, but I knew it had to be done. I think it was a little easier in my case because my supervisor kept me updated and always offered any help if I needed.
+
+Since I was no longer present at school, my prior tasks were impossible to do. Instead, I was now responsible for reviewing, verifying, and correcting the online chronological history of the University, to the best of my ability. As I started doing the project, I had some mistakes along the way, but I always managed to fix them and continue. As a remote worker with the Department of Special Collections & Archives, I was very lucky to have the support and ability to ask for help anytime I ran into trouble. Personally, one of my biggest issues was remembering to submit my hours (somehow, I forgot most of the time). Alongside my online job, I was also working at a job in my hometown, which took up the remainder of my time. So basically, my day consisted of work, school, work, sleep, and repeat. Which might sound bad, but it was probably the most productive I’ve been in my life, and scariest because of obvious reasons. 
+
+Overall, I enjoyed my time with the department and look forward to being back on campus. During these times I am very appreciative to have been employed, especially with the Department of Special Collections & Archives.

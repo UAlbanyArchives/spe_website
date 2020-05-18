@@ -2,6 +2,7 @@
 author: Sheri Sarnoff
 layout: blog_basic
 title: 'Closing Down the Archives and Working Remotely'
+tags: students
 ---
 
 <div class="entry-body">

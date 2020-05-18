@@ -2,6 +2,7 @@
 author: Amanda Partridge
 layout: blog_basic
 title: 'Espy Project: Working with Challanging or Anonymous Records'
+tags: students
 ---
 
 <div class="entry-body">

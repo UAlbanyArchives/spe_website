@@ -1,0 +1,26 @@
+---
+layout: one_column
+---
+
+{% if page.tag == "students" %}
+	<h1 style="text-align:center;">Student Blog Posts</h1>
+{% else %}
+	<h1 style="text-align:center;">{{ page.tag }}</h1>
+{% endif %}
+
+{% for post in page.posts %}
+	<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+	<p class="author">
+	  	{% if post.author %}
+	  		<span class="author">{{ post.author }}</span> - 
+	  	{% endif %}
+	    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+	  </p>
+	<div class="content">
+	{{ post.content | strip_html | truncatewords: 150 }}
+	</div>
+{% endfor %}
+
+<!--<div id="tag-cloud">
+  {{ site | tag_cloud }}
+</div>-->

@@ -2,6 +2,7 @@
 author: Hunter Findon
 layout: blog_basic
 title: 'Societal Table-Flipper'
+tags: students
 ---
 
 <div class="entry-body">
