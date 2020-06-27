@@ -1,0 +1,76 @@
+{
+    "document": {
+        "id": "ua950-005aspace_fa20b6ad9a962bbef887ff4f25695b69",
+        "ead_ssi": "ua950.005",
+        "parent_ssm": [
+            "ua950-005"
+        ],
+        "parent_unittitles_ssm": [
+            "Campus Construction Collection, 1951-1987"
+        ],
+        "component_level_isim": [
+            1
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "Campus Construction Collection, 1951-1987"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "child_component_count_isim": [
+            257
+        ],
+        "parent_ssi": "ua950-005",
+        "collection_creator_ssm": [
+            "State University of New York at Albany"
+        ],
+        "parent_access_restrict_ssm": [
+            "Access to this record group is unrestricted."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites. ",
+            " Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            " The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks. ",
+            " The Department of Special Collections and Archives is eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "ref_ssm": [
+            "aspace_fa20b6ad9a962bbef887ff4f25695b69"
+        ],
+        "level_ssm": [
+            "series"
+        ],
+        "title_ssm": [
+            "Photographs"
+        ],
+        "unitdate_ssm": [
+            "1964-1973"
+        ],
+        "physdesc_ssm": [
+            "\n      257 items\n    "
+        ],
+        "scopecontent_ssm": [
+            "Contains photographs taken during the construction of UAlbany's Uptown Campus. The images were taken by photographer E.M. Weil, under contract with either SUNY Albany or the SUNY Construction Fund."
+        ],
+        "extent_ssm": [
+            "257 items"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1964-1973"
+        ],
+        "bioghist_ssm": [
+            "The new SUNY Albany campus was contructed on the west side of the City of Albany on the site of the former Albany Country Club. Designed by architect Edward Durell Stone, the campus is a preeminent example of postmodernist architecture. The academic podium at the center is one of the largest poured-in-place concrete structures in the world."
+        ],
+        "ref_ssi": "aspace_fa20b6ad9a962bbef887ff4f25695b69",
+        "normalized_title_ssm": [
+            "Photographs, 1964-1973"
+        ],
+        "normalized_date_ssm": [
+            "1964-1973"
+        ],
+        "timestamp": "2020-03-04T09:15:10.969Z"
+    }
+}

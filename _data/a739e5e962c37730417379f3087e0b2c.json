@@ -1,326 +1,380 @@
 [
     {
-        "title": "The Book Show Show 1276",
-        "date": "2012 December 30",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/rn3017531"
-    },
-    {
         "title": "The Book Show Show 1275",
         "date": "2012 December 23",
         "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/kd17d1674"
+        "url": "https://archives.albany.edu/concern/avs/kd17d1674",
+        "date_normal": "2012-12-23"
     },
     {
-        "title": "The Book Show Show 1328",
-        "date": "2013 December 29",
+        "title": "The Book Show Show 1276",
+        "date": "2012 December 30",
         "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/5q47rw561"
-    },
-    {
-        "title": "The Book Show Show 1327",
-        "date": "2013 December 22",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/3b591h519"
-    },
-    {
-        "title": "The Book Show Show 1326",
-        "date": "2013 December 15",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/p5547z509"
-    },
-    {
-        "title": "The Book Show Show 1325",
-        "date": "2013 December 8",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/vh53x4123"
-    },
-    {
-        "title": "The Book Show Show 1324",
-        "date": "2013 December 1",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/nc580t76b"
-    },
-    {
-        "title": "The Book Show Show 1323",
-        "date": "2013 November 24",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/gf06g9153"
-    },
-    {
-        "title": "The Book Show Show 1322",
-        "date": "2013 November 17",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/5712md998"
-    },
-    {
-        "title": "The Book Show Show 1321",
-        "date": "2013 November 10",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/qj72pf573"
-    },
-    {
-        "title": "The Book Show Show 1320",
-        "date": "2013 November 3",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/1n79hb71x"
-    },
-    {
-        "title": "The Book Show Show 1319",
-        "date": "2013 October 27",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/8g84mt59c"
-    },
-    {
-        "title": "The Book Show Show 1318",
-        "date": "2013 October 20",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/7d2791663"
-    },
-    {
-        "title": "The Book Show Show 1317",
-        "date": "2013 October 13",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/9k41zm62k"
-    },
-    {
-        "title": "The Book Show Show 1316",
-        "date": "2013 October 6",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/2r36v4855"
-    },
-    {
-        "title": "The Book Show Show 1315",
-        "date": "2013 September 29",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/gb19fd26c"
-    },
-    {
-        "title": "The Book Show Show 1314",
-        "date": "2013 September 22",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/vm40xz62z"
-    },
-    {
-        "title": "The Book Show Show 1313",
-        "date": "2013 September 15",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/8w32rd237"
-    },
-    {
-        "title": "The Book Show Show 1312",
-        "date": "2013 September 8",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/1g05fk22g"
-    },
-    {
-        "title": "The Book Show Show 1311",
-        "date": "2013 September 1",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/0v8386865"
-    },
-    {
-        "title": "The Book Show Show 1310",
-        "date": "2013 August 25",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/cv43p458m"
-    },
-    {
-        "title": "The Book Show Show 1309",
-        "date": "2013 August 18",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/1r66j763g"
-    },
-    {
-        "title": "The Book Show Show 1308",
-        "date": "2013 August 11",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/m039kc31c"
-    },
-    {
-        "title": "The Book Show Show 1307",
-        "date": "2013 August 4",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/1544bw69c"
-    },
-    {
-        "title": "The Book Show Show 1306",
-        "date": "2013 July 28",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/8g84mt583"
-    },
-    {
-        "title": "The Book Show Show 1305",
-        "date": "2013 July 21",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/0z709365n"
-    },
-    {
-        "title": "The Book Show Show 1304",
-        "date": "2013 July 14",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/8910k2167"
-    },
-    {
-        "title": "The Book Show Show 1303",
-        "date": "2013 July 7",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/xd07h0921"
-    },
-    {
-        "title": "The Book Show Show 1302",
-        "date": "2013 June 30",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/6682x9805"
-    },
-    {
-        "title": "The Book Show Show 1301",
-        "date": "2013 June 23",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/kp78gp79h"
-    },
-    {
-        "title": "The Book Show Show 1300",
-        "date": "2013 June 16",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/pg15bn25z"
-    },
-    {
-        "title": "The Book Show Show 1299",
-        "date": "2013 June 9",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/0r967b23v"
-    },
-    {
-        "title": "The Book Show Show 1297",
-        "date": "2013 May 26",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/s4655p54p"
-    },
-    {
-        "title": "The Book Show Show 1296",
-        "date": "2013 May 19",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/n009w833k"
-    },
-    {
-        "title": "The Book Show Show 1295",
-        "date": "2013 May 12",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/dz010x76d"
-    },
-    {
-        "title": "The Book Show Show 1294",
-        "date": "2013 May 5",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/0c483r95w"
-    },
-    {
-        "title": "The Book Show Show 1293",
-        "date": "2013 April 28",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/s7526m11b"
-    },
-    {
-        "title": "The Book Show Show 1292",
-        "date": "2013 April 21",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/w9505715z"
-    },
-    {
-        "title": "The Book Show Show 1291",
-        "date": "2013 April 14",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/gq67jz64m"
-    },
-    {
-        "title": "The Book Show Show 1290",
-        "date": "2013 April 7",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/pc289r46g"
-    },
-    {
-        "title": "The Book Show Show 1289",
-        "date": "2013 March 31",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/z316q8478"
-    },
-    {
-        "title": "The Book Show Show 1288",
-        "date": "2013 March 24",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/dn39x7991"
-    },
-    {
-        "title": "The Book Show Show 1287",
-        "date": "2013 March 17",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/9s161d78c"
-    },
-    {
-        "title": "The Book Show Show 1286",
-        "date": "2013 March 10",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/1r66j7626"
-    },
-    {
-        "title": "The Book Show Show 1285",
-        "date": "2013 March 3",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/jm214w76j"
-    },
-    {
-        "title": "The Book Show Show 1284",
-        "date": "2013 February 24",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/1j92gf925"
-    },
-    {
-        "title": "The Book Show Show 1283",
-        "date": "2013 February 17",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/cc08hn984"
-    },
-    {
-        "title": "The Book Show Show 1282",
-        "date": "2013 February 10",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/0z709364c"
-    },
-    {
-        "title": "The Book Show Show 1281",
-        "date": "2013 February 3",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/z890s188r"
-    },
-    {
-        "title": "The Book Show Show 1280",
-        "date": "2013 January 27",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/6108vj55k"
-    },
-    {
-        "title": "The Book Show Show 1279",
-        "date": "2013 January 20",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/f1881t202"
-    },
-    {
-        "title": "The Book Show Show 1278",
-        "date": "2013 January 13",
-        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/rb68xk00b"
+        "url": "https://archives.albany.edu/concern/avs/rn3017531",
+        "date_normal": "2012-12-30"
     },
     {
         "title": "The Book Show Show 1277",
         "date": "2013 January 6",
         "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/gt54kv67p"
+        "url": "https://archives.albany.edu/concern/avs/gt54kv67p",
+        "date_normal": "2013-01-06"
+    },
+    {
+        "title": "The Book Show Show 1278",
+        "date": "2013 January 13",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/rb68xk00b",
+        "date_normal": "2013-01-13"
+    },
+    {
+        "title": "The Book Show Show 1279",
+        "date": "2013 January 20",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/f1881t202",
+        "date_normal": "2013-01-20"
+    },
+    {
+        "title": "The Book Show Show 1280",
+        "date": "2013 January 27",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/6108vj55k",
+        "date_normal": "2013-01-27"
+    },
+    {
+        "title": "The Book Show Show 1281",
+        "date": "2013 February 3",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/z890s188r",
+        "date_normal": "2013-02-03"
+    },
+    {
+        "title": "The Book Show Show 1282",
+        "date": "2013 February 10",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/0z709364c",
+        "date_normal": "2013-02-10"
+    },
+    {
+        "title": "The Book Show Show 1283",
+        "date": "2013 February 17",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/cc08hn984",
+        "date_normal": "2013-02-17"
+    },
+    {
+        "title": "The Book Show Show 1284",
+        "date": "2013 February 24",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/1j92gf925",
+        "date_normal": "2013-02-24"
+    },
+    {
+        "title": "The Book Show Show 1285",
+        "date": "2013 March 3",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/jm214w76j",
+        "date_normal": "2013-03-03"
+    },
+    {
+        "title": "The Book Show Show 1286",
+        "date": "2013 March 10",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/1r66j7626",
+        "date_normal": "2013-03-10"
+    },
+    {
+        "title": "The Book Show Show 1287",
+        "date": "2013 March 17",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/9s161d78c",
+        "date_normal": "2013-03-17"
+    },
+    {
+        "title": "The Book Show Show 1288",
+        "date": "2013 March 24",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/dn39x7991",
+        "date_normal": "2013-03-24"
+    },
+    {
+        "title": "The Book Show Show 1289",
+        "date": "2013 March 31",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/z316q8478",
+        "date_normal": "2013-03-31"
+    },
+    {
+        "title": "The Book Show Show 1290",
+        "date": "2013 April 7",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/pc289r46g",
+        "date_normal": "2013-04-07"
+    },
+    {
+        "title": "The Book Show Show 1291",
+        "date": "2013 April 14",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/gq67jz64m",
+        "date_normal": "2013-04-14"
+    },
+    {
+        "title": "The Book Show Show 1292",
+        "date": "2013 April 21",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/w9505715z",
+        "date_normal": "2013-04-21"
+    },
+    {
+        "title": "The Book Show Show 1293",
+        "date": "2013 April 28",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/s7526m11b",
+        "date_normal": "2013-04-28"
+    },
+    {
+        "title": "The Book Show Show 1294",
+        "date": "2013 May 5",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/0c483r95w",
+        "date_normal": "2013-05-05"
+    },
+    {
+        "title": "The Book Show Show 1295",
+        "date": "2013 May 12",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/dz010x76d",
+        "date_normal": "2013-05-12"
+    },
+    {
+        "title": "The Book Show Show 1296",
+        "date": "2013 May 19",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/n009w833k",
+        "date_normal": "2013-05-19"
+    },
+    {
+        "title": "The Book Show Show 1297",
+        "date": "2013 May 26",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/s4655p54p",
+        "date_normal": "2013-05-26"
+    },
+    {
+        "title": "The Book Show Show 1299",
+        "date": "2013 June 9",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/0r967b23v",
+        "date_normal": "2013-06-09"
+    },
+    {
+        "title": "The Book Show Show 1300",
+        "date": "2013 June 16",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/pg15bn25z",
+        "date_normal": "2013-06-16"
+    },
+    {
+        "title": "The Book Show Show 1301",
+        "date": "2013 June 23",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/kp78gp79h",
+        "date_normal": "2013-06-23"
+    },
+    {
+        "title": "The Book Show Show 1302",
+        "date": "2013 June 30",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/6682x9805",
+        "date_normal": "2013-06-30"
+    },
+    {
+        "title": "The Book Show Show 1303",
+        "date": "2013 July 7",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/xd07h0921",
+        "date_normal": "2013-07-07"
+    },
+    {
+        "title": "The Book Show Show 1304",
+        "date": "2013 July 14",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/8910k2167",
+        "date_normal": "2013-07-14"
+    },
+    {
+        "title": "The Book Show Show 1305",
+        "date": "2013 July 21",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/0z709365n",
+        "date_normal": "2013-07-21"
+    },
+    {
+        "title": "The Book Show Show 1306",
+        "date": "2013 July 28",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/8g84mt583",
+        "date_normal": "2013-07-28"
+    },
+    {
+        "title": "The Book Show Show 1307",
+        "date": "2013 August 4",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/1544bw69c",
+        "date_normal": "2013-08-04"
+    },
+    {
+        "title": "The Book Show Show 1308",
+        "date": "2013 August 11",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/m039kc31c",
+        "date_normal": "2013-08-11"
+    },
+    {
+        "title": "The Book Show Show 1309",
+        "date": "2013 August 18",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/1r66j763g",
+        "date_normal": "2013-08-18"
+    },
+    {
+        "title": "The Book Show Show 1310",
+        "date": "2013 August 25",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/cv43p458m",
+        "date_normal": "2013-08-25"
+    },
+    {
+        "title": "The Book Show Show 1311",
+        "date": "2013 September 1",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/0v8386865",
+        "date_normal": "2013-09-01"
+    },
+    {
+        "title": "The Book Show Show 1312",
+        "date": "2013 September 8",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/1g05fk22g",
+        "date_normal": "2013-09-08"
+    },
+    {
+        "title": "The Book Show Show 1313",
+        "date": "2013 September 15",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/8w32rd237",
+        "date_normal": "2013-09-15"
+    },
+    {
+        "title": "The Book Show Show 1314",
+        "date": "2013 September 22",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/vm40xz62z",
+        "date_normal": "2013-09-22"
+    },
+    {
+        "title": "The Book Show Show 1315",
+        "date": "2013 September 29",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/gb19fd26c",
+        "date_normal": "2013-09-29"
+    },
+    {
+        "title": "The Book Show Show 1316",
+        "date": "2013 October 6",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/2r36v4855",
+        "date_normal": "2013-10-06"
+    },
+    {
+        "title": "The Book Show Show 1317",
+        "date": "2013 October 13",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/9k41zm62k",
+        "date_normal": "2013-10-13"
+    },
+    {
+        "title": "The Book Show Show 1318",
+        "date": "2013 October 20",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/7d2791663",
+        "date_normal": "2013-10-20"
+    },
+    {
+        "title": "The Book Show Show 1319",
+        "date": "2013 October 27",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/8g84mt59c",
+        "date_normal": "2013-10-27"
+    },
+    {
+        "title": "The Book Show Show 1320",
+        "date": "2013 November 3",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/1n79hb71x",
+        "date_normal": "2013-11-03"
+    },
+    {
+        "title": "The Book Show Show 1321",
+        "date": "2013 November 10",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/qj72pf573",
+        "date_normal": "2013-11-10"
+    },
+    {
+        "title": "The Book Show Show 1322",
+        "date": "2013 November 17",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/5712md998",
+        "date_normal": "2013-11-17"
+    },
+    {
+        "title": "The Book Show Show 1323",
+        "date": "2013 November 24",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/gf06g9153",
+        "date_normal": "2013-11-24"
+    },
+    {
+        "title": "The Book Show Show 1324",
+        "date": "2013 December 1",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/nc580t76b",
+        "date_normal": "2013-12-01"
+    },
+    {
+        "title": "The Book Show Show 1325",
+        "date": "2013 December 8",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/vh53x4123",
+        "date_normal": "2013-12-08"
+    },
+    {
+        "title": "The Book Show Show 1326",
+        "date": "2013 December 15",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/p5547z509",
+        "date_normal": "2013-12-15"
+    },
+    {
+        "title": "The Book Show Show 1327",
+        "date": "2013 December 22",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/3b591h519",
+        "date_normal": "2013-12-22"
+    },
+    {
+        "title": "The Book Show Show 1328",
+        "date": "2013 December 29",
+        "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
+        "url": "https://archives.albany.edu/concern/avs/5q47rw561",
+        "date_normal": "2013-12-29"
     },
     {
         "title": "The Book Show Show 1329",
         "date": "2014 January 4",
         "thumb": "https://archives.albany.edu/assets/audio-5133b642ee875760dbd85bfab48649d009efd4bd29db1165f891b48a90b4f37e.png",
-        "url": "https://archives.albany.edu/concern/avs/qn59qb82z"
+        "url": "https://archives.albany.edu/concern/avs/qn59qb82z",
+        "date_normal": "2014-01-04"
     }
 ]
