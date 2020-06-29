@@ -19,7 +19,7 @@
             "University Archives"
         ],
         "child_component_count_isim": [
-            135
+            245
         ],
         "parent_ssi": "ua950-005",
         "collection_creator_ssm": [
@@ -44,7 +44,7 @@
             "file"
         ],
         "title_ssm": [
-            "Campus Construction Progress Reports Walter Tisdale"
+            "Campus Construction Progress Reports Walter Tisdale  #1-237"
         ],
         "unitdate_ssm": [
             "1963-1974"
@@ -58,14 +58,14 @@
         "ref_ssi": "aspace_c02667fc120b201bcc68d460a183b269",
         "containers_ssim": [
             "Box 1",
-            "Folder 13-14"
+            "Folder 13, 37"
         ],
         "normalized_title_ssm": [
-            "Campus Construction Progress Reports Walter Tisdale, 1963-1974"
+            "Campus Construction Progress Reports Walter Tisdale  #1-237, 1963-1974"
         ],
         "normalized_date_ssm": [
             "1963-1974"
         ],
-        "timestamp": "2020-03-04T09:15:20.942Z"
+        "timestamp": "2020-06-29T19:02:33.476Z"
     }
 }
