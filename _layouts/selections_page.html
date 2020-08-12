@@ -2,6 +2,15 @@
 layout: selections_gallery
 ---
 
+{% if page.ref_id %}
+	{% assign data_file = page.ref_id | replace: ".", "-" %}
+	{% assign desc_link = page.col_id | replace: ".", "-" | append: "aspace_" | append: page.ref_id %}
+{% else %}
+	{% assign data_file = page.col_id | replace: ".", "-" %}
+	{% assign desc_link = page.col_id | replace: ".", "-" %}
+{% endif %}
+{% assign uri = "https://archives.albany.edu/description/catalog/" | append: desc_link  %}
+
 <div class="col-md-12">
 	<div class="page-header">
 		<h3>Online Content</h3>
