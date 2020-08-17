@@ -1,10 +1,26 @@
 ---
-title: Request Materials or Schedule a Visit
+title: Request Materials or Make an Appointment
 layout: one_column
 permalink: /reference/
 ---
+
+<div class="alert alert-warning" role="alert">
+    <strong>COVID-19 Procedures</strong><br />
+    Our usual access procedures have changed due to the COVID-19 crisis and the reading room is open by appointment only. Please review the <a href="{{ site.url }}/covid-19">COVID-19 Procedures</a> for more details.
+</div>
 
 <div id="form_c10848b4047f95c95d0a87b0e8bc9a86">
 <iframe id="c10848b4047f95c95d0a87b0e8bc9a86" scrolling="auto" title="Request Materials or Schedule a Visit" src="https://albany.libwizard.com/f/schedule-a-visit-archives?3279076=" style="width: 100%; height: 1550px; border: 0px none;"></iframe>
 </div>
 <script src="https://apps.library.albany.edu/host/archives/request-archives.js"></script>
+
+<script>
+	$(document).ready(function() {
+		var urlParams = new URLSearchParams(window.location.search);
+		if (urlParams.has('visit')) {
+		  $("#contentColumn").children('h1').eq(0).text("Make an Appointment");
+		} else {
+		  $("#contentColumn").children('h1').eq(0).text("Request Materials");
+		}
+	});
+</script>
