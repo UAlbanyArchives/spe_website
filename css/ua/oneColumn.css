@@ -217,3 +217,7 @@ body .row .whitebg #contentColumn {
 span.author {
 	font-weight: bold;
 }
+
+.blog img.blog_image {
+	width: 100%;
+}
