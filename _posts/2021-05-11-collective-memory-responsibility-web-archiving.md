@@ -5,7 +5,7 @@ title: 'Collective Memory, Responsibility, and Web Archiving'
 tags: students
 ---
 
-<a href="https://wayback.archive-it.org/12932/20210317014827/https://nogunri.rit.albany.edu/archive/"><img class="blog_image" alt="Screenshot of the No Gun Ri Digital Archive" src="/sliderImages/default/nogunri2.jpg" />
+<a href="https://wayback.archive-it.org/12932/20210317014827/https://nogunri.rit.albany.edu/archive/"><img class="blog_image" alt="Screenshot of the No Gun Ri Digital Archive" src="/web/sliderImages/default/nogunri2.jpg" />
 </a>
 
 <p>One of the remarkable aspects of web archiving work is that it allows for greater access to digital content. This serves an obvious purpose of helping scholars and researchers access material that they cannot access in person, but it also lends itself to the visibility and accessibility of voices or communities that have been oppressed or misrepresented throughout history. Through the UAlbany Web Archiving Project, archivists at the M.E. Grenander Department of Special Collections and Archives focus not only on capturing, preserving, and making accessible New York State and University-related web content, but they also are granted the responsibility of helping preserve important projects that are the creation of researchers or faculty. Through these digital repositories, users can learn more about the subject matter, but they serve a greater purpose in representing, or even reworking, how a historical event is described. One example found in the UAlbany Web Archives Collection is the No Gun Ri Digital Archive.</p>

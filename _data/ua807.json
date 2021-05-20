@@ -3,72 +3,98 @@
         "title": "Our Book",
         "date": "1911",
         "thumb": "https://archives.albany.edu/downloads/qb98mp40n?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/05741z96d"
+        "url": "https://archives.albany.edu/concern/daos/05741z96d",
+        "date_normal": "1911"
     },
     {
         "title": "Pedagogue",
         "date": "1914",
         "thumb": "https://archives.albany.edu/downloads/ks65hk309?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/8c97kx51x"
+        "url": "https://archives.albany.edu/concern/daos/8c97kx51x",
+        "date_normal": "1914"
     },
     {
         "title": "Pedagogue",
         "date": "1915",
         "thumb": "https://archives.albany.edu/downloads/6q182s726?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/k3569b92g"
+        "url": "https://archives.albany.edu/concern/daos/k3569b92g",
+        "date_normal": "1915"
     },
     {
         "title": "Pedagogue",
         "date": "1916",
         "thumb": "https://archives.albany.edu/downloads/n583z267v?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/rv043148x"
+        "url": "https://archives.albany.edu/concern/daos/rv043148x",
+        "date_normal": "1916"
     },
     {
         "title": "Pedagogue",
         "date": "1917",
         "thumb": "https://archives.albany.edu/downloads/1c18dp430?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/2r36v4880"
+        "url": "https://archives.albany.edu/concern/daos/2r36v4880",
+        "date_normal": "1917"
     },
     {
         "title": "Pedagogue",
         "date": "1918",
         "thumb": "https://archives.albany.edu/downloads/9z9036458?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/6q182s73g"
+        "url": "https://archives.albany.edu/concern/daos/6q182s73g",
+        "date_normal": "1918"
     },
     {
         "title": "Pedagogue",
         "date": "1919",
         "thumb": "https://archives.albany.edu/downloads/w95057256?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/sq87c2388"
+        "url": "https://archives.albany.edu/concern/daos/sq87c2388",
+        "date_normal": "1919"
     },
     {
         "title": "Pedagogue",
         "date": "1941",
         "thumb": "https://archives.albany.edu/downloads/0g354n78g?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/9880vz33b"
+        "url": "https://archives.albany.edu/concern/daos/9880vz33b",
+        "date_normal": "1941"
     },
     {
         "title": "Pedagogue",
         "date": "1942",
         "thumb": "https://archives.albany.edu/downloads/1g05fk27v?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/w0892j23x"
+        "url": "https://archives.albany.edu/concern/daos/w0892j23x",
+        "date_normal": "1942"
     },
     {
         "title": "Pedagogue",
         "date": "1943",
         "thumb": "https://archives.albany.edu/downloads/w0892j246?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/dj52wc444"
+        "url": "https://archives.albany.edu/concern/daos/dj52wc444",
+        "date_normal": "1943"
     },
     {
         "title": "Pedagogue",
         "date": "1944",
         "thumb": "https://archives.albany.edu/downloads/w0892j25g?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/fb494g89s"
+        "url": "https://archives.albany.edu/concern/daos/fb494g89s",
+        "date_normal": "1944"
     },
     {
         "title": "Pedagogue",
         "date": "1945",
         "thumb": "https://archives.albany.edu/downloads/2v23w163c?file=thumbnail",
-        "url": "https://archives.albany.edu/concern/daos/dr26z493m"
+        "url": "https://archives.albany.edu/concern/daos/dr26z493m",
+        "date_normal": "1945"
+    },
+    {
+        "title": "Torch",
+        "date": "1972",
+        "thumb": "https://archives.albany.edu/downloads/w9505j67k?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/pk02cv45j",
+        "date_normal": "1972"
+    },
+    {
+        "title": "Torch",
+        "date": "1984",
+        "thumb": "https://archives.albany.edu/downloads/dr26zg17v?file=thumbnail",
+        "url": "https://archives.albany.edu/concern/daos/qn59qp10s",
+        "date_normal": "1984"
     }
 ]
