@@ -12,11 +12,11 @@ permalink: /webarchives/
 <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="glyphicon glyphicon-menu-hamburger"></i></a>
 <style>
 #webArchivesSearch .form-group  {
-	text-align: center;
+	/*text-align: center;*/
 }
 
 #webArchivesSearch .form-group .form-control {
-	display: inline;
+	/*display: inline;*/
 }
 
 #webArchivesSearch .btn {
@@ -24,6 +24,13 @@ permalink: /webarchives/
 	padding: 6px 16px;
 }
 </style>
+<script>
+function uaWayback(){
+    var action_src = "https://wayback.archive-it.org/org-652/*/" + document.getElementById("uaWaybackURL").value;
+    var your_form = document.getElementById('uaWayback');
+    your_form.action = action_src ;
+}
+</script>
 <div class="row no-gutter" id="wrapper">
 	<div class="container-fluid">
 		
@@ -76,20 +83,59 @@ permalink: /webarchives/
 				<h2>UAlbany Web Archiving Program</h2>
                                 <h4>preserving albany.edu and more since 2012</h4>
 			</div>
+
 <hr/>
 
+
+
 <div class="col-md-12">
-<form class="form-inline" id="webArchivesSearch" action="{{ site.url }}/webarchives/search">
-<div class="form-group col-xs-12">
-<input class="form-control input-lg" name="query" id="exampleInputName2" placeholder="Search Web Archives" type="text">
-<button class="btn btn-primary input-lg"  type="submit"><span class="glyphicon glyphicon-search"></span></button>
-</input></div>
-</form>
+
+	<h4>Web Archives are preserved websites that can be "replayed" even if the original changes or goes offline!</h4>
 </div>
 
 <div class="col-md-12">
 
-				<h3>Purpose</h3>
+	<form class="form" id="uaWayback" onsubmit="uaWayback()">
+		<div class="form-group">
+
+			<label for="basic-url">Find a URL</label>
+			<div class="input-group input-group-lg">
+		      <input type="text" id="uaWaybackURL" class="form-control" placeholder="https://">
+		      <span class="input-group-btn">
+		        <button class="btn btn-primary input-lg" type="submit"><span class="glyphicon glyphicon-play"></span></button>
+		      </span>
+		    </div>
+		    <label for="basic-url">https://wayback.archive-it.org/org-652/*/...</label>
+    	</div>
+	</form>
+</div>
+
+<hr/>
+
+
+<div class="page-header col-md-12">
+
+	<h3>Purpose</h3>
+
+</div>
+
+<div class="col-md-4 well well-lg col-md-push-8">
+		
+	<form class="form-inline" id="webArchivesSearch" action="{{ site.url }}/webarchives/search">
+		<div class="form-group col-xs-12">
+			<label>Search Web Archives</label>
+			<div class="input-group">
+				<input class="form-control" name="query" id="exampleInputName2" placeholder="Search" type="text"></input>
+				<span class="input-group-btn">
+				<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+				</span>
+			</div>
+		</div>
+	</form>
+
+</div>
+
+<div class="col-md-8 col-md-pull-4">
 <p>An important part of the mission of The M. E. Grenander Department of Special Collections and Archives is to collect, preserve, and provide access to the official records of the University at Albany. The University website is one of the primary sources of information about campus policies, administrative activities, curricular changes, news, and events. Much of this information can no longer be found in print, so in order to preserve these records for posterity or to meet our legal requirements, it is necessary to collect parts of the web.</p>
 
 <p>The goal of the web archiving program is to preserve records that deserve to be retained for the long term in accordance with our <a href="{{ site.url }}/policy">collection development policy</a>. Primarily, this includes collecting the <a href="https://www.albany.edu">website of the University at Albany, SUNY</a> to insure all permanent public records can be accessed in the future. Typically, we also collect the websites of organizations whose paper records we hold, as these group continue to provide more and more documentary evidence online.</p>
@@ -99,16 +145,24 @@ permalink: /webarchives/
 <p>Websites are inherently transitory. As pages are edited and updates are made, older information is lost. Therefore, website archiving cannot be a one-time procedure, it must be done regularly in order to accurately capture the changing nature of web-based information.</p>
 </div>
 
+
+<div class="page-header col-md-12">
+<h3>How Websites are Collected</h3>
+</div>
 <div class="col-md-12">
 
-<h3>How Websites are Collected</h3>
+
 <p>Websites that have been selected for the archives are harvested periodically using the Archive-It service from the Internet Archive. In a given web crawl, the <a href="https://github.com/internetarchive/heritrix3">Heritrix crawler</a> begins from a seed (a high level domain, such as www.albany.edu) or set of seeds, and then automatically harvests successive layers of the website by following links from this seed. This process continues for a specified duration or until a specified number of documents have been harvested.
 <p>The frequency and depth of harvesting varies depending on the website. For example, Archive-It performs a daily shallow crawl of the top level University domain (www.albany.edu) and a more comprehensive monthly crawl to attempt to capture the entire UAlbany web presence, including a longer list of University domains.</p>
 
 </div>
+
+<div class="page-header col-md-12">
+<h3>How to Access Web Archives</h3>
+</div>
 <div class="col-md-12">
 
-<h3>How to Access Web Archives</h3>
+
 <p>There are several ways to access the University's web archives. If a given collection includes archives of an organization's website, the web archives will be included within that organization's <a href="{{ site.url }}/collections">collection page</a>.
 <br/>
 
@@ -143,18 +197,27 @@ permalink: /webarchives/
 </div>
 
 </div>
+
+<div class="page-header col-md-12">
+<h3>Limitations of Web Archiving</h3>
+</div>
 <div class="col-md-12">
 
-<h3>Limitations of Web Archiving</h3>
+
 <p>Like photographs or other historical documents, archived websites represent a static snapshot of information. They contain only that information that was available on the website at the time of capture. As a result, archived websites may contain outdated information, broken links, malfunctioning email addresses or errors. Additionally, although the goal of web archiving is to create a complete snapshot, it is often impossible or infeasible to capture 100% of the content and functionality found on a complex webpage. Therefore, content may be missing from a given website due to issues such as rendering Javascript, streaming media, dynamic form and database-driven content and robots.txt exclusions.</p>
 <p>Columbia University Libraries have compiled a useful list of website design best practices that can facilitate web archiving by mitigating some of the problems listed above. Website owners are encouraged to take these practices into account and consider the value of long term preservation when making web-design decisions. A link to these best practices can be found below.</p>
 <p><a class="btn btn-primary btn-md"  href="https://library.columbia.edu/bts/web_resources_collection/guidelines_for_preservable_websites.html">Guidelines for Preservable Websites <span class="glyphicon glyphicon-new-window"></span></a></p>
 
 </div>
+
+<div class="page-header col-md-12">
+<h3>Privacy Issues</h3>
+</div>
 <div class="col-md-12">
 			
-<h3>Privacy Issues</h3>
+
 <p>We are eager to hear from website owners who have concerns about content that has been included in our web archives. If you wish to discuss the removal of your website from our web archives, please <a href="https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives">contact us.</a></p>
 			
 	
 </div>
+
