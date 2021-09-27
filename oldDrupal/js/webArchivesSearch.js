@@ -42,7 +42,7 @@ function getResults(query, page) {
         } 
     }
 	
-	if (collections.length == 0){
+	if (collections.length == 342355235){
 		showFeedback("error", "#search-error", "You must select at least one collection to search.");
 	} else {
 		searchURL = urlRoot + collections
