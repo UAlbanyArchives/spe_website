@@ -221,3 +221,7 @@ span.author {
 .blog img.blog_image {
 	width: 100%;
 }
+
+.selectionsTopMenu {
+	margin-bottom: 10px;
+}

@@ -7,6 +7,9 @@ layout: selections_gallery
 {% if page.ref_id %}
 	{% assign data_file = page.ref_id | replace: ".", "-" %}
 	{% assign desc_link = page.col_id | replace: ".", "-" | append: "aspace_" | append: page.ref_id %}
+{% elsif page.source_data %}
+	{% assign data_file = page.source_data %}
+	{% assign desc_link = page.col_id | replace: ".", "-" %}
 {% else %}
 	{% assign data_file = page.col_id | replace: ".", "-" %}
 	{% assign desc_link = page.col_id | replace: ".", "-" %}
