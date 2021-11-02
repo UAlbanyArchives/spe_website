@@ -1,0 +1,69 @@
+{
+    "document": {
+        "id": "ua100aspace_765ebe429fbd026adb30b90923c16f94",
+        "ead_ssi": "ua100",
+        "parent_ssi": "aspace_b5941040e58b9e0f15cad0a95fc99386",
+        "parent_ssm": [
+            "ua100",
+            "aspace_b5941040e58b9e0f15cad0a95fc99386"
+        ],
+        "parent_unittitles_ssm": [
+            "University Council Records, 1844 - 2018 January 17",
+            "Meeting Records, 1844-2015"
+        ],
+        "component_level_isim": [
+            2
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "University Council Records, 1844 - 2018 January 17"
+        ],
+        "repository_ssm": [
+            "University Archives"
+        ],
+        "child_component_count_isim": [
+            461
+        ],
+        "parent_access_restrict_ssm": [
+            "This collection is unrestricted except for the presidential search committee records, which are restricted until processing due to personally identifiable information. Please consult an archivist for more details."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "This page may contain links to digital objects. Access to these images and the technical capacity to download them does not imply permission for re-use. Digital objects may be used freely for personal reference use, referred to, or linked to from other web sites.",
+            " Researchers do not have permission to publish or disseminate material from these collections without permission from an archivist and/or the copyright holder.",
+            " The researcher assumes full responsibility for conforming to the laws of copyright. Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.) and/or by the copyright or neighboring-rights laws of other nations. More information about U.S. Copyright is provided by the Copyright Office. Additionally, re-use may be restricted by terms of University Libraries gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing and trademarks.",
+            " The University Archives are eager to hear from any copyright owners who are not properly identified so that appropriate information may be provided in the future."
+        ],
+        "ref_ssm": [
+            "aspace_765ebe429fbd026adb30b90923c16f94"
+        ],
+        "level_ssm": [
+            "subseries"
+        ],
+        "title_ssm": [
+            "Executive Committee Minutes (originals)"
+        ],
+        "unitdate_ssm": [
+            "1844-1908"
+        ],
+        "scopecontent_ssm": [
+            "This collection holds the minutes of the monthly meetings of the Executive Committee to the State Normal School. The entires in these two volumes detail some aspects of the school's budget, listed graduates of each sememster and includes a commencement program from that semester. The minutes also include basic school administration like the hiring and firing of professors, or proposed maintenence and expansion of the school's buildings. For the second volume there is a seperate book acting as an index to major people and events at the Normal School from 1880 to 1909."
+        ],
+        "unitdate_inclusive_ssm": [
+            "1844-1908"
+        ],
+        "bioghist_ssm": [
+            "The members of the first members of the Executive Committee were appointed by the Board of Regents in June of 1844. They were charged with the administration of this new state run school and oversaw the macro levels of running the school such as budget approval, naming of professors, and creation of annual reports ot be sent to the Board of Regents."
+        ],
+        "ref_ssi": "aspace_765ebe429fbd026adb30b90923c16f94",
+        "normalized_title_ssm": [
+            "Executive Committee Minutes (originals), 1844-1908"
+        ],
+        "normalized_date_ssm": [
+            "1844-1908"
+        ],
+        "timestamp": "2021-11-02T15:27:06.017Z"
+    }
+}
