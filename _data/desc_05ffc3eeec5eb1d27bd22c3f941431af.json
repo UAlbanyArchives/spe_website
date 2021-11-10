@@ -1,0 +1,74 @@
+{
+    "document": {
+        "id": "apap014aspace_05ffc3eeec5eb1d27bd22c3f941431af",
+        "ead_ssi": "apap014",
+        "parent_ssm": [
+            "apap014"
+        ],
+        "parent_unittitles_ssm": [
+            "Correctional Association of New York Records, 1844-1988"
+        ],
+        "component_level_isim": [
+            1
+        ],
+        "component_children_bsi": true,
+        "collection_ssm": [
+            "Correctional Association of New York Records, 1844-1988"
+        ],
+        "repository_ssm": [
+            "National Death Penalty Archive"
+        ],
+        "child_component_count_isim": [
+            133
+        ],
+        "parent_ssi": "apap014",
+        "parent_access_restrict_ssm": [
+            "Access to portions of Series 1, 3, 5, 6, and 7 is restricted. All folders marked with an asterisk are restricted and requests to view these materials must be discussed with a staff member. All other series are unrestricted. Consult a staff member for further details."
+        ],
+        "has_online_content_ssim": [
+            "true"
+        ],
+        "parent_access_terms_ssm": [
+            "The researcher assumes full responsibility for conforming with the laws of copyright. Whenever possible, the M.E. Grenander Department of Special Collections and Archives will provide information about copyright owners and other restrictions, but the legal determination ultimately rests with the researcher. Requests for permission to publish material from this collection should be discussed with the Head of Special Collections and Archives."
+        ],
+        "ref_ssm": [
+            "aspace_05ffc3eeec5eb1d27bd22c3f941431af"
+        ],
+        "level_ssm": [
+            "series"
+        ],
+        "title_ssm": [
+            "Annual Reports"
+        ],
+        "unitdate_ssm": [
+            "1844-1979"
+        ],
+        "physdesc_ssm": [
+            "\n      11 reels of 35 mm microfilm and bound copies\n    "
+        ],
+        "altformavail_ssm": [
+            "The Annual Reports are available on microfilm in the University Library's Microfilm Collection, call number HV 8987 P684.",
+            " Bound copies of the 1867-1878 and 1921-1969 Annual Reports are also available in the M.E. Grenander Department of Special Collections and Archives."
+        ],
+        "arrangement_ssm": [
+            "Arranged chronologically. The microfilm versions are housed in the University Library Microfilm Collection, call number HV 8987 P684. Bound copies of the 1867-1878 and 1921-1969 Annual Reports are also available in the M.E. Grenander Department of Special Collections and Archives."
+        ],
+        "scopecontent_ssm": [
+            "This series consists exclusively of the annual reports on prison and jail conditions that the Prison Association/Correctional Association submitted to the New York State Assembly. The reports contain minutes of meetings, presidential addresses, committee reports, reports on individual prisons and prison conditions, prison reform campaigns in New York State, transcripts of testimony before the NYS legislature on pending policy measures, and lists of members and corresponding members of the Association. Reports published during the latter half of the nineteenth century chronicle the Association's role in establishing national and international prison reform organizations and conferences and furnish information about prison policies elsewhere in the United States and the world."
+        ],
+        "unitid_ssm": [
+            "2"
+        ],
+        "unitdate_inclusive_ssm": [
+            "1844-1979"
+        ],
+        "ref_ssi": "aspace_05ffc3eeec5eb1d27bd22c3f941431af",
+        "normalized_title_ssm": [
+            "Annual Reports, 1844-1979"
+        ],
+        "normalized_date_ssm": [
+            "1844-1979"
+        ],
+        "timestamp": "2021-11-10T15:35:11.661Z"
+    }
+}
