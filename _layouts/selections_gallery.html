@@ -18,7 +18,7 @@ layout: one_column
 </div>
 
 <div class="form-group" align="center">
-<form class="form-inline" action="https://archives.albany.edu/catalog">
+<form class="form-inline justify-content-center" action="https://archives.albany.edu/catalog">
       <input class="form-control" type="text" placeholder="Search {{ page.title }}..." name="q">
       <input type="hidden" name="f[collection_number_sim][]" value="{{ page.col_id }}">
       {% if page.ref_id %}
@@ -32,7 +32,7 @@ layout: one_column
 
 {% if site.data[desc_file]["document"]["bioghist_ssm"] %}
 	<div class="desc col-md-6">
-		<div class="page-header">
+		<div class="pb-2 mt-4 mb-2 border-bottom">
 			<h3>History of {{ page.title }}</h3>
 		</div>
 		<div class="collapse" id="bioghist" aria-expanded="false">
@@ -46,7 +46,7 @@ layout: one_column
 
 {% if site.data[desc_file]["document"]["scopecontent_ssm"] %}
 	<div class="desc col-md-6">
-		<div class="page-header">
+		<div class="pb-2 mt-4 mb-2 border-bottom">
 			<h3>Scope and Contents</h3>
 		</div>
 		<div class="collapse" id="scopecontent" aria-expanded="false">
