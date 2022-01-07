@@ -35,14 +35,16 @@ $(function(){
 	$("#searchMathes").click(function () {
 		
 		$label.text("Mathes Childrens Literature");
-		$form.attr("action", "https://archives.albany.edu/books?f[collecting_area_ssim][]=Mathes+Childrens+Literature");
+		$form.attr("action", "https://archives.albany.edu/books");
+		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Mathes%2BChildrens%2BLiterature'>");
 			
 	});
 
 	$("#searchPamphlets").click(function () {
 		
 		$label.text("Political Pamphlets");
-		$form.attr("action", "https://archives.albany.edu/books?f[collecting_area_ssim][]=Political+Pamphlets");
+		$form.attr("action", "https://archives.albany.edu/books");
+		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Political%2BPamphlets'>");
 			
 	});
 
@@ -50,7 +52,8 @@ $(function(){
 		
 		$label.text("Rare Books");
 		$form.attr("action", "https://archives.albany.edu/books");
-			
+		$form.find(":hidden").remove();
+
 	});
 	
 });

@@ -74,6 +74,7 @@ body > .container .panel {
 	background-color: #FFFFFF;
 	box-shadow: 0 0 10px #FFFFFF;
 	padding: 40px;
+	z-index: 0;
 }
 
 #mainContent .row .whitebg #contentColumn {

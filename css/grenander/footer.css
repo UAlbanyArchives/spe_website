@@ -2,7 +2,8 @@
 
 footer {
 	background-color: #46166B;
-	/*margin-top: 25px;*/
+	z-index: 10;
+	position: relative;
 }
 .spc-footer {
     margin: 50px 0;

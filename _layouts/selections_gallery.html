@@ -18,8 +18,8 @@ layout: one_column
 </div>
 
 <div class="form-group" align="center">
-<form class="online-content-search form-inline justify-content-center" action="https://archives.albany.edu/catalog">
-      <input class="form-control" type="text" placeholder="Search {{ page.title }}..." name="q">
+<form class="form-inline justify-content-center" action="https://archives.albany.edu/catalog">
+      <input class="form-control online-content-search" type="text" placeholder="Search {{ page.title }}..." name="q">
       <input type="hidden" name="f[collection_number_sim][]" value="{{ page.col_id }}">
       {% if page.ref_id %}
       	<input type="hidden" name="f[record_parent_sim][]" value="{{ page.ref_id }}">
