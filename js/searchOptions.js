@@ -37,7 +37,7 @@ $(function(){
 		$label.text("Mathes Childrens Literature");
 		$form.attr("action", "https://archives.albany.edu/books");
 		$form.find(":hidden").remove();
-		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Mathes+Childrens+Literature'>");
+		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Mathes Childrens Literature'>");
 			
 	});
 
@@ -46,7 +46,7 @@ $(function(){
 		$label.text("Political Pamphlets");
 		$form.attr("action", "https://archives.albany.edu/books");
 		$form.find(":hidden").remove();
-		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Political+Pamphlets'>");
+		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Political Pamphlets'>");
 			
 	});
 
