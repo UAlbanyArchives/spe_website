@@ -4,6 +4,10 @@ window.addEventListener('load', function() {
     var allSearchURL = "https://archives.albany.edu/search";
     var arclightSearchURL = "https://archives.albany.edu/description/catalog";
     var hyraxSearchURL = "https://archives.albany.edu/catalog";
+    var historySearchURL = "https://archives.albany.edu/history";
+    var mathesSearchURL = "https://archives.albany.edu/books?f[collecting_area_ssim][]=Political+Pamphlets";
+    var pamphletsSearchURL = "https://archives.albany.edu/books?f[collecting_area_ssim][]=Political+Pamphlets";
+    var booksSearchURL = "https://archives.albany.edu/books";
 
     //query selector for search form
     var searchForm = document.getElementsByClassName('search-query-form');

@@ -24,7 +24,7 @@
 }*/
 
 @media only screen and (min-width: 550px) {
-	.form-control {
+	.online-content-search {
 		min-width: 500px;
 	}
 }
@@ -33,13 +33,25 @@
   font-size: 14px;
   line-height: 1.5;
 }
-.desc .collapse[aria-expanded="false"] {
+
+/*.desc .collapse[aria-expanded="false"] {
     display: block;
     height: 42px !important;
     overflow: hidden;
 }
 .desc .collapsing[aria-expanded="false"] {
     height: 42px !important;
+}*/
+
+.desc .collapse:not(.show) {
+  display: block;
+  /* height = lineheight * no of lines to display */
+  height: 4.5em;
+  overflow: hidden;
+}
+
+.desc .collapsing {
+  height: 4.5em;
 }
 
 .desc a { cursor: pointer; }

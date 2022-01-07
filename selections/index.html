@@ -1,18 +1,23 @@
 ---
-layout: one_column
-title: "Digital Selections"
+layout: full_width
+title: "Online Content"
 ---
 
+<link rel="stylesheet" href="{{ site.url }}/css/search-source.css"></link>
 <link rel="stylesheet" href="{{ site.url }}/css/ua/hyraxGallery.css" type="text/css"></link>
 <script type="text/javascript" src="{{ site.url }}/js/hyraxGallery.js"></script>
 
+{% include search_row.html %}
+
 <div class="col-md-12">
 
-	<p>"Digital Selections" are items that are available online because they have been digitized or were "born-digital," or created digitally. Only a small portion of collections are available online.</p>
+	<p>The M.E. Grenander Department of Special Collections & Archives holds tens of thousands of cubic feet of Archives & Manuscript material. For most of these records, it is not feasible to digitize items and maintain those digital files long into the future. Instead we try to digitize the most highly valued and often used records so they can be made available online and used widely, even though this represents a small fraction of the department's holdings.</p>
+
+	<p>"Online content" are these items that are currently available because they were selected be digitized or they were "born-digital," or originally created digitally. In some cases entire file series or collections are available online, yet often online materials are interspersed throughout the department's Archives & Manuscript materials. We continue to add to online materials over time. You can <a href="{{ site.url }}/visit#request">request items for digitization</a> subject to the department's <a href="{{ site.url }}/reproductions">Digital Reproduction Fee schedule</a>.</p>
 
 <div class="form-group" align="center">
 	<form class="form-inline justify-content-center" action="https://archives.albany.edu/catalog">
-	      <input class="form-control" type="text" placeholder="Search All Digital Selections..." name="q">
+	      <input class="form-control" type="text" placeholder="Search Online Content..." name="q">
 	      <input type="hidden" name="search_field" value="all_fields">
 	      <button type="submit" class="btn btn-primary">Search</button>
 	</form>

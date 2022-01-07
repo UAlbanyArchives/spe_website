@@ -1,0 +1,50 @@
+/*html, body, #mainContent, #main-container {
+	height: 100%;
+}*/
+
+.fill {
+	background-image: url("https://archives.albany.edu/web/sliderImages/default/mpa3.jpg");
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	display: grid;
+}
+
+
+.fill .search-row {
+	margin-bottom: 13%;
+	padding-top: 9%;
+}
+
+.fill .main-row {
+	background-color: rgba(255,255,255,0.8);
+	margin-bottom: 3rem;
+}
+
+
+.fill .main-row .entry p.author {
+	font-size: 0.9rem;
+}
+
+.fill .main-row .entry p.content {
+	font-size: 1rem;
+}
+
+.fill .main-row .block-heading {
+	border-bottom: 1px solid #000;
+}
+
+/* Updates */
+
+#updatesBlock .galleryItem {
+	background-color: #642a90;
+	color: #fff;
+	border-radius: calc(0.5rem - 1px);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	font-weight: 300;
+	text-shadow: 3px 3px 5px #46166b;
+}
+
+#updatesBlock .itemLink:hover {
+	color: #fff !important;
+}
