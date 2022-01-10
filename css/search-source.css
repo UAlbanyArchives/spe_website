@@ -67,7 +67,8 @@
 }
 
 .search-source .source-box {
-	background-color: #642a90;
+	/*background-color: #642a90;*/
+	background-color: rgba(100,42,144,0.9);
 	min-height: 125px;
 	padding: 1.25rem 1rem 1.25rem 1.25rem;
 	z-index: 9;
