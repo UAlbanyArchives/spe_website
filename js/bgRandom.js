@@ -48,3 +48,8 @@ $(function(){
 		}
 	}
 });
+
+$(function(){
+	var $randomImage = Math.floor(Math.random() * ((13-1)+1) + 1);
+	$("section.fill").css('background-image', "url('../img/main/fill" + $randomImage + ".jpg')");
+});
