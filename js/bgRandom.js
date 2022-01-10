@@ -51,7 +51,7 @@ $(function(){
 
 $(function(){
 	var $randomImage = Math.floor(Math.random() * ((13-1)+1) + 1);
-	$imgURL = window.location.protocol + "//" + window.location.hostname + "/img/main/fill" + $randomImage + ".jpg";
+	$imgURL = window.location.protocol + "//" + window.location.hostname + "web/img/main/fill" + $randomImage + ".jpg";
 	console.log($imgURL);
 	$("section.fill").css('background-image', $imgURL);
 });
