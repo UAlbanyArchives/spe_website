@@ -12,7 +12,7 @@ The Special Collections reading room will be closed from December 20th, 2021 to 
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <img class="mx-auto d-block" src="{{ site.rooturl }}/{{ page.image }}" style="width: 100%;" alt="Students making snowballs, circa 1970s." />
+            <img class="mx-auto d-block" src="{{ site.url }}/{{ page.image }}" style="width: 100%;" alt="Students making snowballs, circa 1970s." />
         </div>
     </div>
 </div>
