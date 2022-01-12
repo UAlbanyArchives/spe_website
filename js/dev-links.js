@@ -10,12 +10,5 @@ $(function(){
 			    $(this).attr("href", $localURL);
 			}
 		});
-		/*$("form").each(function(){
-		    $url = $(this).attr('action');
-		    var tmp = document.createElement('a');
-		    tmp.href = $url
-		    $localURL = window.location.protocol + "//" + window.location.hostname + $url.split(tmp.host)[1];
-		    $(this).attr("action", $localURL);
-		});*/
 	}
 });
