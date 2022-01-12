@@ -50,7 +50,7 @@ $(function(){
 });
 
 $(function(){
-	var $randomImage = Math.floor(Math.random() * ((13-1)+1) + 1);
+	var $randomImage = Math.floor(Math.random() * ((14-1)+1) + 1);
 	//$imgURL = window.location.protocol + "//" + window.location.hostname + "/web/img/main/fill" + $randomImage + ".jpg";
 	$imgURL = $("section.fill").css('background-image').split("fill")[0] + "fill" + $randomImage + ".jpg"
 	$("section.fill").css('background-image', $imgURL);
