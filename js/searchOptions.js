@@ -37,8 +37,8 @@ $(function(){
 		
 		$label.text("Mathes Childrens Literature");
 		$form.attr("action", $localAction + "/books");
-		$form.find(":hidden").remove();
-		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Mathes Childrens Literature'>");
+		$form.find(".collectingArea").remove();
+		$form.prepend("<input class='collectingArea' type='hidden' name='f[collecting_area_ssim][]' value='Mathes Childrens Literature'>");
 			
 	});
 
@@ -46,8 +46,8 @@ $(function(){
 		
 		$label.text("Political Pamphlets");
 		$form.attr("action", $localAction + "/books");
-		$form.find(":hidden").remove();
-		$form.prepend("<input type='hidden' name='f[collecting_area_ssim][]' value='Political Pamphlets'>");
+		$form.find(".collectingArea").remove();
+		$form.prepend("<input class='collectingArea' type='hidden' name='f[collecting_area_ssim][]' value='Political Pamphlets'>");
 			
 	});
 
@@ -55,7 +55,7 @@ $(function(){
 		
 		$label.text("Rare Books");
 		$form.attr("action", $localAction + "/books");
-		$form.find(":hidden").remove();
+		$form.find(".collectingArea").remove();
 
 	});
 	
