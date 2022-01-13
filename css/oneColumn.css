@@ -70,7 +70,11 @@ body > .container .panel {
 	margin-bottom: 0px;
 }
 
-#mainContent .row .container #contentColumn {
+#contentColumn > h1.text-center {
+	margin-bottom: 3rem;
+}
+
+#mainContent .row .main-container #contentColumn {
 	background-color: #FFFFFF;
 	box-shadow: 0 0 10px #FFFFFF;
 	padding: 40px;

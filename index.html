@@ -28,25 +28,27 @@ layout: spe_base_2
 
 						{% assign updates = site.updates | sort: 'sort_by' %}
 						{% for update in updates limit: 2 %}
-							<a id="" class="itemLink" href="{{ site.url }}{{ update.url }}">
-								<div class="galleryItem img-thumbnail">
-									{% if update.image %}
-										<div class="galleryThumb">
-											<img class="galleryImage" src="{{ site.url }}/{{ update.image }}" alt="{{ update.title }}">
+							{% if update.active %}
+								<a id="" class="itemLink" href="{{ site.url }}{{ update.url }}">
+									<div class="galleryItem img-thumbnail">
+										{% if update.image %}
+											<div class="galleryThumb">
+												<img class="galleryImage" src="{{ site.url }}/{{ update.image }}" alt="{{ update.title }}">
+											</div>
+										{% endif %}
+										<div class="galleryLabel">
+											<h4>
+												<p>{{ update.title }}</p>
+											</h4>
+												{% if update.image %}
+													<p class="abstract">{{ update.content | strip_html | truncatewords: 20 }}</p>
+												{% else %}
+													<p class="abstract">{{ update.content | strip_html | truncatewords: 30 }}</p>
+												{% endif %}
 										</div>
-									{% endif %}
-									<div class="galleryLabel">
-										<h4>
-											<p>{{ update.title }}</p>
-										</h4>
-											{% if update.image %}
-												<p class="abstract">{{ update.content | strip_html | truncatewords: 20 }}</p>
-											{% else %}
-												<p class="abstract">{{ update.content | strip_html | truncatewords: 30 }}</p>
-											{% endif %}
 									</div>
-								</div>
-							</a>
+								</a>
+							{% endif %}
 						{% endfor %}
 
 					</div>

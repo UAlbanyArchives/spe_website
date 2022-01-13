@@ -4,6 +4,7 @@ layout: one_column
 title: 'Ruth Murcia Named 2021 Patricia Stocking Brown Research Award Recipient'
 image: posts-img/ruth_murcia_2021.jpg
 sort_by: 2
+active: false
 ---
 
 <div class="entry-body">
