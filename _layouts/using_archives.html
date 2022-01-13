@@ -1,18 +1,32 @@
 ---
-layout: two_column
+layout: spe_base_2
 ---
 
-<div class="row">
-	<div class="col-md-9 order-md-2">
-		{{ content }}
-	</div>
-	<div class="col-md-3 order-md-1">
-		<div class="list-group">
-		  <a href="#" class="list-group-item list-group-item-action">Visiting the Archives</a>
-		  <a href="#" class="list-group-item list-group-item-action">Hours and Directions</a>
-		  <a href="#" class="list-group-item list-group-item-action">Request items for digitization</a>
-		  <a href="#" class="list-group-item list-group-item-action">Digital Reproduction Fee Schedule</a>
-		  <a href="#" class="list-group-item list-group-item-action">Viewing materials online</a>
+<link rel="stylesheet" href="{{ site.url }}/css/oneColumn.css" type="text/css"></link>
+
+<div class="container-fluid main-container">
+	<div class="row">
+		<div class="side-menu col-lg-3 col-xl-2 offset-xl-1">
+			<div class="list-group">
+			  <a href="{{ site.url }}/visit" class="list-group-item list-group-item-action">Visiting the Archives</a>
+			  <a href="{{ site.url }}/directions" class="list-group-item list-group-item-action">Hours and Directions</a>
+			  <a href="{{ site.url }}/reproductions" class="list-group-item list-group-item-action">Request items for digitization</a>
+			  <a href="{{ site.url }}/use" class="list-group-item list-group-item-action">Using materials online</a>
+			  <a href="{{ site.url }}/api" class="list-group-item list-group-item-action">Computational Use of Archival Materials</a>
+			  <a href="{{ site.url }}/publish_cite" class="list-group-item list-group-item-action">Publishing and Citing</a>
+			  <a href="{{ site.baseurl }}/static/forms/publish.pdf" class="list-group-item list-group-item-action">Permission to Publish Form
+			  <i class="fa fa-file-pdf-o" style="color: red; font-size: 14pt;"></i>
+			  </a>
+			</div>
+		</div>
+
+		<div id="contentColumn" class="col-lg-9 col-xl-7 offset-xl-1">
+
+			<h1 class="text-center">{{ page.title }}</h1>
+
+			{{ content }}
 		</div>
 	</div>
 </div>
+
+<div class="clearfix"></div>

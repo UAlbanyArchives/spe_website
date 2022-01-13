@@ -74,7 +74,7 @@ body > .container .panel {
 	margin-bottom: 3rem;
 }
 
-#mainContent .row .main-container #contentColumn {
+#mainContent .main-container #contentColumn {
 	background-color: #FFFFFF;
 	box-shadow: 0 0 10px #FFFFFF;
 	padding: 40px;
@@ -241,4 +241,18 @@ span.author {
 
 .blog img.blog_image {
 	width: 100%;
+}
+
+.side-menu {
+	margin-top:  40px;
+}
+
+
+.main-container .row .list-group .list-group-item {
+	color: #46166B;
+}
+
+.main-container .row .list-group .list-group-item:hover {
+	color: #EBE6F0 !important;
+	background: #006c68;
 }
