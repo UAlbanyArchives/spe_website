@@ -5,14 +5,13 @@ body {
 
 @media only screen and (min-width: 991px) {
 	body {
-		background-image: url("https://library.albany.edu/speccoll/findaids/eresources/static/img/bg.jpg");
+		background-image: url("https://library.albany.edu/speccoll/findaids/eresources/static/img/bg1.jpg");
 		background-repeat: no-repeat;
 		background-size: auto 100%;
 		background-attachment: fixed;
 		background-position: center top;
 	}
 }
-
 
 .row {
 	margin-left: 0px;
@@ -70,7 +69,7 @@ body > .container .panel {
 	margin-bottom: 0px;
 }
 
-#contentColumn > h1.text-center {
+#contentColumn > .title {
 	margin-bottom: 3rem;
 }
 
@@ -245,6 +244,12 @@ span.author {
 
 .side-menu {
 	margin-top:  40px;
+	display: block;
+}
+
+.side-menu .list-group {
+	position: sticky;
+	top: 40px;
 }
 
 
@@ -255,4 +260,9 @@ span.author {
 .main-container .row .list-group .list-group-item:hover {
 	color: #EBE6F0 !important;
 	background: #006c68;
+}
+
+
+.donations > ul > li {
+	margin-top: 1rem;
 }

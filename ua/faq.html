@@ -1,13 +1,12 @@
 ---
 title: University Records FAQ
-layout: spe_base_1
+subtitle: Information about the University Archives and what we collect.
+layout: about
 permalink: /ua/faq/
 ---
 
 <style>
 	.code{font-family: monospace;}
-	.popover{max-width:550px;}
-	.popLink{cursor:pointer;}
 	.close{position:relative; margin-top:-5px;}
 	.alphaContent .panel-title{font-weight:bold;}
 .panel-title a:active {
@@ -46,276 +45,318 @@ color: #512D6D !important;
 border-radius: 0px !important;
 cursor: pointer !important;
 }
+#accordion .card-header {
+	cursor: pointer;
+	border-bottom: none;
+}
+
+#accordion .card-header:not(.collapsed) .rotate-icon {
+	transform: rotate(180deg);
+}
+
+#accordion .card-header:hover {
+	border-top-color: #eaaa00 !important;
+	border-bottom-color: #eaaa00 !important;
+	border-left-color: #eaaa00 !important;
+	border-right-color: #eaaa00 !important;
+	background-color: #f8e1a5 !important;
+}
 </style>
-<script>
-$( document ).ready(function() {
-	$('.panel-collapse').on('show.bs.collapse', function(){
-		$(this).prev().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
-	});  
-	$('.panel-collapse').on('hide.bs.collapse', function(){
-		$(this).prev().find(".glyphicon").removeClass("glyphicon-minus").addClass("glyphicon-plus");
-	});     
-});
-</script>
 
-<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/headerAffix.js"></script>
-<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/leftNav.js"></script>
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://archives.albany.edu/browse/css/simple-sidebar.css" type="text/css"></link>
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/twoColumnSideMobile.css" type="text/css"></link>
-<div class="row no-gutter" id="wrapper">
-<div class="container-fluid">
-	
-		<a href="{{ site.url }}/#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="glyphicon glyphicon-menu-hamburger"></i></a>
-		
-		<div class="col-md-2 col-md-offset-1" id="browseNav">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">Donors & Records</h4>
-				</div>
-				<div class="nav list-group">
-					<li class="list-group-item"><a href="{{ site.url }}/outside_donors">Outside Donations of Records</a></li>
-					<li class="list-group-item"><a href="{{ site.url }}/giving">Giving to the Archives</a></li>
-					<li class="list-group-item active"><a href="{{ site.url }}/ua/faq">University Records FAQ</a></li>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-6 col-md-offset-4 col-sm-10 col-sm-offset-1 alphaContent">
-			<a class="anchor" id="about"></a>
-			<div class="jumbotron">
-				<h2>University Records FAQ</h2>
-				<h4>Information about the University Archives and what we collect.</h4>
-			</div>
-			<hr/>
 
-<div class="panel-group" id="accordion" style="margin-top:30px;">
+<div id="accordion" class="mt-3">
 
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseFour">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What is the purpose of the University Archives?   </a>
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+			<h4>
+				<a>
+					What is the purpose of the University Archives?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseFour" class="panel-collapse collapse ">
-			<div class="panel-body">The University Archives collects, manages, and provides access to permanent university records for research use. This includes the administrative records of the university, student groups, faculty, alumni, and affiliated organizations. Collecting and preserving university records documents our history and promotes transparency and accountability.</div>
+		<div id="collapseFour" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">The University Archives collects, manages, and provides access to permanent university records for research use. This includes the administrative records of the university, student groups, faculty, alumni, and affiliated organizations. Collecting and preserving university records documents our history and promotes transparency and accountability.</div>
 		</div>
 	</div>
 	
 	<div class="pullQuote">We collect <i>records</i>, not just old stuff.</div>
-	<div style="clear: both;"></div>
-	
-	<div class="panel panel-default" style="margin-bottom:5px;">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseFive">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What do you collect?       </a>
-			</h4>
-		</div>
-		<div id="collapseFive" class="panel-collapse collapse">
-			<div class="panel-body">
-				<p>We collect <i>records</i>, not just old stuff. Records are anything that documents the activities of the university and the people within it. Records can be in any format, from paper to <span class="code">pdf</span> files, or physical objects to email. If it documents what you do, it is a record and we would like to preserve it. Here are some examples of records we collect:</p>
-				<p>
-					<a class="popLink" id="minutes" rel="popover" data-content="" title="University Council meeting minutes<a class='close' data-dismiss='alert'>x</a>"><span class="code">.pdf</span> of University Council meeting minutes</a>
-					<br/>
-					<a class="popLink" id="asp" rel="popover" data-content="" title="Albany Student Press issue<a class='close' data-dismiss='alert'>x</a>">Albany Student Press issue from 2015</a>
-					<br/>
-					<a class="popLink" id="email" rel="popover" data-content="" title="Email correspondence and calendar<a class='close' data-dismiss='alert'>x</a>"><span class="code">.pst</span> containing email correspondence and calendar</a>
-					<br/>
-					<a class="popLink" id="paper" rel="popover" data-content="" title="Paper records<a class='close' data-dismiss='alert'>x</a>">Paper records from the Office of the President</a>
-					<br/>
-					<a class="popLink" id="beanie" rel="popover" data-content="" title="Class of 1954 Hat<a class='close' data-dismiss='alert'>x</a>">Class of 1954 Hat</a>
-					<br/>
-					<a class="popLink" id="cds" rel="popover" data-content="" title="CDs of preprints<a class='close' data-dismiss='alert'>x</a>">CDs of preprints from Office of Communication and Marketing</a>
-					<br/>
-				</p>
-			</div>
-		</div>
-	</div>
-	
-	<script>
-		var image1 = '<img src="https://archives.albany.edu/static/web/images/faq/meetingMinutes.png">';
-		var image2 = '<img src="https://archives.albany.edu/static/web/images/faq/asp.png">';
-		var image3 = '<img src="https://archives.albany.edu/static/web/images/faq/email.png">';
-		var image4 = '<img src="https://archives.albany.edu/static/web/images/faq/paper.png">';
-		var image5 = '<img src="https://archives.albany.edu/static/web/images/faq/1954hat.png">';
-		var image6 = '<img src="https://archives.albany.edu/static/web/images/faq/quark.png">';
+	<div class="clearfix"></div>
 
-		$('#minutes').popover({content: image1, html: true});
-		$('#asp').popover({content: image2, html: true});
-		$('#email').popover({content: image3, html: true});
-		$('#paper').popover({content: image4, html: true});
-		$('#beanie').popover({content: image5, html: true});
-		$('#cds').popover({content: image6, html: true});
-		$('.popLink').on('click', function (e) {
-				$('.popLink').not(this).popover('hide');
-		});
-		$(document).on("click", ".popover .close" , function(){
-				$(this).parents(".popover").popover('hide');
-		});
-	</script>
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirty" aria-expanded="true" aria-controls="collapseThirty">
+			<h4>
+				<a>
+					What do you collect?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
+			</h4>
+		</div>
+		<div id="collapseThirty" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">
+				<p>We collect <i>records</i>, not just old stuff. Records are anything that documents the activities of the university and the people within it. Records can be in any format, from paper to <span class="code">pdf</span> files, or physical objects to email. If it documents what you do, it is a record and we would like to preserve it. Here are some examples of records we collect:</p>
+				<div class="col-xs-12 sequence">
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://archives.albany.edu/static/web/images/faq/meetingMinutes.png" alt="University Council meeting minutes">
+					  <div class="card-body">
+					    <p class="card-text"><span class="code">.pdf</span> of University Council meeting minutes</p>
+					  </div>
+					</div>
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://archives.albany.edu/static/web/images/faq/asp.png" alt="Albany Student Press issue from 2015">
+					  <div class="card-body">
+					    <p class="card-text">Albany Student Press issue from 2015</p>
+					  </div>
+					</div>
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://archives.albany.edu/static/web/images/faq/email.png" alt="Email correspondence and calendar">
+					  <div class="card-body">
+					    <p class="card-text"><span class="code">.pst</span> containing email correspondence and calendar</p>
+					  </div>
+					</div>
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://archives.albany.edu/static/web/images/faq/paper.png" alt="Box of paper records">
+					  <div class="card-body">
+					    <p class="card-text">Paper records from the Office of the President</p>
+					  </div>
+					</div>
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://archives.albany.edu/static/web/images/faq/1954hat.png" alt="Class of 1954 Hat">
+					  <div class="card-body">
+					    <p class="card-text">Class of 1954 Hat</p>
+					  </div>
+					</div>
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://archives.albany.edu/static/web/images/faq/quark.png" alt="CDs of preprints from Office of Communication and Marketing">
+					  <div class="card-body">
+					    <p class="card-text">CDs of preprints from Office of Communication and Marketing</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseSix">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What records are we legally obligated to preserve?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+			<h4>
+				<a>
+					What records are we legally obligated to preserve?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseSix" class="panel-collapse collapse">
-			<div class="panel-body">
-				<p>Since we are a publicly-funded university, we are subject to New York State public records laws, namely New York State Arts and Cultural Affairs Law Section 57.05. Specifically, SUNY has a Records Retention and Disposition Schedule which outlines how long we must keep different types of records before they may be thrown away or disposed of. Certain records must legally be preserved permanently.</p><p>The purpose having a plan for our records is to limit potential legal liability while at the same time ensuring that valuable records are kept to ensure openness and accountability.</p>
-			</div>
+		<div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body"><p>Since we are a publicly-funded university, we are subject to New York State public records laws, namely New York State Arts and Cultural Affairs Law Section 57.05. Specifically, SUNY has a Records Retention and Disposition Schedule which outlines how long we must keep different types of records before they may be thrown away or disposed of. Certain records must legally be preserved permanently.</p><p>The purpose having a plan for our records is to limit potential legal liability while at the same time ensuring that valuable records are kept to ensure openness and accountability.</p></div>
 		</div>
 	</div>
+	
 	<div class="pullQuote">Certain records must legally be preserved permanently.</div>
-	<div style="clear: both;"></div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseSeven">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What does the SUNY Records Retention Schedule say about my records?</a>
+	<div class="clearfix"></div>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+			<h4>
+				<a>
+					What does the SUNY Records Retention Schedule say about my records?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseSeven" class="panel-collapse collapse">
-			<div class="panel-body">
-				<p>You can read the whole document <a href="https://www.suny.edu/sunypp/documents.cfm?doc_id=650">here</a>. Overall, it requires that, "In order to preserve records of historical and archival value, certain categories of records are to be retained permanently." It goes on to outline which types of records meet this distinction.</p><p>Basically, any record that "...documents a significant subject, or major policy-making or program-development process" must be kept permanently. <!--<a href="{{ site.url }}/ua/SUNYRecordsRetention">Here is a more detailed summary of what that means.</a>-->
-				</p>
-			</div>
+		<div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body"><p>You can read the whole document <a href="https://www.suny.edu/sunypp/documents.cfm?doc_id=650">here</a>. Overall, it requires that, "In order to preserve records of historical and archival value, certain categories of records are to be retained permanently." It goes on to outline which types of records meet this distinction.</p><p>Basically, any record that "...documents a significant subject, or major policy-making or program-development process" must be kept permanently. <!--<a href="{{ site.url }}/ua/SUNYRecordsRetention">Here is a more detailed summary of what that means.</a>-->
+				</p></div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseEight">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What records do you not want?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+			<h4>
+				<a>
+					What records do you not want?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseEight" class="panel-collapse collapse">
-			<div class="panel-body">We have a lot of records to manage and limited resources, so we have to limit what we accept to records that are unique and will not be preserved someplace else, and records that have significant research value. Old books are great, but they are not unique, and what you might think is important might not be what our future researchers value.</div>
+		<div id="collapseEight" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">We have a lot of records to manage and limited resources, so we have to limit what we accept to records that are unique and will not be preserved someplace else, and records that have significant research value. Old books are great, but they are not unique, and what you might think is important might not be what our future researchers value.</div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseNine">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What makes records valuable to researchers?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+			<h4>
+				<a>
+					What makes records valuable to researchers?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseNine" class="panel-collapse collapse">
-			<div class="panel-body">Researchers value large amounts of consistent records that show what you do on a day to day basis. Meeting minutes and email messages are great examples of this, they are easy to access and understand, and tell a lot about what you do. Think, what records best showcase my contributions to the university? We're betting you have better records than your job description or your office's publications.</div>
+		<div id="collapseNine" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">Researchers value large amounts of consistent records that show what you do on a day to day basis. Meeting minutes and email messages are great examples of this, they are easy to access and understand, and tell a lot about what you do. Think, what records best showcase my contributions to the university? We're betting you have better records than your job description or your office's publications.</div>
 		</div>
 	</div>
+
+
 	<div class="pullQuote">Think, what records best showcase my contributions to the university?</div>
-	<div style="clear: both;"></div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseTen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> Do you prefer paper or digital formats?</a>
+	<div class="clearfix"></div>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+			<h4>
+				<a>
+					Do you prefer paper or digital formats?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseTen" class="panel-collapse collapse">
-			<div class="panel-body">
-				<p>We prefer to accept records in the native format in which they were created. Today that often means digital files on your computer, but you probably create paper records as well. You have a database or content management system that need to be preserved? No problem, just <a href="mailto:gwiedeman@albany.edu">Contact Us</a> and let us know.</p><p>Both paper and digital bits have advantages and disadvantages for storing records. The original format also documents how you do what you do. We don't want you print out your digital records anymore that we want you to scan your paper records.</p>
-			</div>
+		<div id="collapseTen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body"><p>We prefer to accept records in the native format in which they were created. Today that often means digital files on your computer, but you probably create paper records as well. You have a database or content management system that need to be preserved? No problem, just <a href="mailto:gwiedeman@albany.edu">Contact Us</a> and let us know.</p><p>Both paper and digital bits have advantages and disadvantages for storing records. The original format also documents how you do what you do. We don't want you print out your digital records anymore that we want you to scan your paper records.</p></div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseEleven">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> Are my email messages records?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+			<h4>
+				<a>
+					Are my email messages records?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseEleven" class="panel-collapse collapse">
-			<div class="panel-body">
-				<p>It depends! Do they document what you do and how you do it? Most likely, the answer is sometimes.</p><p>Most email messages are not records. Listserv messages, campus news updates, and random solicitations are not records. You have a better idea of which email messages document your contributions and activities than anyone else.</p>
-			</div>
+		<div id="collapseEleven" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body"><p>It depends! Do they document what you do and how you do it? Most likely, the answer is sometimes.</p><p>Most email messages are not records. Listserv messages, campus news updates, and random solicitations are not records. You have a better idea of which email messages document your contributions and activities than anyone else.</p></div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseTwelve">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> How should I transfer my email?</a>
+
+	
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+			<h4>
+				<a>
+					How should I transfer my email?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseTwelve" class="panel-collapse collapse">
-			<div class="panel-body">We do not want all of your email. We're sure most of it is boring. We do want messages that document your contributions that are central to your office's or department's core mission. You should create a policy of what activities deserve to be preserved. We'll settle for a rough plan. Then you should create an email folder and place all the relevant sent and received messages in that folder. You should export a <span class="code">.pst</span> file of only that folder and then transfer that folder to the archives. <!--<a>Here are instructions on how to do this with Outlook.</a>-->
-			</div>
+		<div id="collapseTwelve" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">We do not want all of your email. We're sure most of it is boring. We do want messages that document your contributions that are central to your office's or department's core mission. You should create a policy of what activities deserve to be preserved. We'll settle for a rough plan. Then you should create an email folder and place all the relevant sent and received messages in that folder. You should export a <span class="code">.pst</span> file of only that folder and then transfer that folder to the archives. <!--<a>Here are instructions on how to do this with Outlook.</a>--></div>
 		</div>
 	</div>
+
+	
 	<div class="pullQuote">We do not want all of your email. We're sure most of it is boring.</div>
-	<div style="clear: both;"></div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseTwenty">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> Our website documents many of our activities, is that a record?</a>
+	<div class="clearfix"></div>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
+			<h4>
+				<a>
+					 Our website documents many of our activities, is that a record?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseTwenty" class="panel-collapse collapse">
-			<div class="panel-body">
-				<p>Absolutely! The university website is a very complex and ever-changing record. We have been preserving the entire university website for a couple years now. We crawl and store most of it weekly, and some of the most prominent pages are crawled daily for recent updates.</p>
-<p>Even if you put some of you records online through the university website, it still may be more effective to transfer these records directly to the archives. The reason for this is that digital records like <span class="code">pdf</span> files and Microsoft Office documents are easier to manage than our vast, sprawling web archive. Transferring records directly ensures that they are preserved in accordance with the <a href="https://www.suny.edu/sunypp/documents.cfm?doc_id=650">SUNY Public Records Laws</a>.</p>
-			</div>
+		<div id="collapseTwenty" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body"><p>Absolutely! The university website is a very complex and ever-changing record. We have been preserving the entire university website for a couple years now. We crawl and store most of it weekly, and some of the most prominent pages are crawled daily for recent updates.</p>
+<p>Even if you put some of you records online through the university website, it still may be more effective to transfer these records directly to the archives. The reason for this is that digital records like <span class="code">pdf</span> files and Microsoft Office documents are easier to manage than our vast, sprawling web archive. Transferring records directly ensures that they are preserved in accordance with the <a href="https://www.suny.edu/sunypp/documents.cfm?doc_id=650">SUNY Public Records Laws</a>.</p></div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseThirteen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What if I want to use my records later?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+			<h4>
+				<a>
+					What if I want to use my records later?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseThirteen" class="panel-collapse collapse">
-			<div class="panel-body">Part of our purpose is to help you manage and use your own non-current records. Any records that you transfer to us can be made available to you, just ask!</div>
+		<div id="collapseThirteen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">Part of our purpose is to help you manage and use your own non-current records. Any records that you transfer to us can be made available to you, just ask!</div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseFourteen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> What do you do with the items that are donated or transferred?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
+			<h4>
+				<a>
+					What do you do with the items that are donated or transferred?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseFourteen" class="panel-collapse collapse">
-			<div class="panel-body">We make our collections available for anyone to use. What good is it to throw records on shelves or hard drives and keep them locked away? Records are available if you come to our reading room on the 3rd floor of the Science Library. When we can, we also make records available online.</div>
+		<div id="collapseFourteen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">We make our collections available for anyone to use. What good is it to throw records on shelves or hard drives and keep them locked away? Records are available if you come to our reading room on the 3rd floor of the Science Library. When we can, we also make records available online.</div>
 		</div>
 	</div>
+
 	<div class="pullQuote">What good is it to throw records on shelves or hard drives and keep them locked away?</div>
-	<div style="clear: both;"></div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseFifteen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> Is everything made publicly available?</a>
+	<div class="clearfix"></div>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+			<h4>
+				<a>
+					Is everything made publicly available?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseFifteen" class="panel-collapse collapse">
-			<div class="panel-body">No, we cannot provide access to material that contains personally identifiable information or may cause an unwarranted invasion of personal privacy. All of this is governed by state and federal information laws and our access and use policies. Often times we close records that were not created for public use for a set period while we manage access concerns.  In addition to closing material, researchers may be asked to sign an agreement that restricts use of the records. If you are concerned or nervous about transferring your records to the archives for this reason, please <a href="mailto:gwiedeman@albany.edu">Contact Us</a>. We have experience managing access concerns and we will ensure that you feel comfortable with the arrangements.</div>
+		<div id="collapseFifteen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">No, we cannot provide access to material that contains personally identifiable information or may cause an unwarranted invasion of personal privacy. All of this is governed by state and federal information laws and our access and use policies. Often times we close records that were not created for public use for a set period while we manage access concerns.  In addition to closing material, researchers may be asked to sign an agreement that restricts use of the records. If you are concerned or nervous about transferring your records to the archives for this reason, please <a href="mailto:gwiedeman@albany.edu">Contact Us</a>. We have experience managing access concerns and we will ensure that you feel comfortable with the arrangements.</div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseSixteen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> How do the records I transfer to the archives provide value to the University?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+			<h4>
+				<a>
+					How do the records I transfer to the archives provide value to the University?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseSixteen" class="panel-collapse collapse">
-			<div class="panel-body">The records you transfer contribute to a world-class research collection that serves our faculty and students. We get researchers everyday who are interested in working with our collections. For many periods in the past, we simply don't have enough documentation to provide the answers we need. If we want our questions answered in the future, then we must preserve the present. The university spends hundreds of thousands of dollars to acquire or subscribe to research collections. We are creating research collections for free.</div>
+		<div id="collapseSixteen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">The records you transfer contribute to a world-class research collection that serves our faculty and students. We get researchers everyday who are interested in working with our collections. For many periods in the past, we simply don't have enough documentation to provide the answers we need. If we want our questions answered in the future, then we must preserve the present. The university spends hundreds of thousands of dollars to acquire or subscribe to research collections. We are creating research collections for free.</div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseSeventeen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> Should I transfer my records to the archives?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen">
+			<h4>
+				<a>
+					Should I transfer my records to the archives?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseSeventeen" class="panel-collapse collapse">
-			<div class="panel-body">Probably! If you are affiliated with the University and have records that document what you do and how you do it then, YES! In fact, you might be legally obligated to preserve your records, so we can help you with that. Since we are a public institution, some records have to be transferred or destroyed in accordance with the SUNY Records Retention Schedule. <!--<a href="{{ site.url }}/ua/SUNYRecordsRetention">Here is a more detailed summary of what records it requires the University to keep permanently.</a>-->
-			</div>
+		<div id="collapseSeventeen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">Probably! If you are affiliated with the University and have records that document what you do and how you do it then, YES! In fact, you might be legally obligated to preserve your records, so we can help you with that. Since we are a public institution, some records have to be transferred or destroyed in accordance with the SUNY Records Retention Schedule. <!--<a href="{{ site.url }}/ua/SUNYRecordsRetention">Here is a more detailed summary of what records it requires the University to keep permanently.</a>--></div>
 		</div>
 	</div>
+	
+	
 	<div class="pullQuote">We are creating research collections for free.</div>
-	<div style="clear: both;"></div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseEighteen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> How do I transfer my records to the archives?</a>
+	<div class="clearfix"></div>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen">
+			<h4>
+				<a>
+					How do I transfer my records to the archives?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseEighteen" class="panel-collapse collapse">
-			<div class="panel-body">
+		<div id="collapseEighteen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">
 				<p>If you have records you would like to transfer, first please <a href="mailto:gwiedeman@albany.edu">Contact Us</a>. For paper records or digital files that were created on external media, like CDs, we will make arrangements to move the materials to our offices in the Science Library.</p>
 
 <p>For digital records in basic file formats like <span class="code">.pdf</span>, <span class="code">.docx</span>, <span class="code">.doc</span>, <span class="code">.xlsx</span>, <span class="code">.jpg</span>, <span class="code">.pst</span>, etc., please contact the <a href="mailto:gwiedeman@albany.edu">University Archivist</a> to set  up our internal digital transfer system. You will be provided a folder where you can place permanent records to ensure that they are preserved and meet state records laws.</p>
@@ -324,24 +365,32 @@ $( document ).ready(function() {
 			</div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseNineteen">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> Can you help me or my students use your collections?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
+			<h4>
+				<a>
+					Can you help me or my students use your collections?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseNineteen" class="panel-collapse collapse">
-			<div class="panel-body">Absolutely! We regularly teach classes on researching with primary sources and provide individual research assistance every day, just <a href="{{ site.url }}/reference">Contact Us</a> with whatever you need.</div>
+		<div id="collapseNineteen" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">Absolutely! We regularly teach classes on researching with primary sources and provide individual research assistance every day, just <a href="{{ site.url }}/reference">Contact Us</a> with whatever you need.</div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="{{ site.url }}/#collapseHeight">
-			<h4 class="panel-title">
-				<a><span class="glyphicon glyphicon-plus"></span> Any other questions?</a>
+
+	<div class="card mb-3">
+		<div class="card-header collapse-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseHeight" aria-expanded="true" aria-controls="collapseHeight">
+			<h4>
+				<a>
+					Any other questions?
+					<i class="fa fa-angle-down rotate-icon pull-right"></i>
+				</a>
 			</h4>
 		</div>
-		<div id="collapseHeight" class="panel-collapse collapse">
-			<div class="panel-body">
+		<div id="collapseHeight" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+			<div class="card-body">
 				<p>Please feel free to contact the University Archivist, we're here to help.</p><p>
 					<a href="{{ site.url }}/reference">Make a Reference Request</a>
 					<br/>
@@ -354,6 +403,8 @@ $( document ).ready(function() {
 			</div>
 		</div>
 	</div>
+
+
 	
 </div>
 <div style="float: right; height: 100px;"/>
