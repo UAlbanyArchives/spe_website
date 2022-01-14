@@ -3,7 +3,7 @@ title: 'Closing for Winter Intersession'
 layout: one_column
 date: 2021-12-20
 image: img/main/winter2.jpg
-sort_by: 1
+sort_by: 2
 active: true
 ---
 

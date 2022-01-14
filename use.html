@@ -8,32 +8,34 @@ permalink: /use/
     #contentColumn img {width: 70%; margin: 25px auto;display: block;}
 </style>
 
-<p>Small portions of our collections are accessible online as “Online Content". This includes materials that we have previously digitized and “born-digital” materials that were created digitally.</p>
-
-<div class="col-md-10 offset-md-1">
-    <div class="alert alert-info" role="alert">
-        <h5 class="alert-heading">
-            <i class="fa fa-info-circle" aria-hidden="true"></i>
-            Why are only some materials available online?
-        </h5>
-        <hr/>
-        <p class="mb-0">Most of our records will never be digitized and will only be available for in-person viewing. This is because we hold tens of thousands of boxes of records. While we try to digitize our most heavily-used materials, it’s actually much easier and more affordable to maintain records on paper. If we spent all of our resources digitizing, we would not be able to preserve as many materials and many records would be lost.</p>
-    </div>
+<div class="col-md-12">
+    <p>Small portions of our collections are accessible online as “Online Content". This includes materials that we have previously digitized and “born-digital” materials that were created digitally.</p>
 </div>
 
-<ul>
-    <li><a href="{{ site.rooturl }}/catalog">Search</a> or <a href="{{ site.url }}/selections">Browse</a> Online Content</li>
-    <li><a href="#dl-images">Downloading Images</a></li>
-    <li><a href="#dl-content">Downloading Documents, Audio, and Video</a></li>
-    <li><a href="#embed-images">Embedding Images</a></li>
-    <li><a href="#embed-audio">Embedding Audio</a></li>
-    <li><a href="#embed-video">Embedding Video</a></li>
-    <li><a href="#embed-searches">Embedding Searches</a></li>
-    <li><a href="{{ site.url }}/api">API Access to materials in bulk for computational use</a>.</li>
-</ul>
+<div class="row">
 
-<p>The archives exists for you to use it, so feel free to download, link, or embed directly from over 26,000 online items in our <a href="https://archives.albany.edu/catalog">Digital Selections</a>.</p>
+    <div class="col-md-6">
+        <ul>
+            <li><a href="{{ site.rooturl }}/catalog">Search</a> or <a href="{{ site.url }}/selections">Browse</a> Online Content</li>
+            <li><a href="#dl-images">Downloading Images</a></li>
+            <li><a href="#dl-content">Downloading Documents, Audio, and Video</a></li>
+            <li><a href="#embed-images">Embedding Images</a></li>
+            <li><a href="#embed-audio">Embedding Audio</a></li>
+            <li><a href="#embed-video">Embedding Video</a></li>
+            <li><a href="#embed-searches">Embedding Searches</a></li>
+            <li><a href="{{ site.url }}/api">API Access to materials in bulk for computational use</a>.</li>
+        </ul>
+    </div>
 
+    <div class="col-md-6">
+        {% include online.html %}
+    </div>
+
+</div>
+
+<div class="col-md-12">
+    <p>The archives exists for you to use it, so feel free to download, link, or embed directly from over 26,000 online items in our <a href="https://archives.albany.edu/catalog">Digital Selections</a>.</p>
+</div>
 
 <div class="pb-2 mt-4 mb-2 border-bottom">
   <h2>Downloading and Linking</h2>

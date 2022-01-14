@@ -8,7 +8,12 @@ layout: spe_base_2
 <div class="row">
 	<div class="container main-container">
 		<div id="contentColumn" class="col-md-12">
-			<h1 class="text-center">{{ page.title }}</h1>
+			<div class="title">
+				<h1 class="card-title text-center">{{ page.title }}</h1>
+				{% if page.subtitle %}
+					<h4 class="card-subtitle text-muted text-center">{{ page.subtitle }}</h4>
+				{% endif %}
+			</div>
 
 			{{ content }}
 

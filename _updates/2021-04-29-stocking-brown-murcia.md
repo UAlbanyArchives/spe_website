@@ -3,7 +3,7 @@ author: Jodi Boyle
 layout: one_column
 title: 'Ruth Murcia Named 2021 Patricia Stocking Brown Research Award Recipient'
 image: posts-img/ruth_murcia_2021.jpg
-sort_by: 2
+sort_by: 3
 active: false
 ---
 

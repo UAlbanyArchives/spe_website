@@ -41,6 +41,24 @@ a:hover {
 	border-color: #eaaa00;
 }
 
+.btn-primary:focus {
+	box-shadow: 0 0 0 .2rem #9e68c7;
+}
+
+.btn-warning {
+	color: #fff;
+	background-color: #eaaa00 !important;
+	border-color: #eaaa00 !important;
+	text-shadow: none;
+}
+
+a.btn-warning:hover, a.btn-warning:focus {
+	color: #46166B !important;
+	/*color: #fff;
+	background-color: #cf9600 !important;
+	border-color: #cf9600 !important;*/
+}
+
 
 /* pagination */
 
