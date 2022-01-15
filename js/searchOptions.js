@@ -6,7 +6,7 @@ $(function(){
 
 	$("#searchAll").click(function () {
 		
-		$label.text("Everything");
+		$label.text("Collections");
 		$form.attr("action", $localAction + "/search");
 			
 	});
