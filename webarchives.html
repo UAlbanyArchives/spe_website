@@ -1,15 +1,11 @@
 ---
 title: UAlbany Web Archiving Program
-layout: spe_base_1
+subtitle: 'preserving albany.edu and more since 2012'
+layout: one_column
 permalink: /webarchives/
 ---
 
-<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/headerAffix.js"></script>
-<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/leftNav.js"></script>
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/simple-sidebar.css" type="text/css">
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/twoColumnSideMobile.css" type="text/css"></link>
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/sideNavbar.css" type="text/css"></link>
-<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="glyphicon glyphicon-menu-hamburger"></i></a>
+
 <style>
 #webArchivesSearch .form-group  {
 	/*text-align: center;*/
@@ -31,66 +27,13 @@ function uaWayback(){
     your_form.action = action_src ;
 }
 </script>
-<div class="row no-gutter" id="wrapper">
-	<div class="container-fluid">
-		
-		<div class="col-md-2 col-md-offset-1" id="browseNav">
-			<div class="panel panel-default">
-				<div class="nav list-group">
-					<li class="list-group-item active" ><a href="{{ site.url }}/ua">About University Archives</a></li>
-					<li class="list-group-item" ><a href="{{ site.url }}/chronology">Chronology</a></li>
-					<li class="list-group-item" data-toggle="collapse" data-target="#leadership" data-parent="#browseNav"><a>Leadership <span class="glyphicon glyphicon-triangle-bottom"></span></a></li>
-					<div id="leadership" class="collapse" aria-expanded="false">
-						<li class="list-group-item" ><a href="https://archives.albany.edu/description/catalog/ua000">Office of the President</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/description/catalog/ua100">University Council</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/description/catalog/ua200">University Senate</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2163.html">Presidential Offices</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2140.html">Task Forces &amp; Committees</a></li>
-					</div>
-					
-					<li class="list-group-item" data-toggle="collapse" data-target="#administration" data-parent="#browseNav"><a>Administative Units <span class="glyphicon glyphicon-triangle-bottom"></span></a></li>
-					<div id="administration" class="collapse" aria-expanded="false">
-						<li class="list-group-item" ><a href="https://archives.albany.edu/description/catalog/ua746">Athletics</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2161.html">Communications &amp; Marketing</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/description/catalog/ua370">Diversity &amp; Inclusion</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2162.html">Finance &amp; Business</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/description/catalog/ua535">Information Systems and Technology</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2157.html">Student Affairs</a></li>						
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2174.html">University Development</a></li>
-					</div>
-					
-					<li class="list-group-item" data-toggle="collapse" data-target="#academics" data-parent="#browseNav"><a>Academic Affairs <span class="glyphicon glyphicon-triangle-bottom"></span></a></li>
-					<div id="academics" class="collapse" aria-expanded="false">
-						<li class="list-group-item" ><a href="https://archives.albany.edu/description/catalog/ua500">Office of the Provost</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2153.html">Academic Administation</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2156.html">Schools &amp; Colleges</a></li>
-						<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2145.html">Academic Departments</a></li>
-					</div>
-					
-					<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2147.html">Centers &amp; Institutes</a></li>
-					<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2158.html">Student Groups</a></li>
-					<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2149.html">Faculty &amp; Alumni Papers</a></li>
-					<li class="list-group-item" ><a href="https://archives.albany.edu/browse/2155.html">Reference Collections</a></li>
-					<li class="list-group-item" ><a href="{{ site.url }}/webarchives">Web Archives</a></li>
-					<li class="list-group-item" ><a href="https://archives.albany.edu/browse/ua.html">University A-Z List</a></li>
-					
-				</div>
-			</div>
-		</div>
 
-		<div class="col-md-6 col-md-offset-4 col-sm-8  col-sm-offset-2 alphaContent">
-			<div class="jumbotron">
-				<h2>UAlbany Web Archiving Program</h2>
-                                <h4>preserving albany.edu and more since 2012</h4>
-			</div>
-
-<hr/>
 
 
 
 <div class="col-md-12">
 
-	<h4>Web Archives are preserved websites that can be "replayed" even if the original changes or goes offline!</h4>
+	<p>Web Archives are preserved websites that can be "replayed" even if the original changes or goes offline!</p>
 </div>
 
 <div class="col-md-12">
@@ -101,52 +44,56 @@ function uaWayback(){
 			<label for="basic-url">Find a URL</label>
 			<div class="input-group input-group-lg">
 		      <input type="text" id="uaWaybackURL" class="form-control" placeholder="https://">
-		      <span class="input-group-btn">
-		        <button class="btn btn-primary input-lg" type="submit"><span class="glyphicon glyphicon-play"></span></button>
-		      </span>
+		      <div class="input-group-append">
+		      	<button class="btn btn-primary input-lg" type="submit"><i class="fa fa-play" aria-hidden="true"></i></span></button>
+		      </div>
 		    </div>
 		    <label for="basic-url">https://wayback.archive-it.org/org-652/*/...</label>
     	</div>
 	</form>
 </div>
 
-<hr/>
 
-
-<div class="page-header col-md-12">
+<div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
 
 	<h3>Purpose</h3>
 
 </div>
 
-<div class="col-md-4 well well-lg col-md-push-8">
-		
-	<form class="form-inline" id="webArchivesSearch" action="{{ site.url }}/webarchives/search">
-		<div class="form-group col-xs-12">
-			<label>Search Web Archives</label>
-			<div class="input-group">
-				<input class="form-control" name="query" id="exampleInputName2" placeholder="Search" type="text"></input>
-				<span class="input-group-btn">
-				<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-				</span>
-			</div>
-		</div>
-	</form>
+<div class="row">
 
+<div class="col-md-4 order-md-last">
+	<div class="card">
+		<div class="card-body">
+			<h5 class="card-title">Search Web Archives</h5>
+			<form class="form-inline" id="webArchivesSearch" action="{{ site.url }}/webarchives/search">
+				<div class="form-group col-xs-12">
+					<div class="input-group">
+						<input class="form-control" name="query" id="exampleInputName2" placeholder="Search" type="text"></input>
+						<div class="input-group-append">
+					    <button class="btn btn-primary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					  </div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>
 
-<div class="col-md-8 col-md-pull-4">
+<div class="col-md-8 order-md-first">
 <p>An important part of the mission of The M. E. Grenander Department of Special Collections and Archives is to collect, preserve, and provide access to the official records of the University at Albany. The University website is one of the primary sources of information about campus policies, administrative activities, curricular changes, news, and events. Much of this information can no longer be found in print, so in order to preserve these records for posterity or to meet our legal requirements, it is necessary to collect parts of the web.</p>
 
 <p>The goal of the web archiving program is to preserve records that deserve to be retained for the long term in accordance with our <a href="{{ site.url }}/policy">collection development policy</a>. Primarily, this includes collecting the <a href="https://www.albany.edu">website of the University at Albany, SUNY</a> to insure all permanent public records can be accessed in the future. Typically, we also collect the websites of organizations whose paper records we hold, as these group continue to provide more and more documentary evidence online.</p>
 
-<p>We are committed to preserving websites in their original form to preserve their original context and structure. We expect future researchers to get more value out of web archives, than the same content printed to paper or flat PDF documents.<p>
+<p>We are committed to preserving websites in their original form to preserve their original context and structure. We expect future researchers to get more value out of web archives, than the same content printed to paper or flat PDF documents.</p>
 
 <p>Websites are inherently transitory. As pages are edited and updates are made, older information is lost. Therefore, website archiving cannot be a one-time procedure, it must be done regularly in order to accurately capture the changing nature of web-based information.</p>
 </div>
 
+</div>
 
-<div class="page-header col-md-12">
+
+<div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
 <h3>How Websites are Collected</h3>
 </div>
 <div class="col-md-12">
@@ -157,13 +104,13 @@ function uaWayback(){
 
 </div>
 
-<div class="page-header col-md-12">
+<div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
 <h3>How to Access Web Archives</h3>
 </div>
 <div class="col-md-12">
 
 
-<p>There are several ways to access the University's web archives. If a given collection includes archives of an organization's website, the web archives will be included within that organization's <a href="{{ site.url }}/collections">collection page</a>.
+<p>There are several ways to access the University's web archives. If a given collection includes archives of an organization's website, the web archives will be included within that organization's <a href="{{ site.rooturl }}/description">collection page</a>.
 <br/>
 
 <p><a href="https://wiki.albany.edu/display/SCA/How+Web+Archives+URLs+Work">More Details on how Web Archives URLs work</a></p>
@@ -198,7 +145,7 @@ function uaWayback(){
 
 </div>
 
-<div class="page-header col-md-12">
+<div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
 <h3>Limitations of Web Archiving</h3>
 </div>
 <div class="col-md-12">
@@ -210,7 +157,7 @@ function uaWayback(){
 
 </div>
 
-<div class="page-header col-md-12">
+<div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
 <h3>Privacy Issues</h3>
 </div>
 <div class="col-md-12">

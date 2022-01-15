@@ -1,30 +1,14 @@
 ---
-title: Search | UAlbany Web Archiving Program
-layout: spe_base_1
+title: Search UAlbany's Web Archives
+subtitle: 'preserving albany.edu and more since 2012'
+layout: one_column
 permalink: /webarchives/search/
 ---
 
 <script type="text/javascript" src="{{ site.url }}/oldDrupal/js/webArchivesSearch.js"></script>
-<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/headerAffix.js"></script>
-<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/leftNav.js"></script>
 <link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/webArchSearch.css" type="text/css"></link>
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/oneColumn.css" type="text/css"></link>
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/font-awesome.min.css" type="text/css"></link>
 <link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/awesome-bootstrap-checkbox.css" type="text/css"></link>
 
-<div class="row">
-<div class="container">
-<div id="contentColumn" class="col-md-12">
-<div class="col-md-10 col-md-offset-1">
-<div class="jumbotron">
-				<h2>UAlbany Web Archiving Program</h2>
-                                <h4>preserving albany.edu and more since 2012</h4>
-			</div>
-</div>
-<div class="col-md-1"></div>
-<div class="col-md-12">
-<hr/>
-</div>
 
                             
 
@@ -34,7 +18,7 @@ permalink: /webarchives/search/
 
 <div class="col-md-4" id="search-options">
 
-<div class="page-header">Narrow by Collection</div>
+<div class="pb-2 mt-4 mb-2 border-bottom">Narrow by Collection</div>
 
 <form role="form">
     <div class="checkbox checkbox-primary">
@@ -109,13 +93,13 @@ permalink: /webarchives/search/
 
 <div class="col-md-8" id="webArchivesBox">
 
-<form class="form-inline" id="webArchivesSearch">
+<form class="form-inline justify-content-center" id="webArchivesSearch">
 <div class="form-group col-xs-12">
-    <div class="input-group">
-        <input class="form-control input-lg" id="searchInput" placeholder="Search Web Archives" type="text">
-        <span class="input-group-btn">
-        <button class="btn btn-primary input-lg" disabled="" onclick="ga('send', 'event', 'search', 'click', 'button');" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-        </input></span>
+    <div class="input-group flex-nowrap">
+        <input class="form-control input-lg" id="searchInput" placeholder="Search Web Archives" type="text" />
+        <div class="input-group-append">
+            <button class="btn btn-primary input-lg" disabled="" onclick="ga('send', 'event', 'search', 'click', 'button');" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
     </div>
 </div>
 </form>
@@ -125,7 +109,7 @@ permalink: /webarchives/search/
   <div class="text-center">
     <div class="btn-group">
       <a href="{{ site.url }}/webarchives" class="btn btn-primary">About Web Archives</a>
-      <a href="{{ site.url }}/ua" class="btn btn-primary">About University Archives</a>
+      <a href="{{ site.rooturl }}/description/repositories/ua" class="btn btn-primary">About University Archives</a>
     </div>  
 </div>
 </div>
