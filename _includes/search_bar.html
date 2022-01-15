@@ -1,4 +1,10 @@
-<form class="search-query-form" action="{{ site.rooturl }}/catalog" accept-charset="UTF-8" method="get">
+{% if page.title == "M.E. Grenander Department of Special Collections & Archives" %}
+  {% assign action = "search" %}
+{% else %}
+  {% assign action = "catalog" %}
+{% endif %}
+
+<form class="search-query-form" action="{{ site.rooturl }}/{{ action }}" accept-charset="UTF-8" method="get">
     <input name="utf8" type="hidden" value="✓">
     <input type="hidden" name="search_field" id="search_field" value="all_fields">
     <div class="input-group">
