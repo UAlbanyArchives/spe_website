@@ -59,11 +59,16 @@ a.btn-warning:hover, a.btn-warning:focus {
 
 /* pagination */
 
-.pagination .page-item a {
+.pagination .btn-outline-info {
+	color: #46166B;
+	border-color: #46166B;
+}
+
+/*.pagination .page-item a {
 	color: #46166B; 
 }
 
 .pagination .page-item.active .page-link {
 	background-color: #9e68c7;
 	border-color: #9e68c7;
-}
+}*/

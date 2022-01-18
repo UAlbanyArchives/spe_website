@@ -32,13 +32,12 @@ body {
 }
 
 
-.pagination a.active {
+/*.pagination a.active {
 	color: #fff !important;
 }
-
 .pagination a {
 	color: #46166B !important;
-}
+}*/
 
 /*@media only screen and (max-width: 991px) {
 	body:before {
@@ -278,4 +277,15 @@ span.author {
 
 .donations > ul > li {
 	margin-top: 1rem;
+}
+
+
+.blogVideo {
+	margin: 20px auto;
+}
+
+@media only screen and (max-width: 1400px) {
+		.blogVideo {
+			width: 100%;
+		}
 }
