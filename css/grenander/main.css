@@ -46,20 +46,16 @@ a:hover {
 }
 
 .btn-warning {
-	/*color: #fff;*/
-	color: #46166B;
-	background-color: #eaaa00 !important;
-	border-color: #eaaa00 !important;
+	color: #fff;
+	background-color: #9e68c7 !important;
+	border-color: #9e68c7 !important;
 	text-shadow: none;
 }
 
 a.btn-warning:hover, a.btn-warning:focus {
-	color: #fff !important;
-	/*color: #46166B;
-	background-color: #cf9600 !important;
-	border-color: #cf9600 !important;*/
+	background-color: #eaaa00 !important;
+	border-color: #eaaa00 !important;
 }
-
 
 /* pagination */
 
