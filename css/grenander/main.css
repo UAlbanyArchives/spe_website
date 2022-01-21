@@ -47,26 +47,28 @@ a:hover {
 
 .btn-warning {
 	color: #fff;
-	background-color: #eaaa00 !important;
-	border-color: #eaaa00 !important;
+	background-color: #9e68c7 !important;
+	border-color: #9e68c7 !important;
 	text-shadow: none;
 }
 
 a.btn-warning:hover, a.btn-warning:focus {
-	color: #46166B !important;
-	/*color: #fff;
-	background-color: #cf9600 !important;
-	border-color: #cf9600 !important;*/
+	background-color: #eaaa00 !important;
+	border-color: #eaaa00 !important;
 }
-
 
 /* pagination */
 
-.pagination .page-item a {
+.pagination .btn-outline-info {
+	color: #46166B;
+	border-color: #46166B;
+}
+
+/*.pagination .page-item a {
 	color: #46166B; 
 }
 
 .pagination .page-item.active .page-link {
 	background-color: #9e68c7;
 	border-color: #9e68c7;
-}
+}*/
