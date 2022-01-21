@@ -16,6 +16,7 @@ $(function(){
 		console.log($label.text());
 		$label.text("Archives & Manuscripts");
 		$form.attr("action", $localAction + "/description");
+		$form.prepend("<input class='collectingArea' type='hidden' name='group' value='true'>");
 			
 	});
 
