@@ -53,6 +53,13 @@
 	margin-right: 0;
 }
 
+@media only screen and (min-width: 1600px) {
+	.fill .search-row {
+		margin-bottom: 13%;
+		padding-top: 9%;
+	}
+}
+
 .fill .main-row {
 	background-color: rgba(255,255,255,0.8);
 	margin-bottom: 3rem;
