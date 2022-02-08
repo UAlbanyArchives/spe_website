@@ -299,3 +299,8 @@ span.author {
 table.hoursTable > tbody > tr:first-child > td {
 	border-top:  none;
 }
+
+
+.referenceAssistance p {
+	margin-bottom: 0.3rem;
+}
