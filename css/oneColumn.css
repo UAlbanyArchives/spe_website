@@ -88,8 +88,14 @@ body > .container .panel {
 #mainContent .main-container #contentColumn {
 	background-color: #FFFFFF;
 	box-shadow: 0 0 10px #FFFFFF;
-	padding: 40px;
+	padding-top: 40px;
 	z-index: 0;
+}
+
+@media only screen and (min-width: 576px) {
+	#mainContent .main-container #contentColumn {
+		padding: 40px;
+	}
 }
 
 #mainContent .row .whitebg #contentColumn {
@@ -288,4 +294,8 @@ span.author {
 		.blogVideo {
 			width: 100%;
 		}
+}
+
+table.hoursTable > tbody > tr:first-child > td {
+	border-top:  none;
 }
