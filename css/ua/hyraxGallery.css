@@ -64,12 +64,12 @@
 	margin-bottom: 30px;
 }
 
-.sequence .itemLink {
+.sequence-small .itemLink {
 	max-width: 300px;
 }
 
 @media only screen and (min-width: 1500px) {
-	.sequence .itemLink {
+	.sequence-small .itemLink {
 		max-width: 420px;
 	}
 }
@@ -77,4 +77,22 @@
 .page-header .label {
 	font-size: 50%;
 	vertical-align: top;
+}
+
+.oc-menu .card-body ul {
+	padding-left: 0;
+}
+
+.oc-menu .list-group-item-primary {
+	background-color: #EBE6F0;
+	color: #403a60;
+	cursor: pointer;
+	border-color: #EBE6F0;
+}
+
+.oc-menu .list-group-item-primary:hover,  .list-group-item-primary:active, .list-group-item-primary:focus {
+	background-color: #46166B;
+	border-color: #46166B;
+	color: #EBE6F0;
+	text-decoration: none;
 }
