@@ -13,7 +13,7 @@ title: "Online Content"
 
 <div class="row">
 
-	<div class="col-3 mb-4">
+	<div class="oc-menu-sidebar col-3 mb-4">
 		<div class="card oc-menu">
 
 			<div class="card-body">
@@ -48,7 +48,7 @@ title: "Online Content"
 
 	</div>
 
-	<div class="col-9 mb-4">
+	<div class="col-12 col-lg-9 mb-4">
 		<div class="card">
 
 			<div class="card-body">
@@ -74,7 +74,7 @@ title: "Online Content"
 						<div class="pb-2 mb-2 border-bottom">
 							<h3>Outside Collecting Areas</h3>
 						</div>
-						<div class="sequence">
+						<div class="card-group">
 
 							{% for page in site.selections %}
 
@@ -102,6 +102,7 @@ title: "Online Content"
 												</div>
 											</div>
 										</a>
+
 									{% endif %}
 
 								{% endunless %}
