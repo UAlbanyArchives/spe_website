@@ -29,14 +29,14 @@ layout: selections_gallery
 		{% assign year = obj.date | split: " " %}
 		{% unless yearList contains year[0] %}
 			{% assign yearList = yearList | push: year[0] %}
-			{% if page.thumbs %}
-				</ul>
-			{% endif %}
+			</ul>
 			<div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
 			  <h4>{{ year[0] }}</h4>
 			</div>
 			{% if page.thumbs %}
 				<ul class="row">
+			{% else %}
+				<ul>
 			{% endif %}
 		{% endunless %}
 		{% if page.thumbs %}

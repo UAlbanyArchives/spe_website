@@ -35,9 +35,9 @@ layout: one_column
 			<div class="pb-2 mt-4 mb-2 border-bottom">
 				<h3>History of {{ page.title }}</h3>
 			</div>
-			<div>
+			<div class="collapse" id="bioghist" aria-expanded="false">
 				{% for para in site.data[desc_file]["document"]["bioghist_ssm"] %}
-					<p class="collapse" id="bioghist" aria-expanded="false">{{ para }}</p>
+					<p>{{ para }}</p>
 				{% endfor %}
 			</div>
 			<a class="showDesc" data-toggle="collapse" data-target="#bioghist" href="#"><i class="fa fa-arrow-down"></i> More</a>
