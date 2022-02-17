@@ -22,7 +22,7 @@ cp _site/404.html /var/www/books/public
 cp _site/422.html /var/www/books/public
 cp _site/500.html /var/www/books/public
 
-cp _site/index.html /var/www/update/arclight-UAlbany/public
-cp _site/404.html /var/www/update/arclight-UAlbany/public
-cp _site/422.html /var/www/update/arclight-UAlbany/public
-cp _site/500.html /var/www/update/arclight-UAlbany/public
+cp _site/index.html /var/www/arclight-UAlbany/public
+cp _site/404.html /var/www/arclight-UAlbany/public
+cp _site/422.html /var/www/arclight-UAlbany/public
+cp _site/500.html /var/www/arclight-UAlbany/public
