@@ -8,4 +8,4 @@ sort_by: 2
 active: true
 ---
 
-Anyone is welcome to use the collections! Learn more about how to access archival materials.
+The archives are open to the public and anyone is welcome to visit and view the collections.
