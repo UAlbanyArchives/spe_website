@@ -152,7 +152,7 @@ em {
 }
 
 .fadeout {
-	top: 410px;
+	top: 363px;
     position: relative; 
     bottom: 8em;
     height: 8em;
@@ -446,8 +446,8 @@ em {
     font-size: 1.25rem;
   }
   .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1.5rem;
+    /*font-size: 16px;
+    font-size: 1.5rem;*/
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
@@ -644,9 +644,7 @@ em {
 	color: #ffffff;
 }
 .modal-body p {
-	margin: 10px;
 	line-height: 1.3em;
-	font-size: 1.6rem;
 }
 
 .modal-body p a {

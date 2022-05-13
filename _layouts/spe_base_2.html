@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+	<head>
+		<!-- Google Tag Manager -->
+	    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	    })(window,document,'script','dataLayer','GTM-TT7MCFB');</script>
+	    <!-- End Google Tag Manager -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8; charset=UTF-8" />
+		<title>{{ page.title }} | M.E. Grenander Department of Special Collections & Archives</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" href="{{ site.url }}/icons/ua/mainLogo.ico"></link>
+
+		<link rel="stylesheet" href="{{ site.url }}/css/bootstrap/bootstrap.min.css"></link>
+		<link rel="stylesheet" href="{{ site.url }}/css/font-awesome.min.css"></link>
+
+		<link rel="stylesheet" href="{{ site.url }}/css/grenander/main.css" type="text/css"></link>
+		<link rel="stylesheet" href="{{ site.url }}/css/grenander/navbar.css" type="text/css"></link>
+		<link rel="stylesheet" href="{{ site.url }}/css/grenander/footer.css" type="text/css"></link>
+
+
+		<script type="text/javascript" src="{{ site.url }}/js/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="{{ site.url }}/js/bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{ site.url }}/js/bgRandom.js"></script>
+		<script type="text/javascript" src="{{ site.url }}/js/referenceFormTitle.js"></script>
+		<!--<script type="text/javascript" src="{{ site.url }}/js/dev-links.js"></script>-->
+	</head>
+	<body>
+
+		{% include navbar.html %}
+
+		<div id="mainContent">
+			{{ content }}
+		</div>
+
+		{% include footer.html %}
+
+		<!-- loads Contact modal -->
+		<script src="https://apps.library.albany.edu/host/archives/contact-archives.js"></script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+---
+layout: spe_base_2
+---
+
+<link rel="stylesheet" href="{{ site.url }}/css/oneColumn.css" type="text/css"></link>
+
+<div class="container-fluid main-container">
+	<div class="row">
+		<div class="side-menu col-lg-3">
+			<div class="list-group">
+			  <a href="{{ site.url }}/mission" class="list-group-item list-group-item-action">Mission & Purpose</a>
+			  <a href="{{ site.url }}/policy" class="list-group-item list-group-item-action">Collection Development Policy</a>
+			  <a href="{{ site.url }}/grenander" class="list-group-item list-group-item-action">About M.E. Grenander</a>
+			  <a href="{{ site.url }}/research_room" class="list-group-item list-group-item-action">About the Marcia Brown Research Room</a>
+			  <a href="{{ site.url }}/ua/faq/" class="list-group-item list-group-item-action">University Records</a>
+			  <a href="{{ site.url }}/outside_donors" class="list-group-item list-group-item-action">Outside Donations of Records</a>
+			  <a href="{{ site.url }}/giving" class="list-group-item list-group-item-action">Giving to the Department</a>
+			</div>
+		</div>
+
+		<div id="contentColumn" class="two-column col-lg-9">
+
+			<div class="title">
+				<h1 class="display-4 card-title text-center">{{ page.title }}</h1>
+				{% if page.subtitle %}
+					<h4 class="card-subtitle text-muted text-center">{{ page.subtitle }}</h4>
+				{% endif %}
+			</div>
+			
+
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>

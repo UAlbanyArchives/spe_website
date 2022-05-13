@@ -1,99 +1,164 @@
 ---
-layout: one_column
-title: "Digital Selections"
+layout: full_width
+title: "Online Content"
 ---
 
+<div class="p-1 pt-4">
+
+<link rel="stylesheet" href="{{ site.url }}/css/search-source.css"></link>
 <link rel="stylesheet" href="{{ site.url }}/css/ua/hyraxGallery.css" type="text/css"></link>
 <script type="text/javascript" src="{{ site.url }}/js/hyraxGallery.js"></script>
 
-<div class="col-md-12">
+{% include search_row.html %}
 
-	<p>"Digital Selections" are items that are available online because they have been digitized or were "born-digital," or created digitally. Only a small portion of collections are available online.</p>
+<div class="row">
 
-<div class="form-group" align="center">
-	<form class="form-inline" action="https://archives.albany.edu/catalog">
-	      <input class="form-control" type="text" placeholder="Search All Digital Selections..." name="q">
-	      <input type="hidden" name="search_field" value="all_fields">
-	      <button type="submit" class="btn btn-primary">Search</button>
-	</form>
-</div>
+	<div class="oc-menu-sidebar col-3 mb-4">
+		<div class="card oc-menu">
 
-</div>
+			<div class="card-body">
+				<div class="card-title">
+					<h3 class="">Outside Collecting Areas</h3>
+				</div>
+				<ul>
+					{% for page in site.selections %}
+						{% if page.top_level %}
+							{% unless page.collecting_area == "ua" %}
+								<a class="list-group-item list-group-item-primary" href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+							{% endunless %}
+						{% endif %}
+					{% endfor %}
+				</ul>
 
-<div class="col-xs-12 sequence">
+				<div class="card-title">
+					<h3 class="">University Archives</h3>
+				</div>
+				<ul>
+					{% for page in site.selections %}
+						{% if page.top_level %}
+							{% if page.collecting_area == "ua" %}
+								<a class="list-group-item list-group-item-primary" href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				</ul>
 
-		{% for page in site.selections %}
+			</div>
+		</div>
 
-			{% unless page.col_id contains "ua" %}
+	</div>
 
-				{% if page.top_level %}
-					{% if page.ref_id %}
-						{% assign page_file = "desc_" | append: page.ref_id %}
-					{% else %}
-						{% assign page_file = "desc_" | append: page.col_id | replace: ".", "-" %}
-					{% endif %}
+	<div class="col-12 col-lg-9 mb-4">
+		<div class="card">
 
-					<a id="" class="itemLink" href="{{ site.url }}{{ page.url }}">
-						<div class="galleryItem img-thumbnail">
-							<div class="galleryThumb">
-								<img id="{{ page.url }}" class="galleryImage" src="{{ page.img }}" alt="{{ page.title }}" />
+			<div class="card-body">
+				<div class="card-title">
+					<h3 class="display-4">Online Content</h3>
+				</div>
+
+				<p class="lead">Portions of collections that were selected to be digitized or were "born-digital."</p>
+			
+				<p>The M.E. Grenander Department of Special Collections & Archives holds tens of thousands of cubic feet of Archives & Manuscript material. For most of these materials, it is not feasible to digitize items and maintain those digital files long into the future. Instead we try to digitize the most highly valued and often used records so they can be made available online and used widely, even though this represents a small fraction of the department's holdings. Additionally, some online content was "born-digital," or created digitally as PDFs, image files, office documents, etc.</p>
+					
+				<p>In some cases entire file series or collections are available online, yet often online materials are interspersed throughout the department's Archives & Manuscript materials. We continue to add to online materials over time. You can <a href="{{ site.url }}/reproductions">request items for digitization</a> subject to the department's <a href="{{ site.url }}/reproductions#fee_schedule">Digital Reproduction Fee schedule</a>.</p>
+
+
+			</div>
+
+
+			<div class="card-body">
+
+				<div class="row">
+
+					<div class="col-lg-6">
+						<div class="pb-2 mb-2 border-bottom">
+							<h3>Outside Collecting Areas</h3>
+						</div>
+						<div class="card-group">
+
+							{% for page in site.selections %}
+
+								{% unless page.col_id contains "ua" %}
+
+									{% if page.top_level %}
+										{% if page.ref_id %}
+											{% assign page_file = "desc_" | append: page.ref_id %}
+										{% else %}
+											{% assign page_file = "desc_" | append: page.col_id | replace: ".", "-" %}
+										{% endif %}
+
+										<a id="" class="itemLink" href="{{ site.url }}{{ page.url }}">
+											<div class="galleryItem img-thumbnail">
+												<div class="galleryThumb">
+													<img id="{{ page.url }}" class="galleryImage" src="{{ page.img }}" alt="{{ page.title }}" />
+												</div>
+												<div class="galleryLabel">
+													<h4>
+														<p>{{ page.title }}</p>
+													</h4>
+													{% if site.data[page_file]["document"]["scopecontent_ssm"] %}
+														<p class="abstract">{{ site.data[page_file]["document"]["scopecontent_ssm"][0] | truncate: 100 }}</p>
+													{% endif %}
+												</div>
+											</div>
+										</a>
+
+									{% endif %}
+
+								{% endunless %}
+
+
+							{% endfor %}
+						</div>
+					</div>
+						
+
+						<div class="col-lg-6">
+							<div class="pb-2 mb-2 border-bottom">
+								<h3>University Archives</h3>
 							</div>
-							<div class="galleryLabel">
-								<h4>
-									<p>{{ page.title }}</p>
-								</h4>
-								{% if site.data[page_file]["document"]["scopecontent_ssm"] %}
-									<p class="abstract">{{ site.data[page_file]["document"]["scopecontent_ssm"][0] | truncate: 100 }}</p>
+							<div class="sequence">
+
+							{% for page in site.selections %}
+
+								{% if page.col_id contains "ua" %}
+
+									{% if page.top_level %}
+										{% if page.ref_id %}
+											{% assign page_file = "desc_" | append: page.ref_id %}
+										{% else %}
+											{% assign page_file = "desc_" | append: page.col_id | replace: ".", "-" %}
+										{% endif %}
+
+										<a id="" class="itemLink" href="{{ site.url }}{{ page.url }}">
+											<div class="galleryItem img-thumbnail">
+												<div class="galleryThumb">
+													<img id="{{ page.url }}" class="galleryImage" src="{{ page.img }}" alt="{{ page.title }}" />
+												</div>
+												<div class="galleryLabel">
+													<h4>
+														<p>{{ page.title }}</p>
+													</h4>
+													{% if site.data[page_file]["document"]["scopecontent_ssm"] %}
+														<p class="abstract">{{ site.data[page_file]["document"]["scopecontent_ssm"][0] | truncate: 150 }}</p>
+													{% endif %}
+												</div>
+											</div>
+										</a>
+									{% endif %}
+
 								{% endif %}
+
+
+							{% endfor %}
 							</div>
 						</div>
-					</a>
-				{% endif %}
 
-			{% endunless %}
+					</div>
+				</div>
+			</div>
+		</div>
 
-
-		{% endfor %}
-	</div>
-	<div class="clearfix"></div>
-
-	<div class="page-header">
-		<h3>University Archives</h3>
 	</div>
 
-	<div class="col-xs-12 sequence">
-
-		{% for page in site.selections %}
-
-			{% if page.col_id contains "ua" %}
-
-				{% if page.top_level %}
-					{% if page.ref_id %}
-						{% assign page_file = "desc_" | append: page.ref_id %}
-					{% else %}
-						{% assign page_file = "desc_" | append: page.col_id | replace: ".", "-" %}
-					{% endif %}
-
-					<a id="" class="itemLink" href="{{ site.url }}{{ page.url }}">
-						<div class="galleryItem img-thumbnail">
-							<div class="galleryThumb">
-								<img id="{{ page.url }}" class="galleryImage" src="{{ page.img }}" alt="{{ page.title }}" />
-							</div>
-							<div class="galleryLabel">
-								<h4>
-									<p>{{ page.title }}</p>
-								</h4>
-								{% if site.data[page_file]["document"]["scopecontent_ssm"] %}
-									<p class="abstract">{{ site.data[page_file]["document"]["scopecontent_ssm"][0] | truncate: 100 }}</p>
-								{% endif %}
-							</div>
-						</div>
-					</a>
-				{% endif %}
-
-			{% endif %}
-
-
-		{% endfor %}
-	</div>
-	<div class="clearfix"></div>
+</div>

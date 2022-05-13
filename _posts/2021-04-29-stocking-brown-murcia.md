@@ -9,13 +9,10 @@ Research Award Recipient
 <div class="entry-body">
 
  <div class="row">
-  <div class="">
-    <div class="">
-      <img src="{{ site.url }}/posts-img/ruth_murcia_2021.jpg" alt="Ruth Murcia" style="text-align: center; display: block; margin: 0 auto 20px;" width="160">
-	    <div class="caption text-center">Ruth Murcia</div>
+    <div class="text-center m-4">
+      <img src="{{ site.url }}/posts-img/ruth_murcia_2021.jpg" alt="Ruth Murcia" width="160">
+      <div class="caption text-center">Ruth Murcia</div>
     </div>
-  </div>
-  
 <br/>
 <p>ALBANY, N.Y. (April 29, 2021) – The University Libraries at the University at Albany, SUNY today announced that graduate student Ruth Murcia was the 2021 Patricia Stocking Brown Research Award recipient.</p>
 <p>A second-year master’s student in the Department of History, Ruth Murcia received $500 for her research to explore the complicated relationships between labor organizers, unions, and undocumented workers from Central America in New York during the 1980s. Many of these workers were women performing domestic labor, individuals historically ignored by formal labor law protections. Ms. Murcia is also analyzing the role of politics in these relationships. This project was created in the Department of History’s graduate Research Seminar. Dr. Ryan Irwin of the Department of History serves as faculty advisor. </p>

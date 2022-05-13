@@ -14,15 +14,13 @@
             "1847-2005"
         ],
         "language_ssm": [
-            "\n      English\n    ",
-            "English"
+            "\n      English\n.    "
         ],
         "abstract_ssm": [
             "This artificial collection documents the history of the University at Albany, SUNY and its predecessors through photographs and moving images. Images often depict the school's campus, university events, students, or faculty and staff."
         ],
         "corpname_ssm": [
-            "M.E. Grenander Department of Special Collections & Archives",
-            "State University of New York at Albany."
+            "M.E. Grenander Department of Special Collections & Archives"
         ],
         "genreform_ssm": [
             "Photographs"
@@ -75,18 +73,6 @@
         "repository_ssm": [
             "University Archives"
         ],
-        "creator_ssm": [
-            "State University of New York at Albany."
-        ],
-        "creator_ssim": [
-            "State University of New York at Albany."
-        ],
-        "creator_corpname_ssm": [
-            "State University of New York at Albany."
-        ],
-        "creator_corpname_ssim": [
-            "State University of New York at Albany."
-        ],
         "places_ssm": [
             "Higher Education--New York (State)"
         ],
@@ -108,15 +94,9 @@
         "level_ssm": [
             "collection"
         ],
-        "names_ssim": [
-            "State University of New York at Albany."
-        ],
         "access_subjects_ssim": [
             "Photographs",
             "UAlbany Reference Collections"
-        ],
-        "creators_ssim": [
-            "State University of New York at Albany."
         ],
         "has_online_content_ssim": [
             "true"
@@ -127,6 +107,6 @@
         "normalized_date_ssm": [
             "1847-2005"
         ],
-        "timestamp": "2019-12-05T09:15:11.528Z"
+        "timestamp": "2021-10-05T08:40:46.437Z"
     }
 }

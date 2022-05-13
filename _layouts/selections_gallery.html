@@ -18,8 +18,8 @@ layout: one_column
 </div>
 
 <div class="form-group" align="center">
-<form class="form-inline" action="https://archives.albany.edu/catalog">
-      <input class="form-control" type="text" placeholder="Search {{ page.title }}..." name="q">
+<form class="form-inline justify-content-center" action="https://archives.albany.edu/catalog">
+      <input class="form-control online-content-search" type="text" placeholder="Search {{ page.title }}..." name="q">
       <input type="hidden" name="f[collection_number_sim][]" value="{{ page.col_id }}">
       {% if page.ref_id %}
       	<input type="hidden" name="f[record_parent_sim][]" value="{{ page.ref_id }}">
@@ -29,33 +29,34 @@ layout: one_column
 </form>
 </div>
 
+<div class="row">
+	{% if site.data[desc_file]["document"]["bioghist_ssm"] %}
+		<div class="desc col-md-6">
+			<div class="pb-2 mt-4 mb-2 border-bottom">
+				<h3>History of {{ page.title }}</h3>
+			</div>
+			<div class="collapse" id="bioghist" aria-expanded="false">
+				{% for para in site.data[desc_file]["document"]["bioghist_ssm"] %}
+					<p>{{ para }}</p>
+				{% endfor %}
+			</div>
+			<a class="showDesc" data-toggle="collapse" data-target="#bioghist" href="#"><i class="fa fa-arrow-down"></i> More</a>
+		</div>
+	{% endif %}
 
-{% if site.data[desc_file]["document"]["bioghist_ssm"] %}
-	<div class="desc col-md-6">
-		<div class="page-header">
-			<h3>History of {{ page.title }}</h3>
+	{% if site.data[desc_file]["document"]["scopecontent_ssm"] %}
+		<div class="desc col-md-6">
+			<div class="pb-2 mt-4 mb-2 border-bottom">
+				<h3>Scope and Contents</h3>
+			</div>
+			<div class="collapse" id="scopecontent" aria-expanded="false">
+				{% for para in site.data[desc_file]["document"]["scopecontent_ssm"] %}
+					<p>{{ para }}</p>
+				{% endfor %}
+			</div>
+			<a class="showDesc" data-toggle="collapse" data-target="#scopecontent" href="#"><i class="fa fa-arrow-down"></i> More</a>
 		</div>
-		<div class="collapse" id="bioghist" aria-expanded="false">
-			{% for para in site.data[desc_file]["document"]["bioghist_ssm"] %}
-				<p>{{ para }}</p>
-			{% endfor %}
-		</div>
-		<a class="showDesc" data-toggle="collapse" data-target="#bioghist"><i class="fa fa-arrow-down"></i> More</a>
-	</div>
-{% endif %}
-
-{% if site.data[desc_file]["document"]["scopecontent_ssm"] %}
-	<div class="desc col-md-6">
-		<div class="page-header">
-			<h3>Scope and Contents</h3>
-		</div>
-		<div class="collapse" id="scopecontent" aria-expanded="false">
-			{% for para in site.data[desc_file]["document"]["scopecontent_ssm"] %}
-				<p>{{ para }}</p>
-			{% endfor %}
-		</div>
-		<a class="showDesc" data-toggle="collapse" data-target="#scopecontent"><i class="fa fa-arrow-down"></i> More</a>
-	</div>
-{% endif %}
+	{% endif %}
+</div>
 
 {{ content }}

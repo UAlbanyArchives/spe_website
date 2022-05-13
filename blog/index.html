@@ -1,16 +1,8 @@
 ---
-layout: spe_base_1
-title: Blog
+layout: one_column
+title: Latest Posts
 ---
 
-<script type="text/javascript" src="{{ site.url }}/oldDrupal/js/headerAffix.js"></script>
-<link rel="stylesheet" href="{{ site.url }}/oldDrupal/css/ua/oneColumn.css" type="text/css"></link>
-
-<div class="row">
-<div class="container">
-<div id="contentColumn" class="col-md-12 col-lg-10 col-lg-offset-1">
-<h1 style="text-align:center;">Latest Posts</h1>
-<p>&nbsp;</p>
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
@@ -21,14 +13,14 @@ title: Blog
   	{% endif %}
     <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
   </p>
-  <div class="content">
+  <div class="content mb-4">
     {{ post.content | strip_html | truncatewords: 150 }}
   </div>
 {% endfor %}
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-	<div class="pagination row col-sm-12 col-sm-offset-3 text-center">
+	<div class="pagination row col-sm-12 col-sm-offset-3 justify-content-center">
 	  
 
 	  <ul class="pagination">
