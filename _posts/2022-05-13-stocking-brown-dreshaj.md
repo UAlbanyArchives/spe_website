@@ -9,7 +9,7 @@ tags: students
  <div class="row">
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="{{ site.url }}/posts-img/pat_brown_2022_dreshaj_headshot.jpg" alt="Andelina Dreshaj">
+      <img class="img-fluid" src="{{ site.url }}/posts-img/pat_brown_2022_dreshaj_headshot.jpg" alt="Andelina Dreshaj">
 	    <div class="caption text-center">Andelina Dreshaj</div>
     </div>
   </div>
