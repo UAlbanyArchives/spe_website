@@ -7,12 +7,15 @@ tags: students
 <div class="entry-body">
 
  <div class="row">
-  <div class="col-xs-6 col-md-3 col-md-offset-3">
+  <div class="col-sm-4">
     <div class="thumbnail">
       <img src="{{ site.url }}/posts-img/pat_brown_2022_dreshaj_headshot.jpg" alt="Andelina Dreshaj">
 	    <div class="caption text-center">Andelina Dreshaj</div>
     </div>
   </div>
+ <p></p>
+ <p></p>
+ <p></p>
 <p>ALBANY, N.Y. (May 13, 2022) – The University Libraries at the University at Albany, SUNY today announced that second-year doctoral student Andelina Dreshaj was the 2022 Patricia Stocking Brown Research Award recipient.</p>
 
 <p>Ms. Dreshaj’s research explores the Women’s Building Collection and how activists in the Albany, New York community, specifically the Committee for a New Korea Policy, were a part of a larger global conversation about capitalism, neocolonialism, human rights, and the creation of asymmetrical geopolitical power. This project was created in the Department of History’s graduate Research Seminar. Dr. Alexander Dawson of the Department of History serves as faculty advisor. </p>
