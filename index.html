@@ -27,7 +27,7 @@ layout: spe_base_2
 					<div class="col-md-12 col-lg-6 pb-4 pt-4" id="updatesBlock">
 
 						{% assign updates = site.updates | sort: 'sort_by' %}
-						{% for update in updates limit: 2 %}
+						{% for update in updates limit: 3 %}
 							{% if update.active %}
 								{% if update.link %}
 									{% assign update_link = site.url | append: update.link %}
