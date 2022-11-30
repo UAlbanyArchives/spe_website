@@ -5,7 +5,7 @@ date: 2021-12-20
 button_link: "reference?visit"
 button_text: 'Schedule a visit'
 link: /covid-19
-sort_by: 1
+sort_by: 2
 active: true
 ---
 
