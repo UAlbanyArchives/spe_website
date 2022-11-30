@@ -1,10 +1,10 @@
 ---
 title: 'Closing for Winter Intersession'
 layout: one_column
-date: 2022-12-14
+date: 2022-11-30
 image: img/main/winter2.jpg
 sort_by: 3
-active: true
+active: false
 ---
 
 The Special Collections reading room will be closed from December 14th, 2022 to January 16th, 2023.
