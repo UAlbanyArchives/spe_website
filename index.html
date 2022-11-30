@@ -24,7 +24,42 @@ layout: spe_base_2
 				<div class="row">
 
 					<div id="updates" class="anchor"></div>
+						<div class="col-md-12 col-lg-6 pb-4 pt-4" id="updatesBlock">
 
+							{% assign updates = site.updates | sort: 'sort_by' %}
+							{% for update in updates limit: 2 %}
+								{% if update.active %}
+									{% if update.link %}
+										{% assign update_link = site.url | append: update.link %}
+									{% else %}
+										{% assign update_link = site.url | append: update.url %}
+									{% endif %}
+									<a class="itemLink" href="{{ update_link }}">
+										<div class="galleryItem img-thumbnail">
+											{% if update.image %}
+												<div class="galleryThumb">
+													<img class="galleryImage" src="{{ site.url }}/{{ update.image }}" alt="{{ update.title }}">
+												</div>
+											{% endif %}
+											<div class="galleryLabel">
+												<h4>
+													<p>{{ update.title }}</p>
+												</h4>
+													{% if update.image %}
+														<p class="abstract">{{ update.content | strip_html | truncatewords: 20 }}</p>
+													{% else %}
+														<p class="abstract">{{ update.content | strip_html | truncatewords: 30 }}</p>
+													{% endif %}
+												{% if update.button_link and update.button_text %}
+													<a class="btn btn-warning" href="{{ site.url }}/{{ update.button_link }}">{{ update.button_text }}</a>
+												{% endif %}
+											</div>
+										</div>
+									</a>
+								{% endif %}
+							{% endfor %}
+
+						</div>
 					</div>
 
 
