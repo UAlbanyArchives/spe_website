@@ -6,7 +6,7 @@ button_link: "reference?visit"
 button_text: 'Schedule a visit'
 link: /covid-19
 sort_by: 2
-active: true
+active: false
 ---
 
 The research room is currently open by appointment only during the COVID-19 crisis.
