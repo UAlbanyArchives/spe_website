@@ -13,5 +13,5 @@ then
     cp /var/www/spe_website/_site/index.html /var/www/hyrax-UAlbany/public
     echo "$(date) $line Done"
 else
-    true
+    echo "$(date) $line No updates"
 fi
