@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  server:
+    image: jekyll/jekyll:4
+    ports:
+      - '4000:4000'
+    environment:
+      - TZ=America/New_York
+      - JEKYLL_ENV=production
+    volumes:
+      - '.:/code'
+    working_dir: /code
+    command: >
+      bash -c "bundle install &&
+               jekyll serve --force_polling --incremental --config _config.yml,_config_docker.yml"
