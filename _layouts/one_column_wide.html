@@ -1,0 +1,22 @@
+---
+layout: spe_base_2
+---
+
+<link rel="stylesheet" href="{{ site.url }}/css/oneColumn.css" type="text/css"></link>
+
+
+<div class="row">
+	<div class="container-fluid main-container">
+		<div id="contentColumn" class="col-md-12">
+			<div class="title">
+				<h1 class="card-title text-center">{{ page.title }}</h1>
+				{% if page.subtitle %}
+					<h4 class="card-subtitle text-muted text-center">{{ page.subtitle }}</h4>
+				{% endif %}
+			</div>
+
+			{{ content }}
+
+		</div>
+	</div>
+</div>
