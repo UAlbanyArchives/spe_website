@@ -18,15 +18,15 @@ then
     cp /var/www/spe_website/_site/404.html /var/www/arclight-UAlbany/public/404.html
     cp /var/www/spe_website/_site/422.html /var/www/arclight-UAlbany/public/422.html
     cp /var/www/spe_website/_site/500.html /var/www/arclight-UAlbany/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/history-UAlbany/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/history-UAlbany/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/history-UAlbany/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/espy-UAlbany/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/espy-UAlbany/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/espy-UAlbany/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/books-UAlbany/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/books-UAlbany/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/books-UAlbany/public/500.html
+    cp /var/www/spe_website/_site/404.html /var/www/history/public/404.html
+    cp /var/www/spe_website/_site/422.html /var/www/history/public/422.html
+    cp /var/www/spe_website/_site/500.html /var/www/history/public/500.html
+    cp /var/www/spe_website/_site/404.html /var/www/espy/public/404.html
+    cp /var/www/spe_website/_site/422.html /var/www/espy/public/422.html
+    cp /var/www/spe_website/_site/500.html /var/www/espy/public/500.html
+    cp /var/www/spe_website/_site/404.html /var/www/books/public/404.html
+    cp /var/www/spe_website/_site/422.html /var/www/books/public/422.html
+    cp /var/www/spe_website/_site/500.html /var/www/books/public/500.html
     cp /var/www/spe_website/_site/404.html /var/www/bento-UAlbany/public/404.html
     cp /var/www/spe_website/_site/422.html /var/www/bento-UAlbany/public/422.html
     cp /var/www/spe_website/_site/500.html /var/www/bento-UAlbany/public/500.html
