@@ -5,7 +5,7 @@ date: 2022-11-30
 image: img/main/winter2.jpg
 link: /directions
 sort_by: 1
-active: true
+active: false
 ---
 
 The Special Collections research room will be closed from Friday, December 15th, 2023 to Tuesday, January 16th, 2024 during Winter Intersession.
