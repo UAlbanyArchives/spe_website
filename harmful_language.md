@@ -10,7 +10,12 @@ Since the M.E. Grenander Special Collections & Archives was established in 1973 
  
 Archivists are working to update problematic and derogatory vocabulary when appropriate.
 
-Archivists also seek to balance the need for more respectful language with preserving the historical record. There will be instances where offensive or outdated description may need to be retained for historical context within the finding aid. This is helpful for our researchers and may include words or terms. 
+Archivists also seek to balance the need for more respectful language with preserving the historical record. There will be instances where offensive or outdated description may need to be retained for historical context within the finding aid. This is helpful for our researchers and may include words or terms contained in: 
+ 
+* legislation  
+* publication, song, film, or television show titles  
+* individual or organization names 
  
 In addition, researchers may encounter harmful language when viewing digital versions of original content available on our web site. 
 
+We encourage feedback and there is always room for improvement. Any individual may contact us with questions about our practices at 518-437-3935 or [speref@albany.libanswers.com](mailto:speref@albany.libanswers.com).
