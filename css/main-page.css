@@ -61,7 +61,7 @@
 }
 
 .fill .main-row {
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.8);
 	margin-bottom: 3rem;
 	margin-left: 0;
 	margin-right: 0;
@@ -100,6 +100,10 @@
 	color: #fff !important;
 }
 
+.placeholders {
+	margin-bottom: 1rem;
+}
+
 .placeholder {
 	display: inline-block;
 	min-height: 1em;
@@ -121,6 +125,14 @@
   }
 }
 
+.results .card-title {
+	margin-bottom: 0;
+}
+
+.results .card-text {
+	font-size: 80%;
+}
+
 .newContent {
 	display: flex;
 	align-items: center;
@@ -134,6 +146,7 @@
 
 .lowerContent {
 	width: 100%;
+	font-size: 0.9rem;
 }
 
 .contentTitle {
