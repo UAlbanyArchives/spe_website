@@ -65,7 +65,7 @@
     const resourceModel = result.has_model_ssim[0].toLowerCase();
 
     // Function to fetch data for a given ID and collection number
-    async function fetchNameForId(id, collection_number) {
+    async function fetchDataForId(id, collection_number) {
       const url = `https://archives.albany.edu/description/catalog/${collection_number}aspace_${id}.json`;
 
       try {
@@ -82,27 +82,39 @@
     }
 
     // Function to fetch data for each ID in result.record_parent_tesim
-    async function fetchNamesForIds(ids, collection_number) {
+    async function fetchSeriesNames(ids, collection_number) {
       if (!ids || ids.length === 0) {
         return null;
       }
 
-      const names = await Promise.all(ids.map(id => fetchNameForId(id, collection_number)));
-      return names.filter(name => name !== null).join(', ');
+      const seriesNames = await Promise.all(ids.map(id => fetchDataForId(id, collection_number)));
+      return seriesNames.filter(name => name !== null);
     }
 
+
     // Call the function with the array of string IDs in result.record_parent_tesim
-    const series_list = await fetchNamesForIds(result.record_parent_tesim, result.collection_number_tesim);
+    const seriesNames = await fetchSeriesNames(result.record_parent_tesim, result.collection_number_tesim);
 
     // Lookup for collecting_area_tesim values
     const collectingAreaLookup = {
       'New York State Modern Political Archive': 'apap',
       'National Death Penalty Archive': 'ndpa',
+      'German and Jewish Intellectual Émigré Collections ': 'ger',
+      'Business, Literary, and Local History Manuscripts ': 'mss',
+      'University Archives': 'ua',
       // Add more mappings as needed
     };
 
     // Use the lookup or original value
     const collectingAreaAbbreviation = collectingAreaLookup[result.collecting_area_tesim] || result.collecting_area_tesim;
+
+    // Conditionally include the <strong>Series:</strong> section with multiple links
+    const seriesSection = result.record_parent_tesim && result.record_parent_tesim.length > 0
+      ? `<strong>Series:</strong> ${result.record_parent_tesim.map((id, index) => `<a href="https://archives.albany.edu/description/catalog/${result.collection_number_tesim}aspace_${id}">${seriesNames[index]}</a>`).join(', ')}<br />`
+      : '';
+
+
+
 
     return `
       <div class="card mb-3" style="max-width: 540px;">
@@ -114,7 +126,7 @@
                 <p class="card-text">
                   <strong>Date:</strong> ${result.date_created_tesim}<br />
                   <strong>Type:</strong> ${result.resource_type_tesim}<br />
-                  <strong>Series:</strong> <a href="https://archives.albany.edu/description/catalog/${result.collection_number_tesim}aspace_${result.record_parent_tesim}">${series_list}</a><br />
+                  ${seriesSection}
                 </p>
                 <p class="card-text"><span class="text-muted"><a href="https://archives.albany.edu/description/repositories/${collectingAreaAbbreviation}">${result.collecting_area_tesim}</a></span></p>
               </div>
