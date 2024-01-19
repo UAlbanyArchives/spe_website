@@ -61,7 +61,7 @@
 }
 
 .fill .main-row {
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 	margin-bottom: 3rem;
 	margin-left: 0;
 	margin-right: 0;
@@ -100,3 +100,42 @@
 	color: #fff !important;
 }
 
+.placeholder {
+	display: inline-block;
+	min-height: 1em;
+	vertical-align: middle;
+	cursor: wait;
+	background-color: currentColor;
+	opacity: .4;
+	border-radius: 3px;
+}
+
+.placeholder-glow .placeholder {
+	-webkit-animation: placeholder-glow 2s ease-in-out infinite;
+	animation: placeholder-glow 2s ease-in-out infinite;
+}
+
+@keyframes placeholder-glow {
+  50% {
+    opacity: .2;
+  }
+}
+
+.newContent {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+}
+
+.newContent p {
+	margin-bottom: 0px;
+}
+
+.lowerContent {
+	width: 100%;
+}
+
+.contentTitle {
+	width: 100%;
+}
