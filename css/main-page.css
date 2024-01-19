@@ -65,6 +65,7 @@
 	margin-bottom: 3rem;
 	margin-left: 0;
 	margin-right: 0;
+	min-height: 65rem;
 }
 
 
@@ -100,3 +101,39 @@
 	color: #fff !important;
 }
 
+.placeholders {
+	margin-bottom: 1rem;
+}
+
+.placeholder {
+	display: inline-block;
+	min-height: 1em;
+	vertical-align: middle;
+	cursor: wait;
+	background-color: currentColor;
+	opacity: .4;
+	border-radius: 3px;
+}
+
+.placeholder-glow .placeholder {
+	-webkit-animation: placeholder-glow 2s ease-in-out infinite;
+	animation: placeholder-glow 2s ease-in-out infinite;
+}
+
+@keyframes placeholder-glow {
+  50% {
+    opacity: .2;
+  }
+}
+
+.results .card-title {
+	margin-bottom: 0;
+}
+
+.results .card-text {
+	font-size: 80%;
+}
+
+.results .card-img {
+	max-width: 11rem;
+}
