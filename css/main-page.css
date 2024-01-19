@@ -65,6 +65,7 @@
 	margin-bottom: 3rem;
 	margin-left: 0;
 	margin-right: 0;
+	min-height: 65rem;
 }
 
 
@@ -133,22 +134,6 @@
 	font-size: 80%;
 }
 
-.newContent {
-	display: flex;
-	align-items: center;
-	text-align: left;
-	width: 100%;
-}
-
-.newContent p {
-	margin-bottom: 0px;
-}
-
-.lowerContent {
-	width: 100%;
-	font-size: 0.9rem;
-}
-
-.contentTitle {
-	width: 100%;
+.results .card-img {
+	max-width: 11rem;
 }

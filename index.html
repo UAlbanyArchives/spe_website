@@ -43,7 +43,7 @@ layout: spe_base_2
 									{% endif %}
 									<div class="galleryLabel">
 										<h4>
-											<p>{{ update.title }}</p>
+											{{ update.title }}
 										</h4>
 											{% if update.image %}
 												<p class="abstract">{{ update.content | strip_html | truncatewords: 25 }}</p>
@@ -64,7 +64,7 @@ layout: spe_base_2
 					<div id="news" class="anchor"></div>
 					<div class="col-md-12 col-lg-6" id="newsBlock">
 						<h3 class="pb-2 mt-4 mb-2 block-heading">New online content!</h3>
-						<p>New digitized and born-digital records <a href="https://archives.albany.edu/catalog?search_field=all_fields&q=">available online</a>:</p>
+						<p>New digitized and born-digital records are <a href="{{ site.url }}/selections">available online</a>. Learn more about <a href="{{ site.url }}/reproductions">requesting items for digitization</a>.</p>
 
 						<div class="results"></div>
 
@@ -112,7 +112,29 @@ layout: spe_base_2
 						      <span class="placeholder col-6"></span>
 						      <span class="placeholder col-8"></span>
 						    </p>
-						    
+
+						    <h3 class="card-title placeholder-glow">
+						      <span class="placeholder col-6"></span>
+						    </h3>
+						    <p class="card-text placeholder-glow">
+						      <span class="placeholder col-7"></span>
+						      <span class="placeholder col-4"></span>
+						      <span class="placeholder col-4"></span>
+						      <span class="placeholder col-6"></span>
+						      <span class="placeholder col-8"></span>
+						    </p>
+
+						    <h3 class="card-title placeholder-glow">
+						      <span class="placeholder col-6"></span>
+						    </h3>
+						    <p class="card-text placeholder-glow">
+						      <span class="placeholder col-7"></span>
+						      <span class="placeholder col-4"></span>
+						      <span class="placeholder col-4"></span>
+						      <span class="placeholder col-6"></span>
+						      <span class="placeholder col-8"></span>
+						    </p>
+
 						</div>
 						<a class="btn btn-primary" href="https://archives.albany.edu/catalog?search_field=all_fields&q=">All Online Content</a>
 					</div>

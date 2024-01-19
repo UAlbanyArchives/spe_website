@@ -1,7 +1,14 @@
 (function () {
 
+  function formatDate(inputDate) {
+    const dateObject = new Date(inputDate);
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = dateObject.toLocaleDateString('en-US', options);
+    return formattedDate;
+  }
+
   // Make a GET request to the JSON API
-  fetch('https://archives.albany.edu/catalog?page=3&per_page=500&format=json&search_field=all_fields')
+  fetch('https://archives.albany.edu/catalog?per_page=500&format=json&search_field=all_fields')
     .then(response => {
       // Check if the request was successful (status code 200)
       if (!response.ok) {
@@ -99,8 +106,8 @@
     const collectingAreaLookup = {
       'New York State Modern Political Archive': 'apap',
       'National Death Penalty Archive': 'ndpa',
-      'German and Jewish Intellectual Émigré Collections ': 'ger',
-      'Business, Literary, and Local History Manuscripts ': 'mss',
+      'German and Jewish Intellectual Émigré Collections': 'ger',
+      'Business, Literary, and Local History Manuscripts': 'mss',
       'University Archives': 'ua',
       // Add more mappings as needed
     };
@@ -117,7 +124,7 @@
 
 
     return `
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3">
           <div class="row no-gutters">
             <div class="col-md-8">
               <div class="card-body">
@@ -127,11 +134,12 @@
                   <strong>Date:</strong> ${result.date_created_tesim}<br />
                   <strong>Type:</strong> ${result.resource_type_tesim}<br />
                   ${seriesSection}
+                  <strong>Added:</strong> ${formatDate(result.system_modified_dtsi)}
                 </p>
                 <p class="card-text"><span class="text-muted"><a href="https://archives.albany.edu/description/repositories/${collectingAreaAbbreviation}">${result.collecting_area_tesim}</a></span></p>
               </div>
             </div>
-            <div class="col-md-4 d-flex align-items-center">
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
               <img class="card-img" src="https://archives.albany.edu/${result.thumbnail_path_ss}" alt="thumbnail for ${result.title_tesim}">
             </div>
           </div>
