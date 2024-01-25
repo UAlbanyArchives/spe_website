@@ -8,7 +8,7 @@
   }
 
   // Make a GET request to the JSON API
-  fetch('https://archives.albany.edu/catalog?per_page=500&format=json&search_field=all_fields')
+  fetch('https://archives.albany.edu/catalog?per_page=1000&format=json&search_field=all_fields')
     .then(response => {
       // Check if the request was successful (status code 200)
       if (!response.ok) {
