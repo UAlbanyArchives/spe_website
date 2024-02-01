@@ -1,5 +1,4 @@
 (function () {
-
   function formatDate(inputDate) {
     const dateObject = new Date(inputDate);
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -24,21 +23,30 @@
         const filteredObjects = [];
 
         for (const obj of data.data) {
-          const collectionNumbers = obj.collection_number_tesim;
+          // Extracting values from the changed API response
+          const collectionNumbersHTML = obj.attributes.collection_number_tesim.attributes.value;
 
-          // Check if any value within the array is unique
-          const isUnique = collectionNumbers.some(number => !uniqueValuesArray.includes(number));
+          // collectionNumbersHTML is a single html element, so get the text inside
+          const tempElement = document.createElement('div');
+          tempElement.innerHTML = collectionNumbersHTML;
+          const collectionNumbers = tempElement.textContent || tempElement.innerText;
 
-          if (isUnique) {
-            // Add the object to the result
-            filteredObjects.push(obj);
-            // Add all values from the array to track uniqueness
-            uniqueValuesArray.push(...collectionNumbers);
-          }
+          // Check if collectionNumbers is defined
+          if (collectionNumbers) {
+            // Check if any value within the array is unique
+            const isUnique = collectionNumbers.split(',').some(number => !uniqueValuesArray.includes(number));
 
-          // Break once we have the first three unique values
-          if (filteredObjects.length === 3) {
-            break;
+            if (isUnique) {
+              // Add the object to the result
+              filteredObjects.push(obj);
+              // Add all values from the array to track uniqueness
+              uniqueValuesArray.push(...collectionNumbers);
+            }
+
+            // Break once we have the first three unique values
+            if (filteredObjects.length === 3) {
+              break;
+            }
           }
         }
 
@@ -69,19 +77,29 @@
 
   // Function to create Bootstrap card HTML for a given result
   async function createCardHTML(result) {
-    const resourceModel = result.has_model_ssim[0].toLowerCase();
+    const resourceModel = result.type.toLowerCase();
+
+    // Extracting values from the changed API response
+    const title = getTextContent(result.attributes.title);
+    const collectionNumber = getTextContent(result.attributes.collection_number_tesim.attributes.value);
+    const collection = getTextContent(result.attributes.collection_tesim.attributes.value);
+    const dateCreated = getTextContent(result.attributes.date_created_tesim.attributes.value);
+    const resourceType = getTextContent(result.attributes.resource_type_tesim.attributes.value);
+    const systemModifiedDate = result.attributes.system_modified_dtsi.attributes.value;
+    const collectingArea = getTextContent(result.attributes.collecting_area_tesim.attributes.value);
+    const thumbnailPath = result.attributes.thumbnail_path_ss.attributes.value;
 
     // Function to fetch data for a given ID and collection number
     async function fetchDataForId(id, collection_number) {
-      const url = `https://archives.albany.edu/description/catalog/${collection_number}aspace_${id}.json`;
-
+      const url = `https://archives.albany.edu/description/catalog/${collection_number}aspace_${getTextContent(id)}.json`;
+      console.log(url);
       try {
         const response = await fetch(url);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
-        return data.data.attributes.normalized_title_ssm.attributes.value;
+        return getTextContent(data.data.attributes.normalized_title_ssm.attributes.value);
       } catch (error) {
         console.error(`Fetch error for ID ${id}:`, error);
         return null;
@@ -90,17 +108,18 @@
 
     // Function to fetch data for each ID in result.record_parent_tesim
     async function fetchSeriesNames(ids, collection_number) {
-      if (!ids || ids.length === 0) {
+      if (!ids) {
         return null;
       }
 
-      const seriesNames = await Promise.all(ids.map(id => fetchDataForId(id, collection_number)));
+      const idArray = Array.isArray(ids) ? ids : [ids];
+
+      const seriesNames = await Promise.all(idArray.map(id => fetchDataForId(id, collection_number)));
       return seriesNames.filter(name => name !== null);
     }
 
-
     // Call the function with the array of string IDs in result.record_parent_tesim
-    const seriesNames = await fetchSeriesNames(result.record_parent_tesim, result.collection_number_tesim);
+    const seriesNames = await fetchSeriesNames(result.attributes.record_parent_tesim.attributes.value, collectionNumber);
 
     // Lookup for collecting_area_tesim values
     const collectingAreaLookup = {
@@ -113,38 +132,45 @@
     };
 
     // Use the lookup or original value
-    const collectingAreaAbbreviation = collectingAreaLookup[result.collecting_area_tesim] || result.collecting_area_tesim;
+    const collectingAreaAbbreviation = collectingAreaLookup[collectingArea] || collectingArea;
 
     // Conditionally include the <strong>Series:</strong> section with multiple links
-    const seriesSection = result.record_parent_tesim && result.record_parent_tesim.length > 0
-      ? `<strong>Series:</strong> ${result.record_parent_tesim.map((id, index) => `<a href="https://archives.albany.edu/description/catalog/${result.collection_number_tesim}aspace_${id}">${seriesNames[index]}</a>`).join(', ')}<br />`
+    const seriesSection = result.attributes.record_parent_tesim
+      ? `<strong>Series:</strong> ${
+          Array.isArray(result.attributes.record_parent_tesim.attributes.value)
+            ? result.attributes.record_parent_tesim.attributes.value.map((id, index) => `<a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${id}">${seriesNames[index]}</a>`).join(', ')
+            : `<a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${getTextContent(result.attributes.record_parent_tesim.attributes.value)}">${seriesNames}</a>`
+        }<br />`
       : '';
-
-
-
 
     return `
       <div class="card mb-3">
           <div class="row no-gutters">
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title"><a href="https://archives.albany.edu/concern/${resourceModel}s/${result.id}">${result.title_tesim}</a></h5>
-                <p class="card-text"><a href="https://archives.albany.edu/description/catalog/${result.collection_number_tesim}">${result.collection_tesim}</a></p>
+                <h5 class="card-title"><a href="https://archives.albany.edu/concern/${resourceModel}s/${result.id}">${title}</a></h5>
+                <p class="card-text"><a href="https://archives.albany.edu/description/catalog/${collectionNumber}">${collection}</a></p>
                 <p class="card-text">
-                  <strong>Date:</strong> ${result.date_created_tesim}<br />
-                  <strong>Type:</strong> ${result.resource_type_tesim}<br />
+                  <strong>Date:</strong> ${dateCreated}<br />
+                  <strong>Type:</strong> ${resourceType}<br />
                   ${seriesSection}
-                  <strong>Added:</strong> ${formatDate(result.system_modified_dtsi)}
+                  <strong>Added:</strong> ${formatDate(systemModifiedDate)}
                 </p>
-                <p class="card-text"><span class="text-muted"><a href="https://archives.albany.edu/description/repositories/${collectingAreaAbbreviation}">${result.collecting_area_tesim}</a></span></p>
+                <p class="card-text"><span class="text-muted"><a href="https://archives.albany.edu/description/repositories/${collectingAreaAbbreviation}">${collectingArea}</a></span></p>
               </div>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-center">
-              <img class="card-img" src="https://archives.albany.edu/${result.thumbnail_path_ss}" alt="thumbnail for ${result.title_tesim}">
+              <img class="card-img" src="https://archives.albany.edu/${thumbnailPath}" alt="thumbnail for ${title}">
             </div>
           </div>
       </div>
     `;
   }
 
+  // Function to get text content from HTML element string
+  function getTextContent(htmlString) {
+    const tempElement = document.createElement('div');
+    tempElement.innerHTML = htmlString;
+    return tempElement.textContent || tempElement.innerText;
+  }
 })();
