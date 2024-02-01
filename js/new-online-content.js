@@ -18,12 +18,12 @@
       return response.json();
     })
     .then(data => {
-      // Check if 'response' and 'docs' keys exist
-      if (data && data.response && data.response.docs) {
+      // Check if 'data' key exists
+      if (data && data.data) {
         const uniqueValuesArray = [];
         const filteredObjects = [];
 
-        for (const obj of data.response.docs) {
+        for (const obj of data.data) {
           const collectionNumbers = obj.collection_number_tesim;
 
           // Check if any value within the array is unique
