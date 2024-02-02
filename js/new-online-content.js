@@ -7,7 +7,7 @@
   }
 
   // Make a GET request to the JSON API
-  fetch('https://archives.albany.edu/catalog?per_page=1000&format=json&search_field=all_fields')
+  fetch('https://archives.albany.edu/catalog?per_page=500&format=json&search_field=all_fields')
     .then(response => {
       // Check if the request was successful (status code 200)
       if (!response.ok) {
@@ -26,7 +26,7 @@
           // Extracting values from the changed API response
           const collectionNumbersHTML = obj.attributes.collection_number_tesim.attributes.value;
 
-          // collectionNumbersHTML is a single html element, so get the text inside
+          // collectionNumbersHTML is a single HTML element, so get the text inside
           const tempElement = document.createElement('div');
           tempElement.innerHTML = collectionNumbersHTML;
           const collectionNumbers = tempElement.textContent || tempElement.innerText;
@@ -92,7 +92,7 @@
     // Function to fetch data for a given ID and collection number
     async function fetchDataForId(id, collection_number) {
       const url = `https://archives.albany.edu/description/catalog/${collection_number}aspace_${getTextContent(id)}.json`;
-      console.log(url);
+      //console.log(url);
       try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -119,7 +119,22 @@
     }
 
     // Call the function with the array of string IDs in result.record_parent_tesim
-    const seriesNames = await fetchSeriesNames(result.attributes.record_parent_tesim.attributes.value, collectionNumber);
+    const recordParentTesim = result.attributes.record_parent_tesim;
+
+    // Declare seriesSection outside of the if statement
+    let seriesSection = '';
+
+    // Check if record_parent_tesim is defined
+    if (recordParentTesim) {
+      const seriesNames = await fetchSeriesNames(recordParentTesim.attributes.value, collectionNumber);
+
+      // Conditionally include the <strong>Series:</strong> section with multiple links
+      seriesSection = Array.isArray(recordParentTesim.attributes.value)
+        ? `<strong>Series:</strong> ${
+            recordParentTesim.attributes.value.map((id, index) => `<a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${id}">${seriesNames[index]}</a>`).join(', ')
+          }<br />`
+        : `<strong>Series:</strong> <a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${recordParentTesim.attributes.value}">${seriesNames}</a><br />`;
+    }
 
     // Lookup for collecting_area_tesim values
     const collectingAreaLookup = {
@@ -133,15 +148,6 @@
 
     // Use the lookup or original value
     const collectingAreaAbbreviation = collectingAreaLookup[collectingArea] || collectingArea;
-
-    // Conditionally include the <strong>Series:</strong> section with multiple links
-    const seriesSection = result.attributes.record_parent_tesim
-      ? `<strong>Series:</strong> ${
-          Array.isArray(result.attributes.record_parent_tesim.attributes.value)
-            ? result.attributes.record_parent_tesim.attributes.value.map((id, index) => `<a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${id}">${seriesNames[index]}</a>`).join(', ')
-            : `<a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${getTextContent(result.attributes.record_parent_tesim.attributes.value)}">${seriesNames}</a>`
-        }<br />`
-      : '';
 
     return `
       <div class="card mb-3">
