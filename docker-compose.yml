@@ -13,4 +13,4 @@ services:
     working_dir: /code
     command: >
       bash -c "bundle install &&
-               jekyll serve --force_polling --incremental --config _config.yml,_config_docker.yml"
+               jekyll serve --force_polling --config _config.yml,_config_docker.yml"
