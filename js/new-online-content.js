@@ -125,7 +125,7 @@
     let seriesSection = '';
 
     // Check if record_parent_tesim is defined
-    if (recordParentTesim) {
+    /*if (recordParentTesim) {
       const seriesNames = await fetchSeriesNames(recordParentTesim.attributes.value, collectionNumber);
 
       // Conditionally include the <strong>Series:</strong> section with multiple links
@@ -134,7 +134,7 @@
             recordParentTesim.attributes.value.map((id, index) => `<a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${id}">${seriesNames[index]}</a>`).join(', ')
           }<br />`
         : `<strong>Series:</strong> <a href="https://archives.albany.edu/description/catalog/${collectionNumber}aspace_${recordParentTesim.attributes.value}">${seriesNames}</a><br />`;
-    }
+    }*/
 
     // Lookup for collecting_area_tesim values
     const collectingAreaLookup = {
