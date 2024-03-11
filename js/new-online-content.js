@@ -7,7 +7,7 @@
   }
 
   // Make a GET request to the JSON API
-  fetch('https://archives.albany.edu/catalog?per_page=500&format=json&search_field=all_fields')
+  fetch('https://archives.albany.edu/catalog?per_page=100&format=json&search_field=all_fields')
     .then(response => {
       // Check if the request was successful (status code 200)
       if (!response.ok) {
@@ -25,16 +25,12 @@
         for (const obj of data.data) {
           // Extracting values from the changed API response
           const collectionNumbersHTML = obj.attributes.collection_number_tesim.attributes.value;
-
-          // collectionNumbersHTML is a single HTML element, so get the text inside
-          const tempElement = document.createElement('div');
-          tempElement.innerHTML = collectionNumbersHTML;
-          const collectionNumbers = tempElement.textContent || tempElement.innerText;
+          const collectionNumbers = getTextContent(collectionNumbersHTML).split(',');
 
           // Check if collectionNumbers is defined
           if (collectionNumbers) {
             // Check if any value within the array is unique
-            const isUnique = collectionNumbers.split(',').some(number => !uniqueValuesArray.includes(number));
+            const isUnique = collectionNumbers.some(number => !uniqueValuesArray.includes(number));
 
             if (isUnique) {
               // Add the object to the result
