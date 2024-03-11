@@ -22,6 +22,8 @@
         const uniqueValuesArray = [];
         const filteredObjects = [];
 
+        let foundUnique = false;
+
         for (const obj of data.data) {
           // Extracting values from the changed API response
           const collectionNumbersHTML = obj.attributes.collection_number_tesim.attributes.value;
@@ -32,17 +34,21 @@
             // Check if any value within the array is unique
             const isUnique = collectionNumbers.some(number => !uniqueValuesArray.includes(number));
 
-            if (isUnique) {
+            if (!foundUnique && isUnique) {
+              foundUnique = true; // Set flag to true once we find the first unique object
+            }
+
+            if (foundUnique || filteredObjects.length < 3) {
               // Add the object to the result
               filteredObjects.push(obj);
               // Add all values from the array to track uniqueness
               uniqueValuesArray.push(...collectionNumbers);
             }
+          }
 
-            // Break once we have the first three unique values
-            if (filteredObjects.length === 3) {
-              break;
-            }
+          // Break once we have the first three objects
+          if (filteredObjects.length === 3) {
+            break;
           }
         }
 
