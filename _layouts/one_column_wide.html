@@ -9,7 +9,10 @@ layout: spe_base_2
 	<div class="container-fluid main-container">
 		<div id="contentColumn" class="col-md-12">
 			<div class="title">
-				<h1 class="card-title text-center">{{ page.title }}</h1>
+				{% if page.no_title_display %}
+				{% else %}
+					<h1 class="card-title text-center">{{ page.title }}</h1>
+				{% endif %}
 				{% if page.subtitle %}
 					<h4 class="card-subtitle text-muted text-center">{{ page.subtitle }}</h4>
 				{% endif %}
