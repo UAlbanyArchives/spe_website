@@ -10,8 +10,14 @@ tags: students
   <div class="col-sm-3 mx-auto">
     <div class="thumbnail">
       <img class="img-fluid" src="{{ site.url }}/posts-img/DiTonno_reviews_Community_newsletter_vertical.jpg" alt="2024 Patricia Stocking Brown Research Award Recipients Named">
+      <div class="caption text-center">Nodiaus DiTonno 2024 Patricia Stocking Brown Research Awardee</div>
+    </div>
+  </div>
+  <div class="row">
+  <div class="col-sm-3 mx-auto">
+    <div class="thumbnail">
       <img class="img-fluid" src="{{ site.url }}/posts-img/Alice_Russo_reviews_LWV_Sch_scrapbook_vertical.jpg" alt="2024 Patricia Stocking Brown Research Award Recipients Named">
-	    <div class="caption text-center">2024 Patricia Stocking Brown Research Award Recipients Named</div>
+      <div class="caption text-center">Alice Russo 2024 Patricia Stocking Brown Research Awardee</div>
     </div>
   </div>
  <p>ALBANY, N.Y. (May 24, 2024) – The University Libraries at the University at Albany, SUNY announced the 2024 Patricia Stocking Brown Research Award recipients are University at Albany graduate student Nodiaus DiTonno and undergraduate student Alice Russo.</p>
