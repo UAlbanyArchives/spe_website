@@ -9,7 +9,8 @@ tags: students
  <div class="row">
   <div class="col-sm-3 mx-auto">
     <div class="thumbnail">
-      <img class="img-fluid" src="{{ site.url }}/posts-img/hirsch_papers.jpg" alt="2024 Patricia Stocking Brown Research Award Recipients Named">
+      <img class="img-fluid" src="{{ site.url }}/posts-img/DiTonno_reviews_Community_newsletter_vertical.jpg" alt="2024 Patricia Stocking Brown Research Award Recipients Named">
+      <img class="img-fluid" src="{{ site.url }}/posts-img/Alice_Russo_reviews_LWV_Sch_scrapbook_vertical.jpg" alt="2024 Patricia Stocking Brown Research Award Recipients Named">
 	    <div class="caption text-center">2024 Patricia Stocking Brown Research Award Recipients Named</div>
     </div>
   </div>
