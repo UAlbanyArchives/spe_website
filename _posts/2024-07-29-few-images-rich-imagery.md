@@ -1,26 +1,11 @@
 ---
-author: Jodi Boyle
+author: Cheyenne Watson
 layout: blog_basic
 title: 'Few Images, Rich Imagery: Creating ‘Patients, Practitioners, and Passing Legislation’'
 tags: students
 ---
-<div class="entry-body">
 
- <div class="row">
-  <div class="col-sm-3 mx-auto">
-    <div class="thumbnail">
-      <img class="img-fluid" src="{{ site.url }}/posts-img/DiTonno_reviews_Community_newsletter_vertical.jpg" alt="alt text here">
-      <div class="caption text-center">Few Images, Rich Imagery: Creating ‘Patients, Practitioners, and Passing Legislation’</div>
-      <div class="caption text-center">By Cheyenne Watson</div>
-    </div>
-  </div>
-  <div class="row">
-  <div class="col-sm-3 mx-auto">
-    <div class="thumbnail">
-      <img class="img-fluid" src="{{ site.url }}/posts-img/image file name here.jpg" alt="alt text here">
-      <div class="caption text-center">caption text here</div>
-    </div>
-  </div>
+
   <p></p>
  <p>
 <a href="https://archives.albany.edu/description/catalog/apap290">The New York State Society for Clinical Social Work Records</a>.The New York State Society for Clinical Social Work Records is a collection rich with information. It is not, however, rich in images. This was one of the earliest details shared with me when I began working on its <a href="https://archives.albany.edu/web/exhibits/nysscsw/">digital exhibit.</a>
