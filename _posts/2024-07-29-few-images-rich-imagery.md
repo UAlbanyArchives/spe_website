@@ -16,7 +16,11 @@ tags: students
 
 <p>The selected articls are informative, but not lengthy, striking a perfect balance between quick browsing and invested reading. There are a variety of headlines to choose from, each touching upon a specific nuance within its assigned theme, be it money, technology, race, confidentiality, or work opportunities. One such example is “Retirement: The Prequel, or, Dead Therapist Walking”, found in the Practitioners page. In it, the personal and professional world of Christine MacDonald, LCSW intersect in a series of scenes that end in her and her spouse’s departure from New York City. Her prose is gentle and tender, meditating on beginnings as well as endings, inner conflict and the wisdom of experience. If there is only one article I can recommend from the entire exhibit, it is that one. <img alt="NYSSCSW4.jpg" class="mt-image-right" height="300" src="{{ site.url }}/posts-img/NYSSCSW4.jpg" style="float: left; margin: 20px 0 20px 20px;" width="160"/></p>
 <p>That being said, if one isn’t interested in the technical or professional aspects of being a clinical social worker, they can enjoy the sample of modern print history the newsletters provide, from the changes in formatting to the transition from typewriter to computer. For instance, the earliest newsletters did not contain images, but that changed within a single decade. In the following decade, the images were in color, a novelty turned standard as the society grew and printing technology advanced.
-
+  <p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 
 
 
