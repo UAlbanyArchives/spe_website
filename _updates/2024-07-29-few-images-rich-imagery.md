@@ -2,7 +2,7 @@
 author: Cheyenne Watson
 title: 'Few Images, Rich Imagery: Creating ‘Patients, Practitioners, and Passing Legislation’'
 layout: one_column
-image: posts-img/students_web.png
+image: posts-img/NYSSCSW5.jpg
 link: /2024/07/29/few-images-rich-imagery.html
 sort_by: 3
 active: true
