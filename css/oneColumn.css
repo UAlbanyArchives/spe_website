@@ -280,6 +280,15 @@ span.author {
 	background: #006c68;
 }
 
+.main-container .row .list-group .list-group-item-primary {
+	color: #fff;
+	background-color: #46166B;
+	border-color: #46166B;
+	border: 0;
+	border-bottom: 4px solid #eaaa00 !important;
+	font-size: 1.2rem;
+}
+
 
 .donations > ul > li {
 	margin-top: 1rem;
