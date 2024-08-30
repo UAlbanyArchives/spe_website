@@ -304,3 +304,26 @@ table.hoursTable > tbody > tr:first-child > td {
 .referenceAssistance p {
 	margin-bottom: 0.3rem;
 }
+
+.arclight_diagram {
+	max-width: 60%;
+	display: block;
+	margin: 25px auto;
+}
+
+.iframe-iiif {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 75%; 
+}
+
+.iframe-iiif iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}

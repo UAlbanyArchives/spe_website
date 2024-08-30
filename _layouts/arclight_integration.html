@@ -1,0 +1,77 @@
+---
+layout: spe_base_2
+---
+
+<link rel="stylesheet" href="{{ site.url }}/css/oneColumn.css" type="text/css"></link>
+
+<div class="container-fluid main-container">
+	<div class="row">
+		<div class="side-menu col-lg-3">
+			<div class="list-group">
+			  <a href="{{ site.url }}/arclight_integration" class="list-group-item list-group-item-action">Arclight Integration Project</a>
+			  <a href="{{ site.url }}/arclight_integration/spec.html" class="list-group-item list-group-item-action">Specifications</a>
+			  <a href="{{ site.url }}/arclight_integration/iiif.html" class="list-group-item list-group-item-action">Using IIIF</a>
+			  <a href="{{ site.url }}/arclight_integration/harvester.html" class="list-group-item list-group-item-action">description_harvester tool</a>
+			  <a href="{{ site.url }}/arclight_integration/plugin.html" class="list-group-item list-group-item-action">ArchivesSpace Plugin</a>
+			  <a href="{{ site.url }}/arclight_integration/about.html" class="list-group-item list-group-item-action">Project Team</a>
+			  <a href="{{ site.url }}/arclight_integration/cfp.html" class="list-group-item list-group-item-action">Call for Participation (CFP)</a>
+			  <a href="{{ site.url }}/arclight_integration/updates.html" class="list-group-item list-group-item-action">Updates</a>
+			</div>
+		</div>
+
+		<div id="contentColumn" class="two-column col-lg-9">
+
+			<div class="title">
+				<h1 class="display-4 card-title text-center">{{ page.project-title }}</h1>
+				{% if page.project-subtitle %}
+					<h4 class="card-subtitle text-muted text-center">{{ page.project-subtitle }}</h4>
+				{% endif %}
+			</div>
+
+			<h1 class="{{ page.title }}">{{ page.title }}</h1>
+			<h4 class="card-subtitle text-muted mb-4">{{ page.subtitle }}</h4>
+
+			{{ content }}
+
+			<hr />
+
+			<ul class="list-group">
+			  <a href="https://github.com/orgs/UAlbanyArchives/projects/3/views/4" class="list-group-item list-group-item-action">
+				  <i class="fa fa-calendar-o" aria-hidden="true"></i>  Arclight Integration Project Board
+			  </a>
+			  <a href="https://github.com/UAlbanyArchives/arclight_integration_project" class="list-group-item list-group-item-action">
+				  <i class="fa fa-github" aria-hidden="true"></i>  Arclight Integration Github
+			  </a>
+			  <a href="https://github.com/UAlbanyArchives/description_harvester" class="list-group-item list-group-item-action">
+				  <i class="fa fa-github" aria-hidden="true"></i>  description_harvester Github
+			  </a>
+			  <a href="https://groups.google.com/g/arclight-community" class="list-group-item list-group-item-action">
+			  	  <i class="fa fa-commenting" aria-hidden="true"></i>  Arclight Community
+			  </a>
+			  <a href="https://arclight.sites.stanford.edu/" class="list-group-item list-group-item-action">
+				  <i class="fa fa-internet-explorer" aria-hidden="true"></i>  Arclight website
+			  </a>
+			  <a href="https://github.com/projectblacklight/arclight" class="list-group-item list-group-item-action">
+				  <i class="fa fa-github" aria-hidden="true"></i>  Arclight Github
+			  </a>
+			</ul>
+
+			<h4 class="mt-4" id="project-funding">Project Funding</h4>
+
+			<div class="row">
+				<div class="col-md-6">
+					This project was made possible in part by the Institute of Museum and Library Services award <a href="https://www.imls.gov/grants/awarded/lg-256722-ols-24">LG-256722-OLS-24</a>. The IMLS is the primary source of federal support for the nation’s libraries and museums. To learn more, visit <a href="https://www.imls.gov/">www.imls.gov</a>.
+				</div>
+
+				<div class="col-md-6">
+					<a href="https://www.imls.gov/">
+						<img alt="IMLS logo" class="arclight_diagram" src="{{ site.url }}/img/imls_logo_2c.jpg"/>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
