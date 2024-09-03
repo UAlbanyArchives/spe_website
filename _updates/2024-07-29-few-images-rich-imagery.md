@@ -4,7 +4,7 @@ title: 'Few Images, Rich Imagery: Creating ‘Patients, Practitioners, and Passi
 layout: one_column
 image: posts-img/NYSSCSW5.jpg
 link: /2024/07/29/few-images-rich-imagery.html
-sort_by: 3
+sort_by: 4
 active: true
 ---
 
