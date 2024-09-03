@@ -1,15 +1,15 @@
 ---
-project-title: Arclight Integration Project
-project-subtitle: Integrating Arclight with Digital Content, IIIF, and ArchivesSpace
-title: Arclight Integration Project
+project-title: ArcLight Integration Project
+project-subtitle: Integrating ArcLight with Digital Content, IIIF, and ArchivesSpace
+title: ArcLight Integration Project
 layout: arclight_integration
 permalink: /arclight_integration/
 ---
 
 
-![Diagram showing Arclight at the top, with ArchivesSpace and IIIF below it with arrows towards Arclight.](../img/arclight_integration.png){: .arclight_diagram}
+![Diagram showing ArcLight at the top, with ArchivesSpace and IIIF below it with arrows towards ArcLight.](../img/arclight_integration.png){: .arclight_diagram}
 
-The [University at Albany Libraries](https://library.albany.edu/), together with the [Empire State Library Network (ESLN)](https://www.esln.org/), are further developing Arclight into a single platform for digital archives and special collections materials. This project will enable Arclight to provide discovery and access to digital materials, metadata, and full-text content using International Image Interoperability Framework (IIIF) manifests alongside archival description traditionally contained in finding aids.
+The [University at Albany Libraries](https://library.albany.edu/), together with the [Empire State Library Network (ESLN)](https://www.esln.org/), are further developing ArcLight into a single platform for digital archives and special collections materials. This project will enable ArcLight to provide discovery and access to digital materials, metadata, and full-text content using International Image Interoperability Framework (IIIF) manifests alongside archival description traditionally contained in finding aids.
 
 #### Project Goals
 
@@ -23,13 +23,13 @@ The [University at Albany Libraries](https://library.albany.edu/), together with
 
 Archives best practices are designed specifically to allow repositories to efficiently manage tremendous volumes of materials. Since current Digital Asset Management Systems (DAMS) and other digital repositories are designed for libraries, not archives, archivists are unable to use these same methods to manage the large amounts of born-digital and digitized content they are now manage.
 
-This project will allow Arclight to provide access to both archival description and digital objects, including metadata and full-text OCR or transcription content, all in the same user interface.
+This project will allow ArcLight to provide access to both archival description and digital objects, including metadata and full-text OCR or transcription content, all in the same user interface.
 
 #### Simplifying Technology
 
-Instead of a traditional digital repository, we aim to enable archives to use their existing metadata, typically managed in ArchivesSpace, to provide access to digital materials. This uses International Image Interoperability Framework (IIIF) manifests, enabling Arclight and ArchivesSpace to work with any IIIF-compliant storage for digital objects. Pilot partners are using Archipelago, Islandora, and ContentDM, while UAlbany is forgoing a digital repository and storing digital objects on network file shares according to a detailed specification.
+Instead of a traditional digital repository, we aim to enable archives to use their existing metadata, typically managed in ArchivesSpace, to provide access to digital materials. This uses International Image Interoperability Framework (IIIF) manifests, enabling ArcLight and ArchivesSpace to work with any IIIF-compliant storage for digital objects. Pilot partners are using Archipelago, Islandora, and ContentDM, while UAlbany is forgoing a digital repository and storing digital objects on network file shares according to a detailed specification.
 
-Implementing Arclight is still challenging for most archives. We will also create an ArchivesSpace plugin that lowers implementation barriers.
+Implementing ArcLight is still challenging for most archives. We will also create an ArchivesSpace plugin that lowers implementation barriers.
 
 #### Iterative Usability Testing and Experimentation
 

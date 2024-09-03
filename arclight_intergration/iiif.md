@@ -1,18 +1,18 @@
 ---
-project-title: Arclight Integration Project
-project-subtitle: Integrating Arclight with Digital Content, IIIF, and ArchivesSpace
+project-title: ArcLight Integration Project
+project-subtitle: Integrating ArcLight with Digital Content, IIIF, and ArchivesSpace
 title: Using IIIF
 layout: arclight_integration
 permalink: /arclight_integration/iiif
 ---
 
-Arclight will rely on IIIF both for adding digital object content and metadata to a Solr index, as well as for serving digital object to users. This should not necessarily require a IIIF image server, just manifests and a webserver. Many IIIF features, such as multi-resolution support (zooming) would require an IIIF image server.
+ArcLight will rely on IIIF both for adding digital object content and metadata to a Solr index, as well as for serving digital object to users. This should not necessarily require a IIIF image server, just manifests and a webserver. Many IIIF features, such as multi-resolution support (zooming) would require an IIIF image server.
 
 Implementers who plan to use a traditional digital repository may have IIIF support already built-in! This is how some of our Pilot Partners are planning their implementation. For a minimal implementation, there just has to be a feasible way of retrieving the IIIF manifest for an object from what you have in the File Version field in an ArchivesSpace Digital Object record.
 
-Our deliverables will include an [Arclight IIIF Specification]({{ site.url }}/arclight_integration/spec#arclight-iiif-specification) that clearly defines how to implement full-text OCR or transcription content within IIIF so that it can be consumed by description_harvester or the ArchivesSpace plugin for indexing into Arclight. This will be based on established best practices in the IIIF community.
+Our deliverables will include an [ArcLight IIIF Specification]({{ site.url }}/arclight_integration/spec#arclight-iiif-specification) that clearly defines how to implement full-text OCR or transcription content within IIIF so that it can be consumed by description_harvester or the ArchivesSpace plugin for indexing into ArcLight. This will be based on established best practices in the IIIF community.
 
-We will also provide documentation for installing a [IIIF viewer](https://iiif.io/get-started/iiif-viewers/) within Arclight for displaying digital objects.
+We will also provide documentation for installing a [IIIF viewer](https://iiif.io/get-started/iiif-viewers/) within ArcLight for displaying digital objects.
 
 Check back for more details!
 
