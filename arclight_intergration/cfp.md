@@ -33,7 +33,7 @@ We are seeking experienced practitioners who have hands-on experience describing
 -   Access to Memory
 -   Archon
 
-In particular, we are looking for people who have experimented with connecting archival description or finding aids with digital objects. If you have interacted with ArcLight, Blacklight, or Solr, that is an added bonus.
+In particular, we are looking for people who have experimented with connecting archival description or finding aids with digital objects.
 
 If you’ve ever written a thoughtful scope note that describes an item uploaded into a digital repository, and have been either confused or opinionated by that experience, we want you!
 
