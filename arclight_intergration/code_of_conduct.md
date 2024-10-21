@@ -6,7 +6,7 @@ layout: arclight_integration
 permalink: /arclight_integration/conduct
 ---
 
-The ArcLight Integration Project is committed to providing a productive, inclusive and welcoming environment for discussion and collaboration about archival data structures. To support this and to further the goals of the project, we expect all participants to follow our Community Agreements and Code of Conduct, including project staff, advisors, event participants, and other contributors.
+The ArcLight Integration Project is committed to providing a productive, inclusive and welcoming environment for discussion and collaboration about archival data structures. To support this and to further the goals of the project, we expect all participants to follow our Participation Agreement and Code of Conduct, including project staff, advisors, event participants, and other contributors.
 
 The Participation Agreements outline ways in which we encourage and expect each other to hold safe, engaging, and respectful discussions. The Code of Conduct outlines behaviors which will not be tolerated, how to report concerns or incidents, and how the code will be applied.
 
