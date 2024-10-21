@@ -1,14 +1,14 @@
 ---
 project-title: ArcLight Integration Project
 project-subtitle: Integrating ArcLight with Digital Content, IIIF, and ArchivesSpace
-title: "Participation Agreement and Code of Conduct (draft)"
+title: "Participation Agreement and Code of Conduct"
 layout: arclight_integration
 permalink: /arclight_integration/conduct
 ---
 
-The ArcLight Integration Project is committed to providing a productive, inclusive and welcoming environment for discussion and collaboration about archival data structures. To support this and to further the goals of the project, we expect all participants to follow our Participation Agreement and Code of Conduct, including project staff, advisors, event participants, and other contributors.
+The ArcLight Integration Project is committed to providing a productive, inclusive and welcoming environment for discussion and collaboration about archival data structures. To support this and to further the goals of the project, we expect all participants to follow our Participation Agreement and Code of Conduct, including the project team, advisory board, and all participants.
 
-The Participation Agreements outline ways in which we encourage and expect each other to hold safe, engaging, and respectful discussions. The Code of Conduct outlines behaviors which will not be tolerated, how to report concerns or incidents, and how the code will be applied.
+The Participation Agreement outlines ways in which we encourage and expect each other to hold safe, engaging, and respectful discussions. The Code of Conduct outlines behaviors which will not be tolerated, how to report concerns or incidents, and how the code will be applied.
 
 #### Participation Agreements
 
@@ -25,13 +25,13 @@ We expect all participants to agree to the following:
 * To give credit where it's due, and to uplift each other’s work and ideas.
 * To accept critique and feedback graciously, and to offer it constructively.
 * To seek concrete ways to make our physical spaces and online resources more universally accessible.
-* To acknowledge the difference between intent and impact, and to look for ways to take responsibility for negative impact that we have.
-* To be aware of time, respecting the commitment of all participants and the project team to accomplish the goals of the meeting.
+* To acknowledge the difference between intent and impact, and to look for ways to take responsibility for any negative impacts that we have.
+* To be aware of time, respecting the commitment of all participants and the project team to accomplish the goals of this work.
 * To take the moments that everyone needs to care for ourselves and their community, by paying attention to the needs of your body and mind, and to the welfare of those around us.
 
 #### Code of Conduct
 
-The ArcLight Integration Project seeks to provide participants with opportunities for collaboration that are free from all forms of harassment and inclusive of all people. All communication should be appropriate for a professional audience including people of many different backgrounds. Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, national or regional origin, body size, accent, race, age, religion, or other marginalized characteristics are inappropriate. Do not insult or put down other participants. Be careful in the words that you choose. Sexist, racist, and other exclusionary jokes are not appropriate.
+The ArcLight Integration Project seeks to provide participants with opportunities for collaboration that are free from all forms of harassment and are inclusive of all people. All communication should be appropriate for a professional audience including people of many different backgrounds. Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, national or regional origin, body size, accent, race, age, religion, or other marginalized characteristics are inappropriate. Do not insult or put down other participants. Be careful in the words that you choose. Sexist, racist, and other exclusionary jokes are not appropriate.
 
 Harassment is understood as any behavior that threatens or demeans another person or group, or produces an unsafe environment. It includes offensive verbal comments or non-verbal expressions that reinforce social structures of domination; sexual or discriminatory images in public spaces (including online); deliberate intimidation, stalking, following; threats or incitement of violence; photography or recording without clear permission; sustained disruption of presentations or discussion; inappropriate physical contact; and unwelcome sexual attention.
 

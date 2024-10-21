@@ -1,7 +1,7 @@
 ---
 project-title: ArcLight Integration Project
 project-subtitle: Integrating ArcLight with Digital Content, IIIF, and ArchivesSpace
-title: "Call for Participation"
+title: "Call for Participation (closed)"
 subtitle: Join Us in Shaping the Future of Archival Data
 layout: arclight_integration
 permalink: /arclight_integration/cfp
