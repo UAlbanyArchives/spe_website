@@ -1,12 +1,11 @@
 ---
 project-title: ArcLight Integration Project
 project-subtitle: Integrating ArcLight with Digital Content, IIIF, and ArchivesSpace
-title: Updates
+title: Remote Cohort Sessions
 layout: arclight_integration
 permalink: /arclight_integration/updates/remote_cohort
+subtitle: December 2-6, 2024
 ---
-
-## Remote Cohort Sessions
 
 The ArcLight Integration Project has made a lot of progress! Beginning with Call for Participation for both the Remote and In-Person Cohort Sessions during the month of October 2024, we received more than double the required application forms. It was heartening to see so many archivists supporting the nature of our work and eager to add their voices. Our Project Team reviewed the submissions before asking twenty qualified and diverse participants to join us virtually from December 2nd through December 6th 2024.
 
