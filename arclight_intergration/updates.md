@@ -10,6 +10,8 @@ Check out our [open project board and timeline](https://github.com/orgs/UAlbanyA
 
 #### Announcements, presentations and publications
 
+* [remote]({{ site.url }}/arclight_integration/updates/remote_cohort)
+* [in-person]({{ site.url }}/arclight_integration/updates/in-person_cohort)
 * [IMLS full and preliminary proposals](https://www.imls.gov/grants/awarded/lg-256722-ols-24)
 
 Check back for more details!

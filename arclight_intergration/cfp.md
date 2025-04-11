@@ -75,8 +75,6 @@ After the draft documents are reviewed by the larger cohort, we will open a publ
 -   All participants will receive a $500 honorarium for their involvement.
 -   Members of the in-person cohort will receive an additional $500 honorarium as well as $1,200 in travel support.
 
-We strongly encourage applications from individuals who identify with underrepresented and/or marginalized populations, including those not well-represented within libraries, archives, or technology (e.g. women, people of color, LGBTQ+, ability/disability, non-binary gender identities, etc.) We also encourage applications from members of underrepresented and/or marginalized groups that don’t fit into the categories listed above.
-
 #### Application Process
 
 Applications will consist of:
