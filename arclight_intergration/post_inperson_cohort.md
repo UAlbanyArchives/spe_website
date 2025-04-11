@@ -20,14 +20,17 @@ Though the Remote Cohort Sessions gave us the opportunity to “meet” each oth
 
 This conceptual model intended to integrate digital objects in archival description was named the Delivering Archives and Digital Objects: a Conceptual Model (DadoCM). The more technical members of the In-Person Cohort worked to create specification guidelines that determined the scope, goals, properties, and implementation examples. They also created a diagram which shows a single connection between an archival component and its digital object record. Another group worked to define what fields must be linked between an archival component and Digital Object Record resulting in a diagram showing this connection. The last group worked to write explanatory passages, derived from the elevator pitch and position paper exercises, to describe how the model worked, the core principles, and the advantages and challenges for both archivists, technologists, and users.
 
+<img src="/arclight_intergration/img/IMG_8029.jpg" alt="Image of white board with "Assumptions: There is no "one system to rule them all," inst. may have multiple systems! D.O.s may live in multiple places-that's ok!- as long as the description (A.O.) links them. Most institutions will primarily upload: -Audiovisual files -Jpeg images -Digitized scans PDFs w/OCR }how do we handle?, Institutions may share systems!" written on it." class="img-fluid" />
+
+<img src="/arclight_intergration/img/IMG_8031.jpg" alt="Image of white board with "What is this (DAO) providing? Relating archival description to ("forms available" these are not the same!!!) what is being fulfilled. What does it need to do?" class="img-fluid" />
+
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-6">
         <img src="/arclight_intergration/img/IMG_8029.jpg" alt="Image of white board with "Assumptions: There is no "one system to rule them all," inst. may have multiple systems! D.O.s may live in multiple places-that's ok!- as long as the description (A.O.) links them. Most institutions will primarily upload: -Audiovisual files -Jpeg images -Digitized scans PDFs w/OCR }how do we handle?, Institutions may share systems!" written on it." class="img-fluid" />
       </div>
       <div class="col-md-6 col-6">
-        <img 
-		src="/arclight_intergration/img/IMG_8031.jpg" alt="Image of white board with "What is this (DAO) providing? Relating archival description to ("forms available" these are not the same!!!) what is being fulfilled. What does it need to do?" class="img-fluid" />
+        <img src="/arclight_intergration/img/IMG_8031.jpg" alt="Image of white board with "What is this (DAO) providing? Relating archival description to ("forms available" these are not the same!!!) what is being fulfilled. What does it need to do?" class="img-fluid" />
       </div>
     </div>
   </div>
