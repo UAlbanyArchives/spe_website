@@ -9,7 +9,7 @@ layout: spe_base_2
 		<div class="side-menu col-lg-3">
 			<div class="list-group">
 			  <a href="{{ site.url }}/arclight_integration" class="list-group-item list-group-item-action list-group-item-primary">ArcLight Integration Project</a>
-			  <a href="{{ site.url }}/arclight_integration/spec.html" class="list-group-item list-group-item-action">Specifications</a>
+			  <a href="{{ site.url }}/arclight_integration/spec.html" class="list-group-item list-group-item-action">Specifications - DadoCM</a>
 			  <a href="{{ site.url }}/arclight_integration/iiif.html" class="list-group-item list-group-item-action">Using IIIF</a>
 			  <a href="{{ site.url }}/arclight_integration/harvester.html" class="list-group-item list-group-item-action">description_harvester tool</a>
 			  <a href="{{ site.url }}/arclight_integration/plugin.html" class="list-group-item list-group-item-action">ArchivesSpace Plugin</a>
@@ -22,15 +22,23 @@ layout: spe_base_2
 
 		<div id="contentColumn" class="two-column col-lg-9">
 
+			<div class="alert alert-warning" role="alert">
+			  <strong>Update:</strong> We received notice that our IMLS National Leadership Grant was 
+			  <a class="alert-link" href="{{ site.url }}/arclight_integration/updates/imls">terminated by the IMLS acting director</a>. 
+			  This decision undermines our project and critical support for the broader archival and library communities.
+			</div>
+
+
 			<div class="title">
 				<h1 class="display-4 card-title text-center">{{ page.project-title }}</h1>
 				{% if page.project-subtitle %}
-					<h4 class="card-subtitle text-muted text-center">{{ page.project-subtitle }}</h4>
+					<h2 class="h4 card-subtitle text-muted text-center">{{ page.project-subtitle }}</h2>
 				{% endif %}
 			</div>
 
-			<h1 class="{{ page.title }}">{{ page.title }}</h1>
-			<h4 class="card-subtitle text-muted mb-4">{{ page.subtitle }}</h4>
+
+			<h3 class="h1 {{ page.title }}">{{ page.title }}</h3>
+			<h4 class="h4 card-subtitle text-muted mb-4">{{ page.subtitle }}</h4>
 
 			{{ content }}
 
