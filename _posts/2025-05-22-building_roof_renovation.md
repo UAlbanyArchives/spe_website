@@ -17,7 +17,7 @@ Please reach out to the department using [submit a request form](https://archive
 
 ---
 
-We are thrilled to announce that the Science Library (home to the Department of Special Collections, Archives and Preservation) is undergoing a much-needed roof replacement. The building has faced significant water ingress problems in the past, with even minimal rainfall causing multiple leaks throughout the building. The roof renovation project will be pivotal in safeguarding the University’s archives and special collections. Furthermore, these initiatives will create a safer and more comfortable environment within the library for the campus community by facilitating study and granting access to research materials.
+We are thrilled that the Science Library (home to the Department of Special Collections, Archives and Preservation) is undergoing a much-needed roof replacement. The building has faced significant water ingress problems in the past, with even minimal rainfall causing multiple leaks throughout the building. The roof renovation project will be pivotal in safeguarding the University’s archives and special collections. Furthermore, these initiatives will create a safer and more comfortable environment within the library for the campus community by facilitating study and granting access to research materials.
 
 We are grateful for your understanding, patience, and support as we embark on this exciting journey to safeguard the University’s cherished and unique collections.
 
