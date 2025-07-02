@@ -1,0 +1,100 @@
+---
+title: Mirador
+permalink: /mirador/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <style type="text/css">
+     html, body {
+       height: 100%;
+       width: 100%;
+       margin: 0;
+     }
+     #instanceOne {
+       width: 100%;
+       height: 100%;
+       position: relative;
+     }
+     .mirador-window-close, .mirador-window-maximize {
+		  display: none !important;
+		}
+    </style>
+    <title>Mirador</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  </head>
+  <body>
+<div id="instanceOne"></div>
+<script src="https://cdn.jsdelivr.net/npm/mirador@4.0.0-alpha.2/dist/mirador.min.js"></script>
+<script type="text/javascript">
+    // Function to get query parameter value by name
+	function getQueryParam(name) {
+	  const urlParams = new URLSearchParams(window.location.search);
+	  return urlParams.get(name);
+	}
+
+	// Define base URL for manifests
+	const baseManifestUrl = "https://media.archives.albany.edu/";
+
+	// Get query parameters
+	const manifestParam = getQueryParam('manifest');
+	const collection = getQueryParam('collection');
+	const id = getQueryParam('id');
+	const startTime = parseInt(getQueryParam('time'), 10); // Time as an integer in seconds
+
+	// Determine manifest URL
+	let manifestUrl;
+	if (manifestParam) {
+	  manifestUrl = manifestParam; // Use full manifest URL
+	} else if (collection && id) {
+	  manifestUrl = `${baseManifestUrl}${collection}/${id}/manifest.json`; // Build URL from collection and id
+	} else {
+	  console.error('Error: Either "manifest" or both "collection" and "id" query parameters must be provided.');
+	  throw new Error('Invalid query parameters.');
+	}
+
+	console.log(startTime);
+
+	// Initialize Mirador viewer instance
+	const miradorInstanceOne = Mirador.viewer({
+	  id: 'instanceOne',
+		  windows: [{
+			loadedManifest: manifestUrl,
+			thumbnailNavigationPosition: 'none',
+			allowFullscreen: true,
+			defaultSideBarPanel: 'none',
+			sideBarOpenByDefault: false
+	  }],
+	  workspaceControlPanel: { enabled: false },
+	  window: { allowClose: false },
+	  themes: {
+		light: {
+		  palette: {
+			primary: {
+			  main: '#46166B'
+			}
+		  }
+		}
+	  }
+	});
+
+  
+  // Wait for Mirador and video element to load, then set start time
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      // Locate the video element within Mirador
+      const videoElement = document.querySelector('video');
+      if (videoElement && !isNaN(startTime)) {
+        videoElement.currentTime = startTime; // Set the start time
+        videoElement.play(); // Optionally auto-play the video
+      }
+    }, 200); // Delay to ensure Mirador and video are fully loaded
+  });
+</script>
+
+  </body>
+</html>
