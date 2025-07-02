@@ -12,12 +12,13 @@ docker-compose up
 
 ## Production
 
-A cronjob in the crontab automatically updates the live website every 5 minutes with any changes committed to this Github repo using `update.sh`. This script also copies the main `index.html` page built by jekyll into the Hyrax public directory so it will also be available at [https://archives.albany.edu/](https://archives.albany.edu/) in addition to [https://archives.albany.edu/web/](https://archives.albany.edu/web/).
-
-This script also updates all the 400, 422, and 500 pages for the rails apps
+Build the image
 
 ```
-*/5 * * * * cd /var/www/spe_website && ./update.sh >> /media/Library/ESPYderivatives/spe_website.log 2>&1
+docker build -t spe_website .
 ```
 
-
+A cronjob in the crontab automatically updates the live website every 5 minutes with any changes committed to this Github repo using `update.sh`.
+```
+*/5 * * * * ./update.sh >> /media/Library/SPE_Automated/spe_website.log 2>&1
+```
