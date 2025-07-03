@@ -81,6 +81,6 @@ a.btn-warning:hover, a.btn-warning:focus {
 	display: none;
 }
 
-.itemLink, .itemLink .galleryItem {
+.card-group .itemLink, .card-group .itemLink .galleryItem {
 	width: 100%;
 }
