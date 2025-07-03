@@ -10,5 +10,11 @@ RUN bundle install
 
 COPY . /code
 
+# Fix ownership so jekyll user can write
+RUN chown -R jekyll:jekyll /code
+
+# Switch to jekyll user to run build
+USER jekyll
+
 # Build Jekyll site during container build
 RUN jekyll build --config _config.yml
