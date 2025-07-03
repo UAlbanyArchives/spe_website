@@ -20,6 +20,9 @@ a:hover {
 	background-color: #006c68;
 }
 
+.visually-hidden {
+	display: none;
+}
 
 .btn-primary {
 	color: #EBE6F0;
@@ -78,6 +81,6 @@ a.btn-warning:hover, a.btn-warning:focus {
 	display: none;
 }
 
-.itemLink, .itemLink .galleryItem {
+.card-group .itemLink, .card-group .itemLink .galleryItem {
 	width: 100%;
 }

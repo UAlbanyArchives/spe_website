@@ -18,12 +18,14 @@ layout: one_column
 </div>
 
 <div class="form-group" align="center">
-<form class="form-inline justify-content-center" action="https://archives.albany.edu/catalog">
+<form class="form-inline justify-content-center" action="http://lib-espy-ws-d101.its.albany.edu:8080/description/catalog">
 	<label id="searchLabel" for="online-content-search">Search {{ page.title }}</label>
       <input id="online-content-search" class="form-control online-content-search" type="text" placeholder="Search {{ page.title }}..." name="q">
-      <input type="hidden" name="f[collection_number_sim][]" value="{{ page.col_id }}">
+      <input type="hidden" name="f[has_online_content_ssim][]" value="View only online content">
       {% if page.ref_id %}
-      	<input type="hidden" name="f[record_parent_sim][]" value="{{ page.ref_id }}">
+      	<input type="hidden" name="f[parent_ssi][]" value="{{ page.ref_id }}">
+      {% else %}
+      	<input type="hidden" name="f[collection][]" value="The Milne School Records, 1890-2004">
       {% endif %}
       <input type="hidden" name="search_field" value="all_fields">
       <button type="submit" class="btn btn-primary">Search</button>

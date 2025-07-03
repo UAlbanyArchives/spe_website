@@ -4,7 +4,7 @@ top_level: true
 col_id: "ua390"
 layout: one_column
 permalink: /selections/uaphotos/
-img: "https://archives.albany.edu/downloads/bk128j23w?file=thumbnail"
+img_id: 930ef43a62aa9910baa8c4d0faec6e3f
 thumbs: false
 collecting_area: ua
 ---
@@ -31,10 +31,11 @@ collecting_area: ua
 </div>
 
 <div class="form-group" align="center">
-	<form class="form-inline justify-content-center" action="https://archives.albany.edu/catalog">
+	<form class="form-inline justify-content-center" action="https://archives.albany.edu/description/catalog">
 	      <input class="form-control online-content-search" type="text" placeholder="Search All University Photograph Collections..." name="q">
-	      <input type="hidden" name="f[collecting_area_sim][]" value="University Archives">
-	      <input type="hidden" name="f[resource_type_sim][]" value="Image">
+	      <input type="hidden" name="f[has_online_content_ssim][]" value="View only online content">
+	      <input type="hidden" name="f[collecting_area][]" value="University Archives">
+	      <input type="hidden" name="f[resource_type][]" value="Image">
 	      <input type="hidden" name="search_field" value="all_fields">
 	      <button type="submit" class="btn btn-primary">Search</button>
 	</form>
@@ -47,9 +48,10 @@ collecting_area: ua
 <p>This is a curated collection, created by the M.E. Grenader Department of Special Collections & Archives with detailed metadata. The collection includes photographs from a number of campus offices and other unknown sources. To learn more, visit the <a href="https://archives.albany.edu/description/catalog/ua390">University Photograph Collection Page</a>.</p>
 
 <div class="form-group" align="center">
-	<form class="form-inline justify-content-center" action="/description/catalog">
+	<form class="form-inline justify-content-center" action="https://archives.albany.edu/description/catalog">
 	      <input class="form-control online-content-search" type="text" placeholder="Search the University Photograph Collection..." name="q">
-	      <input type="hidden" name="f[collection][]" value="University+Photograph+Collection%2C+1847-2005">
+	      <input type="hidden" name="f[has_online_content_ssim][]" value="View only online content">
+	      <input type="hidden" name="f[collection][]" value="University Photograph Collection, 1847-2005">
 	      <input type="hidden" name="search_field" value="all_fields">
 	      <button type="submit" class="btn btn-primary">Search</button>
 	</form>
@@ -150,7 +152,8 @@ collecting_area: ua
 <div class="form-group" align="center">
 	<form class="form-inline justify-content-center" action="https://archives.albany.edu/description/catalog">
 	      <input class="form-control online-content-search" type="text" placeholder="Search the Digital Media Department Records..." name="q">
-	      <input type="hidden" name="f[collection][]" value="Digital+Media+Department+Records%2C+1921-2016">
+	      <input type="hidden" name="f[has_online_content_ssim][]" value="View only online content">
+	      <input type="hidden" name="f[collection][]" value="Digital Media Department Records, 1921-2016">
 	      <input type="hidden" name="search_field" value="all_fields">
 	      <button type="submit" class="btn btn-primary">Search</button>
 	</form>
@@ -280,8 +283,8 @@ collecting_area: ua
 <div class="form-group" align="center">
 	<form class="form-inline justify-content-center" action="https://archives.albany.edu/description/catalog">
 	      <input class="form-control online-content-search" type="text" placeholder="Search the Campus Construction Collection..." name="q">
-	      <input type="hidden" name="f[collection][]" value="Campus+Construction+Collection%2C+1951-1987">
-	      <input type="hidden" name="f[has_online_content_ssim][]" value="View+only+online+content">
+	      <input type="hidden" name="f[has_online_content_ssim][]" value="View only online content">
+	      <input type="hidden" name="f[collection][]" value="Campus Construction Collection, 1951-1987">
 	      <input type="hidden" name="search_field" value="all_fields">
 	      <button type="submit" class="btn btn-primary">Search</button>
 	</form>

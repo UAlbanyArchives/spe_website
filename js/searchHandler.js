@@ -1,11 +1,9 @@
 window.addEventListener('load', function() {
 
     // URLs for Search form get request
-    var allSearchURL = "https://archives.albany.edu/search";
-    var arclightSearchURL = "https://archives.albany.edu/description/catalog";
-    var hyraxSearchURL = "https://archives.albany.edu/catalog";
+    var allSearchURL = "https://archives.albany.edu/description/catalog";
     var historySearchURL = "https://archives.albany.edu/history";
-    var mathesSearchURL = "https://archives.albany.edu/books?f[collecting_area_ssim][]=Political+Pamphlets";
+    var mathesSearchURL = "https://archives.albany.edu/books?f[collecting_area_ssim][]=Mathes+Childrens+Literature";
     var pamphletsSearchURL = "https://archives.albany.edu/books?f[collecting_area_ssim][]=Political+Pamphlets";
     var booksSearchURL = "https://archives.albany.edu/books";
 

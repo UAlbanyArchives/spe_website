@@ -18,38 +18,6 @@ layout: selections_gallery
 	<p>This lists only items that are available online. To see all materials, visit <a href="{{ uri }}">{{ page.title }} Collection Page</a>.</p>
 
 	<div class="col-xs-12 sequence sequence-small">
-		{% for series in site.selections %}
-
-			{% if series.col_id == page.col_id %}
-				{% unless series.id == page.id %}
-
-					{% assign series_file = "desc_" | append: series.ref_id | replace: ".", "-" %}
-
-					<a id="" class="itemLink" href="{{ site.url }}{{ series.url }}">
-						<div class="galleryItem img-thumbnail">
-							<div class="galleryThumb">
-								<img id="{{ series.url }}" class="galleryImage" src="{{ series.img }}" alt="{{ series.title }}" />
-							</div>
-							<div class="galleryLabel">
-								{% if site.data[series_file]["document"]["scopecontent_ssm"] %}
-									<h4>
-										<p>{{ series.title }}</p>
-									</h4>
-								{% else %}
-									<h4>
-										<p>{{ series.title }}, {{ site.data[series_file]["document"]["unitdate_ssm"][0] }}</p>
-									</h4>
-								{% endif %}
-								{% if site.data[series_file]["document"]["scopecontent_ssm"] %}
-									<p class="abstract">{{ site.data[series_file]["document"]["scopecontent_ssm"][0] | truncate: 100 }}</p>
-								{% endif %}
-							</div>
-						</div>
-					</a>
-				{% endunless %}
-			{% endif %}
-
-		{% endfor %}
 
 		{{ content }}
 

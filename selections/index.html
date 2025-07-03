@@ -9,8 +9,6 @@ title: "Online Content"
 <link rel="stylesheet" href="{{ site.url }}/css/ua/hyraxGallery.css" type="text/css"></link>
 <script type="text/javascript" src="{{ site.url }}/js/hyraxGallery.js"></script>
 
-{% include search_row.html %}
-
 <div class="row">
 
 	<div class="oc-menu-sidebar col-3 mb-4">
@@ -23,8 +21,10 @@ title: "Online Content"
 				<ul>
 					{% for page in site.selections %}
 						{% if page.top_level %}
-							{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id %}
-					        {% if page.ref_id %}
+							{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id | replace: ".", "-" %}
+					        {% if page.permalink %}
+					          {% assign full_url = site.url | append: page.url %}
+					        {% elsif page.ref_id %}
 					          {% assign full_url = base_url | append: "aspace_" | append: page.ref_id %}
 					        {% else %}
 					          {% assign full_url = base_url %}
@@ -43,8 +43,10 @@ title: "Online Content"
 				<ul>
 					{% for page in site.selections %}
 						{% if page.top_level %}
-							{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id %}
-					        {% if page.ref_id %}
+							{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id | replace: ".", "-" %}
+					        {% if page.permalink %}
+					          {% assign full_url = site.url | append: page.url %}
+					        {% elsif page.ref_id %}
 					          {% assign full_url = base_url | append: "aspace_" | append: page.ref_id %}
 					        {% else %}
 					          {% assign full_url = base_url %}
@@ -95,8 +97,10 @@ title: "Online Content"
 								{% unless page.col_id contains "ua" %}
 
 									{% if page.top_level %}
-										{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id %}
-								        {% if page.ref_id %}
+										{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id | replace: ".", "-" %}
+										{% if page.permalink %}
+								          {% assign full_url = site.url | append: page.url %}
+								        {% elsif page.ref_id %}
 								          {% assign full_url = base_url | append: "aspace_" | append: page.ref_id %}
 								        {% else %}
 								          {% assign full_url = base_url %}
@@ -133,15 +137,17 @@ title: "Online Content"
 							<div class="pb-2 mb-2 border-bottom">
 								<h3>University Archives</h3>
 							</div>
-							<div class="sequence">
+							<div class="card-group">
 
 							{% for page in site.selections %}
 
 								{% if page.col_id contains "ua" %}
 
 									{% if page.top_level %}
-										{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id %}
-								        {% if page.ref_id %}
+										{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: page.col_id | replace: ".", "-" %}
+								        {% if page.permalink %}
+								          {% assign full_url = site.url | append: page.url %}
+								        {% elsif page.ref_id %}
 								          {% assign full_url = base_url | append: "aspace_" | append: page.ref_id %}
 								        {% else %}
 								          {% assign full_url = base_url %}
@@ -152,6 +158,8 @@ title: "Online Content"
 												<div class="galleryThumb">
 													{% if page.img_id %}
 										              <img id="{{ page.url }}" class="galleryImage" src="https://media.archives.albany.edu/{{ page.col_id }}/{{ page.img_id }}/thumbnail.jpg" alt="{{ page.title }}" />
+										            {% elsif page.img_url %}
+										              <img id="{{ page.url }}" class="galleryImage" src="{{ page.img_url }}" alt="{{ page.title }}" />
 										            {% elsif page.img %}
 										              <img id="{{ page.url }}" class="galleryImage" src="{{ page.img }}" alt="{{ page.title }}" />
 										            {% endif %}
