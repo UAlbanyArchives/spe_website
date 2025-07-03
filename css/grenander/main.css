@@ -20,6 +20,9 @@ a:hover {
 	background-color: #006c68;
 }
 
+.visually-hidden {
+	display: none;
+}
 
 .btn-primary {
 	color: #EBE6F0;
