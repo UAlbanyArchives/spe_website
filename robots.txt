@@ -1,36 +1,40 @@
 # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+Sitemap: https://archives.albany.edu/description/sitemap
 
+# Rules for all agents:
+# Block crawling the raw EAD XML files or raw JSON
+# Add 5 second crawl delay; block crawling of most facet URLs
+User-agent: *
+Disallow: /*/xml$
+Disallow: /*/raw$
+Disallow: /catalog/facet/*
+Disallow: *f[*][]*
+Disallow: *f%5B*%5D%5B%5D*
+Disallow: /bookmarks
+Crawl-delay: 5
+
+# Throttle crawl rate for some bots without blocking them outright
+# Crawl-delay is number of seconds the bot must wait after a crawl action
 User-agent: AhrefsBot
-Disallow:/
-
-User-agent: UT-Dorkbot
-Disallow: /
-
-User-agent: UT-Dorkbot/1.0
-Disallow: /
-
-User-agent: PetalBot
-Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
-User-agent: TurnitinBot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
 User-agent: Baiduspider
-Disallow: /
+User-agent: Baiduspider-image
+User-agent: PetalBot
+User-agent: Bytespider
+User-agent: Sogou blog
+User-agent: Sogou inst spider
+User-agent: Sogou News Spider
+User-agent: Sogou Orion spider
+User-agent: Sogou spider2
+User-agent: Sogou web spider
+Crawl-delay: 10
 
-User-agent: YandexBot
+# Blocked bots
+User-agent: UT-Dorkbot
+User-agent: UT-Dorkbot/1.0
+User-agent: TurnitinBot
+User-agent: MJ12bot
+User-agent: SemrushBot
+User-agent: DotBot
 Disallow: /
 
 User-agent: *
