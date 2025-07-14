@@ -2,6 +2,7 @@ FROM jekyll/jekyll:4
 
 ENV TZ=America/New_York
 ENV JEKYLL_ENV=production
+ENV JEKYLL_CACHE_DIR=/tmp/.jekyll-cache
 
 WORKDIR /code
 
