@@ -6,7 +6,7 @@ cd /var/www/spe_website  # Make sure to use your repo path
 echo "$(date) Checking for updates..."
 
 # Update remote refs quietly
-git remote update -q
+git remote update
 
 # Get current branch name (handle detached HEAD safely)
 branch=$(git rev-parse --abbrev-ref HEAD)
