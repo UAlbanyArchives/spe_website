@@ -1,22 +1,36 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+cd /var/www/spe_website  # Make sure to use your repo path
+
 echo "$(date) Checking for updates..."
-output=$(git fetch --dry-run 2>&1)
 
-if [[ -n "$output" ]]; then
-    echo "$(date) Updates found"
-    git pull
+# Update remote refs quietly
+git remote update -q
 
-    echo "$(date) Building site with spe_website image..."
+# Get current branch name (handle detached HEAD safely)
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [[ "$branch" == "HEAD" ]]; then
+  echo "$(date) Detached HEAD state detected. Skipping update check."
+  exit 0
+fi
 
-    docker run --rm \
-      -v "$PWD:/code" \
-      -w /code \
-      spe_website \
-      jekyll build --config _config.yml --no-cache
+# Get local and remote commit hashes
+LOCAL=$(git rev-parse @)
+REMOTE=$(git rev-parse @{u})
 
-    echo "$(date) Build complete"
+if [[ "$LOCAL" != "$REMOTE" ]]; then
+  echo "$(date) Updates found on branch '$branch'"
+
+  git pull --ff-only
+
+  echo "$(date) Building site with spe_website image..."
+  docker run --rm \
+    -v "$PWD:/code" \
+    -w /code \
+    spe_website \
+    jekyll build --config _config.yml --no-cache
+  echo "$(date) Build complete"
 else
-    echo "$(date) No updates found."
+  echo "$(date) No updates found on branch '$branch'."
 fi
