@@ -27,9 +27,10 @@ if [[ "$LOCAL" != "$REMOTE" ]]; then
   echo "$(date) Building site with spe_website image..."
   docker run --rm \
     -v "$PWD:/code" \
+    -v jekyll_cache:/code/.jekyll-cache \
     -w /code \
     spe_website \
-    jekyll build --config _config.yml --no-cache
+    jekyll build --config _config.yml
   echo "$(date) Build complete"
 else
   echo "$(date) No updates found on branch '$branch'."
