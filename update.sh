@@ -14,7 +14,7 @@ if [[ -n "$output" ]]; then
       -v "$PWD:/code" \
       -w /code \
       spe_website \
-      jekyll build --config _config.yml
+      jekyll build --config _config.yml --no-cache
 
     echo "$(date) Build complete"
 else
