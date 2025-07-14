@@ -24,7 +24,7 @@ A cronjob in the crontab automatically updates the live website every 5 minutes 
 */5 * * * * ./update.sh >> /media/Library/SPE_Automated/spe_website.log 2>&1
 ```
 
-This may need permissions for `_site`
+This may need permissions for `_site` and `.jekyll-cache`
 ```
-chown "$(id -u):$(id -g)" _site
+sudo chown -R [host username] .jekyll-cache _site
 ```
