@@ -75,7 +75,7 @@
               </div>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-center">
-              <img class="card-img" src="https://archives.albany.edu/${result.thumbnail}" alt="thumbnail for ${result.title}">
+              <img class="card-img" src="${result.thumbnail}" alt="thumbnail for ${result.title}">
             </div>
           </div>
       </div>
