@@ -45,16 +45,19 @@
     // Declare seriesSection outside of the if statement
     let seriesSection = '';
 
-    // Check if record_parent_tesim is defined
-    if (result.parent_ids) {
+    // Check for series
+    if (Array.isArray(result.parent_ids) && result.parent_ids.length > 1) {
       const seriesNames = result.parents;
 
-      // Conditionally include the <strong>Series:</strong> section with multiple links
-      seriesSection = Array.isArray(result.parent_ids)
-        ? `<strong>Series:</strong> ${
-            result.parent_ids.map((id, index) => `<a href="https://archives.albany.edu/description/catalog/${result.collection_id}${id}">${seriesNames[index]}</a>`).join(', ')
-          }<br />`
-        : `<strong>Series:</strong> <a href="https://archives.albany.edu/description/catalog/${result.collection_id}${result.parent_ids}">${seriesNames}</a><br />`;
+      // Skip the first item
+      const trimmedIds = result.parent_ids.slice(1);
+      const trimmedNames = seriesNames.slice(1);
+
+      seriesSection = `<strong>Series:</strong> ${
+        trimmedIds.map((id, index) =>
+          `<a href="https://archives.albany.edu/description/catalog/${result.collection_id}${id}">${trimmedNames[index]}</a>`
+        ).join(', ')
+      }<br />`;
     }
 
     let escapedCollection = result.collection_id.replace(/\./g, '-');
