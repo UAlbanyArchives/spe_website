@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
 
     // URLs for Search form get request
-    var allSearchURL = "https://archives.albany.edu/description/catalog";
+    var allSearchURL = "https://archives.albany.edu/description/catalog?group=true";
     var historySearchURL = "https://archives.albany.edu/history";
     var mathesSearchURL = "https://archives.albany.edu/books?f[collecting_area_ssim][]=Mathes+Childrens+Literature";
     var pamphletsSearchURL = "https://archives.albany.edu/books?f[collecting_area_ssim][]=Political+Pamphlets";
