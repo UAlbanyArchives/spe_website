@@ -16,8 +16,8 @@ if [[ "$branch" == "HEAD" ]]; then
 fi
 
 # Get local and remote commit hashes
-LOCAL=$(git rev-parse @)
-REMOTE=$(git rev-parse @{u})
+LOCAL=$(git rev-parse HEAD)
+REMOTE=$(git rev-parse origin/"$branch")
 
 if [[ "$LOCAL" != "$REMOTE" ]]; then
   echo "$(date) Updates found on branch '$branch'"
