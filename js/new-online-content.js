@@ -1,7 +1,7 @@
 (function () {
 
   // Make a GET request to the JSON API
-  fetch('https://archives.albany.edu/static/new_online_content.json')
+  fetch('https://archives.albany.edu/static/new_online_content2.json')
     .then(response => {
       // Check if the request was successful (status code 200)
       if (!response.ok) {
@@ -63,7 +63,7 @@
           <div class="row no-gutters">
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title"><a href="https://archives.albany.edu/concern/${result.model.toLowerCase()}s/${result.id}">${result.title}</a></h5>
+                <h5 class="card-title"><a href="https://archives.albany.edu/description/catalog/${result.id}">${result.title}</a></h5>
                 <p class="card-text"><a href="https://archives.albany.edu/description/catalog/${escapedCollection}">${result.collection}</a></p>
                 <p class="card-text">
                   <strong>Date:</strong> ${result.date}<br />
