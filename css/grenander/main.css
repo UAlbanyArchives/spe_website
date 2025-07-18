@@ -80,3 +80,7 @@ a.btn-warning:hover, a.btn-warning:focus {
 #searchLabel {
 	display: none;
 }
+
+.card-group .itemLink, .card-group .itemLink .galleryItem {
+	width: 100%;
+}

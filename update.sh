@@ -1,36 +1,37 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-echo "$(date) $line checking for updates..."
-output=$( git fetch --dry-run 2>&1 )
+cd /var/www/spe_website  # Make sure to use your repo path
 
-if [[ $output ]]
-then
-    echo "$(date) $line Updates found"
-    source ~/.rvm/scripts/rvm
-    rvm 2.6.5@website
-    git pull
-    jekyll build
-    echo "$(date) $line Copying index.html to Hyrax"
-    cp /var/www/spe_website/_site/index.html /var/www/hyrax-UAlbany/public
-    cp /var/www/spe_website/_site/404.html /var/www/hyrax-UAlbany/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/hyrax-UAlbany/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/hyrax-UAlbany/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/arclight-UAlbany/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/arclight-UAlbany/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/arclight-UAlbany/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/history/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/history/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/history/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/espy/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/espy/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/espy/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/books/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/books/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/books/public/500.html
-    cp /var/www/spe_website/_site/404.html /var/www/bento-UAlbany/public/404.html
-    cp /var/www/spe_website/_site/422.html /var/www/bento-UAlbany/public/422.html
-    cp /var/www/spe_website/_site/500.html /var/www/bento-UAlbany/public/500.html
-    echo "$(date) $line Done"
+echo "$(date) Checking for updates..."
+
+# Update remote refs quietly
+git remote update
+
+# Get current branch name (handle detached HEAD safely)
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [[ "$branch" == "HEAD" ]]; then
+  echo "$(date) Detached HEAD state detected. Skipping update check."
+  exit 0
+fi
+
+# Get local and remote commit hashes
+LOCAL=$(git rev-parse @)
+REMOTE=$(git rev-parse @{u})
+
+if [[ "$LOCAL" != "$REMOTE" ]]; then
+  echo "$(date) Updates found on branch '$branch'"
+
+  git pull --ff-only
+
+  echo "$(date) Building site with spe_website image..."
+  docker run --rm \
+    -v "$PWD:/code" \
+    -w /code \
+    --user "$(id -u):$(id -g)" \
+    spe_website \
+    jekyll build --config _config.yml
+  echo "$(date) Build complete"
 else
-    echo "$(date) $line No updates"
+  echo "$(date) No updates found on branch '$branch'."
 fi
