@@ -1,7 +1,7 @@
 (function () {
 
   // Make a GET request to the JSON API
-  fetch('https://archives.albany.edu/static/new_online_content2.json')
+  fetch('https://archives.albany.edu/static/new_online_content.json')
     .then(response => {
       // Check if the request was successful (status code 200)
       if (!response.ok) {
