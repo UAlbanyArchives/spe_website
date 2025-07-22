@@ -26,13 +26,13 @@ $(function(){
 	if ($("body").css("background-image") != 'none')  {
 		var $randomBG = Math.floor(Math.random() * ((43-1)+1) + 1);
 		if ($(window).width() <= 1200) {
-			$("body").css('background-image', "url('https://archives.albany.edu/browse/img/1000/bg" + $randomBG + ".jpg')");
+			$("body").css('background-image', "url('https://archives.albany.edu/static/img/1000/bg" + $randomBG + ".jpg')");
 		} else if ($(window).width() <= 1500) {
-			$("body").css('background-image', "url('https://archives.albany.edu/browse/img/1200/bg" + $randomBG + ".jpg')");
+			$("body").css('background-image', "url('https://archives.albany.edu/static/img/1200/bg" + $randomBG + ".jpg')");
 		} else if ($(window).width() <= 1800) {
-			$("body").css('background-image', "url('https://archives.albany.edu/browse/img/1500/bg" + $randomBG + ".jpg')");
+			$("body").css('background-image', "url('https://archives.albany.edu/static/img/1500/bg" + $randomBG + ".jpg')");
 		} else {
-			$("body").css('background-image', "url('https://archives.albany.edu/browse/img/1800/bg" + $randomBG + ".jpg')");
+			$("body").css('background-image', "url('https://archives.albany.edu/static/img/1800/bg" + $randomBG + ".jpg')");
 		}
 	}
 });
