@@ -5,7 +5,8 @@ permalink: /sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in site.pages %}
-    {% if page.sitemap != false %}
+    {% assign is_virtual = page.path == nil or page.path == "" or page.path contains 'tag/' %}
+    {% unless is_virtual %}
       <url>
         <loc>{{ page.url | absolute_url }}</loc>
         {% assign lastmod = page.last_modified_at | default: page.date %}
@@ -13,9 +14,9 @@ permalink: /sitemap.xml
           <lastmod>{{ lastmod | date_to_xmlschema }}</lastmod>
         {% endif %}
       </url>
-    {% endif %}
+    {% endunless %}
   {% endfor %}
-
+  
   {% for post in site.posts %}
     <url>
       <loc>{{ post.url | absolute_url }}</loc>

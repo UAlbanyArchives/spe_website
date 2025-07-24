@@ -43,15 +43,16 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll/tagging
   - jekyll-sitemap
   - jekyll-last-modified-at
+  #- jekyll/tagging
+  # There are no links to tags for posts so I removed this for now
 
 # for creating new empty arrays
 emptyArray: []
 
-tag_page_layout: tag_page
-tag_page_dir: tag
+#tag_page_layout: tag_page
+#tag_page_dir: tag
 
 collections:
   selections:
@@ -59,7 +60,7 @@ collections:
   updates:
     output: true
   slider:
-    output: true
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
