@@ -21,7 +21,7 @@ title: "Online Content"
 				<ul>
 					{% for page in site.selections %}
 						{% if page.top_level %}
-							{% assign col_id_safe = page.col_id | replace: ".", "_" %}
+							{% assign col_id_safe = page.col_id | replace: ".", "-" %}
 							{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: col_id_safe %}
 					        {% if page.permalink %}
 					          {% assign full_url = site.url | append: page.url %}
@@ -44,7 +44,7 @@ title: "Online Content"
 				<ul>
 					{% for page in site.selections %}
 						{% if page.top_level %}
-							{% assign col_id_safe = page.col_id | replace: ".", "_" %}
+							{% assign col_id_safe = page.col_id | replace: ".", "-" %}
 							{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: col_id_safe %}
 					        {% if page.permalink %}
 					          {% assign full_url = site.url | append: page.url %}
@@ -99,7 +99,7 @@ title: "Online Content"
 								{% unless page.col_id contains "ua" %}
 
 									{% if page.top_level %}
-										{% assign col_id_safe = page.col_id | replace: ".", "_" %}
+										{% assign col_id_safe = page.col_id | replace: ".", "-" %}
 										{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: col_id_safe %}
 										{% if page.permalink %}
 								          {% assign full_url = site.url | append: page.url %}
@@ -147,7 +147,7 @@ title: "Online Content"
 								{% if page.col_id contains "ua" %}
 
 									{% if page.top_level %}
-										{% assign col_id_safe = page.col_id | replace: ".", "_" %}
+										{% assign col_id_safe = page.col_id | replace: ".", "-" %}
 										{% assign base_url = "https://archives.albany.edu/description/catalog/" | append: col_id_safe %}
 								        {% if page.permalink %}
 								          {% assign full_url = site.url | append: page.url %}
