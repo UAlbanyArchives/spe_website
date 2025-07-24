@@ -44,6 +44,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll-sitemap
+  - jekyll-last-modified-at
 
 # for creating new empty arrays
 emptyArray: []
