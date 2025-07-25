@@ -1,5 +1,6 @@
 # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
 Sitemap: https://archives.albany.edu/sitemap.xml
+Sitemap: https://archives.albany.edu/description/sitemap.xml
 
 # Rules for all agents:
 # Block crawling the raw EAD XML files or raw JSON
