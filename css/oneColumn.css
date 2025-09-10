@@ -340,7 +340,7 @@ table.hoursTable > tbody > tr:first-child > td {
 
 #donationAccordion .p-3 {
 	border-left: 1px solid rgba(0,0,0,.125);
-	right: 1px solid rgba(0,0,0,.125);
+	border-right: 1px solid rgba(0,0,0,.125);
 }
 
 #donationAccordion .list-group-item .fa {
