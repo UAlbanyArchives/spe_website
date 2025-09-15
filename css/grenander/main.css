@@ -58,6 +58,13 @@ a:hover {
 a.btn-warning:hover, a.btn-warning:focus {
 	background-color: #eaaa00 !important;
 	border-color: #eaaa00 !important;
+	color: #fff;
+}
+
+span.btn-warning:hover, span.btn-warning:focus {
+	background-color: #eaaa00 !important;
+	border-color: #eaaa00 !important;
+	color: #fff;
 }
 
 /* pagination */

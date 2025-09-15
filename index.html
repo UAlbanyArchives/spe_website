@@ -36,7 +36,7 @@ layout: spe_base_2
 							{% else %}
 								{% assign update_link = site.url | append: update.url %}
 							{% endif %}
-							<a class="itemLink" href="{{ update_link }}" aria-label="{{ update.title }}">
+							<a class="itemLink" href="{{ update_link }}">
 								<div class="galleryItem img-thumbnail">
 									{% if update.image %}
 										<div class="galleryThumb">
@@ -44,16 +44,16 @@ layout: spe_base_2
 										</div>
 									{% endif %}
 									<div class="galleryLabel">
-										<h4>
+										<h3 class="h4">
 											{{ update.title }}
-										</h4>
+										</h3>
 											{% if update.image %}
 												<p class="abstract">{{ update.content | strip_html | truncatewords: 25 }}</p>
 											{% else %}
 												<p class="abstract">{{ update.content | strip_html | truncatewords: 30 }}</p>
 											{% endif %}
 										{% if update.button_link and update.button_text %}
-											<a class="btn btn-warning" href="{{ site.url }}/{{ update.button_link }}">{{ update.button_text }}</a>
+											<span class="btn btn-warning" href="{{ site.url }}/{{ update.button_link }}">{{ update.button_text }}</span>
 										{% endif %}
 									</div>
 								</div>
@@ -71,9 +71,9 @@ layout: spe_base_2
 						<div class="results"></div>
 
 						<div class="placeholders">
-							<h3 class="card-title placeholder-glow">
+							<h4 class="h5 card-title placeholder-glow">
 						      <span class="placeholder col-6"></span>
-						    </h3>
+						    </h4>
 						    <p class="card-text placeholder-glow">
 						      <span class="placeholder col-7"></span>
 						      <span class="placeholder col-4"></span>
@@ -82,9 +82,9 @@ layout: spe_base_2
 						      <span class="placeholder col-8"></span>
 						    </p>
 
-						    <h3 class="card-title placeholder-glow">
+						    <h4 class="h5 card-title placeholder-glow">
 						      <span class="placeholder col-6"></span>
-						    </h3>
+						    </h4>
 						    <p class="card-text placeholder-glow">
 						      <span class="placeholder col-7"></span>
 						      <span class="placeholder col-4"></span>
@@ -93,9 +93,9 @@ layout: spe_base_2
 						      <span class="placeholder col-8"></span>
 						    </p>
 
-						    <h3 class="card-title placeholder-glow">
+						    <h4 class="h5 card-title placeholder-glow">
 						      <span class="placeholder col-6"></span>
-						    </h3>
+						    </h4>
 						    <p class="card-text placeholder-glow">
 						      <span class="placeholder col-7"></span>
 						      <span class="placeholder col-4"></span>
@@ -104,9 +104,9 @@ layout: spe_base_2
 						      <span class="placeholder col-8"></span>
 						    </p>
 
-						    <h3 class="card-title placeholder-glow">
+						    <h4 class="h5 card-title placeholder-glow">
 						      <span class="placeholder col-6"></span>
-						    </h3>
+						    </h4>
 						    <p class="card-text placeholder-glow">
 						      <span class="placeholder col-7"></span>
 						      <span class="placeholder col-4"></span>
@@ -115,9 +115,9 @@ layout: spe_base_2
 						      <span class="placeholder col-8"></span>
 						    </p>
 
-						    <h3 class="card-title placeholder-glow">
+						    <h4 class="h5 card-title placeholder-glow">
 						      <span class="placeholder col-6"></span>
-						    </h3>
+						    </h4>
 						    <p class="card-text placeholder-glow">
 						      <span class="placeholder col-7"></span>
 						      <span class="placeholder col-4"></span>
@@ -126,9 +126,9 @@ layout: spe_base_2
 						      <span class="placeholder col-8"></span>
 						    </p>
 
-						    <h3 class="card-title placeholder-glow">
+						    <h4 class="h5 card-title placeholder-glow">
 						      <span class="placeholder col-6"></span>
-						    </h3>
+						    </h4>
 						    <p class="card-text placeholder-glow">
 						      <span class="placeholder col-7"></span>
 						      <span class="placeholder col-4"></span>

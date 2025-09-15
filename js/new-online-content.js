@@ -66,7 +66,7 @@
           <div class="row no-gutters">
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title"><a href="https://archives.albany.edu/description/catalog/${result.id}">${result.title}</a></h5>
+                <h4 class="h5 card-title"><a href="https://archives.albany.edu/description/catalog/${result.id}">${result.title}</a></h4>
                 <p class="card-text"><a href="https://archives.albany.edu/description/catalog/${escapedCollection}">${result.collection}</a></p>
                 <p class="card-text">
                   <strong>Date:</strong> ${result.date}<br />
