@@ -350,3 +350,48 @@ table.hoursTable > tbody > tr:first-child > td {
 #donationAccordion .list-group-item[aria-expanded="true"] .fa {
     transform: rotate(90deg); /* points down when expanded */
 }
+
+/* reference form callouts */
+
+.callout .border-primary {
+	border-color: #9e68c7 !important;
+	border-left-width: 3px !important;
+}
+
+.btn-outline-primary {
+	color: #46166B;
+	border-color: #46166B;
+}
+
+.btn-outline-primary:hover {
+	color: #fff;
+	background-color: #46166B;
+	border-color: #46166B;
+}
+
+.btn-outline-primary:focus {
+	box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+}
+
+.btn-outline-secondary {
+	color: #006c68;
+	border-color: #006c68;
+}
+
+.btn-outline-secondary:hover {
+	color: #fff;
+	background-color: #006c68;
+	border-color: #006c68;
+}
+
+.btn-outline-secondary:focus {
+	box-shadow: 0 0 0 .2rem rgba(0, 108, 104, .5);
+}
+
+.visit_callout .callout-header {
+  cursor: pointer; /* only the header is clickable */
+}
+
+.visit_callout .callout-header:hover .callout-title {
+  text-decoration: underline;
+}

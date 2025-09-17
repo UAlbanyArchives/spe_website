@@ -1,0 +1,99 @@
+---
+title: Request Materials or Make an Appointment
+layout: one_column
+permalink: /reference_test/
+---
+
+
+<div class="row">
+
+  <div class="col-md-12 callout request_callout">
+    <div class="p-4 border-left border-primary bg-light">
+      <h2 class="h5 mb-3">Digitization Requests</h2>
+      <p>
+        We charge for the amount of time required to digitize the requested material.
+      </p>
+      <ul class="mb-3 pl-3">
+        <li>Requests taking <strong>less than 30 minutes are free of charge</strong>.</li>
+        <li>Smaller requests can take <strong>1–2 days</strong>, larger requests may take <strong>up to a week or more</strong>.</li>
+        <li>Due to limited staff, we have a <strong>two-hour limit</strong> to what we are able to digitize.</li>
+        <li>Anyone is welcome to visit and <a href="{{ site.url }}/visit">view collections in-person</a> during <a href="{{ site.url }}/directions">our hours</a> at no charge.</li>
+      </ul>
+      <div class="d-flex flex-column flex-sm-row">
+        <a href="{{ site.url }}/reproductions" class="btn btn-outline-primary mb-2 mb-sm-0 mr-sm-2">Fee Schedule</a>
+        <a href="{{ site.url }}/use" class="btn btn-outline-secondary">Using the Archives</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12 callout visit_callout">
+	  <div class="p-4 border-left border-primary bg-light callout-box">
+	    <h2 class="h5 mb-0 d-flex justify-content-between align-items-center callout-header" 
+	        data-toggle="collapse" 
+	        data-target="#visitCalloutContent" 
+	        aria-expanded="false" 
+	        aria-controls="visitCalloutContent">
+	      <span class="callout-title">Using the Archives</span>
+	      <span class="chevron">&#9660;</span>
+	    </h2>
+
+	    <!-- Collapsible content -->
+	    <div class="collapse mt-3" id="visitCalloutContent">
+	      <p>
+	        The archives are open to the public, but most collections can only be viewed in person 
+	        in our Reading Room at the UAlbany Science Library. While we digitize select materials 
+	        for broader access, digitizing everything would limit <a href="{{ site.url }}/use#about_online">the records we are able to preserve</a>.
+	      </p>
+	      <ul class="mb-3 pl-3">
+	        <li><strong>Focus your topic:</strong> Explore our <a href="https://archives.albany.edu/description">Collections</a> first to find what you would like to see.</li>
+	        <li><strong>Ask for help:</strong> <a href="https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives&list=https://archives.albany.edu/description/catalog/ua659aspace_e75edcae8682e2ab4d5ce938e3c47757">We can help guide you</a> to what you're looking for.</li>
+	        <li><strong>Plan your visit:</strong> Check our <a href="{{ site.url }}/directions">Hours & Directions</a> to campus.</li>
+	        <li><strong>Restrictions:</strong> Some materials are limited due to privacy, donor, or legal agreements.</li>
+	        <li><strong>Rules:</strong> Handle materials with care; no food, drink, or bags in the Reading Room.</li>
+	      </ul>
+	      <div class="d-flex flex-column flex-sm-row">
+	        <a href="https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives&list=https://archives.albany.edu/description/catalog/ua659aspace_e75edcae8682e2ab4d5ce938e3c47757" class="btn btn-outline-primary mb-2 mb-sm-0 mr-sm-2">Ask an Archivist</a>
+	        <a href="{{ site.url }}/visit#reading_room_rules" class="btn btn-outline-secondary mb-2 mb-sm-0 mr-sm-2">Reading Room Rules</a>
+	        <a href="{{ site.url }}/visit#about_restrictions" class="btn btn-outline-secondary">About Restrictions</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const params = new URLSearchParams(window.location.search);
+    const visitParam = params.has("visit");
+
+    const requestCallout = document.querySelector(".request_callout");
+    const visitCallout = document.querySelector(".visit_callout");
+
+    if (visitParam) {
+      if (requestCallout) requestCallout.style.display = "none";
+      if (visitCallout) visitCallout.style.display = "block";
+    } else {
+      if (requestCallout) requestCallout.style.display = "block";
+      if (visitCallout) visitCallout.style.display = "none";
+    }
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector('[data-target="#visitCalloutContent"]');
+    var chevron = header.querySelector('.chevron');
+    $('#visitCalloutContent').on('show.bs.collapse', function () {
+      chevron.innerHTML = '&#9650;'; // ▲
+    });
+    $('#visitCalloutContent').on('hide.bs.collapse', function () {
+      chevron.innerHTML = '&#9660;'; // ▼
+    });
+  });
+</script>
+
+
+
+<div id="form_c10848b4047f95c95d0a87b0e8bc9a86">
+<iframe id="c10848b4047f95c95d0a87b0e8bc9a86" scrolling="auto" title="Request Materials or Schedule a Visit" src="https://albany.libwizard.com/f/schedule-a-visit-archives?3279076=" style="width: 100%; height: 1550px; border: 0px none;"></iframe>
+</div>
+<script src="https://apps.library.albany.edu/host/archives/request-archives.js"></script>
