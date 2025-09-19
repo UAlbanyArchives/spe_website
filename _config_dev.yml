@@ -9,5 +9,8 @@ plugins:
 
 feed:
   disable_in_development: true
+  
+exclude:
+  - ".jekyll-cache"
 
 incremental: true

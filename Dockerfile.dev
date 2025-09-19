@@ -5,11 +5,12 @@ RUN apk add --no-cache rsync
 
 # Set working directory
 WORKDIR /code
+RUN chown -R jekyll:jekyll /code
 
 # Copy Gemfiles and install gems at build time
 # This caches dependencies unless Gemfile changes
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
-# Set JEKYLL_CACHE_DIR to avoid permission issues
+# Optional: set JEKYLL_CACHE_DIR to avoid permission issues
 ENV JEKYLL_CACHE_DIR=/tmp/.jekyll-cache
