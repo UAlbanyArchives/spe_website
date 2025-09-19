@@ -395,3 +395,12 @@ table.hoursTable > tbody > tr:first-child > td {
 .visit_callout .callout-header:hover .callout-title {
   text-decoration: underline;
 }
+
+/* Use page */
+
+#contentColumn .useDocs img {
+		width: 100%;
+		margin: 25px auto;
+		display: block;
+		padding: 0 px 25 px
+}
