@@ -1,27 +1,26 @@
 services:
   server:
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
+    image: jekyll/jekyll:4
     container_name: website
     ports:
       - '4000:4000'
     environment:
       - TZ=America/New_York
-      - JEKYLL_ENV=production
-      - JEKYLL_CACHE_DIR=/tmp/.jekyll-cache
+      - JEKYLL_ENV=development
     volumes:
       - jekyll-site:/code
       - .:/tmp-src:ro
     working_dir: /code
+    user: root
     command: >
-      bash -c "
-        rm -rf /code/_site &&
-        echo 'Copying files...' &&
-        rsync -a /tmp-src/ /code/ &&
-        echo 'Serving site...' &&
-        jekyll serve --incremental --config _config.yml,_config_dev.yml"
-
+      bash -c 'apk add --no-cache rsync &&
+               rm -rf /code/.jekyll-cache /code/_site &&
+               echo "Copying files..." &&
+               rsync -a /tmp-src/ /code/ &&
+               echo "Installing dependencies..." &&
+               bundle install &&
+               echo "Serving site..." &&
+               jekyll serve --incremental --config _config.yml,_config_dev.yml'
   sync:
     image: alpine:latest
     container_name: jekyll_sync
@@ -29,12 +28,11 @@ services:
       - .:/src:ro
       - jekyll-site:/dst
     command: >
-      sh -c "
-        apk add --no-cache rsync &&
-        while true; do
-          rsync -a --update /src/ /dst/;
-          sleep 1;
-        done"
+      sh -c "apk add --no-cache rsync &&
+             while true; do
+               rsync -a --update /src/ /dst/;
+               sleep 1;
+             done"
 
 volumes:
   jekyll-site: {}
