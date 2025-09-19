@@ -1,0 +1,13 @@
+url: ""
+
+# override the plugin list from _config.yml
+plugins:
+  - jekyll-paginate
+  - jekyll-last-modified-at
+  # (removes jekyll-feed to speed dev building)
+  # (removes jekyll-sitemap to speed dev building)
+
+feed:
+  disable_in_development: true
+
+incremental: true
