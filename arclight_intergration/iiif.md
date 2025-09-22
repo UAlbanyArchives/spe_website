@@ -17,46 +17,198 @@ We will also provide documentation for installing a [IIIF viewer](https://iiif.i
 Check back for more details!
 
 <div class="iframe-iiif mb-4">
-  <iframe src="https://archives.albany.edu/uv/uv.html#?manifest=https://archives.albany.edu/concern/daos/fn106x97k/manifest&c=0&m=0&s=0&cv=0&config=https://archives.albany.edu/uv/uv-config.json&locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska,xx-XX:English (GB) (xx-XX)&xywh=-1418,-1,7938,3637&r=0" allowfullscreen frameborder="0"></iframe>
+  <iframe src="https://media.archives.albany.edu?manifest=https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/manifest.json" title="Image viewer" allowfullscreen frameborder="0"></iframe>
 </div>
 
-#### Example v2.0 manifest
+#### Example v3.0 manifest
 
 ```
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@type": "sc:Manifest",
-  "@id": "https://archives.albany.edu/concern/daos/fn106x97k/manifest",
-  "label": "Page 142: \"The Cave\" in Husted Cafeteria.",
-  "sequences": [
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "provider": [
     {
-      "@type": "sc:Sequence",
-      "@id": "https://archives.albany.edu/concern/daos/fn106x97k/manifest/sequence/normal",
-      "rendering": [],
-      "canvases": [
+      "id": "https://media.archives.albany.edu",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "M.E. Grenander Department of Special Collections & Archives, University at Albany, SUNY"
+        ]
+      },
+      "logo": [
         {
-          "@type": "sc:Canvas",
-          "@id": "https://archives.albany.edu/concern/daos/fn106x97k/manifest/canvas/5d86p030t",
-          "label": "bad4b7c7a5a763fe46994f1825213ea0.jpg",
-          "width": 5104,
-          "height": 3637,
-          "images": [
+          "id": "https://media.archives.albany.edu/logo.png",
+          "type": "Image",
+          "format": "image/png"
+        }
+      ]
+    }
+  ],
+  "id": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "bad4b7c7a5a763fe46994f1825213ea0.jpg"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "legacy_id"
+        ]
+      },
+      "value": {
+        "en": [
+          "fn106x97k"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "resource_type"
+        ]
+      },
+      "value": {
+        "en": [
+          "Image"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "coverage"
+        ]
+      },
+      "value": {
+        "en": [
+          "whole"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "preservation_package"
+        ]
+      },
+      "value": {
+        "en": [
+          "ua950.008_Pt4wqW86Mvr8jWJHEFemwS"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "date_uploaded"
+        ]
+      },
+      "value": {
+        "en": [
+          "2018-12-21T23:33:35+00:00"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "<span>M.E. Grenander Department of Special Collections and Archives, University Libraries, University at Albany, State University of New York <br/> <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" title=\"CC BY-NC-SA 4.0\"><img src=\"https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png\"/></a></span>"
+      ]
+    }
+  },
+  "rendering": [
+    {
+      "id": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/content.txt",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Download Text transcription"
+        ]
+      },
+      "format": "text/plain"
+    }
+  ],
+  "service": [
+    {
+      "id": "https://media.archives.albany.edu/search/1/ua950.008/bad4b7c7a5a763fe46994f1825213ea0",
+      "type": "SearchService",
+      "label": {
+        "en": [
+          "Content Search"
+        ]
+      },
+      "profile": "http://iiif.io/api/search/1/search"
+    }
+  ],
+  "rights": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "behavior": [
+    "individuals"
+  ],
+  "items": [
+    {
+      "id": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "bad4b7c7a5a763fe46994f1825213ea0.ptif"
+        ]
+      },
+      "height": 3637,
+      "width": 5104,
+      "rendering": [
+        {
+          "id": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/hocr/bad4b7c7a5a763fe46994f1825213ea0.hocr",
+          "type": "Text",
+          "label": {
+            "en": [
+              "HOCR data (OCR)"
+            ]
+          },
+          "format": "text/vnd.hocr+html",
+          "profile": "http://kba.cloud/hocr-spec/1.2/"
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/thumbnail.jpg",
+          "type": "Image",
+          "height": 143,
+          "width": 200,
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "https://archives.albany.edu/images/5d86p030t%2Ffiles%2F71ba740c-3123-4ea3-867b-14333995efeb%2Ffcr:versions%2Fversion1/full/600,/0/default.jpg",
+              "id": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/annotation/bad4b7c7a5a763fe46994f1825213ea0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://media.archives.albany.edu/iiif/3/ua950.008%2Fbad4b7c7a5a763fe46994f1825213ea0%2Fptif%2Fbad4b7c7a5a763fe46994f1825213ea0.ptif/full/max/0/default.jpg",
+                "type": "Image",
                 "height": 3637,
                 "width": 5104,
-                "format": "jpg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://archives.albany.edu/images/5d86p030t%2Ffiles%2F71ba740c-3123-4ea3-867b-14333995efeb%2Ffcr:versions%2Fversion1",
-                  "profile": "http://iiif.io/api/image/2/level2.json"
-                }
+                "service": [
+                  {
+                    "id": "https://media.archives.albany.edu/iiif/3/ua950.008%2Fbad4b7c7a5a763fe46994f1825213ea0%2Fptif%2Fbad4b7c7a5a763fe46994f1825213ea0.ptif",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ],
+                "format": "image/tiff"
               },
-              "on": "https://archives.albany.edu/concern/daos/fn106x97k/manifest/canvas/5d86p030t"
+              "target": "https://media.archives.albany.edu/ua950.008/bad4b7c7a5a763fe46994f1825213ea0/canvas/p1"
             }
           ]
         }
