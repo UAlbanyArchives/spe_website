@@ -3,7 +3,13 @@ title: Using Materials Online
 layout: using_archives
 permalink: /use/
 ---
-
+<style>
+  .bookmark-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+</style>
 
 <div class="col-md-12">
 <p class="lead">Small portions of our collections have been made accessible online as “Online Content”. Some of this material originated on a computer (usually called “born-digital” materials) whereas others were digitized from physical materials for research use. The archive provides an image rendering of both types of materials that you can see on its corresponding webpage.  </p>
@@ -11,7 +17,7 @@ permalink: /use/
 
 <div class="row">
   <div class="col-12 text-center">
-    <h3 class="h4">
+    <h2 class="h4">
       <b>
         <a href="{{ site.rooturl }}/description/catalog?utf8=%E2%9C%93&group=true&search_field=all_fields&q=">
           Search
@@ -22,7 +28,7 @@ permalink: /use/
         </a>
         Online Content
       </b>
-    </h3>
+    </h2>
   </div>
 
     <div class="col-12">
@@ -51,39 +57,101 @@ permalink: /use/
   }
 </style>
 
-<div id="accordionCards">
-
-  <!-- Download Instructions -->
-  <div class="card mb-3">
-    <div class="card-header">
-      <h3 class="mb-0">
-        <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
-           data-toggle="collapse" href="#downloadCard" role="button" 
-           aria-expanded="true" aria-controls="downloadCard">
-          <span>Download Instructions</span>
-          <span class="chevron">›</span>
-        </a>
-      </h3>
-    </div>
-    <div id="downloadCard" class="collapse show" data-parent="#accordionCards">
-      <div class="card-body">
-        <p>You have several options of downloading these materials from the “Online Content” feature. You can download individual images or files a.k.a the rendered copies that have been provided for your interaction. Or, if the item was not originally an image or contains more than one page, download the entire item as a PDF through an “Alternate formats” option. If the item was born-digitally and exists in another format (like a Microsoft Word Document, a PowerPoint file, etc.) then you can download the original file through a different “Alternate formats” option. Also, every item that contains text will be accompanied by a text transcript, which can be downloaded and searched for easier discovery.</p>
-
-        <!-- Individual Images -->
-        <div class="card mb-2">
-          <div class="card-header">
-            <h4 class="mb-0">
-              <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
-                 data-toggle="collapse" href="#imagesCard" role="button" 
-                 aria-expanded="false" aria-controls="imagesCard">
-                <span>Individual images or files</span>
-                <span class="chevron">›</span>
-              </a>
-            </h4>
+<div id="navCards">
+<!-- Bookmarks Instructions -->
+<div class="card mb-3">
+  <div class="card-header">
+    <h2 class="mb-0">
+      <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+         data-toggle="collapse" href="#bookmarkCard" role="button" 
+         aria-expanded="true" aria-controls="bookmarkCard">
+        <span>Bookmarks Feature</span>
+        <span class="chevron">›</span>
+      </a>
+    </h2>
+  </div>
+  <div id="bookmarkCard" class="collapse show" data-parent="#navCards">
+    <div class="card-body">
+              <p>With almost a thousand collections and hundreds of thousands of individual items within those collections, it can be difficult to keep track of the resources and materials that you wish to use for your research. </p>
+        <p>That’s why we offer the bookmark feature! It allows users to save materials at the collection, series, and item level. These saved materials appear in a “Bookmarks” tab that you can refer back to, ask questions about, and even request to see in-person or have digitized.</p>
+      <!-- Instructions -->
+      <div class="card mb-2">
+        <div class="card-header">
+          <h3 class="mb-0">
+            <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+               data-toggle="collapse" href="#bookmarksinstructionsCard" role="button" 
+               aria-expanded="false" aria-controls="bookmarksinstructionsCard">
+              <span>How to Use Bookmarks</span>
+              <span class="chevron">›</span>
+            </a>
+          </h3>
+        </div>
+        <div id="bookmarksinstructionsCard" class="collapse" data-parent="#bookmarkCard">
+          <div class="card-body">
+                <ol>
+                <li>Select item(s) and check the box next to the bookmark icon.</li>
+                <br>
+                <p><u>For a collection, this looks like:</u></p>
+                <img class="img-responsive" src="{{ site.url }}/img/collectionbookmarks.png" alt="Image of a collection page with the bookmark checkbox highlighted yellow and circled in red."/>
+                <p><u>For a series, this looks like:</u></p>
+                <img class="img-responsive" src="{{ site.url }}/img/Seriesbookmarks.png" alt="Image of a series page with the bookmark checkbox highlighted yellow and circled in red."/>
+                <p><u>For an item, this looks like:</u></p>
+                <img class="img-responsive" src="{{ site.url }}/img/itemsboomarkspage.png" alt="Image of an item page with the bookmark checkbox highlighted yellow and circled in red."/>
+                <li> Once the selected materials have been checked, they are now available in your Bookmarks.</li>
+                <img class="img-responsive" src="{{ site.url }}/img/Bookmarkspage.png" alt="Image of th bookmark page with the bookmarks tab link highlighted in yellow and circled in red."/>
+                <li>Within your Bookmarks Selections page, you can choose how you would like to interact with your selected materials:</li>
+                <ul>
+                  <li> <a href="https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives"> Ask a general question </a> or <a href="https://albany.libcal.com/appointments/mmcmullen"> book a virtual consultation </a> for more in-depth assistance</li>
+                  <li> <a href="{{ site.rooturl }}/reference/?visit"> Schedule a Visit </a> to review your selections in-person in the Marcia Brown Reading Room</li>
+                  <li> <a href="{{ site.rooturl }}/reference/"> Make a Request</a> for the selection to be digitally reproduced and made available online </li>
+                    <ul>
+                      <li>Please be mindful that we are unable to digitize large volumes of material or fragile items that risk becoming damaged during scannings. Read more about our policies of digitization <a href="{{ site.rooturl }}/reproductions/">here</a>.</li>
+                    </ul>
+                </ul>
+                <img class="img-responsive" src="{{ site.url }}/img/Bookmarkedpageoptions.png" alt="Image of the bookmarks page with the schedule a visit, digital request, and ask a question options circled in red."/>
+               <li>By<a href="{{ site.rooturl }}/reference/?visit"> Scheduling a Visit </a> or <a href="{{ site.rooturl }}/reference/"> Requesting Materials</a> you can add your personal details and see that all your bookmarked selections have been automatically included in your “Request these Materials” box. </li>
+              <ul>
+                <li>If you do not want all of your bookmarks to be included in your requests, you will need to unselect them (which will remove them from your saved bookmarks), refresh the page, and then click on the form you would like to submit. Or you will need to manually remove the links from the form box.</li>
+              </ul>
+              </ol>
           </div>
-          <div id="imagesCard" class="collapse" data-parent="#downloadCard">
-            <div class="card-body">
-              <ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Download Instructions -->
+<div class="card mb-3">
+  <div class="card-header">
+    <h2 class="mb-0">
+      <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+         data-toggle="collapse" href="#downloadCard" role="button" 
+         aria-expanded="true" aria-controls="downloadCard">
+        <span>Download Instructions</span>
+        <span class="chevron">›</span>
+      </a>
+    </h2>
+  </div>
+  <div id="downloadCard" class="collapse show" data-parent="#navCards">
+    <div class="card-body">
+            <p>You have several options of downloading these materials from the “Online Content” feature. You can download individual images or files a.k.a the rendered copies that have been provided for your interaction. Or, if the item was not originally an image or contains more than one page, download the entire item as a PDF through an “Alternate formats” option. If the item was born-digitally and exists in another format (like a Microsoft Word Document, a PowerPoint file, etc.) then you can download the original file through a different “Alternate formats” option. Also, every item that contains text will be accompanied by a text transcript, which can be downloaded and searched for easier discovery.</p>
+      <!-- Individual Images -->
+      <div class="card mb-2">
+        <div class="card-header">
+          <h3 class="mb-0">
+            <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+               data-toggle="collapse" href="#imagesCard" role="button" 
+               aria-expanded="false" aria-controls="imagesCard">
+              <span>Individual images or files</span>
+              <span class="chevron">›</span>
+            </a>
+          </h3>
+        </div>
+        <div id="imagesCard" class="collapse" data-parent="#downloadCard">
+          <div class="card-body">
+           <ol>
                 <li>Click the three vertical dots in the upper right-hand corner of the "Online Content” box.</li>
                 <img class="img-responsive" src="{{ site.url }}/img/DownloadButtonsOptions1.png" alt="Image of a digital object item page with the share and download options highlighted yellow."/>
                 <li> A smaller screen will appear with different size options. </li>
@@ -92,134 +160,134 @@ permalink: /use/
                 <li>Clicking any of the download links will open an external window that will allow you to right-click to download the image.</li>
                 <img class="img-responsive" src="{{ site.url }}/img/DownloadWindow.png" alt="Image of the right-click options open on an extenal webpage with Save image as... highlighted in yellow."/>
               </ol>
-            </div>
           </div>
         </div>
+      </div>
 
-        <!-- Alternate Formats -->
-        <div class="card mb-2">
-          <div class="card-header">
-            <h4 class="mb-0">
-              <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
-                 data-toggle="collapse" href="#formatsCard" role="button" 
-                 aria-expanded="false" aria-controls="formatsCard">
-                <span>Download Alternate Formats</span>
-                <span class="chevron">›</span>
-              </a>
-            </h4>
-          </div>
-          <div id="formatsCard" class="collapse" data-parent="#downloadCard">
-            <div class="card-body">
-              <ol>
+      <!-- Alternate Formats -->
+      <div class="card mb-2">
+        <div class="card-header">
+          <h3 class="mb-0">
+            <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+               data-toggle="collapse" href="#formatsCard" role="button" 
+               aria-expanded="false" aria-controls="formatsCard">
+              <span>Download Alternate Formats</span>
+              <span class="chevron">›</span>
+            </a>
+          </h3>
+        </div>
+        <div id="formatsCard" class="collapse" data-parent="#downloadCard">
+          <div class="card-body">
+             <ol>
                 <li>Click the three horizontal lines in the upper left-hand corner of the panel.</li>
                 <img class="img-responsive" src="{{ site.url }}/img/DownloadButtonsOptions1.png" alt="Image of a digital object item page with the share and download options highlighted yellow."/>
                 <li>Scroll to the bottom of the sidebar, to the “Related Links” section to see “Alternate formats”. </li>
-
               </ol>
 
-              <!-- PDF version -->
-              <div class="card mb-2">
-                <div class="card-header">
-                  <h5 class="mb-0">
-                    <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
-                       data-toggle="collapse" href="#pdfCard" role="button" 
-                       aria-expanded="false" aria-controls="pdfCard">
-                      <span>To download a PDF version of the item:</span>
-                      <span class="chevron">›</span>
-                    </a>
-                  </h5>
-                </div>
-                <div id="pdfCard" class="collapse" data-parent="#formatsCard">
-                  <div class="card-body">
-                    <ul>
+            <!-- PDF -->
+            <div class="card mb-2">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+                     data-toggle="collapse" href="#pdfCard" role="button" 
+                     aria-expanded="false" aria-controls="pdfCard">
+                    <span>To download a PDF version of the item:</span>
+                    <span class="chevron">›</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="pdfCard" class="collapse" data-parent="#formatsCard">
+                <div class="card-body">
+                  <ul>
                       <li>Click the link that ends with “.pdf”. </li>
                       <p class="font-italic">Note: Most of the time, this link will say “binder.pdf”, but not always!</p>
                       <img class="img-responsive" src="{{ site.url }}/img/pdf download button page.png" alt="Image of the information panel of a digital object with the binder.pdf link highlighted in yellow.""/>
                       <li>Clicking the “.pdf” link will open an external window that will allow you to download the entire item by clicking the download button in the upper right-hand corner.</li>
                       <img class="img-responsive" src="{{ site.url }}/img/pdf download page.png" alt="PDF Image of the pdf download page with a red circle drawn around the download button."/>
                     </ul>
-                  </div>
                 </div>
               </div>
+            </div>
 
-              <!-- Original version -->
-              <div class="card mb-2">
-                <div class="card-header">
-                  <h5 class="mb-0">
-                    <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
-                       data-toggle="collapse" href="#originalCard" role="button" 
-                       aria-expanded="false" aria-controls="originalCard">
-                      <span>To download the original format of the item:</span>
-                      <span class="chevron">›</span>
-                    </a>
-                  </h5>
-                </div>
-                <div id="originalCard" class="collapse" data-parent="#formatsCard">
-                  <div class="card-body">
-                    <ul>
+            <!-- Original version -->
+            <div class="card mb-2">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+                     data-toggle="collapse" href="#originalCard" role="button" 
+                     aria-expanded="false" aria-controls="originalCard">
+                    <span>To download the original format of the item:</span>
+                    <span class="chevron">›</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="originalCard" class="collapse" data-parent="#formatsCard">
+                <div class="card-body">
+                 <ul>
                       <li>If there is an original version of the item, the link will appear below the PDF rendering..</li>
                       <img class="img-responsive" src="{{ site.url }}/img/original_file_link.png" alt="Image of the sidebar options with the link for the original file link highlighted in yellow."/>
                       <p class="font-italic">Note: the link will end with the different file format (in this case “.doc”) and then “(Original)”</p>
                       <li>Clicking the “(Original)” link will automatically download the file. It will appear in your browser’s download area or the “Downloads” folder on your computer.</li>
                     </ul>
-                  </div>
                 </div>
               </div>
+            </div>
 
-              <!-- Transcript -->
-              <div class="card mb-2">
-                <div class="card-header">
-                  <h5 class="mb-0">
-                    <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
-                       data-toggle="collapse" href="#transcriptCard" role="button" 
-                       aria-expanded="false" aria-controls="transcriptCard">
-                      <span>To download a text transcript of the item:</span>
-                      <span class="chevron">›</span>
-                    </a>
-                  </h5>
-                </div>
-                <div id="transcriptCard" class="collapse" data-parent="#formatsCard">
-                  <div class="card-body">
-                    <ul>
+            <!-- Transcript -->
+            <div class="card mb-2">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+                     data-toggle="collapse" href="#transcriptCard" role="button" 
+                     aria-expanded="false" aria-controls="transcriptCard">
+                    <span>To download a text transcript of the item:</span>
+                    <span class="chevron">›</span>
+                  </a>
+                </h4>
+              </div>
+              <div id="transcriptCard" class="collapse" data-parent="#formatsCard">
+                <div class="card-body">
+                  <ul>
                       <li>Below the item box, there is a “Download Transcript” button which allows you to open a computer-generated transcription of the contents of the item.</li>
                       <img class="img-responsive" src="{{ site.url }}/img/download_transcript.png" alt="Image of the Download Transcript option highlighted in yellow."/>
                       <li>Right clicking anywhere on the screen will present you with the “Save as…” option which will allow you to download the transcript as a .txt file.</li>
                       <img class="img-responsive" src="{{ site.url }}/img/transcript.png" alt="Image of the transcript page with the Save As option highlighted in yellow."/>
                     </ul>
-                  </div>
                 </div>
               </div>
-
             </div>
+
           </div>
-        </div><!-- End Alternate Formats -->
-      </div>
+        </div>
+      </div><!-- End Alternate Formats -->
     </div>
   </div>
+</div>
 
-  <!-- Embed Instructions -->
-  <div class="card mb-3">
-    <div class="card-header">
-      <h3 class="mb-0">
-        <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
-           data-toggle="collapse" href="#embedCard" role="button" 
-           aria-expanded="false" aria-controls="embedCard">
-          <span>Embed Instructions</span>
-          <span class="chevron">›</span>
-        </a>
-      </h3>
-    </div>
-    <div id="embedCard" class="collapse" data-parent="#accordionCards">
-      <div class="card-body">
-        <ol>
+
+<!-- Embed Instructions -->
+<div class="card mb-3">
+  <div class="card-header">
+    <h2 class="mb-0">
+      <a class="d-flex justify-content-between align-items-center text-dark accordion-toggle" 
+         data-toggle="collapse" href="#embedCard" role="button" 
+         aria-expanded="false" aria-controls="embedCard">
+        <span>Embed Instructions</span>
+        <span class="chevron">›</span>
+      </a>
+    </h2>
+  </div>
+  <div id="embedCard" class="collapse" data-parent="#navCards">
+    <div class="card-body">
+      <ol>
           <li>Click the three vertical dots in the upper right-hand corner of the "Online Content” box</li>
           <img class="img-responsive" src="{{ site.url }}/img/DownloadButtonsOptions1.png" alt="Image of a digital object item page with the share and download options highlighted yellow."/>
           <li>Select the “Share” option.</li>
           <li>A box will appear with share options.</li>
           <img class="img-responsive" src="{{ site.url }}/img/share options page.png" alt="Image of the share options box, including, the share link, embed options, and two ways to add the object to another IIIF viewer."/>
         </ol>
-        <h4 class="mt-3">The options are:</h4>
-        <ul>
+      <h3 class="mt-3">The options are:</h3>
+      <ul>
           <li><b>Share Link:</b> a link to a webpage just containing a full screen of the item, not the link found on the finding aid.</li>
           <li><b>Embed:</b> the embedding options allow you to include the item as a feature on another site via a iframe code block </li>
           <ul>
@@ -231,18 +299,7 @@ permalink: /use/
                 <li>1024 x 768</li>
               </ul>
           <li><b>Add to another viewer:</b> there are also two options to add the item to a different IIIF viewer, either by dragging the small IIIF icon (which contains the link to the item) or by copying the manifest of the item. </li>
-        </ul>
-      </li>
-  </div>
+      </ul>
     </div>
   </div>
 </div>
-
-<style>
-  .accordion-toggle[aria-expanded="true"] .chevron {
-    transform: rotate(90deg);
-  }
-  .chevron {
-    transition: transform 0.2s ease-in-out;
-  }
-</style>
