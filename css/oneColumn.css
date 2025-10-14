@@ -286,7 +286,7 @@ span.author {
 	color: #46166B;
 }
 
-.main-container .row .list-group .list-group-item:hover {
+.main-container .row .list-group .list-group-item-action:hover {
 	color: #EBE6F0 !important;
 	background: #006c68;
 }
