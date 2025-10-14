@@ -263,6 +263,7 @@ span.author {
 .side-menu {
 	margin-top:  40px;
 	display: block;
+	z-index: 999;
 }
 
 .side-menu .list-group {
@@ -270,6 +271,16 @@ span.author {
 	top: 40px;
 }
 
+/* Side menu chevron rotation */
+.chevron {
+  font-size: 1.2em;
+  transition: transform 0.2s ease;
+}
+
+/* Rotate down when expanded */
+.side-menu .list-group-item[aria-expanded="true"] .chevron {
+  transform: rotate(90deg);
+}
 
 .main-container .row .list-group .list-group-item {
 	color: #46166B;

@@ -1,7 +1,7 @@
 ---
 project-title: ArcLight Integration Project
 project-subtitle: Integrating ArcLight with Digital Content, IIIF, and ArchivesSpace
-title: ArcLight Integration Project
+title: Project Overview
 layout: arclight_integration
 permalink: /arclight_integration/
 ---

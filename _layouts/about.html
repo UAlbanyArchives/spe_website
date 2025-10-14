@@ -6,14 +6,31 @@ layout: spe_base_2
 
 <div class="container-fluid main-container">
 	<div class="row">
+
 		<div class="side-menu col-lg-3">
 			<div class="list-group">
-			  <a href="{{ site.url }}/mission" class="list-group-item list-group-item-action list-group-item-primary">Mission & Purpose</a>
-			  <a href="{{ site.url }}/policy" class="list-group-item list-group-item-action">Collection Development Policy</a>
-			  <a href="{{ site.url }}/outside_donors" class="list-group-item list-group-item-action">Donation Guidelines</a>
-			  <a href="{{ site.url }}/giving" class="list-group-item list-group-item-action">Giving to the Department</a>
-			  <a href="{{ site.url }}/grenander" class="list-group-item list-group-item-action">About M.E. Grenander</a>
-			  <a href="{{ site.url }}/research_room" class="list-group-item list-group-item-action">About the Marcia Brown Research Room</a>
+
+			  <!-- Collapsible header -->
+		    <a href="#"
+		       class="list-group-item list-group-item-action list-group-item-primary d-flex justify-content-between align-items-center"
+		       data-toggle="collapse"
+		       data-target="#sideMenuCollapse"
+		       aria-expanded="false"
+		       aria-controls="sideMenuCollapse">
+		      About
+		      <span class="chevron d-lg-none">&#x276F;</span>
+		    </a>
+
+		    <!-- Collapsible menu items -->
+		    <div class="collapse d-lg-block" id="sideMenuCollapse">
+		      <a href="{{ site.url }}/mission" class="list-group-item list-group-item-action">Mission &amp; Purpose</a>
+		      <a href="{{ site.url }}/policy" class="list-group-item list-group-item-action">Collection Development Policy</a>
+		      <a href="{{ site.url }}/outside_donors" class="list-group-item list-group-item-action">Donation Guidelines</a>
+		      <a href="{{ site.url }}/giving" class="list-group-item list-group-item-action">Giving to the Department</a>
+		      <a href="{{ site.url }}/grenander" class="list-group-item list-group-item-action">About M.E. Grenander</a>
+		      <a href="{{ site.url }}/research_room" class="list-group-item list-group-item-action">About the Marcia Brown Research Room</a>
+		    </div>
+
 			</div>
 		</div>
 
