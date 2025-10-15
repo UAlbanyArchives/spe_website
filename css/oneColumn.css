@@ -308,7 +308,7 @@ span.author {
 	text-decoration: none;
 }
 
-.main-container .row .list-group .sideMenuCollapse {
+.main-container .row .list-group #sideMenuCollapse {
 	border-bottom-left-radius: .25rem;
 	border-bottom-right-radius: .25rem;
 }
