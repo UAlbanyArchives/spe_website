@@ -298,8 +298,20 @@ span.author {
 	border: 0;
 	border-bottom: 4px solid #eaaa00 !important;
 	font-size: 1.2rem;
+	text-decoration: none;
+	cursor: default;
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
 }
 
+.main-container .row .list-group .list-group-item-primary:hover {
+	text-decoration: none;
+}
+
+.main-container .row .list-group .sideMenuCollapse {
+	border-bottom-left-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
 
 .donations > ul > li {
 	margin-top: 1rem;
