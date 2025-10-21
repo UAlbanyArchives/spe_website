@@ -271,6 +271,10 @@ span.author {
 	top: 40px;
 }
 
+.side-menu .list-group-item-action {
+  cursor: pointer;
+}
+
 /* Side menu chevron rotation */
 .chevron {
   font-size: 1.2em;
