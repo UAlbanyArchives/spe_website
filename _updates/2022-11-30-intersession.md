@@ -8,7 +8,7 @@ sort_by: 1
 active: true
 ---
 
-The Special Collections research room will be closed from Monday, December 22nd, 2024 to Friday, January 2nd, 2026 during Winter Intersession.
+The Special Collections research room will be closed from Monday, December 22nd, 2025 to Friday, January 2nd, 2026 during Winter Intersession.
 
 
 <div class="container">
