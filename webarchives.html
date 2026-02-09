@@ -37,26 +37,27 @@ function uaWayback(){
 </div>
 
 <div class="col-md-12">
-
-	<form class="form" id="uaWayback" onsubmit="uaWayback()">
-		<div class="form-group">
-
-			<label for="basic-url">Find a URL</label>
-			<div class="input-group input-group-lg">
-		      <input type="text" id="uaWaybackURL" class="form-control" placeholder="https://">
-		      <div class="input-group-append">
-		      	<button class="btn btn-primary input-lg" type="submit"><i class="fa fa-play" aria-hidden="true"></i></span></button>
-		      </div>
-		    </div>
-		    <label for="basic-url">https://wayback.archive-it.org/org-652/*/...</label>
-    	</div>
-	</form>
+  <form class="form" id="uaWayback" onsubmit="return uaWayback()">
+    <div class="form-group">
+      <label for="uaWaybackURL">Find a URL</label>
+      <div class="input-group input-group-lg">
+        <input type="text" id="uaWaybackURL" class="form-control" placeholder="https://">
+        <div class="input-group-append">
+          <button class="btn btn-primary input-lg" type="submit" aria-label="Submit URL">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <small class="form-text text-muted">Example: https://wayback.archive-it.org/org-652/*/...</small>
+    </div>
+  </form>
 </div>
+
 
 
 <div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
 
-	<h3>Purpose</h3>
+	<h2 class="h3">Purpose</h2>
 
 </div>
 
@@ -65,13 +66,16 @@ function uaWayback(){
 <div class="col-md-4 order-md-last">
 	<div class="card">
 		<div class="card-body">
-			<h5 class="card-title">Search Web Archives</h5>
+			<h3 class="h5 card-title">Search Web Archives</h3>
 			<form class="form-inline" id="webArchivesSearch" action="{{ site.url }}/webarchives/search">
 				<div class="form-group col-xs-12">
 					<div class="input-group">
 						<input class="form-control" name="query" id="exampleInputName2" placeholder="Search" type="text"></input>
 						<div class="input-group-append">
-					    <button class="btn btn-primary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					    <button class="btn btn-primary" type="submit">
+							  <i class="fa fa-search" aria-hidden="true"></i>
+							  <span class="sr-only">Search</span>
+							</button>
 					  </div>
 					</div>
 				</div>
@@ -94,7 +98,7 @@ function uaWayback(){
 
 
 <div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
-<h3>How Websites are Collected</h3>
+<h2 class="h3">How Websites are Collected</h2>
 </div>
 <div class="col-md-12">
 
@@ -105,7 +109,7 @@ function uaWayback(){
 </div>
 
 <div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
-<h3>How to Access Web Archives</h3>
+<h2 class="h3">How to Access Web Archives</h2>
 </div>
 <div class="col-md-12">
 
@@ -119,7 +123,7 @@ function uaWayback(){
 
 <div class="panel panel-primary" style="margin-top: 20px;">
   <div class="panel-heading">
-    <h4 class="panel-title">Web Archives Collections</h4>
+    <h3 class="h4 panel-title">Web Archives Collections</h3>
   </div>
   <div class="panel-body">
     <ul>
@@ -146,7 +150,7 @@ function uaWayback(){
 </div>
 
 <div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
-<h3>Limitations of Web Archiving</h3>
+<h2 class="h3">Limitations of Web Archiving</h2>
 </div>
 <div class="col-md-12">
 
@@ -158,7 +162,7 @@ function uaWayback(){
 </div>
 
 <div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
-<h3>Privacy Issues</h3>
+<h2 class="h3">Privacy Issues</h2>
 </div>
 <div class="col-md-12">
 			
