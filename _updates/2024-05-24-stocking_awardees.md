@@ -2,7 +2,7 @@
 author: Jodi Boyle
 title: '2024 Patricia Stocking Brown Research Award Recipients Named'
 layout: one_column
-image: posts-img/danielle_2025.jpg
+image: posts-img/students_web.png
 link: /2024/05/24/russo-stocking-brown.html
 sort_by: 4
 active: false
