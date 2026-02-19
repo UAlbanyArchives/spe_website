@@ -1,7 +1,7 @@
 ---
 author: Melissa McMullen
 layout: blog_basic
-title: '2026 Patricia Stocking Brown Research Award Recipient'
+title: '2025 Patricia Stocking Brown Research Award Recipient'
 tags: students
 ---
 <div class="entry-body">
