@@ -4,7 +4,7 @@ layout: one_column
 date: 2024-09-03
 image: img/imls_logo_2c.jpg
 link: /arclight_integration
-sort_by: 4
+sort_by: 3
 active: true
 ---
 
