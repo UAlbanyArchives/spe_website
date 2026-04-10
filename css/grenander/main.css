@@ -16,6 +16,10 @@ a:hover {
 	color: #006c68;
 }
 
+a.inline-link {
+	text-decoration: underline;
+}
+
 .btn-info {
 	background-color: #006c68;
 }
