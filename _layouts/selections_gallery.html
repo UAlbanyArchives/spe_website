@@ -19,7 +19,7 @@ layout: one_column
 
 <div class="form-group" align="center">
 <form class="form-inline justify-content-center" action="https://archives.albany.edu/description/catalog">
-	<label id="searchLabel" for="online-content-search">Search {{ page.title }}</label>
+	<label class="sr-only" for="online-content-search">Search {{ page.title }}</label>
       <input id="online-content-search" class="form-control online-content-search" type="text" placeholder="Search {{ page.title }}..." name="q">
       <input type="hidden" name="f[has_online_content_ssim][]" value="View only online content">
       {% if page.ref_id %}
@@ -36,7 +36,7 @@ layout: one_column
 	{% if site.data[desc_file]["document"]["bioghist_ssm"] %}
 		<div class="desc col-md-6">
 			<div class="pb-2 mt-4 mb-2 border-bottom">
-				<h3>History of {{ page.title }}</h3>
+				<h2 class="h3">History of {{ page.title }}</h2>
 			</div>
 			<div class="collapse" id="bioghist" aria-expanded="false">
 				{% for para in site.data[desc_file]["document"]["bioghist_ssm"] %}
@@ -50,7 +50,7 @@ layout: one_column
 	{% if site.data[desc_file]["document"]["scopecontent_ssm"] %}
 		<div class="desc col-md-6">
 			<div class="pb-2 mt-4 mb-2 border-bottom">
-				<h3>Scope and Contents</h3>
+				<h2 class="h3">Scope and Contents</h2>
 			</div>
 			<div class="collapse" id="scopecontent" aria-expanded="false">
 				{% for para in site.data[desc_file]["document"]["scopecontent_ssm"] %}

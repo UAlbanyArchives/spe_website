@@ -6,6 +6,7 @@ body {
 
 body {
     background: #e2e1e0;
+    line-height: 1.5;
 }
 
 a {
@@ -16,8 +17,25 @@ a:hover {
 	color: #006c68;
 }
 
-a.inline-link {
-	text-decoration: underline;
+/* Inline text links only */
+p a:not(.btn):not(.nav-link):not(:where(.dropdown-menu *)),
+li a:not(.btn):not(.nav-link):not(:where(.dropdown-menu *)),
+td a:not(:where(.dropdown-menu *)),
+.card-text a:not(.btn):not(:where(.dropdown-menu *)),
+article a:not(.btn):not(:where(.dropdown-menu *)) {
+  color: #642a90;
+  text-decoration: underline;
+  text-decoration-color: #006c68;
+}
+
+/*.dropdown-menu a {
+  color: #403a60 !important;
+  text-decoration: none !important;
+}*/
+
+.table caption a {
+  text-decoration: underline;
+  text-decoration-color: #006c68;
 }
 
 .btn-info {
@@ -94,4 +112,13 @@ span.btn-warning:hover, span.btn-warning:focus {
 
 .card-group .itemLink, .card-group .itemLink .galleryItem {
 	width: 100%;
+}
+
+.card .card-body p.card-text {
+	margin-top: 1rem;
+}
+
+.badge-success {
+  color: #ffffff;
+  background-color: #1e7e34 !important;
 }
