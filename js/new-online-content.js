@@ -75,8 +75,7 @@
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="https://archives.albany.edu/description/catalog/${result.id}"
-                    class="truncate-title"
-                    title="${result.title}">
+                    class="truncate-title">
                     ${result.title}
                   </a>
                 </h4>
