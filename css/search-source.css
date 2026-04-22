@@ -94,14 +94,23 @@
 	border-bottom-right-radius: 0px;
 }
 
-.search-source h2.search-intro {
+.search-source .searchOptionsGroup {
+	margin-right: 30px;
+}
+
+.search-source #searchOptions {
 	display: inline-block;
 	color: #ffffff;
+	font-size: 2rem;
 	text-align: center;
-	margin-right: 25px;
-	margin-left: 20px;
+	margin-left: 15px;
+	margin-bottom: .5rem;
 	font-weight: 300;
 	text-shadow: 3px 3px 5px #46166b;
+}
+
+.search-source .dropdown-toggle::after{
+	margin-left: 0;
 }
 
 .search-source .container-fluid {
@@ -240,7 +249,7 @@
 
 .search-row .source-box .searchOptionsGroup .dropdown-menu {
 	background-color: #EBE6F0;
-	top: 95%;
+	top: 80%;
 	left: auto;
 }
 

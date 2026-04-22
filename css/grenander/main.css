@@ -122,3 +122,15 @@ span.btn-warning:hover, span.btn-warning:focus {
   color: #ffffff;
   background-color: #1e7e34 !important;
 }
+
+.search-intro button,
+button.search-intro {
+  all: unset;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+button.search-intro {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

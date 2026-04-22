@@ -9,12 +9,12 @@ layout: spe_base_2
         <div id="contentColumn" class="col-md-12 blog">
             <div class="title">
                 <h1 class="display-4 card-title text-center">{{ page.title }}</h1>
-                <h4 class="author">
+                <h2 class="h4 author">
                     {% if page.author.size > 0 %}
                         by <span class="author">{{ page.author }}</span> - 
                     {% endif %}
                     <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
-                </h4>
+                </h2>
             </div>
             
             {{ content }}

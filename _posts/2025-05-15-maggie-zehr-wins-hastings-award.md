@@ -6,7 +6,7 @@ tags: students
 ---
   <p></p>
  <p>
-  <img alt="maggie_zehr.jpg" class="mt-image-right" height="300" src="{{ site.url }}/posts-img/maggie_zehr.jpg" style="float: right; margin: 20px 0 20px 20px;" width="300"/></p>
+  <img alt="Maggie Zehr holding award with library staff." class="mt-image-right" height="300" src="{{ site.url }}/posts-img/maggie_zehr.jpg" style="float: right; margin: 20px 0 20px 20px;" width="300"/></p>
 
 
  <p>Ms. Maggie Zehr won the 2025 Alice Hastings Murphy Scholarship. Ms. Zehr is a dual degree graduate student, enrolled in the Information Studies (archives and records management track) and English programs, and expects to receive her MSIS in December 2025 and MA degree in May 2026.</p>
