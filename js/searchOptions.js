@@ -2,6 +2,7 @@ $(function() {
 	var $form = $("form.search-query-form");
 	var $label = $("#searchOptions");
 	var $localAction = window.location.protocol + "//" + window.location.hostname;
+	$label.text($.trim($label.text()));
 
 	$("#searchAll").click(function () {
 		$label.text("Collections");

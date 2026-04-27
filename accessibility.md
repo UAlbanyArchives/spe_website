@@ -1,6 +1,6 @@
 ---
 title: Accessibility Statement
-layout: one_column
+layout: about
 permalink: /accessibility/
 ---
 

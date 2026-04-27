@@ -109,9 +109,9 @@
 	text-shadow: 3px 3px 5px #46166b;
 }
 
-.search-source .dropdown-toggle::after{
+/*.search-source .dropdown-toggle::after{
 	margin-left: 0;
-}
+}*/
 
 .search-source .container-fluid {
 	justify-content: center;

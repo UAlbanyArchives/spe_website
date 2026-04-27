@@ -1,6 +1,6 @@
 ---
 title: Harmful Language Statement
-layout: one_column
+layout: about
 permalink: /harmful_language/
 ---
 

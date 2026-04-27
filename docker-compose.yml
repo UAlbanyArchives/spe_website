@@ -13,5 +13,5 @@ services:
       - '.:/code'
     working_dir: /code
     command: >
-      bash -c "bundle install &&
+      bash -c "bundle check || (rm -f /usr/gem/cache/*.gem && bundle install --jobs 2 --retry 3) &&
                jekyll serve --force_polling --config _config.yml,_config_docker.yml"
