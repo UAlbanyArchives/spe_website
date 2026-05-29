@@ -36,6 +36,7 @@ User-agent: TurnitinBot
 User-agent: MJ12bot
 User-agent: SemrushBot
 User-agent: DotBot
+User-agent: meta-externalagent
 Disallow: /
 
 User-agent: *
