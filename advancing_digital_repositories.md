@@ -25,7 +25,7 @@ This work is funded by a [SUNY Conversations in the Disciplines](https://system.
 * **Who:** Digital Repository practitioners (broadly defined)
 * **Dates:** Mornings of November 2nd, 5th, 9th, and 12th
 * **Where:** Online
-* **Deadline:** end of August 14th, 2026
+* **Deadline to express interest:** August 14th, 2026
 
 ### Planning team
 
