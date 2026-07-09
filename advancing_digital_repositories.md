@@ -16,7 +16,7 @@ Rather than focusing on specific technologies or products, the Conversation will
 
 We seek expert practitioners from both within and outside New York State, but participation will be weighted towards New York State practitioners and members of underrepresented groups. We aim for broad participation, but invitations may be limited if the interest exceeds our capacity to facilitate. Participants are asked to commit to four virtual sessions held on the mornings of November 2nd, 5th, 9th, and 12th. Each session will be scheduled for three hours, with approximately two hours of discussion and a break.
 
-Following the virtual sessions, participants will be invited to express interest in a smaller in-person cohort. This group will meet for a two-day working session in Albany, New York in early 2027, with travel funding provided for selected participants. The in-person cohort will synthesize the work of the virtual sessions into a draft framework describing repository functions, their relationships, and potential pathways for coordination and shared development.
+Following the virtual sessions, participants will be invited to express interest in a smaller in-person cohort. This group will meet for a two-day working session in Albany, New York in early 2027, with travel funding provided for selected participants. The in-person cohort will synthesize the work of the virtual sessions into a draft framework describing repository functions, their relationships, and potential pathways for coordination and shared development. Participation in the in-person cohort is not required to participate in the virtual sessions.
 
 This work is funded by a [SUNY Conversations in the Disciplines](https://system.suny.edu/academic-affairs/faculty-staff-awards/cid/) grant.
 
