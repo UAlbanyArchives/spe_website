@@ -7,6 +7,7 @@ permalink: /advancing_digital_repositories/
 ## Advancing Digital Repositories in New York State: A Collaborative Strategic Design
 
 **[Express interest in participating](https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog)**
+
 **Deadline: August 14, 2026**
 
 Representatives from the four SUNY Research Centers invite digital repository practitioners to participate in a structured, collaborative process to design a shared strategic plan for publicly-funded digital repositories in New York State.
