@@ -6,7 +6,7 @@ permalink: /advancing_digital_repositories/
 
 ## Advancing Digital Repositories in New York State: A Collaborative Strategic Design
 
-**[Express interest in participating](https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog)**
+<a class="btn btn-lg btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog">Express interest in participating</a>
 
 **Deadline: August 14, 2026**
 
@@ -29,7 +29,8 @@ This work is funded by a [SUNY Conversations in the Disciplines](https://system.
 * **Who:** Digital Repository practitioners (broadly defined)
 * **Dates:** Mornings of November 2nd, 5th, 9th, and 12th
 * **Where:** Online
-* **Deadline to express interest:** August 14th, 2026
+* **Deadline:** August 14th, 2026
+**[Express interest in participating](https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog)**
 
 ### Planning team
 
