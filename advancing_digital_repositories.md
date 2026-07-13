@@ -30,7 +30,7 @@ This work is funded by a [SUNY Conversations in the Disciplines](https://system.
 * **Dates:** Mornings of November 2nd, 5th, 9th, and 12th
 * **Where:** Online
 * **Deadline:** August 14th, 2026
-**[Express interest in participating](https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog)**
+* **[Express interest in participating](https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog)**
 
 ### Planning team
 
