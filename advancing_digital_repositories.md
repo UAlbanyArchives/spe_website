@@ -40,7 +40,9 @@ This work is funded by a [SUNY Conversations in the Disciplines](https://system.
 * Lindsay Van Berkom, University at Albany
 * Gregory Wiedeman, University at Albany
 
-### Possible Questions you may have
+<h3 class="pb-2 mt-4 mb-2 border-bottom">
+      Possible Questions you may have
+</h3>
 
 #### What do you mean by "digital repository practitioner"?
 
