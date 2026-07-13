@@ -4,7 +4,7 @@ title: 'Call for Participation'
 permalink: /advancing_digital_repositories/
 ---
 
-## Advancing Digital Repositories in New York State: A Collaborative Strategic Design
+<h2 class="mb-4">Advancing Digital Repositories in New York State: A Collaborative Strategic Design</h2>
 
 <a class="btn btn-lg btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog">Express interest in participating</a>
 
@@ -40,7 +40,7 @@ This work is funded by a [SUNY Conversations in the Disciplines](https://system.
 * Lindsay Van Berkom, University at Albany
 * Gregory Wiedeman, University at Albany
 
-<h3 class="pb-2 mt-4 mb-2 border-bottom">
+<h3 class="pb-2 mt-4 mb-4 border-bottom">
       Possible Questions you may have
 </h3>
 
