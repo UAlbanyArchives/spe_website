@@ -118,4 +118,4 @@ Yes. Travel funding will be provided for selected participants in the in-person 
 
 #### I have a question that is not addressed here.
 
-Email [victoria.pilato@stonybrook.edu(mailto:victoria.pilato@stonybrook.edu) for further questions or communication with the planning team.
+Email [victoria.pilato@stonybrook.edu](mailto:victoria.pilato@stonybrook.edu) for further questions or communication with the planning team.
