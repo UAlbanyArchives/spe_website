@@ -16,7 +16,7 @@ Academic libraries and cultural heritage institutions rely on a wide range of re
 
 This program brings together practitioners working in archives and special collections, open access repositories, and research data repositories, along with related areas such as digital preservation, metadata, and application development. Participants will collectively identify and define repository functions, identify how responsibilities map across domains, and clarify how these functions relate to one another in practice.
 
-Rather than focusing on specific technologies or products, the Conversation will focus on defining what repositories do, where existing systems fall short, and how repository functions intersect across domains. The outcome will be a shared, community-informed framework that defines repository functions and their relationships, intended to inform future development by tool builders, service providers, and institutions. This will support stakeholders in developing an intentional, long-term strategic design for publicly supported digital repositories in New York State.
+Rather than focusing on specific technologies or products, Advancing Digital Repositories will focus on defining what repositories do, where existing systems fall short, and how repository functions intersect across domains. The outcome will be a shared, community-informed framework that defines repository functions and their relationships, intended to inform future development by tool builders, service providers, and institutions. This will support stakeholders in developing an intentional, long-term strategic design for publicly supported digital repositories in New York State.
 
 We seek expert practitioners from both within and outside New York State, but participation will be weighted towards New York State practitioners and members of underrepresented groups. We aim for broad participation, but invitations may be limited if the interest exceeds our capacity to facilitate. Participants are asked to commit to four virtual sessions held on the mornings of November 2nd, 5th, 9th, and 12th. Each session will be scheduled for three hours, with approximately two hours of discussion and a break.
 
@@ -40,7 +40,7 @@ This work is funded by a [SUNY Conversations in the Disciplines](https://system.
 * Lindsay Van Berkom, University at Albany
 * Gregory Wiedeman, University at Albany
 
-<h3 class="pb-2 mt-4 mb-4 border-bottom">
+<h3 id="questions" class="pb-2 mt-4 mb-4 border-bottom">
       Possible Questions you may have
 </h3>
 
@@ -56,13 +56,13 @@ No. While the program is organized by representatives of the SUNY Research Cente
 
 No. We welcome interest from practitioners both within and outside New York State. However, participation will be weighted toward New York State practitioners and members of underrepresented groups, consistent with the goals of the program.
 
-#### Is this focused on archives, institutional repositories, or research data repositories?
+#### Is this focused on archives, institutional repositories, digital asset management systems, or research data repositories?
 
 All of the above. One goal of the program is to better understand the relationships, overlaps, and distinctions between these domains and to identify repository functions that cut across traditional boundaries. This reflects the scope described in the original proposal.
 
 #### Will specific repository platforms be discussed?
 
-The Conversation is not intended as a product evaluation or vendor selection process. Participants may reference existing systems as examples, but the focus is on repository functions, needs, governance, and strategy rather than specific technologies.
+This effort is not intended as a product evaluation or vendor selection process. Participants may reference existing systems as examples, but our focus is more abstract, looking at repository functions, needs, governance, and strategy rather than specific technologies. The hope is that a more intentional design for repositories, even if a bit idealized, allows libraries and archives to be more active in selecting tools and vendors, rather than passively choosing from systems designed more for vendor needs.
 
 #### Is this related to any current or planned repository implementation in New York State?
 
@@ -70,7 +70,7 @@ Not directly. New York State has a variety of publicly funded digital repository
 
 #### Is the goal of this project to recommend a single statewide repository platform?
 
-No. The goal is to develop a shared understanding of repository functions, responsibilities, and opportunities for coordination. The Conversation is intended to inform future decision-making, not to select or endorse a particular platform, vendor, or governance model.
+No. The goal is to develop a shared understanding of repository functions, responsibilities, and opportunities for coordination. Advancing Digital Repositories is intended to inform future decision-making, not to select or endorse a particular platform, vendor, or governance model.
 
 #### Is this an open conference or workshop?
 
@@ -86,7 +86,7 @@ Participants will engage in structured strategic planning activities designed to
 
 #### How will you ensure participants are comfortable and supported?
 
-The Conversation will be guided by a Code of Conduct and participation agreement that establish shared expectations for respectful, inclusive, and constructive engagement and provide clear processes for reporting concerns.
+Advancing Digital Repositories will be guided by a Code of Conduct and a participation agreement that establish shared expectations for respectful, inclusive, and constructive engagement and provide clear processes for reporting concerns.
 
 In addition, sessions will use structured facilitation techniques designed to balance participation, create space for diverse perspectives, and reduce barriers to engagement. Our goal is to create a welcoming environment where participants feel comfortable contributing their expertise and ideas.
 
@@ -96,7 +96,7 @@ We may share brief background materials before the sessions, but no extensive pr
 
 #### Will the sessions be recorded?
 
-We do not plan to record the sessions in order to support open and candid discussion. We will work to document ideas, themes, and outcomes from the Conversation and make those materials broadly available after the sessions.
+We do not plan to record the sessions because the goal is to encourage participants to share perspectives, test ideas, ask questions, and learn from one another in a low-stakes environment. By focusing on documenting outcomes, we hope to create space for exploration, curiosity, and collaborative problem-solving. We will work to document ideas, themes, and outcomes from our conversations and make those materials broadly available after the sessions.
 
 #### What are the expected outcomes?
 
@@ -115,3 +115,7 @@ Selected participants will be invited after the virtual sessions based on intere
 #### Will travel funding be available?
 
 Yes. Travel funding will be provided for selected participants in the in-person cohort.
+
+#### I have a question that is not addressed here.
+
+Email [victoria.pilato@stonybrook.edu(mailto:victoria.pilato@stonybrook.edu) for further questions or communication with the planning team.
