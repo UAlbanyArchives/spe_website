@@ -60,11 +60,11 @@ No. We welcome interest from practitioners both within and outside New York Stat
 
 #### Is this focused on archives, institutional repositories, digital asset management systems, or research data repositories?
 
-All of the above. One goal of the program is to better understand the relationships, overlaps, and distinctions between these domains and to identify repository functions that cut across traditional boundaries. This reflects the scope described in the original proposal.
+All of the above. One goal of the program is to better understand the relationships, overlaps, and distinctions between these domains and to identify repository functions that cut across traditional boundaries. Defining the different functions within repositories could both help in planning services and potentially provide new pathways for collaboration where current systems overlap.
 
 #### Will specific repository platforms be discussed?
 
-This effort is not intended as a product evaluation or vendor selection process. Participants may reference existing systems as examples, but our focus is more abstract, looking at repository functions, needs, governance, and strategy rather than specific technologies. The hope is that a more intentional design for repositories, even if a bit idealized, allows libraries and archives to be more active in selecting tools and vendors, rather than passively choosing from systems designed more for vendor needs.
+This effort is not intended as a product evaluation or vendor selection process. Participants should reference existing systems as examples, but our focus is more abstract, looking at repository functions, needs, governance, and strategy rather than specific technologies. The hope is that a more intentional design for repositories, even if a bit idealized, allows libraries and archives to be more active in selecting tools and vendors, rather than having to choose more passively from systems designed more for vendor needs.
 
 #### Is this related to any current or planned repository implementation in New York State?
 
@@ -76,7 +76,7 @@ No. The goal is to develop a shared understanding of repository functions, respo
 
 #### Is this an open conference or workshop?
 
-No. This is a facilitated working process involving a selected cohort of participants. The emphasis is on collaborative design and active participation rather than conference-style presentations, though we plan to have a few short briefings or lightning talks to highlight existing work.
+No. This is a facilitated working process involving a selected cohort of participants. We hope to make participation broad, but we also have a limited capacity to facilitate these conversations well. The emphasis is on collaborative design and active participation rather than conference-style presentations, though we plan to have a few short briefings or lightning talks to highlight existing work.
 
 #### What is the expected time commitment?
 
