@@ -1,7 +1,7 @@
 ---
 title: 'Advancing Digital Repositories'
 layout: one_column
-date: 2026-09-05
+date: 2026-09-04
 link: /advancing_digital_repositories
 sort_by: 5
 active: true
