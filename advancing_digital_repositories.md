@@ -1,10 +1,49 @@
 ---
-layout: blog_basic
+layout: spe_base_2
 title: 'Call for Participation'
 permalink: /advancing_digital_repositories/
 ---
 
-<h2 class="mb-4">Advancing Digital Repositories in New York State: A Collaborative Strategic Design</h2>
+<link rel="stylesheet" href="{{ site.url }}/css/oneColumn.css" type="text/css" />
+
+<div class="container-fluid main-container">
+	<div class="row">
+		<nav class="side-menu col-lg-3" aria-label="Advancing Digital Repositories">
+			<div class="list-group">
+
+<button type="button"
+	class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center d-lg-none w-100 text-left"
+	data-toggle="collapse"
+	data-target="#sideMenuCollapse"
+	aria-expanded="false"
+	aria-controls="sideMenuCollapse">
+	Advancing Digital Repositories
+	<span class="chevron d-lg-none">&#x276F;</span>
+</button>
+
+<!-- Desktop (static) header -->
+<div class="list-group-item list-group-item-primary d-none d-lg-flex justify-content-between align-items-center">
+	Advancing Digital Repositories
+</div>
+
+<div class="collapse d-lg-block" id="sideMenuCollapse">
+	<a href="#cfp" class="list-group-item list-group-item-action">Call for Participation</a>
+	<a href="#questions" class="list-group-item list-group-item-action">Questions</a>
+	<a href="#participation" class="list-group-item list-group-item-action">Participation Agreement and Code of Conduct</a>
+</div>
+</div>
+</nav>
+
+<div id="contentColumn" class="two-column col-lg-9" markdown="1">
+
+
+<div class="title">
+<h1 class="display-4 card-title text-center">Advancing Digital Repositories in New York State</h1>
+<h2 class="h4 card-subtitle text-muted text-center">A Collaborative Strategic Design</h2>
+
+</div>
+
+<h2 id="cfp" class="mb-4">Call for Participation</h2>
 
 <a class="btn btn-lg btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog">Express interest in participating</a>
 
@@ -128,7 +167,10 @@ Advancing Digital Repositories is committed to providing a productive, inclusive
 
 The Participation Agreement outlines ways in which we encourage and expect each other to hold safe, engaging, and respectful discussions. The Code of Conduct outlines behaviors which will not be tolerated, how to report concerns or incidents, and how the code will be applied.
 
-### Participation Agreements
+
+<h3 id="participation" class="pb-2 mt-4 mb-4 border-bottom">
+    Participation Agreements
+</h3>
 
 We expect all participants to agree to the following:
 
@@ -172,3 +214,7 @@ The Participation Agreements and Code of Conduct are primarily built upon the wo
 * AORTA’s [Anti-Oppressive Facilitation for Democratic Process: Making Meetings Awesome for Everyone](http://web.archive.org/web/20210331171853/https://aorta.coop/portfolio_page/anti-oppressive-facilitation/)
 * Seeds for Change’s [Group Agreements for Workshops and Meetings](https://www.seedsforchange.org.uk/groupagree)
 * Valerie Aurora and Mary Gardiner’s [How to Respond to Code of Conduct Reports](https://frameshiftconsulting.com/resources/code-of-conduct-book/)
+
+		</div>
+	</div>
+</div>

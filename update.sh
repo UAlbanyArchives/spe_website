@@ -24,13 +24,16 @@ if [[ "$LOCAL" != "$REMOTE" ]]; then
 
   git pull --ff-only
 
-  echo "$(date) Building site with spe_website image..."
+  echo "$(date) Building spe_website image..."
+  docker build -t spe_website .
+
+  echo "$(date) Building site with locked bundle..."
   docker run --rm \
     -v "$PWD:/code" \
     -w /code \
     --user "$(id -u):$(id -g)" \
     spe_website \
-    jekyll build --config _config.yml
+    bundle exec jekyll build --config _config.yml
   echo "$(date) Build complete"
 else
   echo "$(date) No updates found on branch '$branch'."
