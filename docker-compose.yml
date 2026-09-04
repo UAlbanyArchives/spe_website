@@ -2,7 +2,9 @@
 
 services:
   server:
-    image: jekyll/jekyll:4
+    build:
+      context: .
+    image: spe-website:local
     container_name: website
     ports:
       - '4000:4000'
@@ -13,5 +15,5 @@ services:
       - '.:/code'
     working_dir: /code
     command: >
-      bash -c "bundle check || (rm -f /usr/gem/cache/*.gem && bundle install --jobs 2 --retry 3) &&
-               jekyll serve --force_polling --config _config.yml,_config_docker.yml"
+      bundle exec jekyll serve --host 0.0.0.0 --force_polling
+      --config _config.yml,_config_docker.yml
