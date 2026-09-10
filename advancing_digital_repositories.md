@@ -45,8 +45,6 @@ permalink: /advancing_digital_repositories/
 
 <h2 id="cfp" class="mb-4">Call for Participation</h2>
 
-<a class="btn btn-lg btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd8LNRDeHq_IPnfuaLmBW_1m_89YDB1RE19b_d1G2O3tcwtiw/viewform?usp=dialog">Express interest in participating</a>
-
 **Deadline: August 14, 2026**
 
 Representatives from the four SUNY Research Centers invite digital repository practitioners to participate in a structured, collaborative process to design a shared strategic plan for publicly-funded digital repositories in New York State.
