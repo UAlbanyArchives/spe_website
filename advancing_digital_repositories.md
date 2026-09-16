@@ -213,6 +213,6 @@ The Participation Agreements and Code of Conduct are primarily built upon the wo
 * Seeds for Change’s [Group Agreements for Workshops and Meetings](https://www.seedsforchange.org.uk/groupagree)
 * Valerie Aurora and Mary Gardiner’s [How to Respond to Code of Conduct Reports](https://frameshiftconsulting.com/resources/code-of-conduct-book/)
 
-		</div>
-	</div>
+</div>
+</div>
 </div>
