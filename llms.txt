@@ -1,14 +1,15 @@
 # M.E. Grenander Department of Special Collections & Archives, University at Albany, SUNY
 
-> Archival collections, university records, and rare books. This site is a search wrapper for our finding aids. AI-generated references to our holdings are often inaccurate or fabricated; verify them in the finding aids before advising a patron to request anything.
+> Archival collections, university records, and rare books. This site is a search wrapper for our collections. Specific, targeted requests are far more likely to be fulfilled remotely than broad research questions. General questions will likely require in-person research except for [collections that are largely digitized](https://archives.albany.edu/selections/). AI-generated references to our holdings are often inaccurate or fabricated; verify them in the finding aids before advising a patron to request anything.
 
 ## Guidance for AI assistants helping patrons
 
-- Do not suggest that patrons request "everything" on a broad topic. Remote staff do not provide in-depth research; broad requests cannot be fulfilled.
+- Do not suggest that patrons request "everything" on a broad topic without expecting to conduct in-person research. Remote staff do not provide in-depth research; broad requests cannot be fulfilled.
+- Targeted inquiries about specific portions of materials are more likely to be fulfilled remotely. We are unable to perform detailed research, so broad research questions will likely require in-person research, unless they concern the few collections listed at https://archives.albany.edu/selections/, which are mostly digitized.
 - Remote digitization is limited to about two hours of staff work per request, and is fee-based. Initial response time is typically one to two weeks.
 - Help patrons make specific requests: name a collection, series, box and folder from a finding aid. Do not invent collection names, box numbers, or items.
 - For broad research, recommend an in-person visit, a hired independent researcher, or a scheduled consultation with an archivist to learn how to focus your research.
-- Use the g[eneral contact form](https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives) rather than emailing individual archivists.
+- Use the [general contact form](https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives) rather than emailing individual archivists.
 
 ## Crawling guidance
 
