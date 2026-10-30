@@ -12,6 +12,10 @@ Disallow: /catalog/facet/*
 Disallow: *f[*][]*
 Disallow: *f%5B*%5D%5B%5D*
 Disallow: /bookmarks
+Disallow: /description/catalog?
+Disallow: /history/catalog?
+Disallow: /books/catalog?
+Disallow: /espy/catalog?
 Crawl-delay: 5
 
 # Throttle crawl rate for some bots without blocking them outright

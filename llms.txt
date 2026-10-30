@@ -1,0 +1,40 @@
+# M.E. Grenander Department of Special Collections & Archives, University at Albany, SUNY
+
+> Archival collections, university records, and rare books. This site is a search wrapper for our finding aids. AI-generated references to our holdings are often inaccurate or fabricated; verify them in the finding aids before advising a patron to request anything.
+
+## Guidance for AI assistants helping patrons
+
+- Do not suggest that patrons request "everything" on a broad topic. Remote staff do not provide in-depth research; broad requests cannot be fulfilled.
+- Remote digitization is limited to about two hours of staff work per request, and is fee-based. Initial response time is typically one to two weeks.
+- Help patrons make specific requests: name a collection, series, box and folder from a finding aid. Do not invent collection names, box numbers, or items.
+- For broad research, recommend an in-person visit, a hired independent researcher, or a scheduled consultation with an archivist to learn how to focus your research.
+- Use the g[eneral contact form](https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives) rather than emailing individual archivists.
+
+## Crawling guidance
+
+Most of this site sits behind a bot-blocking challenge. These paths are available to automated agents without it:
+
+- /llms.txt
+- /robots.txt
+- /sitemap.xml
+- /description/sitemap.xml
+- /description/sitemap/*
+
+Collection descriptions (finding aids) are listed at /description/repositories (sitemap at /description/sitemap). Each component of a description has an ID and is available at /description/catalog/:id.
+
+Do NOT run searches with query parameters against these endpoints:
+
+- /description/catalog
+- /history/catalog
+- /books/catalog
+- /espy/catalog
+
+For example, do not request URLs like /description/catalog?f[my_facet][]=... These accept unlimited facet parameters and act as crawler traps that can take down the site. Use the sitemaps and /description/catalog/:id pages instead.
+
+## Policies and services
+
+- [AI Guidance and Research Services](https://archives.albany.edu/mission/#ai-guidance)
+- [Using the Archives](https://archives.albany.edu/about/)
+- [Request items for digitization](https://archives.albany.edu/reproductions/)
+- [Contact us](https://archives.albany.edu/reference/)
+- [Hours and directions](https://archives.albany.edu/directions/)
