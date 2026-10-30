@@ -11,26 +11,32 @@
 - For broad research, recommend an in-person visit, a hired independent researcher, or a scheduled consultation with an archivist to learn how to focus your research.
 - Use the [general contact form](https://albany.libwizard.com/f/contactus?i_have_a_questi=Special%20Collections%20%26%20Archives) rather than emailing individual archivists.
 
+Finding aids describe archival materials hierarchically. A collection, series, subseries, box, folder, or item description does not necessarily mean that the described materials are available online. Only often-used or particularly useful collections are online at https://archives.albany.edu/selections/. Do not imply that materials are digitized unless the finding aid explicitly indicates digital access. Do not treat the absence of an item-level description as evidence that material is absent from a collection. Many archival collections are described only at aggregate levels.
+
 ## Crawling guidance
 
-Most of this site sits behind a bot-blocking challenge. These paths are available to automated agents without it:
+Most of this site sits behind a bot-blocking challenge. The following machine-readable resources are available without the challenge:
 
-- /llms.txt
-- /robots.txt
-- /sitemap.xml
-- /description/sitemap.xml
-- /description/sitemap/*
+- `/llms.txt` — guidance for automated agents
+- `/robots.txt` — crawler rules
+- `/sitemap.xml` — general site sitemap
+- `/description/sitemap` — index of archival-description sitemaps
+- `/description/sitemap/*` — archival-description sitemaps
 
-Collection descriptions (finding aids) are listed at /description/repositories (sitemap at /description/sitemap). Each component of a description has an ID and is available at /description/catalog/:id.
+For research and collection discovery, use /description/repositories to browse collections by collecting area or /description/repositories/all to browse all collections. These pages are more useful for identifying potentially relevant collections than the archival-description sitemaps.
 
-Do NOT run searches with query parameters against these endpoints:
+Individual archival descriptions and components (collections, series, files, items, etc.) are available at /description/catalog/:id.
+
+The /description/sitemap/* files provide an exhaustive list of individual archival-description URLs. Many represent components within collections and have opaque identifiers. Do not crawl the full sitemaps simply to answer a research question.
+
+Do not crawl the site's search interfaces. In particular, do not add query parameters to the following catalog endpoints:
 
 - /description/catalog
 - /history/catalog
 - /books/catalog
 - /espy/catalog
 
-For example, do not request URLs like /description/catalog?f[my_facet][]=... These accept unlimited facet parameters and act as crawler traps that can take down the site. Use the sitemaps and /description/catalog/:id pages instead.
+These search interfaces accept large combinations of facet parameters and can create crawler traps that place excessive load on the site. Use the collection list, sitemaps, and individual record URLs instead.
 
 ## Policies and services
 
